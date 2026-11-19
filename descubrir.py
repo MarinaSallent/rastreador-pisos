@@ -98,6 +98,33 @@ def _pausa():
     time.sleep(random.uniform(2.5, 5.0))
 
 
+def parsear_generico(html: str, motor: str) -> list[tuple[str, str]]:
+    """Enlaces externos de una página de resultados (válido para cualquier buscador)."""
+    out, vistos = [], set()
+    for a in BeautifulSoup(html, "html.parser").find_all("a", href=True):
+        href = a["href"]
+        if "uddg=" in href:
+            href = unquote(parse_qs(urlparse(href).query).get("uddg", [""])[0])
+        if not href.startswith("http") or motor in dominio(href):
+            continue
+        d = dominio(href)
+        if d in vistos or re.search(r"(microsoft|msn|bing|duckduckgo|mojeek|go\.microsoft)", d):
+            continue
+        texto = a.get_text(" ", strip=True)
+        if len(texto) < 3:
+            continue
+        vistos.add(d)
+        out.append((href, texto))
+    return out
+
+
+def buscar_mojeek(q: str) -> list[tuple[str, str]]:
+    resp = SES.get(f"https://www.mojeek.com/search?q={quote_plus(q)}&lb=es", timeout=20)
+    if resp.status_code != 200:
+        raise RuntimeError(f"mojeek {resp.status_code}")
+    return parsear_generico(resp.text, "mojeek")
+
+
 def buscar_ddg(q: str) -> list[tuple[str, str]]:
     resp = SES.post("https://html.duckduckgo.com/html/", data={"q": q, "kl": "es-es"}, timeout=20)
     if resp.status_code != 200 or "result__a" not in resp.text:
@@ -117,10 +144,11 @@ def parsear_ddg(html: str) -> list[tuple[str, str]]:
 
 
 def buscar_bing(q: str) -> list[tuple[str, str]]:
-    resp = SES.get(f"https://www.bing.com/search?q={quote_plus(q)}&setlang=es&cc=ES", timeout=20)
+    resp = SES.get(f"https://www.bing.com/search?q={quote_plus(q)}&setlang=es&cc=ES", timeout=20,
+                   cookies={"SRCHHPGUSR": "ADLT=OFF", "BCP": "AD=1&AL=1&SM=1"})
     if resp.status_code != 200:
         raise RuntimeError(f"bing {resp.status_code}")
-    return parsear_bing(resp.text)
+    return parsear_bing(resp.text) or parsear_generico(resp.text, "bing")
 
 
 def parsear_bing(html: str) -> list[tuple[str, str]]:
@@ -153,13 +181,15 @@ MOTORES_CAIDOS: dict[str, float] = {}
 
 def buscar(q: str) -> list[tuple[str, str]]:
     motores = [("brave", buscar_brave)] if os.environ.get("BRAVE_API_KEY") else []
-    motores += [("ddg", buscar_ddg), ("bing", buscar_bing)]
+    motores += [("mojeek", buscar_mojeek), ("bing", buscar_bing), ("ddg", buscar_ddg)]
     for nombre, f in motores:
         if MOTORES_CAIDOS.get(nombre, 0) > time.time():
             continue
         try:
             res = f(q)
             _pausa()
+            if not res:  # una página sin ningún resultado suele ser un bloqueo, no «no existe»
+                raise RuntimeError("0 resultados")
             return res
         except Exception as e:
             print(f"   buscador {nombre} falla ({e}); pruebo otro", file=sys.stderr)
@@ -208,10 +238,11 @@ def descargar(url: str) -> tuple[str, str]:
 
 def parece_inmobiliaria(html: str, marca: str, aicat: set[str]) -> bool:
     t = r.normalizar(BeautifulSoup(html, "html.parser").get_text(" ", strip=True))[:200000]
-    sector = re.search(r"(inmobiliari|immobiliari|finques|fincas|alquiler|lloguer|venta|venda|pisos|real estate|"
-                       r"propert|aicat|api\b)", t)
+    sector = set(re.findall(r"(inmobiliari|immobiliari|finques|fincas|alquiler|lloguer|pisos|habitatge|vivienda|"
+                            r"real estate|propiedades|aicat|api\b)", t))
     nombre = any(tk in t for tk in tokens_marca(marca)) or any(a in t for a in aicat)
-    return bool(sector and nombre)
+    espana = re.search(r"(barcelona|catalunya|cataluna|espana|madrid|valencia)", t)
+    return bool(len(sector) >= 2 and nombre and espana)
 
 
 def paginas_alquiler(html: str, base: str) -> list[str]:
@@ -238,7 +269,80 @@ def paginas_alquiler(html: str, base: str) -> list[str]:
     return [u for u, _ in sorted(cand.items(), key=lambda x: -x[1])][:4]
 
 
+LEGALES = {"sl", "slu", "scp", "sa", "sau", "slp", "sccl", "scsp", "cb", "s", "l", "u"}
+
+
+def dominios_probables(marca: str) -> list[str]:
+    """galafinques.com, gala-finques.es, tecnocasa.es… a partir del nombre comercial."""
+    palabras = [w for w in re.sub(r"[^a-z0-9 ]", " ", r.normalizar(marca).replace("&", " ")).split()
+                if w not in LEGALES]
+    con_articulos = palabras
+    palabras = [w for w in palabras if w not in {"de", "del", "la", "el", "les", "i", "y"}] or palabras
+    if not palabras or len("".join(palabras)) < 4:
+        return []
+    bases = ["".join(palabras), "-".join(palabras)]
+    if con_articulos != palabras:
+        bases.insert(0, "".join(con_articulos))
+    if len(palabras) > 1 and palabras[0] in {"fincas", "finques", "inmobiliaria", "immobiliaria"}:
+        bases.append("".join(palabras[1:] + palabras[:1]))
+    if len(palabras) > 1 and palabras[-1] in {"fincas", "finques", "inmobiliaria", "immobiliaria"}:
+        bases.append("".join(palabras[-1:] + palabras[:-1]))
+    if len(palabras) > 2:
+        bases.append("".join(palabras[:2]))
+    vistos, out = set(), []
+    for b in bases:
+        for tld in ("es", "cat", "com", "net"):
+            d = f"{b}.{tld}"
+            if d not in vistos and len(b) <= 40:
+                vistos.add(d)
+                out.append(f"https://www.{d}/")
+    return out
+
+
+def adivinar_web(marca: str, aicat: set[str]) -> tuple[str, str] | None:
+    """Prueba dominios probables en paralelo y devuelve (url, html) del que sea la agencia."""
+    from concurrent.futures import ThreadPoolExecutor
+
+    def probar(url):
+        try:
+            resp = SES.get(url, timeout=8, allow_redirects=True)
+            if resp.status_code == 200 and len(resp.text) > 500:
+                if not resp.encoding or resp.encoding.lower() == "iso-8859-1":
+                    resp.encoding = resp.apparent_encoding
+                return url, resp.url, resp.text
+        except Exception:
+            pass
+        return None
+
+    candidatos = dominios_probables(marca)
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        for res in ex.map(probar, candidatos):
+            if res and not NO_SON_AGENCIA.search(dominio(res[1])) and parece_inmobiliaria(res[2], marca, aicat):
+                return res[1], res[2]
+    return None
+
+
+def buscar_paginas_alquiler(info: dict, html: str, web: str) -> dict:
+    for url in paginas_alquiler(html, web):
+        try:
+            h2, url_final = descargar(url)
+            anuncios = r.extraer_anuncios(h2, url_final)
+        except Exception:
+            continue
+        if anuncios:
+            return {**info, "url_alquiler": url_final, "anuncios": len(anuncios), "estado": "vigilable"}
+        time.sleep(1)
+    return info
+
+
 def descubrir_marca(marca: str, municipio: str, aicat: set[str]) -> dict:
+    # 1) Sin buscador: probar dominios con el nombre de la agencia
+    adivinada = adivinar_web(marca, aicat)
+    if adivinada:
+        web, html = adivinada
+        info = {"marca": marca, "metodo": "dominio", "web": web, "estado": "web_ok"}
+        return buscar_paginas_alquiler(info, html, web)
+    # 2) Buscador
     q = f'"{marca}" inmobiliaria {municipio}'
     res = buscar(q)
     web, puntos = elegir_web(res, marca)
@@ -251,17 +355,8 @@ def descubrir_marca(marca: str, municipio: str, aicat: set[str]) -> dict:
         return {**info, "estado": "web_no_responde", "web": web, "error": str(e)[:120]}
     if not parece_inmobiliaria(html, marca, aicat):
         return {**info, "estado": "web_dudosa", "web": web}
-    info.update(web=final, estado="web_ok")
-    for url in paginas_alquiler(html, final):
-        try:
-            h2, url_final = descargar(url)
-            anuncios = r.extraer_anuncios(h2, url_final)
-        except Exception:
-            continue
-        if anuncios:
-            return {**info, "url_alquiler": url_final, "anuncios": len(anuncios), "estado": "vigilable"}
-        time.sleep(1)
-    return info
+    info.update(web=final, estado="web_ok", metodo="buscador")
+    return buscar_paginas_alquiler(info, html, final)
 
 
 # ---------------------------------------------------------------- CSV
@@ -307,6 +402,9 @@ def main() -> int:
     args = ap.parse_args()
 
     progreso = r.cargar_json(PROGRESO, {})
+    # Reintentar las marcas que se dieron por «sin web» sin haber obtenido ningún resultado de búsqueda
+    progreso = {k: v for k, v in progreso.items()
+                if not (v.get("estado") in ("sin_web", "error") and not v.get("candidatas"))}
     if args.aplicar:
         print("Webs: %d · vigiladas: %d" % aplicar(progreso))
         return 0
