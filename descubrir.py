@@ -177,6 +177,7 @@ def buscar_brave(q: str) -> list[tuple[str, str]]:
 
 
 MOTORES_CAIDOS: dict[str, float] = {}
+SIN_BUSCADOR = {"activo": False}
 
 
 def buscar(q: str) -> list[tuple[str, str]]:
@@ -323,7 +324,14 @@ def adivinar_web(marca: str, aicat: set[str]) -> tuple[str, str] | None:
 
 
 def buscar_paginas_alquiler(info: dict, html: str, web: str) -> dict:
-    for url in paginas_alquiler(html, web):
+    paginas = paginas_alquiler(html, web)
+    if not paginas:  # el menú de la portada a veces se pinta con JavaScript
+        try:
+            html_js = r.descargar_js(web, 30)
+            paginas = paginas_alquiler(html_js, web)
+        except Exception:
+            pass
+    for url in paginas:
         try:
             h2, url_final = descargar(url)
             anuncios = r.extraer_anuncios(h2, url_final)
@@ -332,6 +340,17 @@ def buscar_paginas_alquiler(info: dict, html: str, web: str) -> dict:
         if anuncios:
             return {**info, "url_alquiler": url_final, "anuncios": len(anuncios), "estado": "vigilable"}
         time.sleep(1)
+    # Sin anuncios en el HTML: probar la mejor página con un navegador real (webs con JavaScript)
+    for url in paginas[:2]:
+        try:
+            anuncios = r.extraer_anuncios(r.descargar_js(url, 30), url)
+        except Exception:
+            continue
+        if anuncios:
+            return {**info, "url_alquiler": url, "anuncios": len(anuncios), "estado": "vigilable", "modo": "js"}
+    if paginas:
+        info["pagina_sin_anuncios"] = paginas[0]
+    info["revisado_js"] = True
     return info
 
 
@@ -342,9 +361,16 @@ def descubrir_marca(marca: str, municipio: str, aicat: set[str]) -> dict:
         web, html = adivinada
         info = {"marca": marca, "metodo": "dominio", "web": web, "estado": "web_ok"}
         return buscar_paginas_alquiler(info, html, web)
-    # 2) Buscador
+    # 2) Buscador (si hoy están bloqueados, se deja para otra tanda)
+    if SIN_BUSCADOR["activo"]:
+        return {"marca": marca, "estado": "busqueda_pendiente"}
     q = f'"{marca}" inmobiliaria {municipio}'
-    res = buscar(q)
+    try:
+        res = buscar(q)
+    except RuntimeError:
+        SIN_BUSCADOR["activo"] = True
+        print("   Buscadores bloqueados: sigo solo probando dominios", file=sys.stderr)
+        return {"marca": marca, "estado": "busqueda_pendiente"}
     web, puntos = elegir_web(res, marca)
     info = {"marca": marca, "consulta": q, "candidatas": [u for u, _ in res[:5]], "puntos": round(puntos, 2)}
     if not web:
@@ -384,6 +410,8 @@ def aplicar(progreso: dict) -> tuple[int, int]:
             fila["web"] = res["web"]
         if res.get("url_alquiler") and not fila.get("url_alquiler"):
             fila["url_alquiler"] = res["url_alquiler"]
+            if res.get("modo") and not fila.get("modo"):
+                fila["modo"] = res["modo"]
             if not fila.get("vigilar"):
                 fila["vigilar"] = "sí"
         webs += bool(fila.get("web"))
@@ -404,7 +432,16 @@ def main() -> int:
     progreso = r.cargar_json(PROGRESO, {})
     # Reintentar las marcas que se dieron por «sin web» sin haber obtenido ningún resultado de búsqueda
     progreso = {k: v for k, v in progreso.items()
-                if not (v.get("estado") in ("sin_web", "error") and not v.get("candidatas"))}
+                if not (v.get("estado") in ("sin_web", "error") and not v.get("candidatas"))
+                and not (v.get("estado") == "web_ok" and "pagina_sin_anuncios" not in v and not v.get("revisado_js"))}
+    if any(v.get("estado") == "busqueda_pendiente" for v in progreso.values()):
+        try:
+            buscar("inmobiliaria Gràcia Barcelona")
+            progreso = {k: v for k, v in progreso.items() if v.get("estado") != "busqueda_pendiente"}
+            print("Los buscadores responden: reintento las marcas pendientes de búsqueda")
+        except RuntimeError:
+            SIN_BUSCADOR["activo"] = True
+            print("Buscadores bloqueados hoy: solo pruebo dominios")
     if args.aplicar:
         print("Webs: %d · vigiladas: %d" % aplicar(progreso))
         return 0
@@ -432,14 +469,12 @@ def main() -> int:
             break
         try:
             res = descubrir_marca(m["marca"], m["municipio"], m["aicat"])
-        except RuntimeError as e:
-            print(f"Parando la tanda: {e}")
-            break
         except Exception as e:
             res = {"marca": m["marca"], "estado": "error", "error": str(e)[:150]}
         progreso[k] = res
         hechas += 1
-        print(f"[{res['estado']:>15}] {m['marca'][:45]:45} {res.get('url_alquiler') or res.get('web') or ''}")
+        print(f"[{res['estado']:>18}] {m['marca'][:45]:45} {res.get('url_alquiler') or res.get('web') or ''}"
+              + (" (js)" if res.get("modo") == "js" else ""))
         if hechas % 20 == 0:
             r.guardar_json(PROGRESO, progreso)
     r.guardar_json(PROGRESO, progreso)
