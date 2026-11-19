@@ -1,0 +1,1277 @@
+21|Gelotti , Salvatore (Maxim)|Marques de Mulhacen, 15|08034
+74|Domínguez Rodríguez, Ruben (Fincas Domínguez)|La Granada, 19|08006
+85|José Manuel Andreu Alcacer (Promonau Inmo.)|Muntaner, 374|08006
+95|Viñamata Camp, Santiago|Muntaner, 400|08006
+116|Marba March, Josep Mª (Finques Marba)|Balmes, 239|08006
+122|Antoni Cornellana Rius (Grau Finques)|Via Augusta, 64|08006
+139|Pascual Moix, Vicente (Serveis Immobiliaris Sarrià)|Major de Sarrià, 46|08017
+183|Sansalvador Margarit, Esteban (Invest 92)|Pau Clarís, 170|08037
+184|Valencia Garriga, Joan-Ramón (Fincador)|Bailén, 161|08037
+190|Almudena Fernández Pinto (Cefersa)|Doctor Carulla, 35|08017
+197|Martínez Rodrigo, Ignacio (Gramar)|Wagner, 5|08021
+202|Rosa Mª Pla Santamans (Adi Fincas)|Provença, 281|08037
+206|Roca Fusté, Jordi (Finques I Serveis Vallvidrera)|Alcalde Miralles, 5|08017
+213|Franquesa Caballé, Mª Olga (Franquesa Finques)|Sant Elies, 16|08006
+215|Javier Bourgeois Guerau De Arellano (Bourgeois Agency)|Roger de Llúria, 147|08037
+216|Fuentes Nuñez, Gabriel (Inmobarna)|Vía Augusta, 13|08006
+219|Antonio Hernando Sebastián (Victòria Finques)|Llull, 219|08005
+252|Hernández De Cabanyes, Luís (Second House)|Anglí, 53|08017
+273|Hosta Soldevila, Jordi (Hosta Fincas)|Comte Salvatierra, 5|08006
+274|Ponce Vazquez, Trinidad|Rbla. Prim, 242|08020
+288|Martínez Mustienes, Natalia (Fundació Habitat 3)|Residència, 10|08030
+299|Di Napoli Pinillos, Francesco (Hand & Seal)|Ganduxer, 5|08021
+301|Moreno Hernando, Modesto (Cubic)|Provença, 325|08037
+309|Alfonso Carlos Auguet Sangra (Gabinete Mitre)|Rda. General Mitre, 202|08006
+311|Antonio Espín Treceño (Llull Diagonal Mar Fincas)|Av. Diagonal, 8|08019
+315|Roberto Antonio Escudero Bustamante (Property)|Rda. General Mitre, 104|08021
+328|Itoiz Cruells, Eduardo (SH Barcelona)|Bailén, 200|08037
+340|Juan José Aguilera Garcia (Servicasa)|Felip II, 114|08027
+355|Andreu Cornellana Grau (Finques Grau)|Augusta, 64|08006
+362|Blanca Ollé March (Finques Ollé)|Benet I Mateu, 45|08034
+364|Franquesa Caballé, Elisenda (Franquesa Finques)|Sant Elies, 16|08006
+366|Muñoz Varela, Francisco Javier|Gran Via Corts Catalanes, 162|08006
+368|Javier Barata Marti (Ático)|Bori I Fontestà, 39|08017
+388|Casal Rexach, Carles (Cafinser)|Bailén, 136|08037
+389|Jordi Castella Aribau|Lesseps, 6|08023
+1003|Rovira Forasté, Gloria (GR Advocats)|Roger de Llúria, 120|08037
+1010|Tarre Hermosilla, Juan (Tarré Fincas)|Muntaner, 244|08021
+1012|Germán Almendros Pallarès (Almendros Gestió D'immobles)|Pau Casals, 15|08021
+1015|López Martín, Fco. Javier (Ceigrup Inmobiliaria La Clave)|Balmes, 330|08006
+1021|Segarra Froment, Gisele (Segarra & Froment Assessors)|Sant Salvador, 64|08024
+1026|Jaume Diez Escudero (Barcelona Forrent Apartments)|Bailén, 120|08037
+1041|Miquel Godó Manent (Almi Habitatges)|Torras i Bages, 29|08030
+1043|Antonio Rojas Aleix|Diagonal, 590|08021
+1045|Jaume Lleixa Busquets (Servicios Clarís Ipc)|Muntaner, 267|08021
+1048|M. Victòria Carbó Balet|Pau clarís, 173|08037
+1051|Mercè Llonch, Tania (Rustic Corner)|Josep Balari, 18|08017
+1055|Albert Vidal Vidal|Rosalía de Castro, 19|08025
+1057|Carrió Ciuró, Laia (Carrió Finques)|Balmes, 368|08006
+1062|Ena Sardà, Maria Antonia (Fincas Maes)|Muntaner, 555|08022
+1063|Carolina Martí Algara|Laforja, 55|08021
+1070|Seriñana Luna, Manuel (Seriñana-Luna Fincas)|Lepant, 342|08025
+1092|Perramon Serra, Francesc Xavier (Perramon Finques)|l'Alzina, 48|08024
+1097|Jordi Argenti Salvado (Turó Fincas)|Balmes, 199|08006
+1121|Llurba Pena, Yolanda (Gaudí Fincas)|Pl. Tirant Lo Blanc, 3|08005
+1139|Juan Soler Barrasus (Juansoler Assessoria Immobiliaria)|Francesc Carbonell, 52|08034
+1140|Torras Torras, Carlos (Essem)|Balmes, 203|08006
+1141|Toscano Garcia, Roberto C. (Toscano Finques)|Major De Sarrià, 22|08017
+1144|Manuel Barcelona Chaques (Blau House)|Augusta, 173|08021
+1160|Joan Palau Batlle (Immomax Eixample)|Bretón de los Herreros, 17|08012
+1217|Torrico Cortada, Carlos (Promoges)|Gal·la Placídia, 1|08006
+1221|Fontcuberta Carandini, Mercedes (Merysa Fincas)|Roger de Làuria, 104|08037
+1225|Marsal Cucarella, Juan Jose (Glasir)|Bogatell, 78|08005
+1227|Comerma Poveda, Jaime (Grup Fincas Miquel)|Via Augusta, 48|08006
+1229|Cuello Cereijo, Jose Luis (Inmuebles & Interiorismo)|Ciutat de Balaguer, 12|08022
+1232|Llohis Gili, Jordi (Llebrenc, Gestió Immobiliària)|Ctra. Sarrià A Vallvidrera, 263|08017
+1251|(Finques Boada)|Sagrera, 93|08027
+1254|Ana Company Martínez (Comprar Casa-Grand House)|Marià Aguiló, 85|08005
+1256|Gago Rodriguez, Mª Angels (Century21 BZGestió)|Cartagena, 243|08025
+1262|Pardo Martínez, Jaime|Clot, 147|08026
+1281|Monfort Riera, Sonsoles|Cornet i Mas, 69|08017
+1298|Xavier Ferrer Feliu (Arrel)|Av. Príncep d'Astúries, 1|08012
+1302|López Garcés, Mª Mercè (Fernández Fincas)|Folgueroles, 30|08022
+1328|Javier Peidró Garcés (Beltener Consulting)|Augusta, 161|08021
+1342|Montserrat Mas Artes (Mont-Mas Finques)|catalunya, 49|08019
+1346|Silvia Bertran Folque (Silvia Bertran Mulhacen)|Marqués de Mulhacén, 11|08034
+1352|Lapiedra Valero, Jordi (Fincoval)|Antonio Machado, 24|08024
+1376|Antonio Picón Parra (Asesoria Picón)|Av. Meridiana, 586|08030
+1399|Alfredo Balcells Garcia|Manila, 57|08034
+1400|Jordi Del Barrio Medrano (Etrim Finques)|Manuel De Falla, 35|08034
+1403|Gonzalez-Fischer Correa, Miriam Leonor (Troba Llar Tres Torres)|General Mitre, 126|08021
+1423|Martínez Cervera, Oriol (imOOm)|Pamplona, 96|08018
+1430|Bonaventura Durall Aulet (Durlet Mar Poblenou)|Rbla. Poblenou, 16|08005
+1433|Gruart Rüsch, Jordi (Monika Rüsch)|Beltrán y Rozpide, 6|08034
+1434|Mañez Sánchez, Oscar (Gabinete Fincas Rius 2001)|Trav. De Gràcia, 16|08021
+1435|Paluzie Cuspinera, Juan (Gestin 3)|Rda. General Mitre, 39|08017
+1436|Romero Polanco, Miguel Ángel (Fincas San Andrés)|Borriana, 1|08030
+1440|Camo Rosell, Silvia (Pallejà Bcn)|Bonavista, 35|08012
+1445|Carbonell Cuxart, Mateu (Fincas Carbonell)|Aribau, 185|08021
+1448|Tubert Tutusaus, Carles (Diagonal 111)|Espronceda, 136|08005
+1455|Ana Alonso De Porres Esquerdo (Alana Consulting)|Bertran, 53|08023
+1457|Raul Martínez Alonso|Pau Casals, 5|08021
+1464|Castro Socorro, Ramón|Balmes, 369|08006
+1468|Lourdes Romeo Barrabés (Finques Romeo)|Rossend Nobas, 9|08018
+1478|Font Espuña, Glòria (Glòria Font)|Pàdua, 86|08006
+1481|Guillermo Baronet Aldabo (Later)|Balmes, 421|08022
+1491|Ricardo Nasarre Bajo|Rector Ubach, 41|08021
+1492|Porcar Cebrián, Susana|de les Corts Catalanes, 986|08018
+1494|Roger Echevarría, Manel|Balmes, 243|08006
+1507|Castro Temiz, Jose Walter (Nuevacasa)|Sant Adrià, 137|08030
+1508|Pedro Luis Álvarez Ibáñez (Bcn Flats)|Balmes, 191|08006
+1522|Alfonso Moncosi De Borbón|Brusi, 40|08006
+1533|Jorge Amat Guitart (Bellare Bcn)|Muntaner, 277|08021
+1539|Alex Travé Rebull (XELA PROPERTIES - SERVEIS IMMOBILIARIS)|Pamplona, 96|08018
+1541|De Ceballos Lopez, Paloma (Finques Lisa)|Sant Antoni M Claret, 83|08025
+1766|Mireia Segura Roda (API Autònoma)|Arimon, 58|08022
+1784|Turró Ferrer, Pere (Turrobcn)|Aribau, 314|08006
+1836|Negre Rafel, Leandro Luis|Teodora Lamadrid, 8|08022
+1863|Erundina Batlle Vazquez|Pallars, 228|08005
+1918|Teixidó Royo, Jordi|Casanova, 260|08021
+1920|José Mª Aguilà Bonfill|Conde de Salvatierra, 10|08006
+1923|Ferret Hernández, Inmaculada|Ricardo Calvo, 8|08022
+1924|Tomás Savall, José Luis|Diagonal, 512|08006
+1928|Montoro Solé, Lluís|Aribau, 261|08021
+1929|Jordi Cuxart Ainaud|Diagonal, 512|08006
+1930|Hervás Polo, Mariano|Portolà, 5|08023
+1932|Serra Lecina, Pedro|Les Carolines, 13|08012
+1937|Devroyé Cassi, Lluís|Lleó XIII, 30|08022
+1942|Puigdemasa Rosiñol, José|Diagonal, 512|08006
+1943|Antonio Contijoch Berenguer|Diagonal, 349|08037
+1944|Fargas Duarry, Margarita (RENTMAR FINCAS)|Bruc, 147|08037
+1949|Castelló Ventas, Esteban|Musitu, 5|08023
+1954|M. Rosa Bernis Iranzo|Sant Joan, 128|08037
+1955|Canals Carrera, Jordi|Santaló, 14|08021
+1957|Àngela Ferris Gil|Sant Elies, 11|08006
+1966|Marcos Iglesias, Juan Carlos|Biscaia, 317|08027
+1975|Pina Miquel, Carles|Gran de Gràcia, 187|08012
+1978|Montoro Solé, Joan Josep|Aribau, 261|08021
+1979|Roca Serra, Joan|Joan Obiols, 11|08034
+1982|Poch Urpí, Lluís|Sant Màrius, 20|08022
+1988|Albert Ariño Schierloh|Balmes, 191|08006
+1998|Doménech Gimeno, Jaume|Vallès, 25|08025
+1999|Rivera Marin, M. Emma|Sicília, 328|08025
+2000|Claverol Mestre, Josep|Lepanto, 256|08024
+2013|Baltasar Gassiot Garriga||08037
+2016|García Castro, Sergio|Maresme, 282|08020
+2017|Agent 2017|Descartes, 22|08021
+2019|Gassiot Garriga, Martí|Mallorca, 301|08037
+2028|Jaime José García Borobia|Guipúscoa, 125|08020
+2037|Roses Sans, Joaquim M. (Joaquim M Roses)|Mallorca, 272|08037
+2046|Cerdan García, Eduardo|Sant Antoni M. Claret, 63|08025
+2050|Ramon Balsells Sagrera|Còrsega, 411|08037
+2051|Rodríguez Vargas, José Manuel|de Gràcia, 100|08012
+2055|Parba Asesoría Inmobiliaria SL|Sant Gervasi, 54|08022
+2059|Agent 2059||08006
+2061|Balsells Zaragoza Gestió SL|Cartagena, 241|08025
+2067|Satifincas SCP|capita arenas, 21|08034
+2069|Finques Bonet SL|tuset, 8|08006
+2077|Farre Nicolau Associats SL|balmes, 188|08006
+2085|Lex Gestió Poblenou SLP|Poblenou, 49|08005
+2086|Auguet Sangrà SLP|General Mitre, 202|08006
+2087|Adase Tot Finques SLP|Sardenya, 559|08024
+2093|Tucom, Fincas y Propiedades SL|Diagonal, 598|08021
+2198|Antonio Bonet Olivella (Fincas Bonet)|Via Augusta, 34|08034
+2498|Arnau Gómez Soro (Gran Barcelona)|Sardenya, 525|08012
+2502|Giner Viscasillas, Francisco (Viscasillas Asociados)|Tres Torres, 28|08017
+2509|Puig Sala, Margarita (Margarita Puig Consultora Inmobiliària)|Horaci, 3|08022
+2515|Galan Gómez, Joan (Gestors de Patrimoni)|Berlines, 37|08022
+2516|Sergio Navarro Lascorz (Blue House Inmobiliaria)|Augusta, 166|08006
+2540|March , Gerardo Daniel|Muntaner, 502|08022
+2545|Metres Quadrats S.C.C.L. (Metres Quadrats)|Mandri, 45|08022
+2565|José Maria Brau Riera|Lázaro Cárdenas, 1|08017
+2589|Antoni Castells I Solanes|Calaf, 20|08021
+2600|Expansión SL (Expansión Inmobilaria)|Escoles Pies, 45|08017
+2637|Yañez Tortosa, Mª José (Inmotarget, S.L)|Icària, 151|08005
+2677|Jorge García Dolz (Aincasa)|Roger De Llúria, 114|08037
+2698|Bayne Schon Furlinger SL|Àlaba, 5|08018
+2703|Ruíz Díaz, Dolores (Drd Advocats)|Sant Antoni Mª Claret, 183|08026
+2729|Ramos Gibert, David (Deivit Plus, S.l)|Diagonal, 468|08006
+2741|Anca Abrudan (Immovial.com)|Corts Catalanes, 114|08020
+2750|José Antonio Álvarez Galdón (Ibusa)|Sant Joan, 104|08037
+2763|Begoña Ballesteros Canales (Mayoball 2007)|Cardener, 23|08024
+2797|Fincas Exclusivas SL|Balmes, 171|08006
+2812|Axioma Trading SL|Muntaner, 244|08021
+2813|Francisco Jose Sanchez Perez (Ata)|Josep Tarradellas, 155|08025
+2837|Adolfo Pozo Rodriguez (Servigestion Consultores)|Concepcion Arenal, 309|08030
+2839|Xavier Banus Ribert|Mestre Nicolau, 16|08021
+2842|Hugo Fernandez Borniquel (Matas Amat Fernandez Inmuebles)|Castella, 33|08018
+2853|Sans Planas, Jorge|Sant Eusebi, 4|08006
+2865|Matas Cano, Eusebi (Maf Inmuebles)|Castella, 33|08018
+2868|David Alba Heredia (Inmobiliaria Vendopor)|Agudes, 24|08033
+2876|Orellano , Pablo Jose (La Casa)|Guipúscoa, 41|08020
+2885|Serra Ciecierski, Juan|Herzegovino, 4|08006
+2903|Sellarès Monrós, Jordi (Inverprime Gestion Patrimonios S L)|Castella, 40|08018
+2907|Sinland SL|Guipúzcoa, 107|08020
+3150|Ochoa Llopart, Teresa (Teresa Ochoa)|Ricardo Villa, 4|08017
+3167|Lena Tamen SL (Inmowebcn)|Calvet, 51|08021
+3174|Angel Puerto Escudero (Directa-pisoexpress Consulting Inmobiliario)|Princep d'Asturias, 30|08012
+3181|Nou Estil Espai SL|Augusta, 193|08017
+3184|Josep Balaguer Farre (Bcn Habitat Sl)|Rita Bonnat, 7|08017
+3187|Bcs Inmuebles SL (Bcs)|Diputació, 280|08021
+3189|Valcarcel Grande, Santiago (Direta-piso Express Consulting Inmobiliaria)|Princep d'Asturies, 30|08012
+3194|Ricardo López Aguilar (Gran Barcelona Serveis Immobiliaris)|Princep d'Asturies, 30|08012
+3222|M. Elena Alentorn Miro|Torrent de l'Olla, 172|08012
+3227|Roy Girardi, Sergio (Latinroble S L)|Padilla, 208|08019
+3228|Finques Maba SL|Rogent, 134|08026
+3249|Iglesias Martinez, Carlos Alberto (Finques Marcos Iglesias, Sl)|Biscaia, 317|08027
+3251|Gestión rentas vitalicias inmobiliarias sl|Aribau, 185|08021
+3258|Jose Toyos Buigues|Aribau, 242|08006
+3280|DH & Partners SL (Imopartner)|Calvet, 81|08021
+3281|Lopez Pinedo, Jenaro (Casc Antic Bcn)|Raval, 37|08021
+3300|Esther Louzao Belmonte (Flash Inmuebles)|Calvet, 11|08021
+3302|Alicia Cercos Vega|Sanjuanistas, 6|08006
+3309|Joaquim Coller Algora|Emancipació, 28|08022
+3310|Colomar Salvó, Francisco (Ibusa)|Sant Joan, 104|08037
+3318|Cuenca Caraballo, Joan Carles|Meridiana, 414|08030
+3326|Lantor Consulting SL|Aribau, 179|08019
+3332|Pisos a precio SCP (Pisos A Precio)|Diagonal, 468|08006
+3333|Gesmar 2000 SL|Medas, 4|08023
+3350|Ledesma Castrejon, Enrique (Don piso)|Prim, 40|08019
+3364|Díaz Prats, Montserrat (Carulla & Díaz Gestió I Finques)|Meridiana, 316|08027
+3385|Estudi Viladecans SL|prim, 120|08019
+3386|Estudio Ca N'oliva  SL|Prim, 166|08020
+3397|Flamat Barcelona SL (Flamat immobiliària)|Escorial, 4|08024
+3399|Vivir en Gracia SLU|de Gràcia, 135|08012
+3434|David Alejandro Vegas O'felan (BDN Crèdit)|Sant Jeroni de la Murtra, 14|08020
+3435|Eduardo Sebastián Borgogno Scassa (Estudi Gran Via 2005, S.l.u)|Gran Via de les Corts Catalanes, 101|08020
+3437|Pérez Camino, Israel||08020
+3451|Sanz Roldán, Hector (Tecnocasa)|Padilla, 367|08025
+3455|Grau Lozano, Elvis (Tecnocasa)|Mare de Déu de Montserrat, 157|08025
+3456|Del Latte , Steffano (Tecnocasa)|Escorial, 4|08024
+3457|Valeriani , Romeo (Tecnocasa)|Travessera De Gràcia, 135|08019
+3458|Finedo Service SL|Gal·la Placidia, 8|08006
+3519|Eva González Rangel (Assessoria Rangel)|Zamora, 45|08026
+3525|Hidalgo Pena, Francisco Javier|Indústria, 304|08026
+3536|Llopart Codina, César (Finques Futura)|Córcega, 430|08037
+3542|López Prieto, Maria Encarnación (Nani López)|República Argentina, 37|08023
+3546|Luján Luján, M. Soledad (Uvergest Immobiliària)|Còrsega, 567|08024
+3563|Lemi , Graciela (Finques Lemi)|Enamorados, 148|08026
+3577|Martínez Payar, Javier (Spai Inmobiliaria)|Fluvià, 210|08020
+3594|Morán Prieto, Francisco F (Xarxa Immobiliària)|Còrsega, 411|08037
+3601|Grupo San Jorge Pia Fidelis SL (Finques San Jorge)|Mallorca, 524|08026
+3614|Lithgow Guitard, Laura|Balmes, 237|08006
+3650|Ropisa Urban SL|Santaló, 23|08021
+3661|Maria Pia Plaza Rubert (Barna Welcome)|Dr. August Pi i Sunyer, 12|08034
+3700|Sala Torra, Maria Antonia (Diagonal Quatre)|Selva de Mar, 18|08019
+3716|Cucurull Ramon, Segon||08020
+3717|Segura - Illa Serra, Oriol|Diagonal, 474|08006
+3721|Serrano Spinaroli, Juan Antonio (Fincas Gilser)|García Faria, 49|08019
+3757|Futur Gestió Habitat 2010 SL|Diagonal, 468|08006
+3758|Mar Carisa SCP|Portugal, 25|08027
+3763|Saco Fernandez, Daniel (Grup Habitacle)|Cantàbria, 10|08020
+3764|Romero Polanco, Jose Maria (Progeinsa Sevicios Inmobiliarios)|Doctor Balari i Jovany, 7|08030
+3778|Pedro Matias Allegroni (Estudio Fondo Sl)|Sagrera, 178|08027
+3783|Valls Llach, Juan (Don Piso)|Pi i Maragall, 19|08024
+3794|Vincero Gestión sl|Sant Joan|08037
+3800|Casas Diaz, Sonia|Secretari Coloma, 55|08024
+3805|Soucheiron Vidri, Santiago||08006
+3809|Francesc Donaire Tur (Assessoria Donaire)|Sant Ildefons, 46|08030
+3810|Rodriguez Guerrero, Eva||08027
+3811|Fornell Consultors Consultors SLP||08037
+3813|Espona Finques SCP|muntaner, 262|08021
+3825|Tabicpla sl|Camprodon, 12|08012
+3827|Orobitg Rosello, Sebastian (Look & Find)|Girona, 134|08037
+3832|Martinez Oltra, Hector (Casual Home)|Granada del Penedes, 19|08006
+3846|Creditservices SA|Meridiana, 354|08027
+3851|Vidal Cañellas, Ignasi (Serve Activa S.l.u)|Can Felipa, 3|08005
+3853|Taste 2000 SL (Vip Pisos)|Manuel Girona, 44|08034
+3860|Manuel Angel Galdeano Alcubierre (Inversiones y Gestiones Diagonal)|Diagonal, 180|08018
+3870|Sviluppocase (Professionecasa)|Mila i Fontanals, 11|08012
+3894|Foncuberta Sust, Jordi|bonavista, 16|08012
+3914|Brahim Mouaissi (Fincas Bm)|Vallirana, 40|08006
+3922|Estrategia juridica B & C SL (Ej Inversions)|Travessera de Gracia, 116|08012
+3947|Cabrejo Flores, Denniz (La Casa)|de les Corts Catalanes, 712|08037
+3948|Medina Farizo, Sebastian (Tecnocasa)|Meridiana, 458|08030
+3950|Vázquez , Jorge|mandri, 26|08022
+3955|Estudi Diagonal Mar SL|Diagonal, 32|08019
+3957|Estudio San Andrés 2010 SL (Tecnocasa)|Meridiana, 458|08030
+3971|Rito , Giuseppe (Dso Real State & Consulting)|Ramón Turró, 101|08005
+3979|Antonio Paretas Vila Coro (DIAGONAL REAL ESTATE)|MUNTANER, 231|08021
+3987|General Paz SL (La Casa Agency)|de les Corts Catalanes|08020
+4002|Josep González Burgada (Bamavi)|Bori i Fontestà, 7|08021
+4005|Antonio Sacristán Núñez (Fincas Jose Mª Sacristán)|Hercegovina, 28|08006
+4022|Alícia Engel Rocamora|Corsega, 516|08025
+4026|Mireia Badosa Ciprian (Bc 91)|Castillejos, 292|08025
+4028|Cristian Barnils Rodríguez- González (C.B. Tres Consultores)|Iradier, 16|08017
+4036|Abel Lligoña Mitjans (Condalreal)|Balmes, 200|08006
+4037|Cristian Aran Pérez (Optimum)|Bertran, 113|08023
+4085|Creñol S.l (Eb Immo Serveis Immobiliaris)|Saragossa, 2|08006
+4094|Jorba Jorba, Luisa M||08021
+4121|Weisshorn SL (Bel-lar)|Sant Gervasi, 4|08022
+4127|De La Piedra De La Cruz, Rosalia (Districte 08020 Immobiliari)|Gran Via de les Corts Catalanes 1147|08020
+4134|Mmfinance 2004 servicios SL|Marques de Mulhacen, 8|08034
+4136|Domenys 90 SL|Tuset, 21|08006
+4140|Tasadora Independiente sa|Diagonal, 468|08006
+4160|Fincas e inmuebles Sagrera SL|Fabra i Puig, 10|08030
+4168|Street House|Sardenya, 311|08025
+4179|Calvo Hernandez, Yolanda (Moñux, Gestion Y Administracion Inmobiliaria)|Pi i Maragall, 53|08024
+4236|Anna Pallejà Pujol (Gala Finques)|Nil Fabra, 13|08012
+4256|Molina López, Mairilys (Finques Catalonia)|Enamorats, 108|08026
+4267|Pérez Fernández, Jose Antonio (Don Piso)|Rosselló, 374|08025
+4273|Vázquez Ordas, Miguel Ángel (Don Piso)|Gran Via de Carles III, 124|08034
+4274|Fernández , Luis Pérez (Living)|Gran Via de Carlos III, 124|08034
+4285|Felix Puncernau Adler (Adler Conseil 3l)|Madrazo, 115|08021
+4311|Buenaventura Garrido Ponsa (Orri)|Muntaner, 265|08021
+4335|Sellares Esmarats, Josep M. (Sellares Assessors)|Còrsega, 381|08037
+4339|Güell Farré, Josep|corsega, 381|08037
+4342|Inmotectura SL|Castella, 18|08018
+4343|Absis 2004 inmobiliaria SL|guillem tell, 42|08006
+4364|Martin Saez, Jose Domingo (Qualivida)|Muntaner, 359|08021
+4395|Querol Pérez, Núria (Finques Querol)|Sant Joan, 170|08037
+4398|Villaverde Martínez, Jose Luís (Vadpisos Consultoria Inmobiliaria)|Rossellón, 308|08037
+4400|Second House SA (Second House)|Anglí, 53|08017
+4406|Alejandro Marly Miquel (Eumados S.l)|Juan Sebastian Bach, 5 B|08021
+4472|Andrés Oyarzun Palacios (Gestión Inmobiliaria Y Servicios Integrales)|Rosellón, 454|08025
+4481|Estudi Sanllehy SLU (Tecnocasa)|Camelias, 66|08024
+4509|Ana Isabel Soler Homedes (Soler Gestions Immobiliàries)|Ptge. del Roserar, 5|08034
+4523|Estudi Immogest SLU|Nació, 69|08026
+4531|Meritxell Martínez Chardi (Bcn Center (MC Pisos Barcelona))|Diagonal, 468|08006
+4548|Silvia Balfagón Plana (S B Gestió Immobiliària)|Provença, 419|08025
+4550|Teruel Docal, Juan Luis|Onze de Setembre, 43|08030
+4558|Prieto Cabanellas, Eduardo (Komelsat)|Diagonal, 520|08006
+4559|Ros Rivero, Juan Miguel De (Milans)|Pardo, 10|08027
+4564|Rovira & Ricard associats SL|Pi i Sunyer, 11|08034
+4582|Agustí Massagué Roig (Barna Inmo)|Balmes, 224|08006
+4598|Sala Mestres, M. De Los Ángeles (Diagonal Habitat)|Riu de l'Or, 14|08034
+4618|Assessors immobiliaris Algi SCP|Encarnació, 42|08024
+4622|Jose Miguel Saez Aynes (Maxi Casa)|Madria, 60|08022
+4638|Baix Guinardó 2010 SL (Tecnocasa)|Padilla, 367|08025
+4641|Ripoll Massanés, Sergi (Immobiliària Barcelona)|Sardenya, 405|08025
+4647|David Aceituno Lopez (Immobiliària Sant Martí)|Cantàbria, 8|08020
+4650|Alto Standing Bcn SL|Manila, 39|08034
+4652|Olivella Sebastià, Enric (Flash Inmuebles)|Calvet, 11|08021
+4653|Estudi Fabra SL (Estudi Fabra - La Vostra Calu)|Meridiana, 272|08027
+4660|Grupo Empresarial E5E SL (Activa Properties)|Balmes, 243|08006
+4678|David Figueras Batet (Sf Comercialización De Activos)|de Gràcia, 56|08006
+4680|Jose Mª Arnal Vellvé (Arnal Servicios Inmobiliarios)|Eguilaz, 5|08017
+4681|Küpers Ferro, Carlos Maurits (Nolkers Consulting)|Vergós, 55|08017
+4685|Barnaquatre Gestió de finques SL|Pau Clarís, 190|08037
+4689|Magusa Gestió SL|Sagrera, 117|08027
+4698|Elias Oriol, Joan (Park Inv Finques Elias)|Indústria, 94|08025
+4717|Menjibar García, Rafael|Rasos de Peguera, 8|08033
+4721|Sastre Fernández, M. Concepción (Fincas Prosein)|de Gràcia, 64|08006
+4736|D' Alessio , Fabio|Valencia, 637|08026
+4768|Fernández Muñoz, Jose Luís (JL Fernández)|Gomis, 30|08023
+4772|Josep Bonet Roca (Piverd 2000, Sl)|Joan Blanques, 36|08012
+4778|Juan Pablo Navarrete Antón (Finques Navarrete)|Riera de Cassoles, 15|08012
+4792|Ordóñez Cruz, Rafael José|Gaudí, 59|08025
+4794|Mestres Gils, Isabel|Tuset, 23|08006
+4797|Mestres Gils, Xavier|Tuset, 23|08006
+4820|Estudio SantMartí 2011 SL (Tecnocasa)|Campo Arriaza, 59|08020
+4838|Polto , M. Dolores (Llarbarcelona)|Sant Joan, 168|08037
+4848|Aknatur Martant, S.l (Important House)|Copèrnic, 81|08006
+4874|Assessoria Rosselló 2012 SL (Tecnocasa)|Girona, 161|08037
+4884|Felipe Albarrán Arnanz|Selva de Mar, 49|08019
+4886|Paredes García, Enrique (Serveis Immobiliaris de BCN (SIB))|Pau Alsina, 121|08024
+4922|Bartolomé Rossiñol De Zagranada Lara (Fincas Laforja)|Zaragoza, 6|08006
+4931|Campos Reina, Eduardo (Servicios Jurídicos E Inmobiliarios)|Rosselló, 446|08025
+4937|Vallet-barcelo Nubiola, Núria|Marià Cubí, 17|08006
+4939|Intar SA|Balmes, 175|08006
+4971|Ferreri Carpena, Frederic (Finques Ferreri)|Laforja, 44|08006
+4976|Jaquet Castán, Herman (Tres Angle Real Estate Global Business)|Marià Cubí, 80|08006
+4986|Perals Graboleda, Eduard|de les Corts Catalanes, 855|08018
+4987|Armando David Marsol Islas (Punto Pont del Treball, sl)|Cantàbria, 58|08020
+4989|Pedro Rodolfo Allegroni (Estudios Nuevas Glorias)|Font i Sague, 3|08018
+4991|Zuñiga García, M. Ángeles (Inmodux)|Mallorca, 490|08012
+4992|Murtagh , Robert- Dean (Vivalco Europa S.l)|Via Augusta, 158|08006
+4993|Adrian Mark Walsham (Vivalco Europa Sl)|Via Augusta, 158|08006
+5027|Velasco Lara, Yair (Easy Rentals Real Estate)|Balmes, 221|08006
+5029|Silva , Criselda (Silva intermediación inmobiliaria)|Riera de Cassoles, 34|08021
+5042|Ucar Hernández, M. Luisa (Pisos Mil)|Via Augusta, 29|08006
+5099|Gaudí - Sant Pau SL|Sant Antoni Maria Claret, 240|08025
+5100|Punto Forum SL (La Casa Agency)|Prim, 892|08019
+5101|Olivia Apartamentos SL|Gaudí, 63|08025
+5106|Marba Maya, Mónica (Finques Marba)|Balmes, 239|08006
+5137|Ramón Alcáñiz Andreu (Ramón Alcáñiz)|Vergós, 53|08017
+5160|Enrique Palomar Gavín (Bcn Gestión De Recursos)|Calvet, 60|08021
+5207|Pérez Martínez, Montserrat (Immospai)|Indústria, 284|08026
+5209|Ester Pérez Amorós (Finques Yuste)|Augusta, 158|08006
+5216|Husky's Exclusive Private SErvices SL (Husky's - Balcells Group)|Balmes, 272|08006
+5227|Recommended Properties SL|Travessera de Gràcia, 30|08021
+5228|Creativity Barcelona 2000 SL (Patrimon)|Port Ginesta|08022
+5243|Max Ricart Property SL (Max Ricart)|Ferran Agullo, 2|08021
+5265|Hipotecasolución SL|Diagonal, 468|08006
+5304|Artecasa Bcn SL|Bonanova, 4|08022
+5308|M. Àngels Angelats Ramió (Angelats Services & Consulting)|Garcia Faria, 77|08019
+5330|Gallego Falguera, M. Luisa (Rumbo Norte)|Beethoven, 13|08021
+5333|Vidal Millat, Jorge (Land Realty Services)|Ballester, 45|08023
+5334|Marc Pérez Fonfría (Blue Barcelona)|Diagonal, 534|08006
+5338|Jf Real Estate Advice SL (Engel & Völkers)|Taulat, 258|08019
+5350|Jose Amador Flores (Fincas Y Promociones Inmobiliarias Pison)|Sos, 33|08030
+5352|Ramón Giné Aylagas (Ramón Giné Servicios Inmobiliarios)|Bailen, 238|08037
+5353|David Sánchez Batlle (Asesores Inmobiliarios Invertix)|Amistat, 7|08005
+5358|Épica Building Services SL (Ferran)|Diagonal, 622|08021
+5381|Martínez Murcia, Susana (Finques Navarrete)|Príncep d'Astúries, 15|08012
+5388|Martínez García, Juan Carlos (Expocasa.cat)|Còrsega, 316|08037
+5417|Casanova Debon, Miguel (Gem Assessors)|Rosselló, 459|08025
+5425|Cabré Garcia, M. Eugènia (Gabinet Cabré)|Torrent de l'Olla, 203|08012
+5430|Junyent Martin, Montserrat|de Gràcia, 8|08021
+5431|Grau Camins, Jesús (Micasa)|Pau Ferrán, 1|08023
+5449|Anna Cuadras Ortiz (Eix Habitat Bcn)|Sant Antoni Maria Claret, 24|08037
+5453|Gata Totalservice SL (Mas Metros)|Ferran Vall i Taberner, 14|08006
+5454|Martín García, Salvador (Yaalquile.es)|Tuset, 16|08006
+5486|Jose Farré Codina SL (Farré Finques)|Meridiana, 133|08026
+5487|Pilar Martínez Mas (Alpi Gestión, S.l)|Mare de Déu de Montserrat, 74|08024
+5488|Orteu Giménez, Susana (Fincas Orteu)|Muntaner, 393|08021
+5508|Estudio Castillejos SL|Indústria, 137|08025
+5525|Inna Tolmacheva (Barcino Homes)|Diagonal, 38|08019
+5526|Farre Martínez, Xavier (Farré Finques)|Meridiana, 173|08026
+5528|Espai Meridional SL|Milanesat, 25|08017
+5551|Berta Laplana Vivancos (Finques La Plana)|Gran de Gràcia, 229|08012
+5556|Mur Gálvez, Joaquim (Finques Mur)|Tuset, 23|08006
+5561|Joan Alis Gabernet (Servicio Casa)|Muntaner, 261|08021
+5565|Caralt Valls, Carlos (Caralt I Valls Associats)|Bigai, 6|08022
+5566|Carreras Mira, Verónica|Capità Arenas, 46|08034
+5569|Lorda Donat, Roser|de Gràcia, 264|08025
+5626|Ángel Yu Marsicano (Home & Photo 88)|Guipúzcoa, 88|08020
+5627|Viltró Lugo, Carlos (Holbox, Inversiones & Patrimonio)|Aribau, 203|08021
+5628|Escobar Moras, Daniel|Farigola, 33|08023
+5634|Hiperfincas SL|Garcilaso, 166|08021
+5664|Durán Sáez, María|Torras i Pujalt, 12|08022
+5677|Rent Top Apartments SL|del Taulat, 279|08019
+5689|Llorach Consultores SL (Bcn Real Estate)|Tuset, 19|08006
+5703|Font De Balaguer, Salvador (Luxury Font)|Muntaner, 332|08021
+5721|Sg Patrimonios SCP|Tuset, 23|08006
+5726|Monica Davicco, Cristina (Estudi Felip Segon Sl)|Felipe II, 65|08027
+5728|Nuñez Ortíz, M. Isabel|Tuset, 23|08006
+5757|Ascensión Rivero Sánchez|Marqué de Mulhacén, 17|08034
+5766|Asesores Procasa 2014 SL (Procasa Luxury Home)|General Mitre, 92|08021
+5769|Of Poble Nou 2014 SL (Tecnocasa)|Bilbao, 65|08005
+5776|Estrada Reig, Maria Teresa (Mayte Estrada)|Bailés, 221|08037
+5782|Cortés Grima, Miguel Ángel|Doctor Trueta, 168|08005
+5805|Caymari Rebes, Martí|Bailén, 240|08037
+5812|Fagio 2014, S.C.P (Bcnimmobiliaris)|València, 637|08026
+5833|Fullstone Invest SL|Negrevernis, 11A|08034
+5837|Anna Sanchez Turné (Anna Turné Barcelona Propietats)|BRUSI, 39|08006
+5838|Vivir en Gracia Nova 2014 SLU (Tecnocasa)|Escorial, 23|08024
+5870|Ochoa Durall, Pedro (Inmowebcn)|Calvet, 51|08021
+5872|Placencia Salazar, Jack Alfredo (J. Habitat MLS (Global Habitat))|María Cubí, 3|08006
+5901|Conesa Reñé, Pere|de les Corts Catalanes, 911|08018
+5902|Finques Calvet SL|Balmes, 182|08006
+5913|Ademonte fincas y asesores SL|Andrade, 249|08020
+5914|Artur Mayoral Mayoral (Mayorcasa)|Diagonal, 408|08037
+5932|Gestión de Activos Taurus Ibérica SL (Taurus Ibèrica)|Muntaner, 262|08021
+5941|Barceloneando SL (Rentbcn)|Bailén, 234|08037
+5943|Gutiérrez Gutiérrez, Miguel (Immogut Sl)|de Gràcia, 248|08025
+5951|Piare solutions immobilierès SL|Gran de Gràcia, 25|08012
+5961|Albert Escofet Fernández (Primera Residencia)|Cardenal Vives i Tuto, 38|08034
+5976|Gamero Del Sol, M. Teresa (Momentum Asesoría)|Felip II, 21|08027
+5986|Exposición de casas de Catalunya SL (Expoca.cat)|Còrsega, 316|08037
+5998|Jorge Balaguer Nadal|Bilbao, 239|08005
+6010|Esqué Durrande, M. Gaëlle (Flat Hunter Barcelona)|Sant Joan, 142|08037
+6011|Rossi , Fabricio Pablo|Fluvià, 217|08020
+6012|Carlton Properties SL|Diagonal, 468|08006
+6021|Xavier Aranega Moreno (La Sastrería Inmobiliaria)|Foraste, 4|08022
+6022|Yais Oriol, Manuel (Inmofinders)|Bertran, 55|08022
+6034|Frank & Silver Servicios Inmobiliarios SL (La Principal)|Nàpols, 294|08025
+6048|C211 Apartments SCP|Riera de Sant Miquel, 3|08006
+6054|Ricard Novel Roig (Address Properties)|Muntaner, 292|08021
+6075|Crespo Minguillón, Marcos|Pallars, 336|08019
+6077|Ruestes Sánchez, Jorge|Balmes, 200|08006
+6078|Ruestes Teichman, Jorge|Balmes, 200|08006
+6114|Immobarcelo Legal SL|Pujades, 183|08005
+6116|Pérez Martín, Carles (Inverpisos.com)|Provença, 385|08025
+6123|Estudi Balmes SL (Tecnocasa Grup)|Balmes, 330|08006
+6131|Steven Bessemans (Pedal)|Camí Antic de València, 2|08005
+6137|Estudi Gran Via Mar SLU (Tecnocasa)|de les Corts Catalanes|08020
+6147|Castellano Ferreres, Jorge (Casfer Finques)|Lesseps, 33|08023
+6159|Remodelia SL|Marroc, 11|08018
+6170|Ruby Slippers Bcn SL|Bolívia, 19|08018
+6172|Anna Temkina (My House Barcelona)|Diagonal, 91|08019
+6184|CR Associats Immobiliaris SLU (Immo Augusta)|Tuset, 19|08006
+6186|Lloguer 2013 SCP (Tu Casa Bcn)|Meridiana, 460|08030
+6202|Essaiemaimmobiliaria SL|Buenos Aires, 1|08017
+6220|Gallardo Martínez, Marian (Forum Gabinete Fiscal)|Diagonal, 89|08019
+6224|Neus Castellví Santigosa (Barnaflat)|Tuset, 19|08006
+6235|Smart Rooms Company SL (Smart Flats)|Augusta, 42|08006
+6241|Estudi Marina 311 SLU (Tecnocasa)|Marina, 311|08025
+6252|Vázquez Contado, Eduardo (Gea Comunicació I Serveis)|Aribau, 203|08033
+6256|Project Consulting Sarrià (B E Consulting Sarrià)|Pedro de la Creu, 26|08034
+6260|Residencial Pineda Park SL (Arquitectura Residencial)|Freixa, 26|08021
+6261|Bcn immogestió SCP|Provença, 385|08025
+6266|Centeno - Izquiano SL (Gessin)|Degà Bahí, 20|08026
+6267|Fincas AS Gescon SL (Oi Real Estate)|Ganduxer, 44|08021
+6269|Estudi Parc de la Ciutadella SL (MODERNA GESTIO INMOBILIARIA)|Wellington, 31|08018
+6299|Lum Servicios Inmobiliarios SL|Brusi, 33|08006
+6300|Deluxe Locations Barcelona SL|Calvet, 60|08021
+6307|Tripletshare Barcelona SL (TLS Grup)|Sardenya, 421|08025
+6318|Valenzuela Santiañez, Olga (VS Gestió Patrimonial)|Girona, 148|08037
+6351|García Fuste, Javier|Guillem Tell, 27|08006
+6361|Core Real Estate SL (Core Premier Properties)|Llull, 51|08012
+6363|García Lallana, Lara (Lara García)|Sant Antoni Maria Claret, 83|08025
+6377|Font Salas, Salvador (Montaber Bcn)|Laforja, 109|08021
+6408|Caldero Dobón, Laura (Catpisos)|Mandri, 6|08021
+6426|Estudi Projecte Sant Andreu SL (Tecnocasa)|Gran de Sant Andreu, 81|08030
+6487|Ana M González Riesco|Meridiana, 382|08030
+6490|Tort Del Águila, Heidi (Coldwell Banker)|Major de Sarrià, 123|08017
+6502|Ana Martí De Torres (Belhome Barcelona)|Via Augusta, 211|08021
+6503|Vázquez Gironés, Elisabeth|Sant Joaquim, 2|08006
+6505|Reta Videla, Fernando|Pi i maragall, 65|08024
+6521|Hector Francisco Aparicio Escudero (Immohae)|Via Augusta, 147|08021
+6524|Agil Gestió i Projectes SLP (Agil Finques)|Onze de setembre, 10|08030
+6528|Fincas Parater SLP|Aribau, 205|08021
+6537|Anzio Gestión Inmobiliaria SL|Navas de Tolosa, 271|08026
+6567|Domus Tractanda SL|Muntaner, 378|08006
+6568|The White Side Properties SL|Ciutat de Balaguer, 10|08022
+6569|Marcelo Fabián Martínez Barreto|Tuset, 16|08006
+6579|Vilacor Real Estate SL|Reina Elienda de Montcada, 11|08034
+6595|Immobiliària Pep Burrull SCP (Immopep)|Riera de Cassoles, 63|08012
+6611|Invertelecom 2000 SL (Inmoservice Barcelona)|Indústria, 140|08025
+6614|New Vesping Group SL (Lodging Apartments)|Simço, 24|08025
+6631|Antoni Faus Catasús|Catalunya, 67|08019
+6645|Radresa Miracle, Esteve (Ribera Miracle Agency)|Mallorca, 277|08037
+6647|Alberto Romagosa Danes (Romagosa & Partners)|Via Augusta, 147|08021
+6665|Verónica Vargas Fragueda (Best House)|Elisa, 15|08023
+6709|Soares Sousa, Zinnia (Z. Taylor Real Estate)|General Mitre, 236|08006
+6711|Casual Gestión Servicios Integrales SL (Urbanhouse)|Balmes, 195|08006
+6713|Apia Cuatro SL (Apia4)|Borrell i Soler, 10|08034
+6722|Conde & Mosella SL (Mosella immobiliària)|Còrsega, 503|08025
+6726|Auger 1909, Administració de Finques SL|Provença, 325|08037
+6733|Llorens Vilaplana, Joan|Indústria, 64|08025
+6739|RVE Pisos 2005 SL|Llull, 230|08005
+6747|Barcelona Flat Hunter SL|Mallorca, 318|08037
+6750|Fourteen Global Services SL (Barcelona Buyers)|Puigmadrona, 21|08026
+6755|Caparrós Fortanete, Marcos (Compropiso)|Numància, 187|08030
+6757|Gestions Immobiliàries Grup Paser SL (Urbenia Serveis Immobiliaris)|Pau Alsina, 100|08024
+6770|Pons Sabaté SL (Pons Sabaté Gestoria Immobiliària)|Mare de Déu de Montserrat, 69|08024
+6771|Puigdoller Galana, Maria Del Pilar (Fincas JJP)|Fontcoberta, 31|08034
+6787|Estudi Prim 2016 SLU (Tecnocasa)|Prim, 120|08019
+6790|Espazialia 2008 SL (Duplo Ático)|Alt de Gironella, 1|08017
+6799|Fincas Layes SL|Balmes, 357|08006
+6815|Letsgocasa Real Estate SL (Letsgocasa)|Príncep d'Astúries, 20|08012
+6829|Carles Bernadell Izquierdo|Aribau, 324|08006
+6830|Tare Asset Management SL|Marià Cubí, 80|08006
+6839|Estudio Sol de Mayo SL (La Casa)|de les Corts Catalanes 1017|08020
+6847|Solé Cabezuelo, Marc|Aribau, 208|08006
+6853|Anouar Assabah (Tecnocasa)|Gran de Sant Andreu, 330|08030
+6865|Ivan Lakovic Bulatovic (Ivan Finques)|Llull, 82|08005
+6869|Fincas Carrera SL (Finques Carrera)|Buenaventura Muñoz, 56|08018
+6874|Parte Alta SL (Finques Part Alta)|Arimon, 3|08022
+6894|Salvador Garcia, Maria Mercè (Luminosa Investments and Business)|Cartagena, 332|08025
+6906|Charlotte Barcelona & Coast Property Finder SL|Diagonal, 608|08021
+6907|Sánchez Gómez, Pedro (Luxury & Co)|Ferran Agulló, 3|08021
+6910|Salinas , Eulàlia|Muntaner, 498|08022
+6915|Wong Chi Tak Investments SL|Francolí, 70|08006
+6925|Martín Serra, Carlos|Nicaragua, 110|08006
+6928|Eating Barcelona SL (Vivendum)|Carles III, 124|08034
+6934|Trallero Calvo, Montserrat (Finques Trallero)|Diagonal, 351|08037
+6937|Patricia Barbosa De Castro (CASA D'ELLA BCN, agent immobiliària)|Ganduxer, 16|08021
+6985|Araceli Cid Estorach|Fluvià, 94|08018
+6989|Estudi Gran de Sant Andreu SL (Tecnocasa)|Gran de Sant Andreu, 330|08030
+6998|Jose Luis Balcells Cubells (Fincas Balsells)|Còrsega, 393|08037
+6999|Solé Molina, Jordi (Gestocat)|Roger de Flor, 269|08025
+7014|Neus Alberti Bardera|Gran de Gracia, 77|08012
+7052|Albert Prat Salvador (Nova - Llar)|Rosellón, 485|08025
+7056|LABERHORTA SL (SINGULAR HOME)|de la Llibertat, 9|08012
+7067|Ana Belen Martinez Prados (MR Assessoria)|Taulat, 136|08005
+7068|Gallardo Rios, Francisco (Fincas Gallardo)|Agricultura, 215|08020
+7096|Divinity Real States (La Casa)|Meridiana, 171|08026
+7113|Martínez Muñoz, Cristian (Yovipisos)|Maresme, 114|08019
+7136|Josep Maria Puig Sola (Axioma Habitat)|Pedralbes, 36|08034
+7146|Adelaida Acosta Alonso|Padilla, 301|08025
+7165|Miguel Ángel Cosano Bravo (Domus Realtor)|Diagonal, 382|08037
+7178|Fincas Anzizu SL|Tuset, 32|08006
+7184|Webhouse Real Estate SLU (Webhouse)|vallcarca, 38|08023
+7206|BCN Premium SL|Diagonal, 512|08006
+7210|Newco Inmomadrid SL (Remax Jumbo Mar)|General Mitre, 215|08023
+7232|Forcada Serena, Marisa (Inmoforcada)|Clos de Sant Francesc, 24|08034
+7236|Andrine Samantha Doña Pignaud|Torrent de l'Olla, 193|08012
+7238|Robles González, Juan Jose (Fem Casa)|Indústria, 204|08026
+7241|Lavitula Taylor, Marcela (LTarq)|Larrad, 14|08024
+7246|Martínez Rodríguez, Maribel|Bartrina, 19|08030
+7248|Johansson Echaide, Kristian Ignacio (Prodigia Capital)|Angli, 45|08017
+7254|Alta Rentabilidad SL|Mallorca, 230|08034
+7257|Comalrena De Sobregrau, Isabel|General Mitre, 1147|08022
+7265|Viscasillas Asociados SL|Tres Torres, 28|08017
+7266|Ferreri Finques Bcn SL|Laforja, 44|08006
+7280|Luciana Bocardi|Augusta, 108|08006
+7285|Darío Fontsere Baldellou (Calvet Premium Real Estate)|Balmes, 177|08006
+7287|Andrey Megrikyan (Global Home Barcelona)|Frederic Mompou, 9|08005
+7294|Sicilia Hernández, Maylen (VIP Pisos)|Manuel Girona, 44|08034
+7347|Abel Casado Estadella|Manigua, 4|08027
+7349|Cerdán García, Inmaculada|San Antonio María, 63|08025
+7353|Cabedo Gregori, Rodrigo|Via Augusta, 94|08006
+7358|Priu Fernández, Maria Isabel|Pi i Maragall, 5|08024
+7359|Maria Jesus Pérez Balaguer|Castella, 33|08018
+7360|Maurici Blancafort Planas|Gal·la Placídia, 11|08006
+7364|Edo Carrillo, Pilar|Gal·la Placídia, 8|08006
+7365|Finques Edo 2013 SL|Gal·la Placídia, 8|08006
+7370|Alicia Thomas Buqueras|Diagonal, 468|08006
+7375|Estudi Sanllehy 2 SLU (Tecnocasa)|Verdi, 215|08024
+7381|Mafta , Cristina|Venezuela, 172|08019
+7386|Sallas Campmany, Francesc|Maria Auxiliadora, 5|08017
+7388|Moreno Martín, Julia Segunda|Riu de l'Or, 32|08034
+7392|Ponti López, Mercedes|Joan Ferrandiz, 3|08023
+7395|Segura Just, Raquel|Tuset, 23|08006
+7406|Tenflorida SL|Meridiana, 137|08026
+7409|Estadella Lozano, Luís|Manigua, 4|08027
+7416|Trinvest Bcn Consultoría Inmobiliaria SL (Diagonal Real Estate)|Muntaner, 231|08021
+7424|Guardia Cerdà, Ricardo (Finques Rife)|Plató, 6|08021
+7425|Finques Rife SL|Plató, 6|08021
+7458|Byran Real Estate SL (Fastighetsbyran)|Carolines, 7|08012
+7463|Gestió Immobiliària Puigmar SL|Craywinckel, 19|08022
+7469|Petstay Inmobiliària SL (Tu Casa Inmo)|València, 586|08026
+7475|De Amos García, Carlos (Immovial.com)|de les Corts Catalanes 1148|08020
+7491|Antonio García López|Mallorca, 615|08026
+7495|Qualigest Immobiliària Bcn SL|Guillem Tell, 42|08006
+7533|Jara Diaz- Aguado, Carlos|Freixa, 22|08021
+7535|Eulalia Solé Riera (Administració de Finques Sole Riera)|Poblenou, 116|08005
+7541|Albert Padrós Rovira (Property Advisor Barcelona)|Manigua, 58|08027
+7552|Sotelo Advocats SL|Mozart, 9|08012
+7564|Iván Rossiñol De Zagranada Artasona (Fincas Laforja)|Madrazo, 33|08006
+7569|Immofraternitat SL (Inmogracia)|Fraternitat, 35|08012
+7571|Franklin Bcn Real Estate SL (Franklin)|Diagonal, 409|08012
+7574|Serra Gómez, Victor (Grups Immobiliaris - Serra Exclusives)|Gran de Gracia, 137|08012
+7579|Silvia Andreu Rodón (Global Properties Barcelona)|Capitán Arenas, 68|08034
+7583|Viladomiu Sans, Cristina (Vilabcn)|Reina Elisenda de Moncada, 2|08034
+7587|Rancel Consulting Barcelona SL|Mestre Nicolau, 2|08021
+7591|Vive Bcn Propiedades SL|Roger de Flor, 242|08025
+7599|Estudio Proyecto Naranja SL|del Congrès Eucarístic, 10|08027
+7601|Suitlife SL|Riera de Sant Miquel, 1|08006
+7608|Duser 2001 SL|Diagonal, 660|08026
+7616|Inmuebles y Estructuras SL|Via Augusta, 48|08006
+7631|Reche López, Juan Manuel|Coll, 2|08027
+7633|Alnama Vator SL (Coldwell Banker)|Major de Sarrià, 123|08017
+7638|Estudi Felip Segon SL (Dolça Llar)|Felip II, 65|08027
+7639|Cabré Marsal, Marc|Muntaner, 242|08021
+7645|Ana Guerin Figueras|Mañé i Flaquer, 26|08017
+7681|Inversiones Privadas Patrimoniales SL (Inppat)|Sant Gervasi de Cassoles, 113|08024
+7682|Labarta Marqués, Xavier (Pladyx & Roger)|Rosselló, 349|08037
+7698|Parés González, M. Elena (Martbel)|de Carles III, 124|08034
+7705|Rabassa Moreno, Sergio (Larvia Privilege)|Jacinto Benavente, 17|08017
+7709|Llarblaz 76 SL (Llarblaz)|Rogent, 24|08026
+7717|ACV42 Gestión Inmobiliaria SL (ACV)|Doctor Fleming, 4|08017
+7719|Annabel Beltrán Madrigal (Captacions Bcn)|Provença, 385|08025
+7735|Hernández Sanmiquel, Victor (Fincas Sanpo)|Sant Gervasi, 82|08022
+7737|La Galleria dei Tempi SL (GDT Realty Union)|Balmes, 349|08006
+7762|Joan Garcia Alonso (Peraire Inmobiliaria)|Joaquim Folguera, 5|08022
+7764|Estudio Nuevas Glorias SL (Dolça Llar)|Font i Sagué, 3|08018
+7785|Unilaw Consulting SL (Unilaw Finques)|Freser, 35|08026
+7794|Indurain Pérez, Valentín (Fincas Indurain)|Bruc, 147|08037
+7804|Layla Chaibi Bouzzaqui|Diagonal, 538|08006
+7810|Nueno Plana, Christina (Chrysol Value)|Vergós, 9|08017
+7812|Gámez Garrido, Cristian (Rentuós)|de Gràcia, 30|08006
+7813|Segura Zariquiey, Fernando|Calvet, 86|08021
+7814|HABITAT3 Fundació Privada Tercer Sector Social|Residència, 10|08030
+7830|Santacruz Gómez, Iván|Cornet i Mas, 33|08017
+7840|Valdonaire Servicios Inmobiliarios SL|Diagonal, 534|08006
+7848|Sanllehi Castella, Miguel (Dreimce)|Muntaner, 175|08021
+7850|Estudio Fondo SL (Dolça Llar)|Meridiana, 309|08027
+7855|Beatriz Ravell Lusquin|Oriol Mestres, 17|08034
+7857|Jose Luis Oliva De Suelves Cabre (Alto Altai Real Estate)|Bonanova, 4|08022
+7920|Durán Carasso, Carlos (Durán)|Muntaner, 259|08021
+7921|Torrent Pujadas, Juan Manuel|Puig Aguilar, 1|08034
+7922|Albert Bosch Palomas (Housfy Real Estate)|Ávila, 126|08018
+7925|Servihabitat servicios inmobiliarios SL (SERVIHABITAT)|Provençals, 39|08019
+7927|Alejandro Leopoldo García Baussou (Real Estate Tu Casa)|Musitu, 20|08023
+7938|Puyol Cutando, David (Glaso Real Estate Consultant)|Bilbao, 110|08018
+7941|Insma Properties SL|Nàpols, 354|08025
+7944|Ana Maria Yanguas López (Feryan Inmobiliaria)|Concilio de Trento, 140|08020
+7946|Inmobiliaria Atlántida SL|Meridiana, 296|08027
+7952|Shortcut Consulting SL|Diagonal, 416|08037
+7957|Euro House Fincas SL (Eurohouse)|Roger, 17|08024
+7959|Projecte Forum-Diagonal Mar SL (Tecnocasa)|Prim, 120|08019
+7960|Homecity Real Estate SL (Homecity)|Bac de Roda, 63|08005
+7979|Monclús Gracia, Modesto|Padilla, 334|08025
+7988|Urquicasa SL|Vista Bella, 13|08022
+8002|Tecnotasa Group SL|Sant Elies, 21|08006
+8009|Heritage Real Estate SL|Tuset, 19|08006
+8022|Seminari 2 SL (Fincas Seminari)|Muntaner, 500|08022
+8055|Tàpia Montoya, Grace Kelly|Bilbao, 155|08018
+8056|Adler Inmo SL|Madrazo, 115|08021
+8067|Estudi Clot d'Aragó SLU|Independència, 243|08026
+8077|San Millán Novau, Roger Benjamín|Ávila, 85|08005
+8078|González Fontbote, Kilian|Mestre Nicolau, 16|08021
+8092|Fite Assessors SL|Bailén, 194|08037
+8101|Forlando Díaz, Gustavo|Garcilaso, 141|08027
+8119|Holbox Inversiones & Patrimonio SL (Holbox Inversiones)|Aribau, 203|08021
+8126|Lagarda Ruíz, Marta (Casual Advocats)|Tuset, 32|08006
+8128|Mañas Rodríguez, Vivian|Mandri, 24|08022
+8133|Mercedes Bellido Ojeda|Sant Gervasi de Cassoles, 51|08022
+8134|Marcos Amias Lamana|Copérnico, 50|08021
+8139|Reunión de Agencias Europea SL|Ramon Turró, 55|08005
+8153|Viver Ribas, Maria Del Mar (Rimaver)|Manuel Ballbé, 11|08034
+8154|Maria Ángela Acuña Santander|Sant Gervasi, 82|08022
+8156|Morales Frasnedo, Lluïsa|Gal·la Placídia, 16|08006
+8160|Real Estate Open Home SL|Roger de Llúria, 5|08005
+8168|Kawai , Eriko (Takumi)|Manuel Girona, 69|08034
+8185|Alejandro Fàbrega Penina|Balmes, 191|08006
+8186|Fàbrega Penina, Xavi|Balmes, 191|08006
+8187|Alcaring 3000 SL (SF Immobiliària)|Laforja, 40|08006
+8206|Punt Sant Pau SL (La Casa)|Còrsega, 657|08025
+8209|Servibienes SL (Plaza Gestión Inmobiliaria)|Diagonal, 154|08018
+8213|Borgonovo Inmuebles SL (Fincas Borgonovo)|Diagonal, 177|08018
+8216|Administración Hermanos Asensio SL|Luís Antúnez, 19|08006
+8218|Fincas Llúria SL|Sant Gervasi (Pabellón Torre Castañer), 5|08037
+8223|Roger Safont Costa (Arcs - Real Estate)|Sicilia, 326|08025
+8225|Musacchio Sáez, Hugo Adolfo (Inmostop)|República Argentina, 97|08023
+8230|Eduma Vicar Serveis SL|Ramón Turró, 81|08005
+8246|De La Torre Carmona, Eduardo (Claudalia)|Huelva, 98|08020
+8254|F. Gràcia 2001 SL (Finques Gràcia)|Gran de Gràcia, 1|08012
+8259|Sanchís Montero, Eva|de les Corts Catalanes, 962|08018
+8261|Art Realty Barcelona SL|Llull, 60|08005
+8270|Projecte Sagrada Familia 2017 SL (Redpiso)|Rosselló, 458|08025
+8274|Nuñez Prat, Hugo (Fincas Nuñez)|Marqués de Mulhacén, 4|08034
+8277|Happycasa Rooms & FLats SL|Girona, 161|08037
+8302|Ot Cortés Rubio (Barcelona Lynx Consultors)|Tuset, 19|08006
+8319|Puichdollers Rovellat, Rita|Francesc Carbonell, 52|08034
+8351|Jofre Roca Carvajal (Alquilloga)|Sant Antoni Maria Claret, 123|08025
+8387|Alfa Calvet SL|Dr. Carulla, 17|08021
+8398|López Dehais, Isabel|San Juan de Malta, 98|08018
+8411|Meana García, César|Cartagena, 385|08024
+8412|Reivax Sant Andreu SL|de Torras i Bages, 17|08030
+8437|Jorge Benjumeda Peñafiel (KM2)|Permanyer, 19|08019
+8463|Urban Realty SLU (Urban Realty)|Sagués, 16|08021
+8478|Ekore Konsult SL (Franklin Consultores Inmobiliarios)|Diagonal, 640|08017
+8500|Suite Patrimonios SL|Tuset, 23|08006
+8542|Formoso Montilla, Isaac (Solvia)|Malats, 26|08030
+8552|Durall Tremoleda, Josep|Vidal i Valenciano, 14|08005
+8559|Hernández Domènech, Josep Maria|Balmes, 188|08006
+8564|IAD España Inmobiliaria a Domicilio SL (IAD España)|Ramon Turró, 23|08005
+8568|Luxury Houses Inversions SL (Comtal Immobiliària)|Concepción Arenal, 210|08030
+8605|Área Barcelona Servicios Inmobiliarios SL (Habita Barcelona)|Bertrand i Serra, 20|08022
+8608|López Vázquez, Hector|Pallars, 192|08005
+8622|Proyecto Clot SL|Rogent, 24|08023
+8633|Carles De La Iglesia Bosch (BDI Barcelona)|Sant Marius, 13|08022
+8638|Sant Martí Real Estate SL (La Casa Agency)|Guipúzcoa, 154|08020
+8656|Clickandflat SL (Click & Flat)|Riera de Sant Miquel, 15|08006
+8694|Cabot Zorrilla, Gerard|Concepción Arenal, 234|08030
+8709|Canals Carrera, Sandra (Tot House Barcelona)|Mallorca, 314|08037
+8710|(Domusvia)|Independència, 302|08026
+8716|Guerin Bulto SL|Milanesat, 12|08017
+8758|Euro Servicios Urbanísticos e Inmobiliarios SL|Descartes, 11|08006
+8775|Silman asesores en propiedades de lujo SLU (Silman)|Còrsega, 476|08025
+8787|Eduardo Madruga Andreu|Balmes, 191|08006
+8788|Pons Llagostera, Ferran|Palou, 27|08023
+8796|CHK Assessorament SL (CHK Assessorament Immobiliari)|Felip Bertran i Güell, 1|08027
+8800|Rosso Leones Ibéria SLU (Rosso Inmobiliaria)|República Argentina, 63|08023
+8818|Querol Querol serveis immobiliaris SL|Santa Amèlia, 45|08034
+8824|Alto Standing Project SL (Facil Rent Casa)|General Mitre, 207|08023
+8842|Antoni Prats Juni (Patrimonia Brokers)|Potosí, 28|08030
+8855|Invest Catalonia SL|Còrsega, 213|08030
+8857|Marquina Fernández, Vanessa|Diagonal, 458|08006
+8860|Immobles Sace SL|Huelva, 32|08020
+8874|Pisos Glorias Mar SLU (Inmobiliaria)|del Mercat, 23|08018
+8882|Promo Ric Inversiones SLU|Nápoles, 303|08025
+8920|Peraire Properties SL (Peraire Inmobiliaria)|Bertran, 18|08023
+8945|Inés Bartrina Rossell (Los pisos de Inés)|Riera de Sant Miquel, 54|08006
+8974|Promina Purtou, Irina|Santa Fe Nuevo México, 17|08021
+8976|Fincas Nieva SLP|Riera de Sant Miquel, 3|08006
+8985|Alansa Real Estate SL|Clot, 137|08026
+8997|Echevarria Manau, Jose Luis (Monapart)|Gal·la Placídia, 1|08006
+8998|Alfred Garcia Ricart|Malalts, 74|08030
+9019|Karim Abdelmoneim De Gracia|Augusta, 29|08006
+9029|Safcom Investments SL|Folguerolas, 46|08022
+9039|Alejo Aguilá De Sandoval|Conde Salvatierra, 10|08006
+9040|Marta Arranz Peralejo|Doctor Trueta, 168|08005
+9042|Gabinete Jorvi SL|Balmes, 237|08006
+9107|Ventura Monsó, Josep (Oportunidades de Bancos)|Diagonal, 131|08018
+9108|Foresthouse SL (Inmoforest House)|Huelva, 98|08020
+9140|Trias De Bes Casamajó, Luis|Bac de Roda, 202|08020
+9174|Elena Torres Borgheresi (Krowmac)|Bisbe Sibilla, 50|08022
+9181|Domingo Marco, M. Pilar|de les Carolines, 7|08012
+9184|Vaque Rabal, Maria José (Inmobiliaria Meroño Roca)|Caballero, 1|08017
+9189|Batlle Muntané SL (Immomax Condal)|Bretón de los Herreros, 17|08012
+9194|Real Estate Investments Properties SLU|Gran de Gràcia, 1|08012
+9211|Jaramillo Mancilla, Telma (Telma Jaramillo - Servicios Immobiliarios)|Muntaner, 320|08021
+9231|Immoqualitas Real Estate SLU|Diagonal, 442|08037
+9239|Servicios Immobiliarios Clot 2018 SL (Tecnocasa)|Mallorca, 647|08027
+9248|Bcn 360 Premium SL (Bcn 360 Estate Agency)|Tuset, 23|08006
+9271|Nova Urbe serveis immobiliaris SL|de Taulat, 279|08019
+9277|Espai Fantastic SL (Fermi Borras)|del Milanesat, 14|08017
+9292|Ferrate Navarro, David (Hauser Invest)|Josep Irla i Bosch, 4|08034
+9296|Calvo Costa, Francisco Tomás (Franyol Asesores)|Caracas, 43|08030
+9310|Assessoria Poligest SL|Selva de Mar, 249|08020
+9313|GD & Brokers Inmobiliaria SL (GD Brokers Inmobiliarios)|de Carles III, 158|08034
+9328|Ricardo Becerril Mainer|Ravella, 8|08021
+9383|Desarrollo Sant Andreu SL (Tecnocasa)|Gran de Sant Andreu, 470|08030
+9395|Keignaert , Elsa|Bonaplata, 12|08034
+9403|Antonio Gámez Barranquero|Gala Placidia, 8|08006
+9405|Ethic Investors Family SL (Ethic Real Estate)|García Fabra, 57|08019
+9408|Sola Muñoz, Dolores (Fincas Llull)|Diagonal, 8|08019
+9446|Santiago Ardid Roestel|Manuel de Falla, 15|08034
+9451|Belt Real Estate SL|Granada del Penedès, 19|08006
+9461|Life Beyond Work SLU (Thais Rocafull Fajardo)|Jorba, 27|08030
+9485|Baer Leica SL (Gemma Estruch (B&L Properties))|Tuset, 20|08006
+9493|David López Ferreiro (ALFI - Assessors Legals de Finques)|Diagonal, 586|08021
+9502|Dreamhouse Barcelona Select SL (Dream House)|Llull, 100|08005
+9523|Eritage Solutions SL|Aribau, 308|08006
+9525|Martínez Payar SL (Mar Llar Habitat)|Fluvià, 212|08020
+9541|Fursey , Natalia (34 Real Estate)|Riera de Sant Miquel, 37|08006
+9580|Fernando Fernández Moreno (Afamof)|Mare de Déu de Montserrat, 59|08024
+9588|Cumbre 1987 SL (Fincas Cumbre)|Gran de Sant Andreu, 267|08030
+9593|Ferran Lleixa Abril|de Dalt, 74|08024
+9597|Garrido Corbera, Helena (Global Rent)|Padilla, 350|08025
+9602|Hernández Pomes, Elisabeth|Mestre Nicolau, 2|08021
+9625|Lopez Villena, Emilio Jorge|Concilio de Trento, 236|08020
+9667|Hugo Barcelona Haus SL (Hugo Barcelona)|Balmes, 195|08006
+9676|Soto Martí, Elena Patricia|Aribau, 276|08006
+9677|La Clau de Sarrià SL|Major de Sarrià, 78|08017
+9686|Renteria , Charlie (MR Immobles)|Taulat, 136|08005
+9688|Trize Legal Inmo SL (Trize Inmo)|Príncipe de Asturias, 8|08021
+9690|Samsó Chenoll, Pedro|Riera de Cassoles, 48|08012
+9696|Xavier Muñoz Benet (Legal Grup)|Sicilia, 380|08025
+9700|Jordi Bosch Mallol|General Mitre, 163|08022
+9706|Guallarte Murillo, Elba|Vila - Real, 5|08033
+9723|Futurpacar SL (Nou Vall Finques)|Esteve Terradas, 41|08023
+9727|Mauricio Sinuhe García Tuurna (Barcelona dream House)|Milà i Fontanals, 9|08012
+9734|Cantón Mérida, Liliana Cecilia|Agricultura, 290|08020
+9736|Grupo 21 Bcn Real Estate SL|Indústria, 94|08025
+9747|Talin Fort SL (Coldwell Banker Llebrenc)|de Sarrià a Vallvidrera, 263|08017
+9757|Albert Pla Paya (Inmolobby (International Realty))|Pau Casals, 5|08021
+9767|Fincas Miranda Bermejo SL (Fincas Miranda)|Muntaner, 470|08006
+9768|Elena Puncernau Adler|Dr. Ferran, 11|08034
+9770|Next Global Domus SL (Habita Barcelona)|Herzegovina, 4|08006
+9772|Mirsa Immobles SL (Prokasa Immobles)|Independència, 159|08026
+9782|Coromoto Perozo Marín, Maite|Gosol, 15|08017
+9786|Sáenz De Cabezón Martín, Teresa|Calaf, 15|08021
+9809|Punt Maragall Bcn SL (La Casa)|Maragall, 134|08027
+9812|Grup Navigo Inversions Immobiliàries SL (Grup Navigo)|Turó de Monterols, 15|08006
+9830|Amadeo Antonio Martínez Fernández (Gestoría)|Alfons el Savi, 7|08025
+9833|Catafal Noguera, Montserrat|Diagonal, 558|08021
+9839|Proyecto Poblanou Mar SLU (Tecnocasa)|Doctor Trueta, 182|08005
+9857|Arroyo Real Estate SL (Cad Real Estate)|de Gràcia, 62|08006
+9895|Immobiliària Sant Martí de Provençals SL (Immobiliària Sant Martí)|Cantàbria, 8|08020
+9903|Roig Domínguez, David (Propertya)|Carrenca, 29|08017
+9919|Fernández Herrero, Carla|Córcega, 568|08025
+9921|Guash Carreres, Iván|Massens, 43|08034
+9952|Verónica Aguilar Morales|Fleming, 21|08017
+9977|Victor Tió Argentí|Balmes, 199|08006
+9980|Bcn Mar SL|Taulat, 279|08019
+9989|Estudi Meridiana SLU (Fincas Viguin)|Muntanya, 102|08026
+10003|Ekele 2017 SLU|Marimón, 24|08021
+10033|Antonio Mula Vallejo (La Barraca Inmobiliaria)|Buenaventura Muñoz, 66|08018
+10046|Di Rienzo Graces, Marcelo Rafael (MRD Servicios Inmobiliarios)|Dos de Mayo, 279|08025
+10070|González Herrera, Rubén (La Casa)|Agricultura, 308|08020
+10071|Assessoria Balista Gestió Patrimonial SL|Felip II, 47|08027
+10090|Alejandro Sala Lanz|Diagonal, 622|08021
+10093|Jose Merino Cabanillas (Aclair Real Estate)|Rosellón, 291|08037
+10106|Unicco Re Spain SL|Torrent de l'Olla, 174|08012
+10108|Carlos Murillo Blasco (AG14 Consulting)|Antoni Gassol, 14|08018
+10113|Ofolome Property SLU|Muntaner, 340|08021
+10146|You Home in Barcelona Real Estate SL|de les Corts Catalanes, 1029|08020
+10155|Albert De Cusa Arranz (Associats Jurídic Administratiu DC)|Navas de Tolosa, 302|08027
+10165|Munio Nicolau, Jordi|Mandri, 36|08022
+10178|García García, Román Albert (Gestoria i Finques Albert García)|Diagonal, 319|08006
+10182|Exclurban SL|Sant Eusebi, 55|08006
+10183|Desarrollo Vallés Occidental 98 SL (Tecnocasa)|Ramón y Cajal, 12|08012
+10197|Sellés Pérez, Esther (Inmobcn)|Plaza Unió, 15|08005
+10202|Spribo SL (Inversiones BCN)|Joaquim Folguera, 3|08022
+10212|Cheira Fernández, Cecilia|Sant Joan, 168|08037
+10231|Antonya Angelieva|Torrent Can Vidalet, 30|08012
+10251|Adriana Llorenç Castañon|Francesc Macià, 3|08021
+10253|Alfonso De Dorado De Olano|Diagonal, 626|08021
+10254|Javier Ruiz Arguisuelas|Pallars, 85|08018
+10258|Muñoz Parrondo, Javier|Cavallers, 73|08034
+10263|Giro De La Iglesia, Manuel (MG Grupo Inmobiliario)|Valero, 7|08021
+10265|David Mata Álvarez (Mata y Asociados)|Madrazo, 45|08006
+10266|Blanca Cutanda Arqués|Platón, 14|08021
+10268|Ubiergo Porqueras, Cristina (Ubiergo Fincas)|Augusta, 128|08006
+10271|Montoro Perelló, Mercedes (MMRealEstate)|Venezuela, 19|08019
+10277|Melanie Tavares Da Silva (Art3Bcn)|Rosalía de Castro, 44|08025
+10282|Maximiliano Bianchi (¡Hola Casa!)|Hipólito Lázaro, 34|08025
+10283|Martínez Lorenzo, José (Dolça Llar)|Gran de Sant Andreu, 138|08030
+10303|Rubén Abad Rabanal (Mylife Real Estate)|Pallars, 511|08019
+10315|Adolfo De La Torre Melero|Lluçanés, 11|08022
+10319|Colominas Durán, Carlos (Cold-inversiones)|Pau Casals, 8|08021
+10321|Martynenko , Dmytro (Gestión Brillante - La Unión)|Gran de Sant Andreu, 244|08030
+10326|Freijomil Fonte, Irma|Moliné, 1|08006
+10329|Gelpi Del Rey, Jordi (Gassi Assessors)|Sant Eusebi, 10|08006
+10331|Marota Montes, Cristina (Fast Solutions Inmobiliaria)|Mozart, 15|08012
+10373|Tirado Ochoa, Sandra Liliana|Mallorca, 636|08026
+10382|Luciano Lanzilotta, Marcos (Rossotarrega)|República Argentina, 63|08023
+10440|Daniela Eva Brusca (Dama inmobiliaria)|Cantabria, 6|08020
+10442|Alberto Dasca Bonavia|Balmes, 305|08006
+10474|Audrey Clemenceau|Còrsega, 596|08025
+10480|Arantzazu Santin Serrano|Teodora Lamadrid, 48|08022
+10492|Sensat Gestión y Servicios Inmobiliarios SL|Balmes, 449|08022
+10578|Rivera Millán, Natalia (Hàbitat i Gestió)|Prim, 250|08020
+10579|Fontana , Patricio Gabriel (Inmodreams)|Camp, 74|08022
+10587|Francisco Amorós Vives|Bruc, 123|08037
+10601|Guimerà Valle, Òscar|Provença, 566|08026
+10614|BCN Prime Estate SL (Remax Prime)|Jonquera, 8|08005
+10622|Albert Miró Olivé (Lloguer Garantit)|Ballester, 38|08023
+10676|Diagonal Mar Real Estate SL (la Casa Agency)|Llull, 386|08019
+10678|Lladó Pola, Jordi (Porto Saler)|Dr. Carulla, 26|08017
+10679|Peralta Sales, Pedro|Riera de Cassoles, 30|08012
+10680|Aitor Abril Beltrán (Inmodespí)|Canal, 13|08025
+10684|Goberna Nieto, Marc|Santa Rosa, 6|08012
+10728|Ignacio Amiguet Hernández (Propbytec)|Augusta, 238|08021
+10733|Adelina Mirsianova Safina (Eleven Keys Investment Group)|Enric Granados, 108|08006
+10749|Ángel Cañada Ruiz|Rector Ubach, 55|08021
+10750|Albert Morros Balcells|Diagonal, 468|08006
+10751|Raventos Montal, Thaïs|Cavallers, 78|08034
+10754|Gonzalo Aguado Tuduri|Pau Clarís, 186|08037
+10800|Residae Barcelona SL|Casanova, 260|08021
+10809|Piqué Pico, Robert|Ciutat de Balaguer, 12|08022
+10810|Lloret Gual, Jose Maria|Diagonal, 566|08021
+10812|Sarbury SL|de Gracia, 77|08012
+10826|Bresson Realty Barcelona SL|Montmany, 30|08012
+10830|Ginxin Real Home SL|Roger de Flor, 45|08012
+10834|Ospina Florez, Jose Daniel (Catalana Immobles)|Diagonal, 468|08006
+10845|Someday Holiday 2013 SL (Istamer)|Guinardó, 21|08024
+10854|Edgar Abagyan (Nice House by Abagyan)|Sant Antoni Maria Claret, 500|08019
+10859|Martín Fabregat, Luís (Gaasgroup)|Madrazo, 31|08006
+10860|Guillermo Preckler Cañadas (Brickbro Global Investment)|Balmes, 184|08006
+10861|López Martínez, Miriam (Tongariro Consulting)|Dalmases, 53|08017
+10863|Maria Soledad Benito Peñalver (Multifinques)|Pi i Maragall, 33|08024
+10871|Marimon Serra, Francisco Borja (Inglo)|Aribau, 213|08021
+10877|Menéndez Hernandez, Mónica (Vivendes Barcelona)|Robí, 18|08024
+10893|Brand Global Project SL (BGP KEY)|Castellnou, 31|08017
+10894|Jose Ramon Gómez Ballester|Muntaner, 72|08006
+10900|Aitor Mayoz Recondo|Bonanova, 9|08022
+10920|Isabel Alcaraz García (Immoview)|Taulat, 233|08019
+10921|Barcelona Best Friend Real Estate SL|Dr. Pi i Sunyer, 3|08034
+10922|Xarxa Realty 2021 SL|Córcega, 411|08037
+10924|Estudi Nou Gaudí 2019 SLU (Tecnocasa)|Cartagena, 312|08025
+10929|Mediconsult Col·legial SL (Medilloguem)|de la Bonanova, 47|08017
+10934|Cano De Simón, Eva (RE/MAX Centre)|Sant Joan, 124|08037
+10935|Ferri Muñoz, Xavier (Ferrim Invers)|Bofarull, 69|08027
+10937|Sans Cobo, Martí|Nàpols, 343|08025
+10942|DCANO Real Estate Investment SL|Ferrán Agulló, 10|08021
+10950|Pardo Monfort, Ramón (Top House Barcelona)|Narcís Oller, 112|08024
+10951|Pavesa Fernández, Maria Marta (Top House Barcelona)|Narcís Oller, 6|08006
+10970|Metro2 Group Bcn SL (Espai Immobiliària & Arquitectura)|Guipúzcoa, 13|08018
+10983|Trabaud SL|Balmes, 174|08006
+10989|Dizanguer África SL|Riu de l'Or, 35|08034
+11008|Fuentes Moya, José|Sant Antoni Maria Claret, 34|08025
+11018|Josep Batllori Ferrer (Batllori Gestió Immobiliaria)|Provença, 376|08037
+11034|Rios Mera, Fernando Xavier (Esypa casa)|Concilio de Trento, 113|08020
+11035|Urue Asociados SCP (Roca & Urue)|Artesa de Segre, 9|08022
+11039|Living Well Properties (Antares Barcelona)|Llevant, 1|08019
+11043|Ubiergo Porqueras, Laura|Augusta, 128|08006
+11054|Roger Gamir, Esther (Erhomeadvising)|Folgueroles, 8|08022
+11063|Sànchez García, Cristina (La Home Barcelona)|Bruc, 149|08037
+11067|Planet House Barcelona SL|Castillejos, 341|08025
+11075|García Salmeron, Josep Alfons|Mallorca, 284|08037
+11077|Bcn Investment 2021 SLU|Llull, 386|08019
+11078|Géminis Capital SLU|Guipúzcoa, 178|08020
+11080|Inmo Time House SL (Inmo Timehouse)|Pallars, 254|08005
+11084|Proyectos Promolaro SL|Prim, 86|08019
+11085|Duffo Ubeda, Fernando (TL Flats)|Cardenal Vives Tutó, 24|08034
+11087|Inmo Lepanto SL|Lepanto, 300|08025
+11098|Cuatro Vientos Bcn SL (Cuatro Vientos)|Zaragoza, 132|08023
+11100|Grabapor SL (Tuksa)|Poblenou, 89|08005
+11115|Sant Andreu 2021 Real Estate SL (La Casa Agency)|Bartrina, 9|08030
+11129|Carles Gervilla Badia|St. Joan de Malta, 37|08018
+11130|Barlovento Trade SL|Muntaner, 462|08006
+11144|Gaby Real Estate Barcelona SL|Indústria, 80|08037
+11158|Delia Durán Pradas (Bcner Real Estate)|Balmes, 245|08006
+11179|Urbano Martín, Marta|Sant Antoni Maria Claret, 34|08025
+11186|Fransitorra Márquez, Pedro (Xcelent Consulting)|Manila, 62|08017
+11187|Córdoba Cruz, Jordi (Max Loyalty Properties)|Balmes, 388|08022
+11236|Vizcaino Solé, Sergio|Rogent, 83|08026
+11261|Payán Prieto, María Inmaculada (NOVAHAUS)|Muntaner, 277|08021
+11278|Inmoderna GSI SL (InModerna GSI)|St. Pere Màrtir, 30|08012
+11283|Sant Andreu Nord SL (Dolça Llar)|Residencia, 24|08030
+11284|Kifa Real Estate SL|Diagonal, 353|08006
+11292|Vidal Silva, Juan Ignacio|Adrià, 5|08021
+11332|Asesoria Financiero Contable Clot SL (GESTBARNA)|Pere IV, 193|08018
+11347|Iniciativas Empresariales LM16 SL (MATCHOME)|de Gràcia, 20|08021
+11354|Gralen Advisor SL (GRALEN)|de Gràcia, 56|08006
+11365|Begoña Vidal Olmo|Balmes, 173|08006
+11366|Finques Leant SL|Diagonal, 520|08006
+11370|Montserrat Lopez , Marc (VQ Markets)|Tuset, 3|08006
+11382|Toysan Finques SL|Augusta, 14|08021
+11391|Aclair Real Estate SL|Rosellón, 291|08037
+11397|Alberto Gaseni De La Torre|Gosol, 15|08017
+11407|Sara Benjelali González|Balmes, 188|08006
+11411|Palenra Activos SL|Sicilia, 257|08025
+11418|Albatros Real Estate SL (Albatros Luxury Real Estate)|Pau Casals, 5|08021
+11439|Soluciones Empresariales y Gestión de Inmuebles (FORWEX HOMES IMMOBILIARIA)|Gran de la Sagrera, 141|08027
+11457|KC Agent Inmobiliari Real Stat|Gran de Sant Andreu, 345|08030
+11468|De La Rosa Lopez , Javier|Augusta, 125|08006
+11494|Alvaro Diaz Baño|de les Corts Catalanes, 996|08018
+11496|Alejandra Pedros De Villamore (TRIZE INMO)|de la Riera de Cassoles, 8|08012
+11500|Fernando Aguera Ferreira|Nogués, 62|08025
+11528|Sala Riba, Jose Alberto|Guillem Tell, 37|08006
+11536|Vicente Márquez, Jose Luis|Provençals, 269|08020
+11545|Vives Caballer, Jaime|Bruc, 146|08037
+11547|Yme Group Real Estate SL|Bac de Roda, 63|08005
+11562|Loquare SL|Can Ràbia, 3|08017
+11570|Escamilla Plaza, Carolina|Pau Casals, 8|08021
+11571|Estudi Baix Guinardó SLU (Tecnocasa)|Padilla, 367|08025
+11574|V.M Lagom Group SL (Lagom Group)|St. Gervasi, 90|08022
+11575|Perdomo Ramos , Douglas (PARTICOOLAREA)|General Mitre, 239|08023
+11578|Sergio Amell Lopez (FINCAS FERRAN)|Balmes, 244|08006
+11587|Matilde Arisa SL|Gran de Gràcia, 88|08012
+11594|Elle Homes BCN SL|Foraste, 4|08022
+11599|Espinosa López , Yolanda|Muntaner, 305|08021
+11625|Freixes Carvajal , Rosa Maria (Inmobiliaria Mandri56 BCN)|Osona, 56|08023
+11630|Alvestia Bcn SL|Lepant, 350|08025
+11643|Calzada I Balcells , Mateu - Joan|Mandri, 62|08022
+11666|Manolo Teresa SL (Ana inmobiliaria)|Industria, 7|08037
+11680|Eugenia Constanza Allegroni|Felipe II, 70|08027
+11704|Montserrat Barberà Gregori|Provença, 512|08025
+11708|Juan Lucas Ezequiel Allegroni (Dolça Llar)|Font i Sagué, 3|08018
+11709|Llar Gran de Sant Andreu SL (Dolça Llar)|Gran de Sant Andreu, 138|08030
+11740|Sendino Gómez, Maite (Mafisa Gestion Patrimonial)|Diagonal, 353|08037
+11751|Ogales Clavel , Maria Elena N (EXP Realty España)|Aribau, 298|08006
+11755|Sirera Gemma , Marti|Regàs, 7|08037
+11773|Iadarola , Graciela Alejandra|Córcega, 515|08025
+11776|Sala Mestres, Gloria (Diagonal Habitat)|Riu de l'Or, 14|08034
+11781|Fernández Díaz, Hernán Ramiro|Indústria, 348|08027
+11808|Javier Ramón Pérez (Bimargrup)|Cinca, 19|08030
+11813|Villaécija Carrillo, Diego|Sant Antoni Maria Claret, 34|08025
+11816|Syed Faheem Abbas Bokhari (Bimargrup)|Cinca, 19|08030
+11821|Zuway Projects SL (Zuway)|Arimon, 51|08022
+11842|Paula Aharonian Naccachian (Paula Aharonian Barcelona Real Estate)|Esteve Terrades, 3|08023
+11851|Sala Roca , Carles|Francesc Carbonell, 43|08034
+11852|Navarro-soto Lopez , Marc (Un Partiqular)|Diagonal, 622|08021
+11853|Servicio Inmobiliarios Khunm SL (Coldwell Banker Class Real Estate)|Poblenou, 117|08018
+11854|Tobella Sarasa, Marta|del Madrazo, 105|08021
+11865|Liberty Group Barcelona SL|Antoni Maria Claret, 34|08025
+11890|Sovial 21 SL|Mas Guimbau, 38|08017
+11894|Israel Pastor Bravo (Agència Immobiliaria Sargantana Project)|Reina Elisenda Montcada, 16 bis|08034
+11899|Rodríguez Jankowska, Monika Bozena (Siete Estrellas)|Sardenya, 332|08025
+11901|Helguera Peña , María (Unik)|Manuel Girona, 46|08034
+11904|T2S Global Education SL (T2S Premium)|Descartes, 20|08021
+11906|Diego Alonso Gonzalez|Mare de Déu de Montserrat, 60|08024
+11921|Inmoactivos Generales SL (IAG)|Milanesat, 12|08017
+11924|AGAF Administradors SL|Ca l'Alegre de Dalt, 32|08024
+11939|Pasqualini , Pia (Can Vai)|Olesa, 69|08027
+11943|Palleja BCN Gestió SL (Palleja BCN)|Bonavista, 35|08012
+11944|Spain Costas Exclusive Properties SLU (Spain Costas)|Guatemala, 19|08018
+11946|Nonell Garcia , Josep|de Gràcia, 85|08006
+11955|Puig Ros , Alberto|Font del Coll, 36|08023
+11961|Eva Blanch Justicia (Femgestio)|Gran de Sant Andreu, 346|08030
+11963|Antonio Paretas De Vega (Vive con Gracia)|Muntaner, 279|08021
+11970|Royo Aguado , Jaime|Provençals, 35 (Torre Pujades II)|08019
+11982|Claudio Alejandro Allegroni Davicco|Felip II, 80|08027
+11985|Iglesias Ramírez , Sergio Javier (Immoig)|Meridiana, 354|08027
+11994|Castillo Ruiz , Keniort Saul (Nuevacasa Bon Pastor)|Sant Adrià, 11|08030
+11995|Villar Arevalo , Juan Carlos|Manel Girona, 46|08034
+11998|Corygace Gestiones SL (Finques Lemi)|Enamorados, 148|08026
+11999|Ana Maria Serrano Viñas (Don't Worry Be Happy - Servicios Inmobiliarios)|Balmes, 188|08006
+12021|Catalan Faro Margarita & Cia C.B|Lluís Companys, 10|08018
+12030|Carlota Roller SCP|d'Amunt, 34|08024
+12035|Immobens Network SL (Immobens)|Augusta, 318|08012
+12048|Corral Martinez , Edgar (Mi Inversiones Real Estate)|Pau Alsina, 55|08024
+12053|Estudi BDN Pompeu Fabra SL|Cantabria, 37|08020
+12055|Tempocasa Bcn SL|Independència, 270|08026
+12058|Ramos Muntané, Marc|Cardedeu, 37|08023
+12062|Ramos Mota, Leidy Carolina|Provenza, 493|08025
+12068|Flyflats properties and services SL|Bilbao, 110|08018
+12071|Alejo López Real|Rosa Sensat, 3|08005
+12078|March- Etika Global Building San José SL|Nil Fabra, 34|08012
+12079|Alberto Vilaplana Durán|General Mitre, 188|08006
+12080|Ana Rodríguez Álvarez (Real Homing)|Muntaner, 297|08021
+12096|Inversiones Tecnológicas Energéticas Solaris SL (Mia House)|Joan Torras, 2|08030
+12100|Martínez Rodríguez, Francisco Javier|Sant Antoni Maria Claret, 34|08025
+12101|Esteve Portell, Teresa (Tess Luxury Properties)|Girona, 150|08037
+12102|Piqueras Magraner , Maria Isabel|Diagonal, 408|08037
+12104|Da Piedade Dinis , Margarida|Manuel de Falla, 9|08034
+12117|Fabra Investment Realty SL (Invermix Real Estate Investment)|Tuset, 10|08006
+12136|Mconsultoria peritos 2023 SL|Cantabria, 59|08020
+12138|Bruno Ricardo Morales Darchuk|Fluvià, 286|08020
+12147|Skaal Real Estate , David Protais|Gran de Gràcia, 242|08012
+12156|Marina Joana Bravo Ramos (Golden Gate Homes)|del Bellresguard, 12|08020
+12157|Carles Hernández Clua (BERES)|Balmes, 191|08006
+12163|Flipinmo SL|Prim, 124|08019
+12168|Tina Li Inmobiliaria|Bailén, 141|08037
+12172|Esteve Gutiérrez, Marc|Sant Antoni M. Claret, 287|08027
+12180|Francesc Bradner García (Finques Claret)|Sant Antoni M. Claret, 40|08025
+12186|Idarraga Investments SL (BCN MAD Flats)|Riera de Cassoles, 8|08012
+12201|Amirmahdi Basiri|Eduard Maristany, 7|08019
+12216|Mas Velasco , Jorge|Trinquet, 29|08034
+12220|Housenet Realty SL (Housenet Real Estate)|Descartes, 1|08006
+12239|Topbrokers Real Estate Technology SL (Topbrokers.io)|Diagonal, 211|08018
+12261|Vivaldo Europa SL|Augusta, 158|08006
+12265|Vega Peinado, Victor|Bartrina, 42|08030
+12270|Bartosz Henryk Wach|Balmes, 174|08006
+12277|LAE Consulting Normativas SL (LAE Homes)|Diagonal, 157|08018
+12278|GBS Estudio Legal e Inmobiliario SL (GBS Apartments)|Dr. August Pi i Sunyer, 12|08034
+12283|Home Gaudí Sant Pau SL (Tecnocasa)||08025
+12310|Mogollon Rodriguez, Isaac|Ciutat de Granada, 150|08018
+12326|Proper & Fy|Plató, 26|08006
+12334|Maria Victoria Buldin (Vicky Buldin)|Laforja, 105|08021
+12337|Parkrose Property Advisors SL|Pau Clarís, 165|08037
+12351|Domus BCN Real Estate SL|Provença, 301|08037
+12376|Casavo Management Spain SLU (Casavo)|Gal·la Placídia, 1|08006
+12381|Fedemarc SL|Craywinckel, 9|08022
+12408|Arnau Corral Rofes (LR Advocats)|Joncar, 7|08005
+12429|Pauline Michelle Steenholdt Armendariz (Find It Property Group)|Diagonal, 376|08037
+12445|Valldosera Rosello, Isidro|Nena Casas, 196|08017
+12450|Gomez-guiu Saez, Emilio Jose|Diputació, 7|08017
+12452|Alexandra Bonell Grau (Bonell Properties)|Marina, 64|08005
+12453|Olivalla Mayoralgo, Xavier|Castillejos, 345|08025
+12454|Rubiralta Tamborero, Juan (Luxline Real Estate)|General Mitre, 126|08021
+12462|Martinez Fernandez, Enric (Zebra Gestio)|Diagonal, 388|08037
+12473|Queraltó Ros, Oriol|Mallorca, 314|08037
+12477|Llorens Royo, Maria Teresa (Duvet Properties / Maite Llorens)|Ganduxer, 136|08022
+12488|Perez De Gea, Carlos Javier (Gumper Asesores Inmobiliarios)|Guipúzcoa, 43|08020
+12492|Gnutti , Rodolfo Mauricio|Avenir, 62|08021
+12501|Alejandro Perisse Miraut (Almi Habitatges)|Torras i Bages, 29|08030
+12508|Olivella Louzao, Ferran|Calvet, 11|08021
+12515|Adrian Ubieto Gonzalez|de les Medes, 8|08023
+12519|Cuerda Garcia-junceda, Maria (Momentum Realtor)|Còrsega, 370|08037
+12522|Pisos La Sagrera Dor sl (Tecnocasa)|Martí Molins, 39|08027
+12523|Estudi Nova La Sagrera (Tecnocasa)|Felip II, 152|08027
+12528|Estudi Napols SL (Tecnocasa)|Sant Joan, 126|08037
+12533|Laviada Labernia, Daniel (HabitaRetail)|Augusta, 135|08021
+12537|Gonzales Sobenia, Hugo Jefferson|Granadella, 36|08030
+12542|Espíritu Global Net SL (Cuarta Planta)|Camp, 61|08022
+12567|Nice House By Abagyan S.L.U.|Diagonal, 131|08018
+12573|María Nieves Bonilla Espinosa (Candelaflat)|Reina Elisenda de Montcada, 11|08034
+12578|MC Propiedades 3693 SL (Anexapro)|Pamplona, 98|08018
+12596|García Rivera, Ester|Onze de setembre, 35|08030
+12602|CO-Real Estate SL|Balmes, 427|08022
+12616|Pol Arnal Tercero (Putxet Inversiones)|Mas Oliver, 32|08005
+12622|Terron Dominguez , Cristina|Meridiana, 326|08027
+12623|Bamberry Prop SL|Longitudinal, 8|08020
+12636|Mpome , Christian|Marina, 283|08025
+12676|Gaurating Energy Solutions Engineering SL (GESE)|Marià Aguiló, 128|08005
+12680|Atirova SL|Cristobal de Moura, 195|08019
+12685|Álvaro Iceta Márquez (Llar assessors immobiliaris)|Cartagena, 320|08025
+12705|Rosa Maria Fernandez Paz (Arrels R.M. Gestions Immobiliàries)|Pujades, 410|08019
+12736|Alejandro Obradors Hernansaez|Muntaner, 559|08022
+12738|Nicolás Blanquez Moreno (Grupo Valkiria)|Prats de Molló, 3|08021
+12744|Gallardo Habitat SL|María Cubí, 3|08006
+12750|Coello Olave, Maria Fiorella|María Cubí, 192|08021
+12752|De Sousa Villar, Esther|Segre, 125|08030
+12757|Assessoria Encatns SL (Tecnocasa)|Independència, 319|08026
+12784|San Marti Alquileres Real Estate SL|Maresme, 255|08020
+12807|Polenova & Partners SL|Gretel Ammann Martínez, 2|08020
+12821|Morato Traveria , Eva|de Muntaner, 260|08021
+12822|Arrelsbcn Gestio Patrimonial SL|Rosalía de Castro, 46|08025
+12823|Ibercasa Propietats SLU|Cardenal Tedeschini, 13|08027
+12824|CYN Matched SL (CYN Matched - Llicasa)|Castillejos, 342|08025
+12827|Punto Eixample SL (La Casa Agency)|Còrsega, 657|08026
+12832|Gotor Martinez, Tomas (TGM Gestión inmobiliaria)|de la Bonanova, 10|08022
+12833|Awen Tree SL (Edu Canon Global Real Estate)|Gal·la Placídia, 5 (Utopicus)|08006
+12836|Gabriela González Andrade|Balmes, 276|08006
+12840|Jordi Bernabé Espasa|Dos de Maig, 256|08025
+12870|Fuentes Gilabert, Núria|General Mitre, 237|08023
+12874|Viana Resort SL (Hest Properties)|Folgueroles, 17|08022
+12888|Martinez Escamilla , Laura (LM Laura Martinez)|Diagonal, 468|08006
+12889|Inmoredes SM Project SL (Inmoredes)|Biscaia, 354|08027
+12897|Rosa Benguerel Puig|Diagonal, 418|08037
+12936|Ariel Aloisio (Aloisio y Hijas)|Sant Antoni Maria Claret, 123|08025
+12942|Lumagest Activos Inmobiliarios SL (Lumagest Actius Immobiliaris)|Foc Follet, 11|08030
+12971|Lefebvre , Valerie Andree Jeanne|de Gràcia, 439|08025
+12979|Assessoria Sagrada Família SL (Tecnocasa)|Marina, 311|08025
+12994|City Home Link SL|Enrique Granados, 21|08023
+12995|David Alonso Garcia|Concepción Arenal, 257|08030
+13002|Rebrin , David|Taulat, 283|08019
+13003|Axsed Properties SL|Santaló, 114|08021
+13012|Lugo Barreto , Ricardo José (Lugo Property)|Segre, 55|08030
+13026|De Sousa Santos, Leovania|Selva de Mar, 16|08019
+13031|Zyryanova , Larisa (Lara Barcelona Real Estate)|Sant Antoni Maria Claret, 34|08025
+13039|Inmobiliaria Mandri56 BCN SL|Mandri, 56|08022
+13051|Gonzalez Duran , Enric|Prat, 2|08012
+13053|Alicia Marieges Trapero|Ferrán Agulló, 4|08021
+13062|Innova House Group SL|Gran de Sant Andreu, 87|08030
+13063|Inmobiliaria Olvacan SL|Diagonal, 372|08037
+13069|Alvaro Navarro Mosca|Muntaner, 270|08021
+13079|Clikalia Management Services SL (Clikalia)|Diagonal, 448|08006
+13087|Autana SCP|Bac de Roda, 120|08019
+13101|Stayhall Inmobiliaria SL|Aribau, 203|08021
+13102|Soriano Sidera, Regina (Mancini Roig Properties)|Muntaner, 407|08021
+13106|Alexis Llobet García|Biscaia, 372|08027
+13110|Estudi Poblenou Mar SL (Destinocasa)|Pallars, 239|08005
+13119|Conesa Santiago, Noelia|Sant Antoni Maria Claret, 446|08025
+13120|Pares Deop, Oriol (MRO Properties & Investments)|de la Tradició, 3|08017
+13122|Grapin Stavinschi, Diana (DGS Real Estate)|de Sicilia, 380|08025
+13138|Maximiliano José Leonardi Bertagni (Viure Bé serveis immobiliaris)|Independència, 272|08026
+13151|Valeria Borzunova|Anglí, 43|08017
+13156|Barcelona Llar Asesores e Inmobiliarios SL|Cartagena, 320|08025
+13158|Mangas Caballero, Cristobal|Cartagena, 320|08025
+13170|Trulli Llosas, Paola|Balmes, 190|08006
+13171|Navas Figueras , Maria Dolores (Real Estate Consultants BCN)|Dalmases, 53|08017
+13180|Aitor Aramendia Robledo|Pau Clarís, 162|08037
+13197|Welcome Servicios Inmobiliarios SL|Joncar, 3|08005
+13200|M. Amparo Parra Belmonte (Finques Belmonteq)|Pallars, 108|08018
+13202|Pisos Guinardó Mar SL (Mi-Inmobiliaria)|Guinardó, 27|08025
+13207|JRE Global Properties SL|Diagonal, 590|08021
+13211|Bartomar Immobiliaria SL (DT Habitat Espai Immobiliari)|Riu de l'Or, 36|08034
+13212|Asesoria de la Rosa SL (De La Rosa Patrimonis)|Augusta, 125|08006
+13213|Rico Roda , Raul|Augusta, 29|08006
+13214|Camprecios , Patrick Albert (Gran Barcelona)|Riera de Cassoles, 30|08012
+13218|Fincas Tema SL|Maluquer, 24|08024
+13219|Fencia Partners SL (Fencia)|Francesc Macià, 5|08006
+13231|Ansan Real State & Investments Barcelona SL (All Houses BCN)|Santaló, 113|08021
+13234|Ana Gelonch Martínez|Sant Gervasi, 20|08022
+13235|Gui Usabiaga , Marcos|Sant Gervasi, 46|08022
+13247|JAM Real Estate Business SL|Dominicos, 6|08022
+13252|Ferrando Novi , Maria Mercedes|Septimania, 44|08006
+13270|Maquinay Garcia , Placido|Brusi, 15|08006
+13272|Maria Teresa Ginel Zurita (Atlanta Home)|Pomaret, 62|08017
+13275|Raúl Abad Morrón|Nena Casas, 71|08017
+13282|Lee Do, Seon Hwa (Villa Secreta)|Pere IV, 344|08019
+13292|One Homes BCN & Maresme SL|Dr. Trueta, 183|08005
+13302|Isabel Onandia Alsius|Margenat, 1|08017
+13305|Finques Campanya SL|Coroleu, 3|08030
+13307|Assessoria Sanllehy SL (Tecnocasa)|Camèlies, 66|08024
+13312|Afincat 2010 SL|Diagonal, 460|08006
+13314|Construccion Unica Garantizada Caramañola SL (Linden Strauss / Nexa Properties)|República Argentina, 63|08030
+13316|Serrate Piet , Francesc-Xavier|Muntaner, 572|08022
+13317|Nart Molina , Ines|de les Escoles Pies, 8|08017
+13318|Leis Sestayo , Luis|de Gràcia, 11|08021
+13322|Genin , Maxime Stephane|Concilio de Trento, 242|08020
+13336|Thomas Prieto Inversiones Inmobiliarias SL (TH Invest)|Sant Antoni Maria Claret, 34|08025
+13341|Kondakov , Igor|Bertrand i Serra, 13|08022
+13356|Homedes Amat , Guifre|Via Augusta, 3|08006
+13357|Vigthing Real Estate Developers SL|Fluvià, 119|08019
+13362|Kondakova , Iana|Bertrand i Serra, 13|08022
+13364|Carreira Villaverde, Tony|Rosselló, 484|08025
+13373|Espinosa Jimenez , Patricia|Trajana, 53|08020
+13384|Do Carmo Santos , Priscila|Sardenya, 69|08018
+13389|Anna Maria Plaza Franco (Etna Studio)|Muntaner, 325|08021
+13390|Nestseekers International Spain SL (Nestseekers)|Diagonal, 418|08037
+13400|ESAR Finance & Advisory SL (ESAR Real Estate)|Balmes, 188|08006
+13404|Vilella Navarro, Raquel|Provença, 301|08037
+13412|Abel Fernández Amaya|Rosendo Nobas, 41|08018
+13415|Mure Morada SL (Mure · Morada)|Manila, 45|08034
+13429|Albedo Design SL (Albedo Real State)|Joan d'Àustria, 112|08018
+13459|BR Casa Ideal SL|Salvador Espriu, 83|08005
+13462|Fincas Inter-Hogar SL|Lepanto, 300|08025
+13481|Abenami SL|Provença, 301|08037
+13499|Berg & Berg Investments SL (BBI)|Clos de Sant Francesc, 45|08034
+13512|Martinez Schilt , Ivan (IMS Real Estate)|Concilio de Trento, 90|08018
+13515|Eva Artigot Lluellas|Johan Sebastian Bach, 28|08021
+13523|Trovicasa SL|Muntaner, 340|08021
+13527|Metrópolis suelo urbano SL|Balmes, 383|08022
+13528|Fernández Díez, Raúl|Mallorca, 561|08026
+13530|Nuñez Martínez, Miguel Ángel|Sant Antoni Maria Claret, 34|08025
+13544|Projecte la Trinitat Vella SL (Tecnocasa)|Turó de la Trinitat, 45|08026
+13545|Guillem Oliver Ricart (Bela)|Muntaner, 430|08021
+13550|Chelnokova , Tatiana|Gretel Ammann Martínez, 12|08020
+13554|Sibagatov , Roman|Salvador Espriu, 51|08005
+13555|Glamhabitat SL (GlamHabitat)|Sant Antoni Maria Claret, 34|08025
+13578|Lyudmyla Protsko Bugaeva (Avenida Invest)|Bruc, 21|08019
+13586|Pavlenko Gusakovskaya , Olga|Escorial, 43|08024
+13602|Withyou Management SL (David Real Estate)|de Gràcia, 62|08006
+13603|Silvar Projects SL (Elevare Realty / Century 21)|Sant Gervasi, 30|08022
+13613|Casablau 87 Inmobiliaria SL (Casablau)|Felip II, 186|08027
+13614|Alexandros Tzanos|Pau Clarís, 162|08037
+13634|Paz Paz, Mariam- Mercedes|Rambla Prim, 23|08019
+13641|Marcia Ambrosini|Ríos Rosas, 35|08006
+13650|Mir Fernández-Aramburu, Samuel (Mir Aramburu Abogados)|de los Castillejos, 294|08025
+13652|Elias Prats, Neus|Indústria, 94|08025
+13654|Magna Urbis BCN SL|Diagonal, 246|08037
+13710|Sanchez Recasens, Jordi|Ruiz de Padrón, 42|08026
+13720|Excens Capital SLU|Muntaner, 292|08021
+13723|Camblor Rodriguez , Jose Maria|Buenaventura Muñoz, 16|08018
+13726|Grigorián Keheaian , Levón|Diagonal, 442|08037
+13730|Andrea Mariani (Find your Key)|Espronceda, 94|08005
+13739|Primemax Real Estate SL|Taulat, 279|08021
+13741|Ocean Beauty Studio SL|Rosellón, 154|08022
+13744|Barnafinc Fabra SL|Fabra i Puig, 63|08030
+13765|Solbeck Consulting SL|Diagonal, 650|08017
+13766|Juan Jose Benitez Caballero (Dream Real Invest)|Kobe, 1|08027
+13778|Revalore Real Estate SL (Revalore)|Doctor Rizal, 8|08006
+13779|Century Zona Alta SL (Century 21)|Doctor Trias i Pujol, 5|08034
+13783|Mayoball2007 SL|Cardener, 23|08024
+13809|Lozano Gutiérrez , Gemma|General Mitre, 188|08006
+13830|NM Real Estate Solutions SL|Pujades, 85|08005
+13833|Olguin Falcao, Mireya Melinda (Immo Serveis Immobiliaris)|Sant Antoni Maria Claret, 34|08025
+13837|Nashira Living SL|Ballester, 61|08023
+13838|Ademar Pereira Silva|Gretel Ammann Martínez, 12|08020
+13840|CGCapital Investment Ventures SL (SG Properties)|Muntaner, 326|08021
+13859|HN Estates Selection SL (EXP Realty España)|Aribau, 298|08006
+13876|Nediam Nori Vargas Arteaga|Jaume Fabre, 1|08019
+13883|Ortells Da Silva , Damián|Sant Antoni Maria Claret, 34|08025
+13887|Soho Properties Management Barcelona SL|Diagonal, 640|08017
+13888|Creixell Sandoval, Patricia Sabrina|Ravella, 12|08021
+13934|Global Investments and Auctions SL (DP Real Estate)|de Pere IV, 51|08018
+13945|Alejandro Juan Frias Clave|Selva de Mar, 249|08022
+13950|Alejandro Bonet Macias|Santa Amèlia, 27|08034
+13973|Casa Morera SCP|Francesc Pérez-Cabrero, 6|08021
+13980|Sobrepera López, Verónica (La casa del administrador)|Sant Antoni Maria Claret, 50|08025
+13981|Charlie's Properties SL|Diagonal, 420|08037
+13985|Beatriz Anton|Aribau, 205|08021
+13997|Martínez Balsells, Victor|Pedralbes, 49|08034
+14008|IGS inversión y servicios inmobiliarios SL (IGS Inmo group Services)|Jaume Puigvert, 8|08024
+14020|Cortés Carrasco, Jose Ramón|de les Corts Catalanes 1013|08020
+14023|Marta Arandes Salvador|Santa Amèlia, 20|08034
+14025|Desarrollo Clot Mar SL (Destinocasa)|de les Corts Catalanes, 851|08005
+14031|Marcelo Gabriel Aguero|Degà Bahí, 44|08026
+14032|Housyspace Consultores Inmobiliarios SL|de Gràcia, 73|08006
+14044|Ribera Martínez, Evelina|Copèrnic, 3|08021
+14070|Veintinueve Capital Patrimonial SL|Madrazo, 33|08006
+14100|Iniciativas Segre SL|Riera de Sant Miquel, 54|08006
+14110|Paz Malet Bellido|Sant Gervasi, 54|08022
+14111|Atai Zhorobekov|de la República Argentina, 72|08023
+14114|Gil Perez, Laura|Balmes, 410|08022
+14118|Properties & Rooms Consulting Group SL|de Gràcia, 439|08025
+14134|Gemma Bombardós Villar|Polònia, 19|08024

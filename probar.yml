@@ -1,0 +1,47 @@
+name: Probar una web
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL de la página de alquileres de la agencia"
+        required: true
+      modo:
+        description: "Déjalo vacío; pon js si la web carga los pisos con JavaScript"
+        required: false
+        default: ""
+      formulario:
+        description: "Probar también a rellenar el formulario del primer anuncio SIN enviarlo (sí/no)"
+        required: false
+        default: "no"
+      telegram:
+        description: "Enviar un mensaje de prueba a Telegram (sí/no)"
+        required: false
+        default: "no"
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Qué anuncios detecta
+        env:
+          URL: ${{ inputs.url }}
+          MODO: ${{ inputs.modo }}
+        run: python rastreador.py --probar "$URL" --modo "$MODO"
+      - if: ${{ inputs.telegram == 'sí' || inputs.telegram == 'si' }}
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python rastreador.py --probar-telegram
+      - name: Formulario (rellenar sin enviar)
+        if: ${{ inputs.formulario == 'sí' || inputs.formulario == 'si' }}
+        env:
+          URL: ${{ inputs.url }}
+          CONTACTO_DATOS: ${{ secrets.CONTACTO_DATOS }}
+        run: python rastreador.py --probar-formulario "$URL"

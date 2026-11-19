@@ -1,0 +1,106 @@
+# Filtros de búsqueda. Cambia lo que quieras y haz commit: el siguiente ciclo ya lo usa.
+filtros:
+  metros_minimos: 60
+  precio_maximo: 1000        # €/mes
+  # Si el anuncio no dice el barrio: true = avisar igualmente (marcado con ⚠️) cuando la agencia tiene la
+  # oficina en tus distritos (columna en_tus_zonas = sí). Si la agencia está en otra zona, un anuncio sin
+  # barrio se descarta siempre, para no llenarte de avisos de pisos en Sants o Badalona.
+  avisar_si_zona_desconocida: true
+  # Si el anuncio no indica precio o metros: true = avisar igualmente (marcado con ⚠️).
+  avisar_si_faltan_datos: true
+
+# Palabras que identifican tus zonas (sin importar mayúsculas ni acentos).
+zonas:
+  Sant Andreu:
+    - sant andreu
+    - la sagrera
+    - sagrera
+    - navas
+    - congres
+    - indians
+    - bon pastor
+    - baro de viver
+    - trinitat vella
+  Sant Martí:
+    - sant marti
+    - poblenou
+    - poble nou
+    - diagonal mar
+    - front maritim
+    - vila olimpica
+    - llacuna
+    - provencals
+    - verneda
+    - la pau
+    - el clot
+    - clot
+    - camp de l'arpa
+    - camp de larpa
+    - besos
+    - maresme
+  Sarrià - Sant Gervasi:
+    - sarria
+    - sant gervasi
+    - galvany
+    - bonanova
+    - putxet
+    - farro
+    - tres torres
+    - turo park
+    - vallvidrera
+    - tibidabo
+    - les planes
+  Gràcia:
+    - gracia
+    - vila de gracia
+    - camp d'en grassot
+    - grassot
+    - la salut
+  Vallcarca:
+    - vallcarca
+    - penitents
+    - el coll
+
+# Palabras que descartan un anuncio aunque coincida una zona
+# (evita falsos positivos como "Sant Martí Sarroca" o "Sant Andreu de la Barca").
+exclusiones:
+  - sant marti sarroca
+  - sant andreu de la barca
+  - sant andreu de llavaneres
+  - traspaso
+  - traspas
+  - local comercial
+  - plaza de parking
+  - plaça d'aparcament
+  # Las ventas se descartan solas: cualquier precio por encima de 10.000 € se trata como venta.
+
+# Códigos postales de tus distritos (aprox.). Si el anuncio muestra uno, cuenta como zona válida.
+codigos_postales:
+  - "08005"
+  - "08006"
+  - "08012"
+  - "08017"
+  - "08018"
+  - "08019"
+  - "08020"
+  - "08021"
+  - "08022"
+  - "08023"
+  - "08024"
+  - "08025"
+  - "08026"
+  - "08027"
+  - "08030"
+  - "08033"
+  - "08034"
+  - "08037"
+
+rastreo:
+  # Si la ficha del anuncio no muestra precio/metros en el listado, abrir la ficha (más lento pero más preciso).
+  abrir_fichas: true
+  max_fichas_por_agencia: 15
+  timeout_segundos: 20
+  # Avisar por Telegram si la web de una agencia falla N veces seguidas (para que revises la URL).
+  avisar_tras_fallos: 6
+  # Tras cada revisión, el bot se queda atento a los botones «Enviar mis datos» hasta la siguiente.
+  escuchar_botones_segundos: 240
