@@ -1,4 +1,8 @@
 {
+ "08950 tu": {
+  "estado": "busqueda_pendiente",
+  "marca": "08950 Tu Inmobiliaria"
+ },
  "21": {
   "estado": "web_ok",
   "marca": "Grupo 21 Bcn Real Estate SL",
@@ -41,9 +45,21 @@
   "estado": "busqueda_pendiente",
   "marca": "Aclair Real Estate"
  },
+ "actiu": {
+  "estado": "web_ok",
+  "marca": "Actiu Immobiliaria",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://actiuimmobiliaria.com/properties/planta-baja-de-alquiler-en-coll-fava/",
+  "revisado_js": true,
+  "web": "https://actiuimmobiliaria.com/"
+ },
  "activa": {
   "estado": "busqueda_pendiente",
   "marca": "Activa Properties"
+ },
+ "activos inmobiliarios bancarios": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gestión Activos Inmobiliarios Bancarios SL"
  },
  "acv": {
   "estado": "busqueda_pendiente",
@@ -56,6 +72,10 @@
   "pagina_sin_anuncios": "https://adaix.es/alquila-tu-casa/",
   "revisado_js": true,
   "web": "https://adaix.es/"
+ },
+ "adaix centre": {
+  "estado": "busqueda_pendiente",
+  "marca": "Adaix Bcn Centre"
  },
  "adase tot": {
   "estado": "busqueda_pendiente",
@@ -92,6 +112,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Adler Inmo SL"
  },
+ "administracio": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gestió i Administració de Finques"
+ },
+ "administracio abp": {
+  "estado": "busqueda_pendiente",
+  "marca": "Administració Finques ABP SL"
+ },
  "administracio pisos equipats": {
   "estado": "busqueda_pendiente",
   "marca": "Administració De Pisos Equipats"
@@ -104,6 +132,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Administración Hermanos Asensio SL"
  },
+ "administracion monica": {
+  "estado": "busqueda_pendiente",
+  "marca": "Administración Mónica"
+ },
+ "administracion trave": {
+  "estado": "busqueda_pendiente",
+  "marca": "Administración de Fincas Travé SL"
+ },
  "administrador": {
   "estado": "web_ok",
   "marca": "La casa del administrador",
@@ -111,6 +147,10 @@
   "pagina_sin_anuncios": "https://www.lacasadeladministrador.com/gestion-de-alquileres",
   "revisado_js": true,
   "web": "https://www.lacasadeladministrador.com/"
+ },
+ "administratius simon": {
+  "estado": "busqueda_pendiente",
+  "marca": "Serveis Administratius Simón"
  },
  "adolfo torre melero": {
   "estado": "busqueda_pendiente",
@@ -152,17 +192,41 @@
   "estado": "busqueda_pendiente",
   "marca": "AGAF Administradors SL"
  },
+ "agent 2009": {
+  "estado": "busqueda_pendiente",
+  "marca": "Agent 2009"
+ },
  "agent 2017": {
   "estado": "busqueda_pendiente",
   "marca": "Agent 2017"
+ },
+ "agent 2025": {
+  "estado": "busqueda_pendiente",
+  "marca": "Agent 2025"
  },
  "agent 2059": {
   "estado": "busqueda_pendiente",
   "marca": "Agent 2059"
  },
+ "agent 2062": {
+  "estado": "busqueda_pendiente",
+  "marca": "Agent 2062"
+ },
+ "agent 2078": {
+  "estado": "busqueda_pendiente",
+  "marca": "Agent 2078"
+ },
+ "agent 2088": {
+  "estado": "busqueda_pendiente",
+  "marca": "Agent 2088"
+ },
  "agil": {
   "estado": "busqueda_pendiente",
   "marca": "Agil Finques"
+ },
+ "aguirre newman": {
+  "estado": "busqueda_pendiente",
+  "marca": "Aguirre Newman Barcelona SAU"
  },
  "agusti": {
   "estado": "web_ok",
@@ -171,6 +235,10 @@
   "pagina_sin_anuncios": "https://www.finquesagusti.com/estudios-en-alquiler-4-2.html",
   "revisado_js": true,
   "web": "https://www.finquesagusti.com/"
+ },
+ "agusti soler mundet": {
+  "estado": "busqueda_pendiente",
+  "marca": "Agustí Soler Mundet"
  },
  "agustin": {
   "estado": "busqueda_pendiente",
@@ -228,6 +296,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Albert Ariño Schierloh"
  },
+ "albert marimon carol": {
+  "estado": "busqueda_pendiente",
+  "marca": "Albert Marimon Carol"
+ },
  "albert morros balcells": {
   "estado": "busqueda_pendiente",
   "marca": "Albert Morros Balcells"
@@ -244,6 +316,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Alberto Gaseni De La Torre"
  },
+ "alberto marcus oliva": {
+  "estado": "busqueda_pendiente",
+  "marca": "Alberto Marcús Oliva"
+ },
  "alberto vilaplana duran": {
   "estado": "busqueda_pendiente",
   "marca": "Alberto Vilaplana Durán"
@@ -252,9 +328,17 @@
   "estado": "busqueda_pendiente",
   "marca": "Albiol Escute Gestio Immobiliaria"
  },
+ "albium": {
+  "estado": "busqueda_pendiente",
+  "marca": "Albium Gestió sl"
+ },
  "alejandro bonet macias": {
   "estado": "busqueda_pendiente",
   "marca": "Alejandro Bonet Macias"
+ },
+ "alejandro bornay juana": {
+  "estado": "busqueda_pendiente",
+  "marca": "Alejandro Bornay De Juana"
  },
  "alejandro fabrega penina": {
   "estado": "busqueda_pendiente",
@@ -275,6 +359,10 @@
  "alejandro sala lanz": {
   "estado": "busqueda_pendiente",
   "marca": "Alejandro Sala Lanz"
+ },
+ "alejandro soler relluli": {
+  "estado": "busqueda_pendiente",
+  "marca": "Alejandro Soler Rellulí"
  },
  "alejo aguila sandoval": {
   "estado": "busqueda_pendiente",
@@ -304,6 +392,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Alfonso De Dorado De Olano"
  },
+ "alfonso feijoo martinez": {
+  "estado": "busqueda_pendiente",
+  "marca": "Alfonso Feijoo Martínez"
+ },
  "alfonso moncosi borbon": {
   "estado": "busqueda_pendiente",
   "marca": "Alfonso Moncosi De Borbón"
@@ -315,6 +407,14 @@
  "alfredo balcells garcia": {
   "estado": "busqueda_pendiente",
   "marca": "Alfredo Balcells Garcia"
+ },
+ "alg": {
+  "estado": "busqueda_pendiente",
+  "marca": "ALG Finques"
+ },
+ "algon": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gestión Inmobiliaria Algon Barcelona"
  },
  "alicia cercos vega": {
   "estado": "busqueda_pendiente",
@@ -331,6 +431,14 @@
  "alicia thomas buqueras": {
   "estado": "busqueda_pendiente",
   "marca": "Alicia Thomas Buqueras"
+ },
+ "aliga": {
+  "anuncios": 1,
+  "estado": "vigilable",
+  "marca": "Aliga Real Estate",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.aligarealestate.com/ficha/chalet/benahavis/la-zagaleta-el-madronal/4942/22491612/es/",
+  "web": "https://www.aligarealestate.com/"
  },
  "all houses": {
   "anuncios": 71,
@@ -366,6 +474,10 @@
  "alquilloga": {
   "estado": "busqueda_pendiente",
   "marca": "Alquilloga"
+ },
+ "alquipadi": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Alquipadi"
  },
  "alta rentabilidad": {
   "estado": "busqueda_pendiente",
@@ -411,6 +523,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Amadeu Ferre Gaig"
  },
+ "amat": {
+  "estado": "busqueda_pendiente",
+  "marca": "Amat Finques SL"
+ },
  "amat immobiliaris": {
   "anuncios": 1,
   "estado": "vigilable",
@@ -442,6 +558,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Ana Guerin Figueras"
  },
+ "ana maria fernandez rigalos": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ana Maria Fernández Rigalós"
+ },
  "andor": {
   "estado": "web_ok",
   "marca": "Andor Home",
@@ -449,6 +569,10 @@
   "pagina_sin_anuncios": "https://www.andorhome.com/rent-realestate",
   "revisado_js": true,
   "web": "https://www.andorhome.com/"
+ },
+ "andres pedreno garcia": {
+  "estado": "busqueda_pendiente",
+  "marca": "Andrés Pedreño García"
  },
  "andrine samantha dona pignaud": {
   "estado": "busqueda_pendiente",
@@ -482,6 +606,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Antares Barcelona"
  },
+ "anthony xavier martin sorgani": {
+  "estado": "busqueda_pendiente",
+  "marca": "Anthony Xavier Martín Sorgani"
+ },
  "antoni castells solanes": {
   "estado": "busqueda_pendiente",
   "marca": "Antoni Castells I Solanes"
@@ -494,9 +622,25 @@
   "estado": "busqueda_pendiente",
   "marca": "Antoni Mari Molinas"
  },
+ "antonia garcia chana": {
+  "estado": "busqueda_pendiente",
+  "marca": "Antonia Garcia Chana"
+ },
+ "antonio alameda maldonado": {
+  "estado": "busqueda_pendiente",
+  "marca": "Antonio Alameda Maldonado"
+ },
+ "antonio bacarisas hernandez": {
+  "estado": "busqueda_pendiente",
+  "marca": "Antonio Bacarisas Hernandez"
+ },
  "antonio contijoch berenguer": {
   "estado": "busqueda_pendiente",
   "marca": "Antonio Contijoch Berenguer"
+ },
+ "antonio cuadrado boiza": {
+  "estado": "busqueda_pendiente",
+  "marca": "Antonio Cuadrado Boiza"
  },
  "antonio gamez barranquero": {
   "estado": "busqueda_pendiente",
@@ -506,9 +650,17 @@
   "estado": "busqueda_pendiente",
   "marca": "Antonio García López"
  },
+ "antonio garcia mallol": {
+  "estado": "busqueda_pendiente",
+  "marca": "Antonio Garcia Mallol"
+ },
  "antonio rojas aleix": {
   "estado": "busqueda_pendiente",
   "marca": "Antonio Rojas Aleix"
+ },
+ "antonio villoro murciano": {
+  "estado": "busqueda_pendiente",
+  "marca": "Antonio Villoro Murciano"
  },
  "antonya angelieva": {
   "estado": "busqueda_pendiente",
@@ -521,6 +673,18 @@
  "anzizu": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas Anzizu SL"
+ },
+ "apartment": {
+  "estado": "busqueda_pendiente",
+  "marca": "Apartment Barcelona"
+ },
+ "apartment rentals": {
+  "estado": "busqueda_pendiente",
+  "marca": "BCN Apartment Rentals"
+ },
+ "apartments rent sun more": {
+  "estado": "busqueda_pendiente",
+  "marca": "Apartments Rent The Sun And More"
  },
  "api autonoma": {
   "estado": "busqueda_pendiente",
@@ -538,6 +702,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Arantzazu Santin Serrano"
  },
+ "arcat": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Arcat SL"
+ },
  "arcs": {
   "estado": "busqueda_pendiente",
   "marca": "Arcs - Real Estate"
@@ -545,6 +713,34 @@
  "area": {
   "estado": "busqueda_pendiente",
   "marca": "Area Fincas"
+ },
+ "area retail": {
+  "anuncios": 9,
+  "estado": "vigilable",
+  "marca": "Area Retail",
+  "metodo": "dominio",
+  "url_alquiler": "https://arearetail.es/inmuebles?operation=alquiler",
+  "web": "https://arearetail.es/"
+ },
+ "ari inversions": {
+  "anuncios": 2,
+  "estado": "vigilable",
+  "marca": "Ari Inversions",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.ariinversions.com/estate_property/local-de-lloguer-a-carrer-de-padua-30/",
+  "web": "https://www.ariinversions.com/"
+ },
+ "ariana feriche neddermann": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ariana Feriche Neddermann"
+ },
+ "armadans sancho": {
+  "estado": "busqueda_pendiente",
+  "marca": "Armadans Sancho SL"
+ },
+ "armino immobiliaris": {
+  "estado": "busqueda_pendiente",
+  "marca": "Armiño Serveis Immobiliaris SCP"
  },
  "arnal inmobiliarios": {
   "estado": "busqueda_pendiente",
@@ -570,6 +766,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Arrelsbcn Gestio Patrimonial SL"
  },
+ "arroba pack": {
+  "estado": "busqueda_pendiente",
+  "marca": "Arroba Pack"
+ },
  "art realty": {
   "estado": "busqueda_pendiente",
   "marca": "Art Realty Barcelona SL"
@@ -585,6 +785,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Artecasa Bcn SL"
  },
+ "as": {
+  "estado": "busqueda_pendiente",
+  "marca": "As Inmobiliaria"
+ },
  "ascana inmuebles": {
   "estado": "busqueda_pendiente",
   "marca": "Ascana Inmuebles Barcelona"
@@ -592,6 +796,14 @@
  "ascension rivero sanchez": {
   "estado": "busqueda_pendiente",
   "marca": "Ascensión Rivero Sánchez"
+ },
+ "aseger advocats": {
+  "estado": "busqueda_pendiente",
+  "marca": "Aseger advocats SL"
+ },
+ "asesoria fiscal vinaroz": {
+  "estado": "busqueda_pendiente",
+  "marca": "Asesoria Fiscal Vinaroz SL"
  },
  "asesoria garcia linares": {
   "estado": "busqueda_pendiente",
@@ -607,6 +819,14 @@
   "metodo": "dominio",
   "revisado_js": true,
   "web": "https://www.asesoriapicon.es/"
+ },
+ "asesoria sanfeliu": {
+  "estado": "busqueda_pendiente",
+  "marca": "Asesoría Sanfeliu"
+ },
+ "asesoria sant joan": {
+  "estado": "busqueda_pendiente",
+  "marca": "Asesoria-Fincas Sant Joan"
  },
  "asifran": {
   "estado": "busqueda_pendiente",
@@ -632,6 +852,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Assessoria Donaire"
  },
+ "assessoria esplugues": {
+  "estado": "busqueda_pendiente",
+  "marca": "Assessoria Esplugues"
+ },
+ "assessoria oriberbexa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Assessoria Oriberbexa SLP"
+ },
  "assessoria poligest": {
   "estado": "busqueda_pendiente",
   "marca": "Assessoria Poligest SL"
@@ -639,6 +867,14 @@
  "assessoria rangel": {
   "estado": "busqueda_pendiente",
   "marca": "Assessoria Rangel"
+ },
+ "assessoria samitier": {
+  "estado": "busqueda_pendiente",
+  "marca": "Assessoria J Samitier"
+ },
+ "assessoria sanchez mesa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Assessoria Sánchez Mesa"
  },
  "assessoria via julia": {
   "estado": "busqueda_pendiente",
@@ -648,6 +884,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Associats Jurídic Administratiu DC"
  },
+ "at es": {
+  "anuncios": 1,
+  "estado": "vigilable",
+  "marca": "At Barcelona.es",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.atbarcelona.es/propietario.aspx",
+  "web": "https://www.atbarcelona.es/index.aspx"
+ },
  "ata": {
   "estado": "busqueda_pendiente",
   "marca": "Ata"
@@ -655,6 +899,10 @@
  "atai zhorobekov": {
   "estado": "busqueda_pendiente",
   "marca": "Atai Zhorobekov"
+ },
+ "athimac negocios inmobiliarios": {
+  "estado": "busqueda_pendiente",
+  "marca": "Athimac Negocios Inmobiliarios sl"
  },
  "atico": {
   "anuncios": 1,
@@ -700,9 +948,25 @@
   "estado": "busqueda_pendiente",
   "marca": "Autana SCP"
  },
+ "avellanet": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Avellanet SLU"
+ },
  "avenida": {
   "estado": "busqueda_pendiente",
   "marca": "Avenida Invest"
+ },
+ "avenir": {
+  "anuncios": 2,
+  "estado": "vigilable",
+  "marca": "Avenir.bcn",
+  "metodo": "dominio",
+  "url_alquiler": "https://avenir-bcn.com/alquiler-pisos-barcelona/",
+  "web": "https://avenir-bcn.com/"
+ },
+ "axe inversores gestores": {
+  "estado": "busqueda_pendiente",
+  "marca": "Axe inversores y gestores SL"
  },
  "axioma habitat": {
   "estado": "busqueda_pendiente",
@@ -728,6 +992,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Badahouse Fincas"
  },
+ "baix": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Del Baix"
+ },
  "balsells": {
   "anuncios": 2,
   "estado": "vigilable",
@@ -752,6 +1020,22 @@
   "estado": "busqueda_pendiente",
   "marca": "Bamberry Prop SL"
  },
+ "barcelo immobiliaris vitaris": {
+  "estado": "busqueda_pendiente",
+  "marca": "Barceló Serveis Immobiliaris - Vitaris Finques"
+ },
+ "barcelona house": {
+  "anuncios": 1,
+  "estado": "vigilable",
+  "marca": "Barcelona House",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.costabravahouse.com/villa-tamariu-licencia-turistica-vistas-mar-piscina-2992v-6460",
+  "web": "https://www.costabravahouse.com/"
+ },
+ "barcelona real estate consulting": {
+  "estado": "busqueda_pendiente",
+  "marca": "Barcelona Real Estate Consulting"
+ },
  "barcino": {
   "estado": "busqueda_pendiente",
   "marca": "Barcino Homes"
@@ -759,6 +1043,13 @@
  "barlovento trade": {
   "estado": "busqueda_pendiente",
   "marca": "Barlovento Trade SL"
+ },
+ "barna": {
+  "estado": "web_ok",
+  "marca": "Barna Finques",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://barnafinques.com/"
  },
  "barna inmo": {
   "estado": "busqueda_pendiente",
@@ -788,6 +1079,10 @@
   "estado": "busqueda_pendiente",
   "marca": "La Barraca Inmobiliaria"
  },
+ "barros": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Barros"
+ },
  "bartosz henryk wach": {
   "estado": "busqueda_pendiente",
   "marca": "Bartosz Henryk Wach"
@@ -799,6 +1094,10 @@
   "metodo": "dominio",
   "url_alquiler": "https://www.basmifinques.com/oficinadespacho-alquiler-diagonal-449-eixample-barcelona-2200",
   "web": "https://www.basmifinques.com/"
+ },
+ "bastiments": {
+  "estado": "busqueda_pendiente",
+  "marca": "Bastiments"
  },
  "batllori": {
   "estado": "web_ok",
@@ -908,6 +1207,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Bergua Gestió D'immobles"
  },
+ "bernardo sandoval munoz": {
+  "estado": "busqueda_pendiente",
+  "marca": "Bernardo Sandoval Muñoz"
+ },
  "bertran": {
   "estado": "busqueda_pendiente",
   "marca": "Bertran Fincas"
@@ -927,6 +1230,10 @@
   "estado": "busqueda_pendiente",
   "marca": "BGP KEY"
  },
+ "bi": {
+  "estado": "busqueda_pendiente",
+  "marca": "Bi+"
+ },
  "bimargrup": {
   "estado": "web_ok",
   "marca": "Bimargrup",
@@ -945,6 +1252,22 @@
   "pagina_sin_anuncios": "https://www.blanchroig.com/ads/lloguer/immoble/",
   "revisado_js": true,
   "web": "https://www.blanchroig.com/"
+ },
+ "blanco": {
+  "anuncios": 15,
+  "estado": "vigilable",
+  "marca": "Fincas Blanco",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.fincasblanco.es/alquiler/es/",
+  "web": "https://www.fincasblanco.es/"
+ },
+ "blanco hospitalet": {
+  "anuncios": 15,
+  "estado": "vigilable",
+  "marca": "Fincas Blanco L'hospitalet",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.fincasblanco.es/alquiler/es/",
+  "web": "https://www.fincasblanco.es/"
  },
  "blau": {
   "estado": "web_ok",
@@ -1004,12 +1327,20 @@
   "estado": "busqueda_pendiente",
   "marca": "Bourgeois Agency"
  },
+ "br": {
+  "estado": "busqueda_pendiente",
+  "marca": "BR Grup Immobiliari"
+ },
  "br ideal": {
   "estado": "web_ok",
   "marca": "BR Casa Ideal SL",
   "metodo": "dominio",
   "revisado_js": true,
   "web": "https://www.brcasaideal.es/es"
+ },
+ "bravo": {
+  "estado": "busqueda_pendiente",
+  "marca": "Grup Bravo"
  },
  "bresson realty": {
   "estado": "busqueda_pendiente",
@@ -1023,9 +1354,36 @@
   "estado": "busqueda_pendiente",
   "marca": "Gestión Brillante - La Unión"
  },
+ "bruc": {
+  "estado": "web_ok",
+  "marca": "Finques Bruc SL",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.finquesbruc.com/es/servicios/",
+  "revisado_js": true,
+  "web": "https://www.finquesbruc.com/es/"
+ },
  "bruno ricardo morales darchuk": {
   "estado": "busqueda_pendiente",
   "marca": "Bruno Ricardo Morales Darchuk"
+ },
+ "buenestar pisos": {
+  "estado": "busqueda_pendiente",
+  "marca": "Buenestar Pisos SL"
+ },
+ "bufala": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Búfala"
+ },
+ "bufete perez pozo": {
+  "estado": "busqueda_pendiente",
+  "marca": "Bufete Pérez-pozo"
+ },
+ "buscomasia": {
+  "estado": "web_ok",
+  "marca": "Buscomasia SL",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://www.buscomasia.com/"
  },
  "businfreu numancia habitat": {
   "estado": "busqueda_pendiente",
@@ -1058,6 +1416,18 @@
   "revisado_js": true,
   "web": "https://www.cafinser.com/"
  },
+ "calagran": {
+  "estado": "busqueda_pendiente",
+  "marca": "Calagran-grupo Inmobiliario"
+ },
+ "calfer": {
+  "estado": "web_ok",
+  "marca": "Calfer grup",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.calfergrup.com/inmobiliaria/",
+  "revisado_js": true,
+  "web": "https://www.calfergrup.com/"
+ },
  "calvet": {
   "estado": "busqueda_pendiente",
   "marca": "Finques Calvet SL"
@@ -1082,6 +1452,14 @@
   "revisado_js": true,
   "web": "https://www.cambrapropietat.cat/"
  },
+ "cambra propietat urbana hospitalet": {
+  "estado": "web_ok",
+  "marca": "Cambra de la Propietat Urbana de l'Hospitalet",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.cambrapropietat.cat/noticia/subvencions-per-al-pagament-del-lloguer-o-preu-de-cessio-d-habitatge-o-habitacio-per-a-persones-joves",
+  "revisado_js": true,
+  "web": "https://www.cambrapropietat.cat/"
+ },
  "campanya": {
   "anuncios": 5,
   "estado": "vigilable",
@@ -1091,9 +1469,17 @@
   "url_alquiler": "https://www.finquescampanya.com/immobles",
   "web": "https://www.finquescampanya.com/"
  },
+ "can bepo": {
+  "estado": "busqueda_pendiente",
+  "marca": "Can Bepo SL"
+ },
  "can vai": {
   "estado": "busqueda_pendiente",
   "marca": "Can Vai"
+ },
+ "can vidalet": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Can Vidalet"
  },
  "candelaflat": {
   "estado": "busqueda_pendiente",
@@ -1130,6 +1516,10 @@
   "pagina_sin_anuncios": "https://fincascarbonell.es/servicios/",
   "revisado_js": true,
   "web": "https://fincascarbonell.es/"
+ },
+ "carjuana": {
+  "estado": "busqueda_pendiente",
+  "marca": "Carjuana"
  },
  "carles bernadell izquierdo": {
   "estado": "busqueda_pendiente",
@@ -1214,6 +1604,18 @@
   "url_alquiler": "https://casablau.net/alquiler/pisos-en-alquiler",
   "web": "https://casablau.net/"
  },
+ "casabona": {
+  "estado": "busqueda_pendiente",
+  "marca": "Casabona Finques"
+ },
+ "casaensantcugat com": {
+  "estado": "busqueda_pendiente",
+  "marca": "Casaensantcugat.com"
+ },
+ "casamona internacional": {
+  "estado": "busqueda_pendiente",
+  "marca": "Casamona Internacional SL"
+ },
  "casas": {
   "estado": "busqueda_pendiente",
   "marca": "Casas"
@@ -1230,13 +1632,25 @@
   "revisado_js": true,
   "web": "https://www.cascanticbcn.com/"
  },
+ "caseuro": {
+  "estado": "busqueda_pendiente",
+  "marca": "Caseuro"
+ },
  "casfer": {
   "estado": "busqueda_pendiente",
   "marca": "Casfer Finques"
  },
+ "castell": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Castell"
+ },
  "castella gabinet assessorament": {
   "estado": "busqueda_pendiente",
   "marca": "Castella Gabinet D'Assessorament"
+ },
+ "castellvi": {
+  "estado": "busqueda_pendiente",
+  "marca": "Castellví"
  },
  "casual": {
   "estado": "web_ok",
@@ -1249,6 +1663,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Casual Advocats"
  },
+ "cat": {
+  "anuncios": 34,
+  "estado": "vigilable",
+  "marca": "Cat Real Estate SL",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.catrealestate.com/es/viviendas-lujo-barcelona/alquiler",
+  "web": "https://www.catrealestate.com/es"
+ },
  "catala": {
   "estado": "busqueda_pendiente",
   "marca": "J Catala"
@@ -1256,6 +1678,14 @@
  "catalan faro margarita cia": {
   "estado": "busqueda_pendiente",
   "marca": "Catalan Faro Margarita & Cia C.B"
+ },
+ "catalana generales": {
+  "estado": "busqueda_pendiente",
+  "marca": "Catalana De Gestión Y Servicios Generales"
+ },
+ "catalana habitatge": {
+  "estado": "busqueda_pendiente",
+  "marca": "Catalana De Habitatge"
  },
  "catalana immobles": {
   "estado": "busqueda_pendiente",
@@ -1304,13 +1734,33 @@
   "estado": "busqueda_pendiente",
   "marca": "Bcn Center (MC Pisos Barcelona)"
  },
+ "centre ciutat": {
+  "estado": "busqueda_pendiente",
+  "marca": "Grup Centre Ciutat"
+ },
+ "centro administracion urbanas": {
+  "estado": "busqueda_pendiente",
+  "marca": "Centro de Administración de Fincas Urbanas"
+ },
  "century 21": {
   "estado": "busqueda_pendiente",
   "marca": "Century 21"
  },
+ "century 21 dama": {
+  "estado": "busqueda_pendiente",
+  "marca": "Century 21 - Dama"
+ },
+ "century 21 smart point": {
+  "estado": "busqueda_pendiente",
+  "marca": "Century 21 Smart Point"
+ },
  "century21 bzgestio": {
   "estado": "busqueda_pendiente",
   "marca": "Century21 BZGestió"
+ },
+ "cev administracion": {
+  "estado": "busqueda_pendiente",
+  "marca": "CEV Administración de Fincas"
  },
  "charlie": {
   "estado": "busqueda_pendiente",
@@ -1319,6 +1769,10 @@
  "charlotte coast property finder": {
   "estado": "busqueda_pendiente",
   "marca": "Charlotte Barcelona & Coast Property Finder SL"
+ },
+ "chic room": {
+  "estado": "busqueda_pendiente",
+  "marca": "Chic Room Barcelona SL"
  },
  "chicote": {
   "estado": "web_ok",
@@ -1346,6 +1800,10 @@
  "city link": {
   "estado": "busqueda_pendiente",
   "marca": "City Home Link SL"
+ },
+ "city pisos": {
+  "estado": "busqueda_pendiente",
+  "marca": "City & Pisos"
  },
  "claret": {
   "estado": "busqueda_pendiente",
@@ -1378,6 +1836,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Cleries Administració Finques SL"
  },
+ "clic": {
+  "estado": "busqueda_pendiente",
+  "marca": "Clic House"
+ },
  "click flat": {
   "estado": "busqueda_pendiente",
   "marca": "Click & Flat"
@@ -1390,9 +1852,17 @@
   "revisado_js": true,
   "web": "https://clikalia.es/"
  },
+ "cmi": {
+  "estado": "busqueda_pendiente",
+  "marca": "CMI"
+ },
  "co": {
   "estado": "busqueda_pendiente",
   "marca": "CO-Real Estate SL"
+ },
+ "cocoon": {
+  "estado": "busqueda_pendiente",
+  "marca": "Cocoon Barcelona"
  },
  "cold": {
   "estado": "busqueda_pendiente",
@@ -1422,6 +1892,18 @@
   "url_alquiler": "https://www.coldwellbanker.es/javea-xabia/montanar-el-arenal/hotel-boutique-de-lujo-frente-al-mar-en-javea-con-licencia-de-obra-y-restaurante-chill-out",
   "web": "https://www.coldwellbanker.es/"
  },
+ "coldwell banker prestige": {
+  "anuncios": 1,
+  "estado": "vigilable",
+  "marca": "Coldwell Banker Prestige Barcelona",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.coldwellbanker.es/javea-xabia/montanar-el-arenal/hotel-boutique-de-lujo-frente-al-mar-en-javea-con-licencia-de-obra-y-restaurante-chill-out",
+  "web": "https://www.coldwellbanker.es/"
+ },
+ "compagnie fonciere iberique": {
+  "estado": "busqueda_pendiente",
+  "marca": "Compagnie Fonciere Iberique SA"
+ },
  "comprar grand": {
   "estado": "busqueda_pendiente",
   "marca": "Comprar Casa-Grand House"
@@ -1438,9 +1920,17 @@
   "estado": "busqueda_pendiente",
   "marca": "Barcelona Real Estate Grup Comtal SL"
  },
+ "concasa inmobiliarios": {
+  "estado": "busqueda_pendiente",
+  "marca": "Concasa Servicios Inmobiliarios"
+ },
  "condalreal": {
   "estado": "busqueda_pendiente",
   "marca": "Condalreal"
+ },
+ "consulta": {
+  "estado": "busqueda_pendiente",
+  "marca": "Consulta SCP"
  },
  "consultants": {
   "estado": "busqueda_pendiente",
@@ -1453,6 +1943,10 @@
  "cos": {
   "estado": "busqueda_pendiente",
   "marca": "Finques Cos"
+ },
+ "cota valverde": {
+  "estado": "busqueda_pendiente",
+  "marca": "Grupo Cota y Valverde"
  },
  "coysa": {
   "estado": "busqueda_pendiente",
@@ -1476,6 +1970,14 @@
  "cubic": {
   "estado": "busqueda_pendiente",
   "marca": "Cubic"
+ },
+ "culebras": {
+  "estado": "busqueda_pendiente",
+  "marca": "Culebras Assessors SL"
+ },
+ "culmia masia can bellet": {
+  "estado": "busqueda_pendiente",
+  "marca": "Culmia Masia Can Bellet"
  },
  "cumbre": {
   "estado": "web_ok",
@@ -1508,6 +2010,14 @@
   "estado": "busqueda_pendiente",
   "marca": "David Alonso Garcia"
  },
+ "david sanchez atienza": {
+  "estado": "busqueda_pendiente",
+  "marca": "David Sánchez Atienza"
+ },
+ "dawn": {
+  "estado": "busqueda_pendiente",
+  "marca": "Dawn Finques"
+ },
  "dcano investment": {
   "estado": "busqueda_pendiente",
   "marca": "DCANO Real Estate Investment SL"
@@ -1515,6 +2025,14 @@
  "deivit plus": {
   "estado": "busqueda_pendiente",
   "marca": "Deivit Plus, S.l"
+ },
+ "dels lloguers": {
+  "estado": "web_ok",
+  "marca": "La Casa Dels Lloguers",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://lacasadelslloguers.com/",
+  "revisado_js": true,
+  "web": "https://lacasadelslloguers.com/"
  },
  "deluxe locations": {
   "estado": "busqueda_pendiente",
@@ -1586,6 +2104,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Dolça Llar"
  },
+ "dolmen": {
+  "estado": "busqueda_pendiente",
+  "marca": "Dolmen"
+ },
+ "dolors aranda gutierrez": {
+  "estado": "busqueda_pendiente",
+  "marca": "Dolors Aranda Gutiérrez"
+ },
  "domenys 90": {
   "estado": "web_ok",
   "marca": "Domenys 90 SL",
@@ -1593,9 +2119,17 @@
   "revisado_js": true,
   "web": "https://www.domenys90.com/"
  },
+ "domingo pi": {
+  "estado": "busqueda_pendiente",
+  "marca": "Domingo Pi"
+ },
  "dominguez": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas Domínguez"
+ },
+ "domum credit": {
+  "estado": "busqueda_pendiente",
+  "marca": "Domum Crèdit"
  },
  "domus": {
   "estado": "busqueda_pendiente",
@@ -1734,6 +2268,10 @@
   "revisado_js": true,
   "web": "https://eixhabitat.com/"
  },
+ "eixample singular": {
+  "estado": "busqueda_pendiente",
+  "marca": "Eixample Singular"
+ },
  "ej inversions": {
   "estado": "busqueda_pendiente",
   "marca": "Ej Inversions"
@@ -1758,6 +2296,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Eleven Keys Investment Group"
  },
+ "elix inmobiliarios": {
+  "estado": "busqueda_pendiente",
+  "marca": "Elix Servicios inmobiliarios SL"
+ },
  "ella agent": {
   "estado": "busqueda_pendiente",
   "marca": "CASA D'ELLA BCN, agent immobiliària"
@@ -1766,9 +2308,17 @@
   "estado": "busqueda_pendiente",
   "marca": "Elle Homes BCN SL"
  },
+ "ema": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Ema"
+ },
  "engel volkers": {
   "estado": "busqueda_pendiente",
   "marca": "Engel & Völkers"
+ },
+ "entenca 22": {
+  "estado": "busqueda_pendiente",
+  "marca": "Entença 22 Finques"
  },
  "entis immobiliaris": {
   "estado": "busqueda_pendiente",
@@ -1826,6 +2376,14 @@
   "revisado_js": true,
   "web": "https://fincasesteban.com/"
  },
+ "estrada partners inmobiliarios": {
+  "anuncios": 7,
+  "estado": "vigilable",
+  "marca": "Estrada & Partners Asesores Inmobiliarios SL",
+  "metodo": "dominio",
+  "url_alquiler": "https://estradapartners.com/propiedades/nave-industrial-en-alquiler-en-zona-franca/",
+  "web": "https://estradapartners.com/"
+ },
  "estudi bdn pompeu fabra": {
   "estado": "busqueda_pendiente",
   "marca": "Estudi BDN Pompeu Fabra SL"
@@ -1846,6 +2404,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Estudi Felip Segon Sl"
  },
+ "estudi gotic sud": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudi Gotic Sud SL"
+ },
  "estudi gran via 2005": {
   "estado": "busqueda_pendiente",
   "marca": "Estudi Gran Via 2005, S.l.u"
@@ -1853,6 +2415,38 @@
  "estudi immogest": {
   "estado": "busqueda_pendiente",
   "marca": "Estudi Immogest SLU"
+ },
+ "estudi merca barceloneta mar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudi Merca Barceloneta Mar SL"
+ },
+ "estudi montjuic mar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudi Montjuic Mar SL"
+ },
+ "estudi on": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudi Immobiliari On"
+ },
+ "estudi placa maragall": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudi Plaça Maragall SL"
+ },
+ "estudi poble sec mar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudi Poble Sec Mar SL"
+ },
+ "estudi raval mar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudi Raval Mar SL"
+ },
+ "estudi st adria 2006": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudi St. Adria 2006 SL"
+ },
+ "estudi verdum": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudi Verdum SL"
  },
  "estudi viladecans": {
   "estado": "busqueda_pendiente",
@@ -1862,6 +2456,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Estudio Ca N'oliva  SL"
  },
+ "estudio camp arpa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudio Camp De L'arpa SL"
+ },
  "estudio castillejos": {
   "estado": "busqueda_pendiente",
   "marca": "Estudio Castillejos SL"
@@ -1869,6 +2467,14 @@
  "estudio fondo": {
   "estado": "busqueda_pendiente",
   "marca": "Estudio Fondo Sl"
+ },
+ "estudio plaza macael": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudio Plaza Macael SL"
+ },
+ "estudio proyecto maragall 2004": {
+  "estado": "busqueda_pendiente",
+  "marca": "Estudio Proyecto Maragall 2004 SLU"
  },
  "estudio proyecto naranja": {
   "estado": "busqueda_pendiente",
@@ -1912,6 +2518,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Eumados S.l"
  },
+ "eureka immobles": {
+  "anuncios": 3,
+  "estado": "vigilable",
+  "marca": "Eureka Immobles",
+  "metodo": "dominio",
+  "url_alquiler": "https://eurekaimmobles.com/property-category/en-alquiler/",
+  "web": "https://eurekaimmobles.com/"
+ },
  "euro urbanisticos inmobiliarios": {
   "estado": "busqueda_pendiente",
   "marca": "Euro Servicios Urbanísticos e Inmobiliarios SL"
@@ -1927,6 +2541,14 @@
  "eurohouse": {
   "estado": "busqueda_pendiente",
   "marca": "Eurohouse"
+ },
+ "eva": {
+  "estado": "web_ok",
+  "marca": "Fincas Eva",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.fincaseva.com/alquiler/",
+  "revisado_js": true,
+  "web": "https://www.fincaseva.com/"
  },
  "eva artigot lluellas": {
   "estado": "busqueda_pendiente",
@@ -1952,6 +2574,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Exes Grupo Expofinques"
  },
+ "exessantjoandespi": {
+  "estado": "busqueda_pendiente",
+  "marca": "Exessantjoandespi"
+ },
  "exp realty espana": {
   "estado": "busqueda_pendiente",
   "marca": "EXP Realty España"
@@ -1959,6 +2585,10 @@
  "expansion inmobilaria": {
   "estado": "busqueda_pendiente",
   "marca": "Expansión Inmobilaria"
+ },
+ "expo riba": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Expo - Riba"
  },
  "expoca cat": {
   "estado": "busqueda_pendiente",
@@ -1991,6 +2621,18 @@
  "fastighetsbyran": {
   "estado": "busqueda_pendiente",
   "marca": "Fastighetsbyran - Barcelona"
+ },
+ "fb": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Fb"
+ },
+ "fblanco administracion": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fblanco Administración SL"
+ },
+ "febrer": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Febrer SLP"
  },
  "fedemarc": {
   "estado": "busqueda_pendiente",
@@ -2047,6 +2689,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Ferran Lleixa Abril"
  },
+ "ferrandiz fosco": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ferrandiz i Fosco SLP"
+ },
  "ferrarons": {
   "estado": "busqueda_pendiente",
   "marca": "Ferrarons Fincas"
@@ -2063,6 +2709,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Feryan Inmobiliaria"
  },
+ "ficasso": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ficasso Real Estate"
+ },
+ "figurama inmuebles": {
+  "estado": "busqueda_pendiente",
+  "marca": "Figurama Inmuebles"
+ },
  "fin per": {
   "anuncios": 15,
   "estado": "vigilable",
@@ -2077,6 +2731,10 @@
   "metodo": "dominio",
   "revisado_js": true,
   "web": "https://www.fincador.com/"
+ },
+ "fincagestio": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincagestió Bcn SL"
  },
  "fincas": {
   "estado": "busqueda_pendiente",
@@ -2101,9 +2759,20 @@
   "estado": "busqueda_pendiente",
   "marca": "Find your Key"
  },
+ "fine country": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fine & Country"
+ },
  "finedo service": {
   "estado": "busqueda_pendiente",
   "marca": "Finedo Service SL"
+ },
+ "finestrelles": {
+  "estado": "web_ok",
+  "marca": "Fincas Finestrelles",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://fincasfinestrelles.com/"
  },
  "finques": {
   "estado": "busqueda_pendiente",
@@ -2112,6 +2781,13 @@
  "finquo asistente online": {
   "estado": "busqueda_pendiente",
   "marca": "Finqüo - Asistente Inmobiliario Online"
+ },
+ "finurba": {
+  "estado": "web_ok",
+  "marca": "Fincas Finurba",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://www.fincasfinurba.com/cat/index.php"
  },
  "firstline houses": {
   "estado": "web_ok",
@@ -2141,6 +2817,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Flat Hunter Barcelona"
  },
+ "flat up": {
+  "estado": "busqueda_pendiente",
+  "marca": "Flat Up!"
+ },
  "flats": {
   "estado": "web_ok",
   "marca": "Bcn Flats",
@@ -2153,13 +2833,29 @@
   "estado": "busqueda_pendiente",
   "marca": "Flipinmo SL"
  },
+ "floren": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Floren"
+ },
  "flyflats services": {
   "estado": "busqueda_pendiente",
   "marca": "Flyflats properties and services SL"
  },
+ "fm": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fm"
+ },
  "fontana building": {
   "estado": "busqueda_pendiente",
   "marca": "Fontana Building"
+ },
+ "forcadell": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Forcadell"
+ },
+ "forcadell consultors immobiliaris": {
+  "estado": "busqueda_pendiente",
+  "marca": "Forcadell Consultors Immobiliaris"
  },
  "fornell consultors consultors": {
   "estado": "busqueda_pendiente",
@@ -2168,6 +2864,10 @@
  "forrent apartments": {
   "estado": "busqueda_pendiente",
   "marca": "Barcelona Forrent Apartments"
+ },
+ "fortes habitat": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fortes Habitat"
  },
  "forum gabinete fiscal": {
   "estado": "busqueda_pendiente",
@@ -2184,6 +2884,14 @@
  "francisco amoros vives": {
   "estado": "busqueda_pendiente",
   "marca": "Francisco Amorós Vives"
+ },
+ "francisco boronat palacio": {
+  "estado": "busqueda_pendiente",
+  "marca": "Francisco Boronat Palacio"
+ },
+ "francisco javier segovia arias": {
+  "estado": "busqueda_pendiente",
+  "marca": "Francisco Javier Segovia Arias"
  },
  "francisco jose rojas aleix": {
   "estado": "busqueda_pendiente",
@@ -2253,6 +2961,10 @@
   "revisado_js": true,
   "web": "https://www.gabinetejorvi.com/"
  },
+ "gabinete lesseps": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gabinete Lesseps SL"
+ },
  "gabinete mitre": {
   "estado": "busqueda_pendiente",
   "marca": "Gabinete Mitre"
@@ -2279,6 +2991,14 @@
   "revisado_js": true,
   "web": "https://www.galafinques.com/"
  },
+ "galisan": {
+  "anuncios": 5,
+  "estado": "vigilable",
+  "marca": "Galisan Fincas",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.grupogalisan.com/es/alquiler",
+  "web": "https://www.grupogalisan.com/"
+ },
  "gallardo": {
   "estado": "web_ok",
   "marca": "Fincas Gallardo",
@@ -2294,6 +3014,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Gallart Real Estate"
  },
+ "gamimar inmobiliarios": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gamimar Servicios Inmobiliarios"
+ },
  "gandia inmobiliarios": {
   "anuncios": 1,
   "estado": "vigilable",
@@ -2301,6 +3025,10 @@
   "metodo": "dominio",
   "url_alquiler": "https://www.fincasgandia.com/por-que-vivir-de-alquiler/",
   "web": "https://www.fincasgandia.com/"
+ },
+ "garcia associats": {
+  "estado": "busqueda_pendiente",
+  "marca": "Garcia Assessors & Associats"
  },
  "garcia portusach consultores": {
   "estado": "busqueda_pendiente",
@@ -2346,6 +3074,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Gea Comunicació I Serveis"
  },
+ "gecoinsa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gecoinsa"
+ },
  "geimsu": {
   "estado": "busqueda_pendiente",
   "marca": "Geimsu Fincas"
@@ -2370,12 +3102,24 @@
   "estado": "busqueda_pendiente",
   "marca": "Gemma Estruch (B&L Properties)"
  },
+ "gencia": {
+  "estado": "busqueda_pendiente",
+  "marca": "L'@gència Gestió Immobiliaria"
+ },
  "germa juli": {
   "estado": "web_ok",
   "marca": "Germà Juli",
   "metodo": "dominio",
   "revisado_js": true,
   "web": "https://www.germajuli.com/"
+ },
+ "gesbau": {
+  "anuncios": 10,
+  "estado": "vigilable",
+  "marca": "Gesbau",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.gesbau.com/venta_y_alquiler-inmuebles/lang/es/",
+  "web": "https://www.gesbau.com/"
  },
  "gesbin": {
   "estado": "busqueda_pendiente",
@@ -2384,6 +3128,18 @@
  "gese": {
   "estado": "busqueda_pendiente",
   "marca": "GESE"
+ },
+ "gesfinsert": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gesfinsert SCP"
+ },
+ "gesgrama": {
+  "estado": "web_ok",
+  "marca": "Gesgrama",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://gesgrama.es/noticias/descubre-todo-sobre-una-vivienda-de-obra-nueva",
+  "revisado_js": true,
+  "web": "https://gesgrama.es/"
  },
  "gesmar 2000": {
   "estado": "web_ok",
@@ -2397,6 +3153,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Gesnova Inmuebles"
  },
+ "gesper asesoria empresa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gesper Asesoria De Empresa"
+ },
  "gessin": {
   "estado": "busqueda_pendiente",
   "marca": "Gessin"
@@ -2404,6 +3164,10 @@
  "gestbarna": {
   "estado": "busqueda_pendiente",
   "marca": "GESTBARNA"
+ },
+ "gestihome": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gestihome"
  },
  "gestin": {
   "anuncios": 10,
@@ -2413,6 +3177,10 @@
   "url_alquiler": "https://gestin3.com/categoria-producto/alquilar/",
   "web": "https://gestin3.com/"
  },
+ "gesting": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Bcn Gesting SCP"
+ },
  "gestio immobiliaria": {
   "estado": "busqueda_pendiente",
   "marca": "S B Gestió Immobiliària"
@@ -2420,6 +3188,14 @@
  "gestiones diagonal": {
   "estado": "busqueda_pendiente",
   "marca": "Inversiones y Gestiones Diagonal"
+ },
+ "gestions": {
+  "estado": "busqueda_pendiente",
+  "marca": "I C L Gestions"
+ },
+ "gestions immobiliaries rocamar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gestions Immobiliaries Rocamar"
  },
  "gestocat": {
   "estado": "busqueda_pendiente",
@@ -2441,6 +3217,18 @@
   "estado": "busqueda_pendiente",
   "marca": "Gestors de Patrimoni"
  },
+ "gil": {
+  "estado": "web_ok",
+  "marca": "Finques Gil",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://gilamargos.com/gestio-patrimonial-i-lloguers",
+  "revisado_js": true,
+  "web": "https://gilamargos.com/"
+ },
+ "gilma esplugues": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Gilma / Finques Esplugues"
+ },
  "gilser": {
   "anuncios": 2,
   "estado": "vigilable",
@@ -2452,6 +3240,10 @@
  "gines": {
   "estado": "busqueda_pendiente",
   "marca": "Ginés Fincas"
+ },
+ "ginkofincas": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ginkofincas"
  },
  "ginxin": {
   "estado": "busqueda_pendiente",
@@ -2505,6 +3297,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Glòria Font"
  },
+ "golden fenix": {
+  "estado": "busqueda_pendiente",
+  "marca": "Golden Fenix"
+ },
  "golden gate": {
   "anuncios": 1,
   "estado": "vigilable",
@@ -2513,6 +3309,10 @@
   "url_alquiler": "https://www.goldengatehomes.es/property/chalet-en-exclusiva-con-piscina-y-jardin-en-alella-la-serreta/",
   "web": "https://www.goldengatehomes.es/"
  },
+ "gomez 2911": {
+  "estado": "busqueda_pendiente",
+  "marca": "Gómez y Real 2911"
+ },
  "gomez ros": {
   "estado": "web_ok",
   "marca": "Gómez Ros Asesores",
@@ -2520,6 +3320,10 @@
   "pagina_sin_anuncios": "https://gomezrosasesores.com/declaracion-renta-hospitalet/",
   "revisado_js": true,
   "web": "https://gomezrosasesores.com/"
+ },
+ "gonseni": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Gonseni SL"
  },
  "gonzalez": {
   "estado": "web_ok",
@@ -2581,6 +3385,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Gran Barcelona Serveis Immobiliaris"
  },
+ "gran urbe": {
+  "estado": "web_ok",
+  "marca": "La Gran Urbe SLP",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://lagranurbe.com/edificios-en-alquiler/",
+  "revisado_js": true,
+  "web": "https://lagranurbe.com/"
+ },
  "gras": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas Gras"
@@ -2600,6 +3412,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Grupassa"
  },
+ "grupduna immobiliaris": {
+  "estado": "busqueda_pendiente",
+  "marca": "Grupduna serveis immobiliaris"
+ },
+ "grupgb": {
+  "estado": "busqueda_pendiente",
+  "marca": "Grupgb"
+ },
  "gruppiso": {
   "estado": "web_ok",
   "marca": "Gruppiso",
@@ -2611,9 +3431,25 @@
   "estado": "busqueda_pendiente",
   "marca": "Grups Immobiliaris - Serra Exclusives"
  },
+ "gti transacciones inmobiliarias": {
+  "estado": "busqueda_pendiente",
+  "marca": "GTI Gestión de Transacciones Inmobiliarias SL"
+ },
+ "guadix sector": {
+  "estado": "busqueda_pendiente",
+  "marca": "Guadix Sector Inmobiliario"
+ },
+ "guasch": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Guasch SL"
+ },
  "guerin bulto": {
   "estado": "busqueda_pendiente",
   "marca": "Guerin Bulto SL"
+ },
+ "guillermo silva bernardo": {
+  "estado": "busqueda_pendiente",
+  "marca": "Guillermo Silva Bernardo"
  },
  "guimar": {
   "anuncios": 14,
@@ -2622,6 +3458,14 @@
   "metodo": "dominio",
   "url_alquiler": "https://www.guimarconsulting.es/inmuebles-en-rentabilidad.php",
   "web": "https://www.guimarconsulting.es/"
+ },
+ "guinot prunera": {
+  "anuncios": 143,
+  "estado": "vigilable",
+  "marca": "Guinot Prunera",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.guinotprunera.com/es/alquiler",
+  "web": "https://www.guinotprunera.com/"
  },
  "gumper inmobiliarios": {
   "estado": "busqueda_pendiente",
@@ -2639,6 +3483,17 @@
   "estado": "busqueda_pendiente",
   "marca": "Grup Habitacle"
  },
+ "habitacle reformes integrals": {
+  "estado": "busqueda_pendiente",
+  "marca": "Habitacle immobiliària i reformes integrals SL"
+ },
+ "habitahogar": {
+  "estado": "web_ok",
+  "marca": "Habitahogar",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://habitahogar.com"
+ },
  "habitaretail": {
   "estado": "web_ok",
   "marca": "HabitaRetail",
@@ -2651,9 +3506,20 @@
   "estado": "busqueda_pendiente",
   "marca": "Bcn Habitat Sl"
  },
+ "habitat apartments": {
+  "estado": "web_ok",
+  "marca": "Habitat Apartments",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://www.habitatapartments.com/es"
+ },
  "habitat mls global habitat": {
   "estado": "busqueda_pendiente",
   "marca": "J. Habitat MLS (Global Habitat)"
+ },
+ "habitat premium selection": {
+  "estado": "busqueda_pendiente",
+  "marca": "Habitat Premium Selection"
  },
  "habitat3 fundacio privada tercer sector social": {
   "estado": "busqueda_pendiente",
@@ -2662,6 +3528,10 @@
  "hand seal": {
   "estado": "busqueda_pendiente",
   "marca": "Hand & Seal"
+ },
+ "handser": {
+  "estado": "busqueda_pendiente",
+  "marca": "Handser Consulting"
  },
  "happycasa rooms flats": {
   "estado": "busqueda_pendiente",
@@ -2675,6 +3545,10 @@
   "revisado_js": true,
   "web": "https://www.hauserinvest.com/"
  },
+ "hector alcaniz andreu": {
+  "estado": "busqueda_pendiente",
+  "marca": "Hector Alcáñiz Andreu"
+ },
  "hegava": {
   "estado": "web_ok",
   "marca": "Hegava",
@@ -2686,6 +3560,10 @@
  "heritage": {
   "estado": "busqueda_pendiente",
   "marca": "Heritage Real Estate SL"
+ },
+ "hersa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Hersa Gestión SL"
  },
  "hest": {
   "anuncios": 6,
@@ -2735,6 +3613,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Holbox, Inversiones & Patrimonio"
  },
+ "hom": {
+  "estado": "busqueda_pendiente",
+  "marca": "Hom Immobiliaria"
+ },
  "home barcelona": {
   "estado": "web_ok",
   "marca": "La Home Barcelona",
@@ -2742,9 +3624,24 @@
   "revisado_js": true,
   "web": "https://www.lahomebarcelona.com/"
  },
+ "home4bcn": {
+  "estado": "web_ok",
+  "marca": "Home4bcn",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.home4bcn.com/relocation_services.html",
+  "revisado_js": true,
+  "web": "https://www.home4bcn.com/"
+ },
  "homecity": {
   "estado": "busqueda_pendiente",
   "marca": "Homecity"
+ },
+ "homim": {
+  "estado": "web_ok",
+  "marca": "Homim",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://www.homim.es/"
  },
  "homing": {
   "estado": "busqueda_pendiente",
@@ -2790,21 +3687,45 @@
   "estado": "busqueda_pendiente",
   "marca": "IAG"
  },
+ "ib gestions immobiliaris": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ib Grup Serveis I Gestions Immobiliaris"
+ },
  "ibercasa propietats": {
   "estado": "busqueda_pendiente",
   "marca": "Ibercasa Propietats SLU"
+ },
+ "ibercau": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ibercau"
+ },
+ "iberocredit es": {
+  "estado": "busqueda_pendiente",
+  "marca": "Iberocredit.es"
  },
  "ibusa": {
   "estado": "busqueda_pendiente",
   "marca": "Ibusa"
  },
+ "igloobal": {
+  "estado": "busqueda_pendiente",
+  "marca": "Igloobal"
+ },
  "ignalia trading": {
   "estado": "busqueda_pendiente",
   "marca": "Ignalia Trading"
  },
+ "ignasi borrell roca": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ignasi Borrell Roca"
+ },
  "igs inmo services": {
   "estado": "busqueda_pendiente",
   "marca": "IGS Inmo group Services"
+ },
+ "ildemon": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ildemon SL"
  },
  "immo augusta": {
   "estado": "web_ok",
@@ -2862,9 +3783,24 @@
   "revisado_js": true,
   "web": "https://serveisimmobiliaris.cat/"
  },
+ "immobiliarius": {
+  "anuncios": 4,
+  "estado": "vigilable",
+  "marca": "Immobiliarius",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.immobiliarius.com/alquiler/es/",
+  "web": "https://www.immobiliarius.com/"
+ },
  "immobles sace": {
   "estado": "busqueda_pendiente",
   "marca": "Immobles Sace SL"
+ },
+ "immoclau": {
+  "estado": "web_ok",
+  "marca": "Immoclau",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://immoclau.es/"
  },
  "immofacil": {
   "estado": "busqueda_pendiente",
@@ -2930,6 +3866,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Imopartner"
  },
+ "imperial luxury": {
+  "estado": "busqueda_pendiente",
+  "marca": "Imperial Luxury Properties SL"
+ },
  "important": {
   "estado": "busqueda_pendiente",
   "marca": "Important House"
@@ -2938,6 +3878,14 @@
   "estado": "busqueda_pendiente",
   "marca": "IMS Real Estate"
  },
+ "imsa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Imsa"
+ },
+ "inarco": {
+  "estado": "busqueda_pendiente",
+  "marca": "Inarco"
+ },
  "indurain": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas Indurain"
@@ -2945,6 +3893,10 @@
  "inglo": {
   "estado": "busqueda_pendiente",
   "marca": "Inglo"
+ },
+ "iniciativas guscar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Iniciativas Guscar SL"
  },
  "iniciativas segre": {
   "estado": "busqueda_pendiente",
@@ -2958,6 +3910,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Inin"
  },
+ "inmarba": {
+  "estado": "busqueda_pendiente",
+  "marca": "Inmarba"
+ },
  "inmo": {
   "estado": "web_ok",
   "marca": "Inmo - Gestión",
@@ -2965,6 +3921,14 @@
   "pagina_sin_anuncios": "https://www.inmogestion.cat/gestion-alquileres",
   "revisado_js": true,
   "web": "https://www.inmogestion.cat/"
+ },
+ "inmo addict": {
+  "estado": "busqueda_pendiente",
+  "marca": "Bcn Inmo Addict"
+ },
+ "inmo excellence": {
+  "estado": "busqueda_pendiente",
+  "marca": "Inmo Excellence"
  },
  "inmo lepanto": {
   "estado": "busqueda_pendiente",
@@ -3052,13 +4016,28 @@
   "revisado_js": true,
   "web": "https://www.inmogracia.com/"
  },
+ "inmohabitatge": {
+  "estado": "busqueda_pendiente",
+  "marca": "Inmohabitatge Barcelona"
+ },
  "inmolobby international realty": {
   "estado": "busqueda_pendiente",
   "marca": "Inmolobby (International Realty)"
  },
+ "inmomar baix llobregat": {
+  "estado": "busqueda_pendiente",
+  "marca": "Inmomar del Baix Llobregat SL"
+ },
  "inmomarto": {
   "estado": "busqueda_pendiente",
   "marca": "Inmomarto Gestió Immobiliària"
+ },
+ "inmoplus": {
+  "estado": "web_ok",
+  "marca": "Inmoplus",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://inmoplus.net/"
  },
  "inmoredes": {
   "estado": "web_ok",
@@ -3066,6 +4045,10 @@
   "metodo": "dominio",
   "revisado_js": true,
   "web": "https://www.inmoredes.es/"
+ },
+ "inmosa immobiliaris financament": {
+  "estado": "busqueda_pendiente",
+  "marca": "Inmosa Serveis Immobiliaris I Finançament"
  },
  "inmosearch": {
   "anuncios": 16,
@@ -3101,6 +4084,10 @@
  "inmowebcn": {
   "estado": "busqueda_pendiente",
   "marca": "Inmowebcn"
+ },
+ "inmuebles bonjour": {
+  "estado": "busqueda_pendiente",
+  "marca": "Inmuebles Bonjour"
  },
  "inmuebles estructuras": {
   "estado": "busqueda_pendiente",
@@ -3160,6 +4147,18 @@
   "revisado_js": true,
   "web": "https://www.interfinques.es/"
  },
+ "interpiso ip": {
+  "estado": "busqueda_pendiente",
+  "marca": "Interpiso Ip"
+ },
+ "invercan": {
+  "estado": "busqueda_pendiente",
+  "marca": "Invercan"
+ },
+ "invermix invesment": {
+  "estado": "busqueda_pendiente",
+  "marca": "Invermix Real Estate Invesment"
+ },
  "invermix investment": {
   "estado": "busqueda_pendiente",
   "marca": "Invermix Real Estate Investment"
@@ -3176,9 +4175,17 @@
   "estado": "busqueda_pendiente",
   "marca": "Inversiones BCN"
  },
+ "inversions montig": {
+  "estado": "busqueda_pendiente",
+  "marca": "Inversions Montig SL"
+ },
  "invervi": {
   "estado": "busqueda_pendiente",
   "marca": "Invervi Fincas"
+ },
+ "invervis": {
+  "estado": "busqueda_pendiente",
+  "marca": "Invervis Gestión SL"
  },
  "investment 2021": {
   "estado": "busqueda_pendiente",
@@ -3188,6 +4195,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Real Estate Investments Properties SLU"
  },
+ "investpunt": {
+  "estado": "busqueda_pendiente",
+  "marca": "Investpunt"
+ },
  "isabel onandia alsius": {
   "estado": "busqueda_pendiente",
   "marca": "Isabel Onandia Alsius"
@@ -3196,9 +4207,25 @@
   "estado": "busqueda_pendiente",
   "marca": "Istamer"
  },
+ "iter": {
+  "estado": "busqueda_pendiente",
+  "marca": "Grupo Iter"
+ },
+ "itu": {
+  "estado": "busqueda_pendiente",
+  "marca": "A.f Itú Inmobiliaria"
+ },
  "ivan": {
   "estado": "busqueda_pendiente",
   "marca": "Ivan Finques"
+ },
+ "jagomi networking": {
+  "estado": "busqueda_pendiente",
+  "marca": "Jagomi Networking"
+ },
+ "jaguer": {
+  "estado": "busqueda_pendiente",
+  "marca": "Jaguer"
  },
  "jaime jose garcia borobia": {
   "estado": "busqueda_pendiente",
@@ -3212,9 +4239,29 @@
   "estado": "busqueda_pendiente",
   "marca": "JAM Real Estate Business SL"
  },
+ "jardin": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Jardin SL"
+ },
+ "jaume baro queralt": {
+  "estado": "busqueda_pendiente",
+  "marca": "Jaume Baró Queralt"
+ },
  "javier ruiz arguisuelas": {
   "estado": "busqueda_pendiente",
   "marca": "Javier Ruiz Arguisuelas"
+ },
+ "jesus luis vicente blanco": {
+  "estado": "busqueda_pendiente",
+  "marca": "Jesus Luis Vicente Blanco"
+ },
+ "jilong": {
+  "estado": "web_ok",
+  "marca": "Jilong",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://jilong.es/venta-alquiler-pisos-barcelona.html",
+  "revisado_js": true,
+  "web": "https://jilong.es/"
  },
  "jjp": {
   "estado": "web_ok",
@@ -3228,6 +4275,10 @@
   "estado": "busqueda_pendiente",
   "marca": "JL Fernández"
  },
+ "joan marba barbeta": {
+  "estado": "busqueda_pendiente",
+  "marca": "Joan Marbà Barbeta"
+ },
  "joaquim coller algora": {
   "estado": "busqueda_pendiente",
   "marca": "Joaquim Coller Algora"
@@ -3235,6 +4286,10 @@
  "joaquim roses": {
   "estado": "busqueda_pendiente",
   "marca": "Joaquim M Roses"
+ },
+ "jones lang lasalle espana": {
+  "estado": "busqueda_pendiente",
+  "marca": "Jones Lang Lasalle España SL"
  },
  "jordi bernabe espasa": {
   "estado": "busqueda_pendiente",
@@ -3252,6 +4307,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Jordi Cuxart Ainaud"
  },
+ "jordi vila balaguer": {
+  "estado": "busqueda_pendiente",
+  "marca": "Jordi Vila Balaguer"
+ },
  "jorge balaguer nadal": {
   "estado": "busqueda_pendiente",
   "marca": "Jorge Balaguer Nadal"
@@ -3259,6 +4318,10 @@
  "jorge juan inmobiliarios golden square": {
   "estado": "busqueda_pendiente",
   "marca": "Jorge Juan Servicios Inmobiliarios - Golden Square"
+ },
+ "jose abadal bordas": {
+  "estado": "busqueda_pendiente",
+  "marca": "Jose De Abadal Bordas"
  },
  "jose ma aguila bonfill": {
   "estado": "busqueda_pendiente",
@@ -3271,6 +4334,10 @@
  "jose maria brau riera": {
   "estado": "busqueda_pendiente",
   "marca": "José Maria Brau Riera"
+ },
+ "jose navarro bustos": {
+  "estado": "busqueda_pendiente",
+  "marca": "José Navarro Bustos"
  },
  "jose ramon gomez ballester": {
   "estado": "busqueda_pendiente",
@@ -3302,13 +4369,37 @@
   "estado": "busqueda_pendiente",
   "marca": "Juan Aler Vizcaino"
  },
+ "juan manuel fuentes almodovar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Juan Manuel Fuentes Almodovar"
+ },
+ "juan maria cases bofill": {
+  "estado": "busqueda_pendiente",
+  "marca": "Juan Maria Cases Bofill"
+ },
  "juansoler assessoria": {
   "estado": "busqueda_pendiente",
   "marca": "Juansoler Assessoria Immobiliaria"
  },
+ "judith strub": {
+  "estado": "web_ok",
+  "marca": "Judith Strub SL",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.judithstrub.com/find/?buy_op=renting",
+  "revisado_js": true,
+  "web": "https://www.judithstrub.com/"
+ },
+ "julia alie vega": {
+  "estado": "busqueda_pendiente",
+  "marca": "Júlia Alié De Vega"
+ },
  "juridicos inmobiliarios": {
   "estado": "busqueda_pendiente",
   "marca": "Servicios Jurídicos E Inmobiliarios"
+ },
+ "juvet": {
+  "estado": "busqueda_pendiente",
+  "marca": "Juvet Finques"
  },
  "karim abdelmoneim gracia": {
   "estado": "busqueda_pendiente",
@@ -3333,6 +4424,18 @@
  "krowmac": {
   "estado": "busqueda_pendiente",
   "marca": "Krowmac"
+ },
+ "laborde marcet": {
+  "anuncios": 2,
+  "estado": "vigilable",
+  "marca": "Laborde Marcet SL",
+  "metodo": "dominio",
+  "url_alquiler": "https://labordemarcet.com/invertir/",
+  "web": "https://labordemarcet.com/"
+ },
+ "laciana": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Laciana"
  },
  "lae": {
   "anuncios": 11,
@@ -3367,6 +4470,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Lantor Consulting SL"
  },
+ "lar largarbi": {
+  "estado": "web_ok",
+  "marca": "Grupo Lar - Largarbi",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://grupolar.com/residencial-en-alquiler/",
+  "revisado_js": true,
+  "web": "https://grupolar.com/"
+ },
  "lara": {
   "estado": "web_ok",
   "marca": "Lara Barcelona Real Estate",
@@ -3399,6 +4510,13 @@
   "estado": "busqueda_pendiente",
   "marca": "Layla Chaibi Bouzzaqui"
  },
+ "layvak": {
+  "estado": "web_ok",
+  "marca": "Layvak",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://www.layvak.es/"
+ },
  "leant": {
   "estado": "web_ok",
   "marca": "Finques Leant SL",
@@ -3414,6 +4532,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Finques Lemi"
  },
+ "lesseps": {
+  "estado": "web_ok",
+  "marca": "Finques Lesseps",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://finqueslesseps.com/incidencies-manteniment.html",
+  "revisado_js": true,
+  "web": "https://finqueslesseps.com/"
+ },
  "letsgocasa": {
   "estado": "busqueda_pendiente",
   "marca": "Letsgocasa"
@@ -3421,6 +4547,10 @@
  "levante": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas Levante"
+ },
+ "lex 28": {
+  "estado": "busqueda_pendiente",
+  "marca": "Lex 28"
  },
  "lex poblenou": {
   "estado": "busqueda_pendiente",
@@ -3458,6 +4588,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Barcelona Llar Asesores e Inmobiliarios SL"
  },
+ "llar quatre": {
+  "estado": "web_ok",
+  "marca": "Llar Quatre",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://llar-quatre.com/alquiler/",
+  "revisado_js": true,
+  "web": "https://llar-quatre.com/"
+ },
  "llarbarcelona": {
   "estado": "busqueda_pendiente",
   "marca": "Llarbarcelona"
@@ -3466,6 +4604,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Llarblaz"
  },
+ "llarexpert": {
+  "estado": "busqueda_pendiente",
+  "marca": "Llarexpert SL"
+ },
  "llars montgat": {
   "estado": "busqueda_pendiente",
   "marca": "Llars Montgat"
@@ -3473,6 +4615,10 @@
  "llave": {
   "estado": "busqueda_pendiente",
   "marca": "La Llave de Barcelona"
+ },
+ "llave hogar": {
+  "estado": "busqueda_pendiente",
+  "marca": "La Llave Del Hogar"
  },
  "llebrenc": {
   "estado": "busqueda_pendiente",
@@ -3485,6 +4631,18 @@
   "pagina_sin_anuncios": "https://www.lloguergarantit.es",
   "revisado_js": true,
   "web": "https://www.lloguergarantit.es/"
+ },
+ "lloguer segur": {
+  "estado": "web_ok",
+  "marca": "Lloguer Segur",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.alquilerseguro.es/ca-es/viviendas/destacados",
+  "revisado_js": true,
+  "web": "https://www.alquilerseguro.es/ca-es/"
+ },
+ "llopart administracion 2020": {
+  "estado": "busqueda_pendiente",
+  "marca": "Llopart Administración 2020 SL"
  },
  "llull": {
   "estado": "busqueda_pendiente",
@@ -3506,9 +4664,21 @@
   "estado": "busqueda_pendiente",
   "marca": "LM Laura Martinez"
  },
+ "lodginapartments": {
+  "estado": "busqueda_pendiente",
+  "marca": "Lodginapartments"
+ },
  "lodging apartments": {
   "estado": "busqueda_pendiente",
   "marca": "Lodging Apartments"
+ },
+ "lojo 2006": {
+  "estado": "busqueda_pendiente",
+  "marca": "Lojo 2006"
+ },
+ "lonte": {
+  "estado": "busqueda_pendiente",
+  "marca": "Lonte Assessors"
  },
  "look find": {
   "estado": "busqueda_pendiente",
@@ -3553,6 +4723,10 @@
   "pagina_sin_anuncios": "https://www.lugoproperty.com/",
   "revisado_js": true,
   "web": "https://www.lugoproperty.com/"
+ },
+ "luis bosch enrich": {
+  "estado": "busqueda_pendiente",
+  "marca": "Luís Bosch Enrich"
  },
  "lum inmobiliarios": {
   "estado": "busqueda_pendiente",
@@ -3626,6 +4800,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Maicasa"
  },
+ "mallola": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas La Mallola"
+ },
  "mancini roig": {
   "estado": "busqueda_pendiente",
   "marca": "Mancini Roig Properties"
@@ -3689,6 +4867,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Finques Marcos Iglesias, Sl"
  },
+ "marenmar": {
+  "estado": "web_ok",
+  "marca": "Marenmar",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.marenmar.com/ca/lloguer/habitatges/barcelona/palleja/1697",
+  "revisado_js": true,
+  "web": "https://www.marenmar.com/"
+ },
  "margarita puig consultora": {
   "estado": "web_ok",
   "marca": "Margarita Puig Consultora Inmobiliària",
@@ -3704,6 +4890,10 @@
  "maria jesus perez balaguer": {
   "estado": "busqueda_pendiente",
   "marca": "Maria Jesus Pérez Balaguer"
+ },
+ "maria mercedes blanco gonzalez": {
+  "estado": "busqueda_pendiente",
+  "marca": "Maria Mercedes Blanco González"
  },
  "maria roser esquius ausio": {
   "estado": "busqueda_pendiente",
@@ -3748,9 +4938,33 @@
   "estado": "busqueda_pendiente",
   "marca": "Fincas Martinez Torrecillas"
  },
+ "mas": {
+  "estado": "busqueda_pendiente",
+  "marca": "Mas"
+ },
  "mas metros": {
   "estado": "busqueda_pendiente",
   "marca": "Mas Metros"
+ },
+ "mashabitat": {
+  "anuncios": 1,
+  "estado": "vigilable",
+  "marca": "Mashabitat",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.mashabitat.net/pisos-en-alquiler-24-2.html",
+  "web": "https://www.mashabitat.net/"
+ },
+ "mashogar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Mashogar"
+ },
+ "masies emporda": {
+  "anuncios": 40,
+  "estado": "vigilable",
+  "marca": "Masies Empordà",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.masiesemporda.cat/en-lloguer",
+  "web": "https://www.masiesemporda.cat/"
  },
  "massague": {
   "estado": "busqueda_pendiente",
@@ -3775,6 +4989,14 @@
  "matilde arisa": {
   "estado": "busqueda_pendiente",
   "marca": "Matilde Arisa SL"
+ },
+ "mauri": {
+  "anuncios": 5,
+  "estado": "vigilable",
+  "marca": "Mauri Assessors",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.mauriassessors.cat/popietats-lloguer/",
+  "web": "https://www.mauriassessors.cat/"
  },
  "maurici blancafort planas": {
   "estado": "busqueda_pendiente",
@@ -3853,6 +5075,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Medilloguem"
  },
+ "medina": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Medina"
+ },
  "megafincas": {
   "estado": "busqueda_pendiente",
   "marca": "Grupo Megafincas"
@@ -3860,6 +5086,14 @@
  "meira administraciones inmobiliarias": {
   "estado": "busqueda_pendiente",
   "marca": "Meira Administraciones Inmobiliarias"
+ },
+ "meirva": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Meirva"
+ },
+ "melixor mer": {
+  "estado": "busqueda_pendiente",
+  "marca": "Melixor Mer SL"
  },
  "mercedes bellido ojeda": {
   "estado": "busqueda_pendiente",
@@ -3893,6 +5127,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Metrópolis suelo urbano SL"
  },
+ "metros mediterraneos": {
+  "estado": "busqueda_pendiente",
+  "marca": "Metros 2 Mediterraneos"
+ },
  "meva llar": {
   "estado": "busqueda_pendiente",
   "marca": "La meva Llar"
@@ -3923,6 +5161,14 @@
   "metodo": "dominio",
   "revisado_js": true,
   "web": "https://www.micasa.es/"
+ },
+ "miguel bautista rabadan": {
+  "estado": "busqueda_pendiente",
+  "marca": "Miguel Bautista Rabadán"
+ },
+ "mila": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Milà"
  },
  "milans": {
   "estado": "busqueda_pendiente",
@@ -3959,6 +5205,10 @@
   "revisado_js": true,
   "web": "https://www.fincasmiranda.com/es"
  },
+ "miro": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Miro"
+ },
  "mmfinance 2004": {
   "estado": "busqueda_pendiente",
   "marca": "Mmfinance 2004 servicios SL"
@@ -3986,6 +5236,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Monapart"
  },
+ "moncasa futur": {
+  "estado": "busqueda_pendiente",
+  "marca": "Moncasa Futur SL"
+ },
  "monika rusch": {
   "anuncios": 4,
   "estado": "vigilable",
@@ -4001,6 +5255,10 @@
  "montaber": {
   "estado": "busqueda_pendiente",
   "marca": "Montaber Bcn"
+ },
+ "montcada consultoria legal": {
+  "estado": "busqueda_pendiente",
+  "marca": "Montcada Consultoria Legal"
  },
  "montserrat barbera gregori": {
   "estado": "busqueda_pendiente",
@@ -4052,6 +5310,18 @@
   "revisado_js": true,
   "web": "https://www.multifinques.es/"
  },
+ "multipiso": {
+  "anuncios": 1,
+  "estado": "vigilable",
+  "marca": "Multipiso",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.multipiso.net/Venta-Garaje-l-Hospitalet-de-Llobregat-La-Florida-1165",
+  "web": "https://www.multipiso.net/"
+ },
+ "munoz": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Muñoz"
+ },
  "mur": {
   "anuncios": 10,
   "estado": "vigilable",
@@ -4072,13 +5342,33 @@
   "estado": "busqueda_pendiente",
   "marca": "Mylife Real Estate"
  },
+ "nacional hogar inmobiliarias": {
+  "estado": "busqueda_pendiente",
+  "marca": "Nacional Hogar Inmobiliarias"
+ },
  "nadal": {
   "estado": "busqueda_pendiente",
   "marca": "Nadal"
  },
+ "nadal amoros ventosa administradors associats": {
+  "estado": "busqueda_pendiente",
+  "marca": "Nadal-Amoros-Ventosa, Administradors Associats"
+ },
+ "nagaki": {
+  "estado": "busqueda_pendiente",
+  "marca": "Nagaki"
+ },
  "nani lopez": {
   "estado": "busqueda_pendiente",
   "marca": "Nani López"
+ },
+ "napols": {
+  "estado": "busqueda_pendiente",
+  "marca": "Immobiliaria Napols"
+ },
+ "naranjo": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Naranjo"
  },
  "nashira living": {
   "estado": "web_ok",
@@ -4098,6 +5388,10 @@
   "revisado_js": true,
   "web": "https://www.finquesnavarrete.com/"
  },
+ "navasturre": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Navasturre"
+ },
  "navesland": {
   "estado": "busqueda_pendiente",
   "marca": "Navesland"
@@ -4105,6 +5399,10 @@
  "navigo": {
   "estado": "busqueda_pendiente",
   "marca": "Grup Navigo"
+ },
+ "nci": {
+  "estado": "busqueda_pendiente",
+  "marca": "Nci"
  },
  "nediam nori vargas arteaga": {
   "estado": "busqueda_pendiente",
@@ -4122,6 +5420,10 @@
   "estado": "busqueda_pendiente",
   "marca": "New 3 Habitat Vital"
  },
+ "nexitum personal shopper": {
+  "estado": "busqueda_pendiente",
+  "marca": "Nexitum personal shopper inmobiliario"
+ },
  "nice by abagyan": {
   "estado": "web_ok",
   "marca": "Nice House by Abagyan",
@@ -4136,6 +5438,10 @@
  "nieva": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas Nieva SLP"
+ },
+ "niu cat": {
+  "estado": "busqueda_pendiente",
+  "marca": "Niu.Cat"
  },
  "nm solutions": {
   "estado": "busqueda_pendiente",
@@ -4157,9 +5463,20 @@
   "estado": "busqueda_pendiente",
   "marca": "Nou Vall Finques"
  },
+ "noucasa": {
+  "estado": "web_ok",
+  "marca": "Noucasa",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://www.noucasa.com/"
+ },
  "nova": {
   "estado": "busqueda_pendiente",
   "marca": "La Nova"
+ },
+ "nova habitat": {
+  "estado": "busqueda_pendiente",
+  "marca": "Nova Habitat"
  },
  "nova llar": {
   "estado": "web_ok",
@@ -4172,6 +5489,10 @@
  "nova urbe immobiliaris": {
   "estado": "busqueda_pendiente",
   "marca": "Nova Urbe serveis immobiliaris SL"
+ },
+ "novacasa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Novacasa"
  },
  "novahaus": {
   "estado": "busqueda_pendiente",
@@ -4197,9 +5518,21 @@
   "url_alquiler": "https://www.fincasnunez.com/propiedades/piso-alquiler-en-turo-park---barcelona",
   "web": "https://www.fincasnunez.com/"
  },
+ "obis": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Obis"
+ },
+ "obn": {
+  "estado": "busqueda_pendiente",
+  "marca": "OBN&"
+ },
  "ocean beauty studio": {
   "estado": "busqueda_pendiente",
   "marca": "Ocean Beauty Studio SL"
+ },
+ "oda": {
+  "estado": "busqueda_pendiente",
+  "marca": "Oda SLU"
  },
  "oficasa": {
   "anuncios": 1,
@@ -4229,6 +5562,18 @@
   "estado": "busqueda_pendiente",
   "marca": "Oi Realtor"
  },
+ "oil state": {
+  "estado": "busqueda_pendiente",
+  "marca": "Oil Real State"
+ },
+ "old town apartment": {
+  "estado": "busqueda_pendiente",
+  "marca": "Old Town Apartment SL"
+ },
+ "olecasa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Olecasa"
+ },
  "olivia apartamentos": {
   "estado": "busqueda_pendiente",
   "marca": "Olivia Apartamentos SL"
@@ -4249,6 +5594,17 @@
   "estado": "busqueda_pendiente",
   "marca": "Inmobiliaria Olvacan SL"
  },
+ "on viure": {
+  "estado": "web_ok",
+  "marca": "On viure",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://on-viure.com/"
+ },
+ "one": {
+  "estado": "busqueda_pendiente",
+  "marca": "One House"
+ },
  "one maresme": {
   "estado": "busqueda_pendiente",
   "marca": "One Homes BCN & Maresme SL"
@@ -4256,6 +5612,10 @@
  "one sant cugat": {
   "estado": "busqueda_pendiente",
   "marca": "One Sant Cugat"
+ },
+ "onlinefinques": {
+  "estado": "busqueda_pendiente",
+  "marca": "Onlinefinques"
  },
  "open": {
   "estado": "busqueda_pendiente",
@@ -4288,6 +5648,30 @@
   "estado": "busqueda_pendiente",
   "marca": "Orti Associats"
  },
+ "ortuno": {
+  "estado": "web_ok",
+  "marca": "Asesores Ortuño SCCL",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.asesoresortuno.net/inmobiliaria2.php",
+  "revisado_js": true,
+  "web": "https://www.asesoresortuno.net/"
+ },
+ "otesa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Otesa Gestión Inmobiliaria"
+ },
+ "ouifind": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ouifind"
+ },
+ "palau": {
+  "anuncios": 16,
+  "estado": "vigilable",
+  "marca": "Finques Palau",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.finquespalau.com/pisos-en-alquiler-24-2.html",
+  "web": "https://www.finquespalau.com/"
+ },
  "palenra activos": {
   "estado": "busqueda_pendiente",
   "marca": "Palenra Activos SL"
@@ -4295,6 +5679,10 @@
  "palet": {
   "estado": "busqueda_pendiente",
   "marca": "Palet Fincas"
+ },
+ "pallares administracio": {
+  "estado": "busqueda_pendiente",
+  "marca": "Pallarés administració de finques SLP"
  },
  "palleja": {
   "anuncios": 1,
@@ -4332,6 +5720,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Finques Part Alta"
  },
+ "partal": {
+  "estado": "busqueda_pendiente",
+  "marca": "Partal"
+ },
  "particoolarea": {
   "estado": "busqueda_pendiente",
   "marca": "PARTICOOLAREA"
@@ -4356,6 +5748,18 @@
   "estado": "busqueda_pendiente",
   "marca": "Pedal"
  },
+ "pedro bosch enrich": {
+  "estado": "busqueda_pendiente",
+  "marca": "Pedro Bosch Enrich"
+ },
+ "pedro jose arnegas benedicto": {
+  "estado": "busqueda_pendiente",
+  "marca": "Pedro Jose Arnegas Benedicto"
+ },
+ "pedro pablo atoche gomez": {
+  "estado": "busqueda_pendiente",
+  "marca": "Pedro Pablo Atoche Gómez"
+ },
  "penedes": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas Penedes"
@@ -4371,6 +5775,14 @@
  "perera": {
   "estado": "busqueda_pendiente",
   "marca": "Finques Perera"
+ },
+ "perfecthome": {
+  "estado": "web_ok",
+  "marca": "Perfecthome",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.perfecthome.es/casa-chalet-en-gironella-es1785795.html",
+  "revisado_js": true,
+  "web": "https://www.perfecthome.es/"
  },
  "perramon": {
   "anuncios": 4,
@@ -4388,6 +5800,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Piare solutions immobilierès SL"
  },
+ "picasso": {
+  "estado": "web_ok",
+  "marca": "Fincas Picasso",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "http://www.fincaspicasso.es/alquiler/oficina/barcelona/esplugues-de-llobregat/la-plana-montesa/alquiler-oficina-barcelona-esplugues-de-llobregat-la-plana-montesa.html",
+  "revisado_js": true,
+  "web": "https://www.fincaspicasso.es/"
+ },
  "picat": {
   "estado": "web_ok",
   "marca": "Picat",
@@ -4399,6 +5819,10 @@
  "pis": {
   "estado": "busqueda_pendiente",
   "marca": "Pis 3"
+ },
+ "pisazos com": {
+  "estado": "busqueda_pendiente",
+  "marca": "Pisazos.com"
  },
  "pisofacil": {
   "estado": "busqueda_pendiente",
@@ -4424,6 +5848,10 @@
   "revisado_js": true,
   "web": "https://www.lospisosdeines.com/"
  },
+ "pisos marina center": {
+  "estado": "busqueda_pendiente",
+  "marca": "Pisos Marina Center SL"
+ },
  "pisos mil": {
   "estado": "web_ok",
   "marca": "Pisos Mil",
@@ -4431,13 +5859,29 @@
   "revisado_js": true,
   "web": "https://www.pisosmil.com/"
  },
+ "pisos plaza": {
+  "estado": "web_ok",
+  "marca": "Pisos Plaza SL",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.pisosplaza.es/alquiler/",
+  "revisado_js": true,
+  "web": "https://www.pisosplaza.es/"
+ },
  "pisos precio": {
   "estado": "busqueda_pendiente",
   "marca": "Pisos A Precio"
  },
+ "pisos sant cugat": {
+  "estado": "busqueda_pendiente",
+  "marca": "Pisos Sant Cugat"
+ },
  "pisosbarceloneta com": {
   "estado": "busqueda_pendiente",
   "marca": "Pisosbarceloneta.com"
+ },
+ "pisvent": {
+  "estado": "busqueda_pendiente",
+  "marca": "Pisvent"
  },
  "piverd 2000": {
   "estado": "busqueda_pendiente",
@@ -4495,6 +5939,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Pons Sabaté Gestoria Immobiliària"
  },
+ "portal 38": {
+  "estado": "busqueda_pendiente",
+  "marca": "Portal.38"
+ },
  "porto saler": {
   "estado": "busqueda_pendiente",
   "marca": "Porto Saler"
@@ -4512,6 +5960,14 @@
   "url_alquiler": "https://www.premiumhouse.es/inmueble/piso-en-venta-av-catalunya-hospitalet-de-llobregat-barcelona/27013842",
   "web": "https://www.premiumhouse.es/"
  },
+ "premium state": {
+  "estado": "busqueda_pendiente",
+  "marca": "La Casa Premium Real State"
+ },
+ "prestige": {
+  "estado": "busqueda_pendiente",
+  "marca": "S.I Prestige"
+ },
  "primemax": {
   "estado": "web_ok",
   "marca": "Primemax Real Estate SL",
@@ -4528,6 +5984,10 @@
   "estado": "busqueda_pendiente",
   "marca": "La Principal"
  },
+ "principal 1a": {
+  "estado": "busqueda_pendiente",
+  "marca": "Principal 1ª"
+ },
  "principal patrimonial": {
   "estado": "busqueda_pendiente",
   "marca": "Principal Gestion Patrimonial SL"
@@ -4535,6 +5995,10 @@
  "procasa luxury": {
   "estado": "busqueda_pendiente",
   "marca": "Procasa Luxury Home"
+ },
+ "proconfort": {
+  "estado": "busqueda_pendiente",
+  "marca": "Proconfort Gestio Immobiliaria"
  },
  "prodigia capital": {
   "estado": "busqueda_pendiente",
@@ -4555,6 +6019,10 @@
   "pagina_sin_anuncios": "https://www.finquesprogres.com/contact-10",
   "revisado_js": true,
   "web": "https://www.finquesprogres.com/"
+ },
+ "projecte guinardo 2007": {
+  "estado": "busqueda_pendiente",
+  "marca": "Projecte Guinardó 2007 SL"
  },
  "prokasa immobles": {
   "estado": "busqueda_pendiente",
@@ -4579,6 +6047,10 @@
  "promociones inmobiliarias pison": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas Y Promociones Inmobiliarias Pison"
+ },
+ "promociones jampel": {
+  "estado": "busqueda_pendiente",
+  "marca": "Promociones Jampel 4 SL"
  },
  "promoges": {
   "estado": "busqueda_pendiente",
@@ -4608,6 +6080,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Property Advisor Barcelona"
  },
+ "property investment": {
+  "estado": "busqueda_pendiente",
+  "marca": "Barcelona Property Investment"
+ },
  "propertya": {
   "estado": "busqueda_pendiente",
   "marca": "Propertya"
@@ -4615,6 +6091,26 @@
  "prosein": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas Prosein"
+ },
+ "prota": {
+  "estado": "web_ok",
+  "marca": "Prota House",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.protahouse.com/alquiler/",
+  "revisado_js": true,
+  "web": "https://www.protahouse.com/"
+ },
+ "protahouse": {
+  "estado": "web_ok",
+  "marca": "Protahouse",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.protahouse.com/alquiler/",
+  "revisado_js": true,
+  "web": "https://www.protahouse.com/"
+ },
+ "prover assessoria": {
+  "estado": "busqueda_pendiente",
+  "marca": "Prover, Assessoria I Gestió Immobiliària"
  },
  "proyecto clot": {
   "estado": "busqueda_pendiente",
@@ -4624,13 +6120,32 @@
   "estado": "busqueda_pendiente",
   "marca": "Proyecto Hogar"
  },
+ "proyectos inmobiliarios garmal": {
+  "estado": "busqueda_pendiente",
+  "marca": "Proyectos Inmobiliarios Garmal SL"
+ },
  "proyectos promolaro": {
   "estado": "busqueda_pendiente",
   "marca": "Proyectos Promolaro SL"
  },
+ "prudencio gonzalez": {
+  "estado": "busqueda_pendiente",
+  "marca": "Prudencio González Fincas SL"
+ },
+ "publifincas": {
+  "estado": "web_ok",
+  "marca": "Publifincas",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://publifincas.com/"
+ },
  "puigmar": {
   "estado": "busqueda_pendiente",
   "marca": "Gestió Immobiliària Puigmar SL"
+ },
+ "punt sagrada familia": {
+  "estado": "busqueda_pendiente",
+  "marca": "La Casa Agency - Punt Sagrada Familia"
  },
  "punto pont treball": {
   "estado": "busqueda_pendiente",
@@ -4672,6 +6187,10 @@
   "url_alquiler": "https://www.querolquerol.com/location/catalunya/barcelona/",
   "web": "https://www.querolquerol.com/"
  },
+ "quilium consultores inmobiliarios": {
+  "estado": "busqueda_pendiente",
+  "marca": "Quilium Consultores Inmobiliarios"
+ },
  "ramon alcaniz": {
   "estado": "busqueda_pendiente",
   "marca": "Ramón Alcáñiz"
@@ -4708,6 +6227,14 @@
   "revisado_js": true,
   "web": "https://www.remax.es/"
  },
+ "re max condal": {
+  "estado": "web_ok",
+  "marca": "Re/max Condal",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.remax.es/buscador-de-inmuebles/alquiler/piso/barcelona/",
+  "revisado_js": true,
+  "web": "https://www.remax.es/"
+ },
  "recommended": {
   "estado": "busqueda_pendiente",
   "marca": "Recommended Properties SL"
@@ -4739,6 +6266,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Reivax Sant Andreu SL"
  },
+ "reloj": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Reloj"
+ },
  "remax jumbo mar": {
   "estado": "web_ok",
   "marca": "Remax Jumbo Mar",
@@ -4760,6 +6291,22 @@
   "metodo": "dominio",
   "revisado_js": true,
   "web": "https://rendasantcugat.es/"
+ },
+ "rende 97": {
+  "estado": "busqueda_pendiente",
+  "marca": "Rende 97"
+ },
+ "renova": {
+  "estado": "busqueda_pendiente",
+  "marca": "Renova-gestió Immobiliària"
+ },
+ "rent it": {
+  "anuncios": 18,
+  "estado": "vigilable",
+  "marca": "Rent-it",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.rent-it.es/",
+  "web": "https://www.rent-it.es/"
  },
  "rent top apartments": {
   "estado": "busqueda_pendiente",
@@ -4785,6 +6332,10 @@
   "url_alquiler": "https://rentuos.com/gestion-alquiler/barcelona/",
   "web": "https://rentuos.com/"
  },
+ "resi pisos": {
+  "estado": "busqueda_pendiente",
+  "marca": "Resi Pisos"
+ },
  "residae": {
   "anuncios": 5,
   "estado": "vigilable",
@@ -4792,6 +6343,14 @@
   "metodo": "dominio",
   "url_alquiler": "https://residaebarcelona.com/es/relocation",
   "web": "https://residaebarcelona.com/es/"
+ },
+ "restateads": {
+  "estado": "busqueda_pendiente",
+  "marca": "Restateads SL"
+ },
+ "retrocasa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Retrocasa SCP"
  },
  "reunion agencias europea": {
   "estado": "busqueda_pendiente",
@@ -4804,6 +6363,10 @@
   "revisado_js": true,
   "web": "https://revalore.es/"
  },
+ "ri mar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ri & Mar SL"
+ },
  "ribas zango": {
   "estado": "busqueda_pendiente",
   "marca": "Ribas & Zango"
@@ -4812,6 +6375,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Ribera Miracle Agency"
  },
+ "ric catala": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ric Català SL"
+ },
  "ricardo becerril mainer": {
   "estado": "busqueda_pendiente",
   "marca": "Ricardo Becerril Mainer"
@@ -4819,6 +6386,17 @@
  "ricardo nasarre bajo": {
   "estado": "busqueda_pendiente",
   "marca": "Ricardo Nasarre Bajo"
+ },
+ "ricasa": {
+  "estado": "web_ok",
+  "marca": "Ricasa",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://www.ricasa.es/"
+ },
+ "riera alta mar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Riera Alta Mar SL"
  },
  "rife": {
   "estado": "web_ok",
@@ -4830,6 +6408,10 @@
  "rimaver": {
   "estado": "busqueda_pendiente",
   "marca": "Rimaver"
+ },
+ "rius": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques J. Rius"
  },
  "roca urue": {
   "estado": "web_ok",
@@ -4861,6 +6443,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Ronda Pisos"
  },
+ "rongciao": {
+  "estado": "busqueda_pendiente",
+  "marca": "Rongciao Grupo Inmobiliario"
+ },
  "rooms": {
   "estado": "busqueda_pendiente",
   "marca": "Properties & Rooms Consulting Group SL"
@@ -4889,6 +6475,10 @@
   "estado": "busqueda_pendiente",
   "marca": "De La Rosa Patrimonis"
  },
+ "rosmel": {
+  "estado": "busqueda_pendiente",
+  "marca": "Rosmel Immobiliaria"
+ },
  "rosots immobiliaris": {
   "estado": "busqueda_pendiente",
   "marca": "Rosots Serveis Immobiliaris"
@@ -4904,6 +6494,10 @@
  "rovira ricard associats": {
   "estado": "busqueda_pendiente",
   "marca": "Rovira & Ricard associats SL"
+ },
+ "rtv capital proyectos inmobiliarios": {
+  "estado": "busqueda_pendiente",
+  "marca": "Rtv Capital Consulting & Proyectos Inmobiliarios"
  },
  "rubio 1959": {
   "anuncios": 6,
@@ -4924,6 +6518,10 @@
  "ruiz march": {
   "estado": "busqueda_pendiente",
   "marca": "Ruiz March Inmobiliaria"
+ },
+ "ruiz martinez inmollar 2008": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ruiz Martinez Inmollar 2008"
  },
  "rumbo norte": {
   "estado": "busqueda_pendiente",
@@ -4956,6 +6554,14 @@
   "estado": "busqueda_pendiente",
   "marca": "Safcom Investments SL"
  },
+ "sagarra": {
+  "estado": "busqueda_pendiente",
+  "marca": "Sagarra Assessors"
+ },
+ "sagrera": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Sagrera"
+ },
  "salvat administracions associats": {
   "estado": "busqueda_pendiente",
   "marca": "Salvat Administracions Associats"
@@ -4963,6 +6569,10 @@
  "san andres": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas San Andrés"
+ },
+ "san antonio": {
+  "estado": "busqueda_pendiente",
+  "marca": "San Antonio Consulting"
  },
  "san jorge": {
   "estado": "web_ok",
@@ -4991,6 +6601,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Home Sant Cugat"
  },
+ "sant feliu": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Sant Feliu"
+ },
  "sant marti": {
   "estado": "web_ok",
   "marca": "Immobiliària Sant Martí",
@@ -5003,9 +6617,17 @@
   "estado": "busqueda_pendiente",
   "marca": "Santa Eulàlia Fincas"
  },
+ "santega": {
+  "estado": "busqueda_pendiente",
+  "marca": "Fincas Santega"
+ },
  "santiago ardid roestel": {
   "estado": "busqueda_pendiente",
   "marca": "Santiago Ardid Roestel"
+ },
+ "santiago douglas ferreira acosta": {
+  "estado": "busqueda_pendiente",
+  "marca": "Santiago Douglas Ferreira Acosta"
  },
  "sants": {
   "anuncios": 4,
@@ -5035,6 +6657,14 @@
   "estado": "busqueda_pendiente",
   "marca": "B E Consulting Sarrià"
  },
+ "sasi": {
+  "estado": "busqueda_pendiente",
+  "marca": "Sasi"
+ },
+ "sasi esplugues": {
+  "estado": "busqueda_pendiente",
+  "marca": "Sasi Esplugues"
+ },
  "sastreria": {
   "estado": "busqueda_pendiente",
   "marca": "La Sastrería Inmobiliaria"
@@ -5042,6 +6672,18 @@
  "satifincas": {
   "estado": "busqueda_pendiente",
   "marca": "Satifincas SCP"
+ },
+ "savills": {
+  "anuncios": 3,
+  "estado": "vigilable",
+  "marca": "Savills",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.savills.es/servicios/alquiler.aspx",
+  "web": "https://www.savills.es/"
+ },
+ "sc project": {
+  "estado": "busqueda_pendiente",
+  "marca": "Sc Project"
  },
  "sc state": {
   "estado": "busqueda_pendiente",
@@ -5058,9 +6700,21 @@
   "estado": "busqueda_pendiente",
   "marca": "Segarra & Froment Assessors"
  },
+ "segermar": {
+  "anuncios": 2,
+  "estado": "vigilable",
+  "marca": "Segermar",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.segermar.es/listado-propiedades/alquiler/",
+  "web": "https://www.segermar.es/"
+ },
  "segesmon": {
   "estado": "busqueda_pendiente",
   "marca": "Fincas Segesmon"
+ },
+ "seimillo": {
+  "estado": "busqueda_pendiente",
+  "marca": "Seimillo SL"
  },
  "sellares": {
   "estado": "busqueda_pendiente",
@@ -5073,6 +6727,14 @@
  "sensat inmobiliarios": {
   "estado": "busqueda_pendiente",
   "marca": "Sensat Gestión y Servicios Inmobiliarios SL"
+ },
+ "sergio imanas blasco": {
+  "estado": "busqueda_pendiente",
+  "marca": "Sergio Imañas Blasco"
+ },
+ "sergio perez blasco": {
+  "estado": "busqueda_pendiente",
+  "marca": "Sergio Pérez Blasco"
  },
  "serinana luna": {
   "estado": "busqueda_pendiente",
@@ -5137,6 +6799,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Shortcut Consulting SL"
  },
+ "siempre brillante": {
+  "estado": "busqueda_pendiente",
+  "marca": "Inmobiliaria Siempre Brillante SL"
+ },
  "siete estrellas": {
   "estado": "busqueda_pendiente",
   "marca": "Siete Estrellas"
@@ -5157,6 +6823,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Silva intermediación inmobiliaria"
  },
+ "silvia arias ugalde": {
+  "estado": "busqueda_pendiente",
+  "marca": "Silvia Arias Ugalde"
+ },
  "silvia bertran mulhacen": {
   "estado": "busqueda_pendiente",
   "marca": "Silvia Bertran Mulhacen"
@@ -5169,9 +6839,24 @@
   "estado": "busqueda_pendiente",
   "marca": "Sinland SL"
  },
+ "skyflats": {
+  "estado": "web_ok",
+  "marca": "Skyflats",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://www.skyflats.es/"
+ },
  "smart flats": {
   "estado": "busqueda_pendiente",
   "marca": "Smart Flats"
+ },
+ "smartplus30": {
+  "estado": "web_ok",
+  "marca": "SmartPlus30",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.smartplus30.com/?s=&property_status=&property_type=&property_location=&tm-re-more-property-fields=on&min_price=&max_price=&min_bedrooms=&max_bedrooms=&min_bathrooms=&max_bathrooms=&min_area=&max_area=&min_parking_place=&max_parking_place=&post_type=tm-property",
+  "revisado_js": true,
+  "web": "https://www.smartplus30.com/"
  },
  "soho management": {
   "estado": "busqueda_pendiente",
@@ -5193,9 +6878,21 @@
   "estado": "busqueda_pendiente",
   "marca": "Soler Gestions Immobiliàries"
  },
+ "solo piso ocasion": {
+  "estado": "busqueda_pendiente",
+  "marca": "Sólo Piso de Ocasión SL"
+ },
  "solpisos": {
   "estado": "busqueda_pendiente",
   "marca": "Solpisos"
+ },
+ "solucion santa eulalia": {
+  "anuncios": 46,
+  "estado": "vigilable",
+  "marca": "Solución Inmobiliaria Santa Eulalia SL",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.solucioninmobiliaria.es/es/alquiler",
+  "web": "https://www.solucioninmobiliaria.es/"
  },
  "solvia": {
   "anuncios": 20,
@@ -5205,9 +6902,17 @@
   "url_alquiler": "https://www.solvia.es/es/comprar/chalet-adosado",
   "web": "https://www.solvia.es/"
  },
+ "sondrio": {
+  "estado": "busqueda_pendiente",
+  "marca": "Sondrio SL"
+ },
  "sotelo advocats": {
   "estado": "busqueda_pendiente",
   "marca": "Sotelo Advocats SL"
+ },
+ "sotheby international realty": {
+  "estado": "busqueda_pendiente",
+  "marca": "Barcelona Sotheby's International Realty"
  },
  "sovial 21": {
   "estado": "busqueda_pendiente",
@@ -5220,6 +6925,14 @@
  "spain costas": {
   "estado": "busqueda_pendiente",
   "marca": "Spain Costas"
+ },
+ "star": {
+  "estado": "busqueda_pendiente",
+  "marca": "Star Real Estate SL"
+ },
+ "state service": {
+  "estado": "busqueda_pendiente",
+  "marca": "Barcelona Properties & Real State service"
  },
  "stayhall": {
   "estado": "busqueda_pendiente",
@@ -5248,6 +6961,13 @@
  "super api": {
   "estado": "busqueda_pendiente",
   "marca": "Super Api"
+ },
+ "supervia": {
+  "estado": "web_ok",
+  "marca": "Supervia Bcn SL",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://www.superviabcn.com/"
  },
  "sweet": {
   "estado": "web_ok",
@@ -5285,9 +7005,21 @@
   "estado": "busqueda_pendiente",
   "marca": "Tasadora Independiente sa"
  },
+ "tasc": {
+  "estado": "busqueda_pendiente",
+  "marca": "Tasc"
+ },
+ "tasis": {
+  "estado": "busqueda_pendiente",
+  "marca": "Tasis"
+ },
  "taurus iberica": {
   "estado": "busqueda_pendiente",
   "marca": "Taurus Ibèrica"
+ },
+ "tax marine": {
+  "estado": "busqueda_pendiente",
+  "marca": "Tax Marine"
  },
  "taylor": {
   "estado": "busqueda_pendiente",
@@ -5316,6 +7048,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Tejedor Finques"
  },
+ "tek reformas": {
+  "estado": "busqueda_pendiente",
+  "marca": "Tek Home Inmobiliaria Y Reformas"
+ },
  "telma jaramillo immobiliarios": {
   "estado": "busqueda_pendiente",
   "marca": "Telma Jaramillo - Servicios Immobiliarios"
@@ -5330,6 +7066,10 @@
  "temple": {
   "estado": "busqueda_pendiente",
   "marca": "Temple Fincas"
+ },
+ "temple consultors": {
+  "estado": "busqueda_pendiente",
+  "marca": "Temple Grup consultors SL"
  },
  "tempocasa": {
   "estado": "web_ok",
@@ -5367,6 +7107,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Thais Rocafull Fajardo"
  },
+ "tienda pisos": {
+  "estado": "busqueda_pendiente",
+  "marca": "La Tienda De Pisos"
+ },
  "tina li": {
   "estado": "busqueda_pendiente",
   "marca": "Tina Li Inmobiliaria"
@@ -5379,6 +7123,19 @@
   "estado": "busqueda_pendiente",
   "marca": "TLS Grup"
  },
+ "tnimkasa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Tnimkasa"
+ },
+ "tolher": {
+  "anuncios": 2,
+  "estado": "vigilable",
+  "marca": "Finques Tolher",
+  "metodo": "dominio",
+  "modo": "js",
+  "url_alquiler": "https://www.finquestolher.com/buscador-de-alquiler-inmobiliaria-pisos-casas-locales-garajes-montgat.html",
+  "web": "https://www.finquestolher.com/"
+ },
  "tongariro": {
   "estado": "busqueda_pendiente",
   "marca": "Tongariro Consulting"
@@ -5389,6 +7146,14 @@
   "metodo": "dominio",
   "revisado_js": true,
   "web": "https://tophousebarcelona.com/"
+ },
+ "top apartments": {
+  "estado": "web_ok",
+  "marca": "Top Barcelona Apartments",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://barcelona.place/agencias-de-alquiler-de-apartamentos/",
+  "revisado_js": true,
+  "web": "https://barcelona.place/"
  },
  "topbrokers io": {
   "estado": "busqueda_pendiente",
@@ -5414,6 +7179,22 @@
   "estado": "busqueda_pendiente",
   "marca": "Tot House Barcelona"
  },
+ "tot cases": {
+  "estado": "busqueda_pendiente",
+  "marca": "Tot Cases"
+ },
+ "tot habitat montcada": {
+  "estado": "web_ok",
+  "marca": "Tot Habitat Montcada SL",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.tothabitatmontcada.com/lng/Esp/2580",
+  "revisado_js": true,
+  "web": "https://www.tothabitatmontcada.com/"
+ },
+ "tot traspas": {
+  "estado": "busqueda_pendiente",
+  "marca": "Tot Traspàs"
+ },
  "toysan": {
   "estado": "web_ok",
   "marca": "Toysan Finques SL",
@@ -5426,9 +7207,29 @@
   "estado": "busqueda_pendiente",
   "marca": "Trabaud SL"
  },
+ "tracte 2009": {
+  "anuncios": 4,
+  "estado": "vigilable",
+  "marca": "Tracte immobiliari 2009",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.tracteimmobiliari.com/",
+  "web": "https://www.tracteimmobiliari.com/"
+ },
  "trallero": {
   "estado": "busqueda_pendiente",
   "marca": "Finques Trallero"
+ },
+ "transfer": {
+  "estado": "web_ok",
+  "marca": "Fincas Transfer",
+  "metodo": "dominio",
+  "pagina_sin_anuncios": "https://www.fincastransfer.com/administracion-de-patrimonio-y-alquileres-barcelona",
+  "revisado_js": true,
+  "web": "https://www.fincastransfer.com/"
+ },
+ "travisa": {
+  "estado": "busqueda_pendiente",
+  "marca": "Travisa"
  },
  "tres angle global business": {
   "estado": "busqueda_pendiente",
@@ -5437,6 +7238,14 @@
  "tres consultores": {
   "estado": "busqueda_pendiente",
   "marca": "C.B. Tres Consultores"
+ },
+ "triade": {
+  "estado": "busqueda_pendiente",
+  "marca": "Triade"
+ },
+ "trial consulta": {
+  "estado": "busqueda_pendiente",
+  "marca": "Trial Consulta"
  },
  "trias": {
   "estado": "web_ok",
@@ -5457,6 +7266,10 @@
  "troba llar tres torres": {
   "estado": "busqueda_pendiente",
   "marca": "Troba Llar Tres Torres"
+ },
+ "trobapis": {
+  "estado": "busqueda_pendiente",
+  "marca": "Trobapis Bcn"
  },
  "trovicasa": {
   "estado": "busqueda_pendiente",
@@ -5500,6 +7313,10 @@
  "tusolucion": {
   "estado": "busqueda_pendiente",
   "marca": "Tusolución Inmobiliaria"
+ },
+ "ubicat espais industrials": {
+  "estado": "busqueda_pendiente",
+  "marca": "Ubicat Espais Industrials"
  },
  "ubiergo": {
   "estado": "web_ok",
@@ -5549,6 +7366,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Urbenia Serveis Immobiliaris"
  },
+ "urgell": {
+  "estado": "busqueda_pendiente",
+  "marca": "Finques Urgell"
+ },
  "urquicasa": {
   "estado": "busqueda_pendiente",
   "marca": "Urquicasa SL"
@@ -5560,6 +7381,10 @@
  "uvergest": {
   "estado": "busqueda_pendiente",
   "marca": "Uvergest Immobiliària"
+ },
+ "vade": {
+  "estado": "busqueda_pendiente",
+  "marca": "Vade Finques"
  },
  "vadpisos consultoria": {
   "estado": "busqueda_pendiente",
@@ -5616,6 +7441,14 @@
   "revisado_js": true,
   "web": "https://www.fincasvazquez.com/"
  },
+ "vei nou equip": {
+  "anuncios": 3,
+  "estado": "vigilable",
+  "marca": "Veí nou equip immobiliari",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.veinou.cat/ca/immobles/llogar/",
+  "web": "https://www.veinou.cat/ca/"
+ },
  "veinou": {
   "anuncios": 3,
   "estado": "vigilable",
@@ -5632,6 +7465,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Inmobiliaria Vendopor"
  },
+ "verdeny rivero": {
+  "estado": "busqueda_pendiente",
+  "marca": "Inmobiliaria Verdeny Rivero"
+ },
  "veronica aguilar morales": {
   "estado": "busqueda_pendiente",
   "marca": "Verónica Aguilar Morales"
@@ -5643,6 +7480,14 @@
   "metodo": "dominio",
   "url_alquiler": "https://gestin3.com/categoria-producto/alquilar/",
   "web": "https://gestin3.com/"
+ },
+ "vica": {
+  "estado": "busqueda_pendiente",
+  "marca": "Vica"
+ },
+ "vica activos bancarios": {
+  "estado": "busqueda_pendiente",
+  "marca": "Vica Activos Bancarios"
  },
  "vicky buldin": {
   "estado": "busqueda_pendiente",
@@ -5674,6 +7519,10 @@
   "metodo": "dominio",
   "revisado_js": true,
   "web": "https://mvictoria.es/"
+ },
+ "vigar": {
+  "estado": "busqueda_pendiente",
+  "marca": "Vigar Gestió Immobiliaria SL"
  },
  "vigthing developers": {
   "estado": "busqueda_pendiente",
@@ -5710,6 +7559,10 @@
   "estado": "busqueda_pendiente",
   "marca": "Vincero Gestión sl"
  },
+ "vincla projectes immobiliaris": {
+  "estado": "busqueda_pendiente",
+  "marca": "Vincla Projectes Immobiliaris"
+ },
  "vip pisos": {
   "estado": "busqueda_pendiente",
   "marca": "Vip Pisos"
@@ -5721,6 +7574,14 @@
  "viscasillas asociados": {
   "estado": "busqueda_pendiente",
   "marca": "Viscasillas Asociados"
+ },
+ "vitra": {
+  "anuncios": 13,
+  "estado": "vigilable",
+  "marca": "Fincas Vitra",
+  "metodo": "dominio",
+  "url_alquiler": "https://www.fincasvitra.com/index.php?option=com_propiedades&view=propiedades&catid=8:alquiler&Itemid=",
+  "web": "https://www.fincasvitra.com/"
  },
  "viure be immobiliaris": {
   "estado": "web_ok",
@@ -5753,6 +7614,10 @@
   "revisado_js": true,
   "web": "https://www.vivendesbarcelona.com/"
  },
+ "vivendis consultores inmobiliarios": {
+  "estado": "busqueda_pendiente",
+  "marca": "Vivendis Consultores Inmobiliarios SL"
+ },
  "vivendum": {
   "estado": "busqueda_pendiente",
   "marca": "Vivendum"
@@ -5777,6 +7642,14 @@
   "estado": "busqueda_pendiente",
   "marca": "VS Gestió Patrimonial"
  },
+ "wang gomez": {
+  "estado": "busqueda_pendiente",
+  "marca": "Asesores Wang Gómez SL"
+ },
+ "wayra": {
+  "estado": "busqueda_pendiente",
+  "marca": "Wayra Immobiliària"
+ },
  "webhouse": {
   "estado": "busqueda_pendiente",
   "marca": "Webhouse"
@@ -5792,6 +7665,10 @@
  "white side": {
   "estado": "busqueda_pendiente",
   "marca": "The White Side Properties SL"
+ },
+ "win win capital": {
+  "estado": "busqueda_pendiente",
+  "marca": "Win Win Capital"
  },
  "wong chi tak investments": {
   "estado": "busqueda_pendiente",
@@ -5844,6 +7721,13 @@
  "zebra": {
   "estado": "busqueda_pendiente",
   "marca": "Zebra Gestio"
+ },
+ "zona": {
+  "estado": "web_ok",
+  "marca": "Zona Fincas",
+  "metodo": "dominio",
+  "revisado_js": true,
+  "web": "https://www.zonafincas.es/"
  },
  "zuway": {
   "estado": "busqueda_pendiente",
