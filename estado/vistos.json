@@ -1,5 +1,6 @@
 {
  "10": {
+  "desde": 1795273886.8286023,
   "urls": [
    "https://ollebertran.com/ca/actualitat/demanda-lloguer-a-barcelona-els-pisos-de-lloguer-volen/_noticia:45/es/actualidad",
    "https://ollebertran.com/ca/actualitat/demanda-lloguer-a-barcelona-els-pisos-de-lloguer-volen/_noticia:45/ca/actualitat",
@@ -15,6 +16,7 @@
   ]
  },
  "10071": {
+  "desde": 1795273912.670188,
   "urls": [
    "https://assessoriabalista.com/inmueble/alquiler-piso-de-2-habitaciones-con-patio-privado-en-el-prat-de-llobregat",
    "https://assessoriabalista.com/inmueble/alquiler-piso-2-habitaciones-listo-para-entrar-a-vivir-el-carmel-horta-guinardo",
@@ -29,11 +31,17 @@
   ]
  },
  "10263": {
+  "desde": 1795273912.9707253,
   "urls": [
    "https://mgbcn.com/ficha/piso-de-lujo-en-el-turo-park-con-vista-2039"
   ]
  },
+ "10268": {
+  "desde": 1795273912.35392,
+  "urls": []
+ },
  "10282": {
+  "desde": 1795273912.576967,
   "urls": [
    "https://holacasa.net/piso-en-montroig-mont-roig-del-camp-es1571427.html"
   ]
@@ -47,7 +55,31 @@
    "https://damainmobiliaria.com/2022/03/14/que-documentacion-necesito-para-vender-un-piso-en-barcelona"
   ]
  },
+ "1045": {
+  "desde": 1795273890.225972,
+  "urls": [
+   "https://serviciosclaris.com/buesqueda-de-pisos?sort=newest&search_type=0&search_category=0&search_sub_category=0&search_bedrooms=0&search_bathrooms=0",
+   "https://serviciosclaris.com/buesqueda-de-pisos?sort=newest&search_type=1622",
+   "https://serviciosclaris.com/properties/otras-casas-hospitalet-de-llobregat-106-00-m2",
+   "https://serviciosclaris.com/properties/oficina-barcelona-93-00-m2",
+   "https://serviciosclaris.com/properties/otras-casas-barcelona-93-00-m2",
+   "https://serviciosclaris.com/properties/barcelona-m2-5",
+   "https://serviciosclaris.com/properties/otras-casas-barcelona-180-00-m2",
+   "https://serviciosclaris.com/properties/otras-casas-barcelona-70-00-m2-4",
+   "https://serviciosclaris.com/properties/otras-casas-barcelona-297-00-m2",
+   "https://serviciosclaris.com/properties/despacho-barcelona-104-00-m2",
+   "https://serviciosclaris.com/properties/otras-casas-barcelona-90-00-m2-5",
+   "https://serviciosclaris.com/alquiler-anual/page/2",
+   "https://serviciosclaris.com/alquiler-anual/page/3",
+   "https://serviciosclaris.com/alquiler-anual/page/10"
+  ]
+ },
+ "10622": {
+  "desde": 1795273912.0977895,
+  "urls": []
+ },
  "1063": {
+  "desde": 1795273888.2805836,
   "urls": [
    "https://carolinamarti.es/search?t=1&o=rental&a=1&l=6"
   ]
@@ -63,13 +95,30 @@
   ]
  },
  "10800": {
+  "desde": 1795273914.5855901,
+  "ultimo_nuevo": 1795273914.5855958,
   "urls": [
+   "https://residaebarcelona.com/es/inmuebles?es_category%5B0%5D=103",
+   "https://residaebarcelona.com/es/inmuebles?es_category%5B0%5D=103&es_type%5B0%5D=97",
+   "https://residaebarcelona.com/es/inmuebles?es_category%5B0%5D=103&es_type%5B0%5D=97&postal_code=281",
    "https://residaebarcelona.com/es/property/apartamento-reformado-de-280-m%c2%b2-con-terraza-y-parking-en-pedralbes-barcelona",
    "https://residaebarcelona.com/es/property/local-restaurante-cerveceria-con-terraza-y-licencia-c3-rentabilidad-5-en-eixample-izquierdo",
    "https://residaebarcelona.com/es/property/emblematico-restaurante-en-rentabilidad-con-terraza-y-licencia-c3-mixta-en-el-barrio-gotico",
    "https://residaebarcelona.com/es/property/local-comercial-en-rentabilidad-escuela-de-musica-consolidada-530-bruto-barcelona",
    "https://residaebarcelona.com/es/property/11781"
   ]
+ },
+ "10877": {
+  "desde": 1795273912.4509964,
+  "urls": []
+ },
+ "1089": {
+  "desde": 1795273888.7402635,
+  "urls": []
+ },
+ "10902": {
+  "desde": 1795273915.5942628,
+  "urls": []
  },
  "1092": {
   "urls": [
@@ -85,6 +134,7 @@
   ]
  },
  "11067": {
+  "desde": 1795273913.2331233,
   "urls": [
    "https://planethousebarcelona.es/es/alquiler/ref-1196",
    "https://planethousebarcelona.es/es/alquiler/ref-1200",
@@ -100,12 +150,18 @@
    "https://planethousebarcelona.es/es/alquiler/ref-1335"
   ]
  },
+ "1111": {
+  "desde": 1795273889.0534184,
+  "urls": []
+ },
  "11187": {
+  "desde": 1795273915.6846192,
   "urls": [
    "https://maxloyalty.es/zh-hans/propiedades/paris-%e5%85%ac%e5%af%93%e5%87%ba%e7%a7%9f"
   ]
  },
  "1121": {
+  "desde": 1795273889.259751,
   "urls": [
    "https://fincasgaudi.com/apartamento-en-barcelona-vila-olimpica-con-ascensor-es1772418.html",
    "https://fincasgaudi.com/apartamento-en-barcelona-san-marti-con-ascensor-es1775763.html",
@@ -116,14 +172,22 @@
   ]
  },
  "1132": {
+  "desde": 1795273889.6476839,
+  "ultimo_nuevo": 1795273889.6476898,
   "urls": [
+   "https://ebrofincas.com/ficha/oficina/zaragoza/universidad-san-francisco/2843/17847022/es",
    "https://ebrofincas.com/alquiler/es/index.php?vistas=1",
    "https://ebrofincas.com/alquiler/es/index.php?descartadas=1",
    "https://ebrofincas.com/alquiler/es/index.php?favoritas=1",
    "https://ebrofincas.com/alquiler/es/ficha/oficina/zaragoza/universidad-san-francisco/2843/17847022/es"
   ]
  },
+ "1133": {
+  "desde": 1795273889.2388108,
+  "urls": []
+ },
  "11354": {
+  "desde": 1795273915.6626377,
   "urls": [
    "https://gralen.es/propiedades-alquiler/encantador-piso-de-3-dormitorios-y-3-banos-en-el-corazon-del-born",
    "https://gralen.es/propiedades-alquiler/duplex-de-lujo-en-casa-bures-con-piscina-spa-y-conserjeria-24h",
@@ -133,7 +197,12 @@
    "https://gralen.es/propiedades-alquiler/alquiler-de-precioso-y-amplio-piso-en-sant-gervasi-la-bonanova-2"
   ]
  },
+ "11382": {
+  "desde": 1795273913.4651892,
+  "urls": []
+ },
  "1150": {
+  "desde": 1795273889.623183,
   "urls": [
    "https://fincascanopujol.es/es/alquiler/ref-1472",
    "https://fincascanopujol.es/es/alquiler/ref-1762",
@@ -153,16 +222,35 @@
   ]
  },
  "1151": {
+  "desde": 1795273889.4449048,
   "urls": [
    "https://fincasgandia.com/wp-login.php?redirect_to=https%3A%2F%2Fwww.fincasgandia.com%2Fpor-que-vivir-de-alquiler%2F"
   ]
  },
  "116": {
+  "desde": 1795273888.7795103,
   "urls": [
    "https://finquesmarba.com/?property=local-en-alquiler-a-pie-de-calle-en-carrer-del-taquigraf-garriga-ideal-para-oficina-o-negocio-2"
   ]
  },
+ "11808": {
+  "desde": 1795273913.5582933,
+  "urls": []
+ },
+ "12035": {
+  "desde": 1795273914.6741834,
+  "urls": []
+ },
+ "1207": {
+  "desde": 1795273888.905802,
+  "urls": []
+ },
+ "12096": {
+  "desde": 1795273913.681631,
+  "urls": []
+ },
  "12101": {
+  "desde": 1795273916.0185668,
   "urls": [
    "https://tessluxuryproperties.com/propiedad-alquiler/nave-industrial-en-alquiler-r-poligono-industrial-santa-magdalena--vilanova-i-la-geltru-30773124",
    "https://tessluxuryproperties.com/propiedad-alquiler/oficina-diafana-con-terraza-comunitaria-de-1500-m2-en-el-corazon-del-22@-28334347",
@@ -173,7 +261,14 @@
   ]
  },
  "12146": {
+  "desde": 1795273914.2848723,
+  "ultimo_nuevo": 1795273914.2848792,
   "urls": [
+   "https://qgathomes.com/es/alquiler/ref-1706",
+   "https://qgathomes.com/es/alquiler/ref-1728",
+   "https://qgathomes.com/es/alquiler/ref-1752",
+   "https://qgathomes.com/es/alquiler/ref-1772",
+   "https://qgathomes.com/es/alquiler/ref-1816",
    "https://qgathomes.com/ca/lloguer/ref-1706",
    "https://qgathomes.com/ca/lloguer/ref-1728",
    "https://qgathomes.com/ca/lloguer/ref-1752",
@@ -182,11 +277,13 @@
   ]
  },
  "12156": {
+  "desde": 1795273916.7628915,
   "urls": [
    "https://goldengatehomes.es/property/can-teixido-%c2%b7-donde-el-lujo-se-encuentra-con-el-mediterraneo"
   ]
  },
  "1222": {
+  "desde": 1795273889.3625944,
   "urls": [
    "https://guimarconsulting.es/inmuebles-en-rentabilidad.php?ordenada=1&orden=Precio&ascdesc=DESC",
    "https://guimarconsulting.es/inmuebles-en-rentabilidad.php?ordenada=1&orden=Precio&ascdesc=ASC",
@@ -205,11 +302,13 @@
   ]
  },
  "1223": {
+  "desde": 1795273889.4975991,
   "urls": [
    "https://doncasa.com/propiedad-alquiler/atico-badalona-refbaea4325-62570371246.500869"
   ]
  },
  "12277": {
+  "desde": 1795273914.1766343,
   "urls": [
    "https://laehomes.com/es/propiedades/piso-castellon-castello-de-la-plana-CS53",
    "https://laehomes.com/es/propiedades/local-comercial-donostia-san-sebastian-SS00225",
@@ -225,6 +324,7 @@
   ]
  },
  "12326": {
+  "desde": 1795273915.025481,
   "urls": [
    "https://properfy.es/?page_id=1134"
   ]
@@ -234,7 +334,32 @@
    "https://lradvocats.com/content/exclusive/repartiment-de-dividends-1?url=%2Fguias-practicas%2Frepartiment-de-dividends-1&contentId=34756"
   ]
  },
+ "12452": {
+  "desde": 1795273916.05976,
+  "urls": []
+ },
+ "12533": {
+  "desde": 1795273914.981825,
+  "urls": [
+   "https://habitaretail.com/ca/inmuebles/restaurante-c3-con-terraza-en-traspaso-en-les-corts",
+   "https://habitaretail.com/ca/inmuebles/obra-nueva-en-placa-europa-hospitalet-pisos-de-2-3-y-4-dormitorios",
+   "https://habitaretail.com/ca/inmuebles/restaurante-con-licencia-c3-y-terraza-en-traspaso-en-sants",
+   "https://habitaretail.com/ca/inmuebles/restaurante-c3-en-funcionamiento-en-traspaso-en-sant-andreu",
+   "https://habitaretail.com/ca/inmuebles/obra-nueva-en-hospitalet-de-llobregat-2a-fase",
+   "https://habitaretail.com/ca/inmuebles/locales-comerciales-de-obra-nueva-en-badalona-2",
+   "https://habitaretail.com/ca/inmuebles/traspaso-de-restaurante-con-licencia-c3-en-gracia-barcelona-listo-para-empezar",
+   "https://habitaretail.com/ca/inmuebles/traspaso-de-restaurante-con-licencia-c3-en-el-raval-de-barcelona-local-emblematico-y-en-activo",
+   "https://habitaretail.com/ca/inmuebles/restaurante-reformado-en-traspaso-con-licencia-c3-en-sant-gervasi-barcelona-moderno-equipado-y-con-terraza",
+   "https://habitaretail.com/ca/inmuebles/restaurante-de-solida-trayectoria-con-licencia-c3-en-gracia",
+   "https://habitaretail.com/ca/inmuebles/traspaso-de-restaurante-con-terraza-y-licencia-c3-en-el-born",
+   "https://habitaretail.com/ca/inmuebles/local-comercial-en-esplugues-de-llobregat-con-contrato-vigente-y-55-de-rentabilidad-bruta",
+   "https://habitaretail.com/ca/inmuebles/restaurante-braseria-con-licencia-c3-en-gracia",
+   "https://habitaretail.com/ca/inmuebles/restaurante-en-traspaso-en-sant-gervasi-con-licencia-c3-terraza-y-mas-de-10-anos-de-actividad",
+   "https://habitaretail.com/ca/inmuebles/bar-con-licencia-c1-con-gran-terraza-en-el-centro-de-gracia"
+  ]
+ },
  "12578": {
+  "desde": 1795273916.0066125,
   "urls": [
    "https://anexapropiedades.com/alquiler/es/index.php?vistas=1",
    "https://anexapropiedades.com/alquiler/es/index.php?descartadas=1",
@@ -253,8 +378,19 @@
    "https://anexapropiedades.com/alquiler/es/ficha/piso/barcelona/la-vila-olimpica-del-poblenou/10246/23178457/es"
   ]
  },
+ "12807": {
+  "desde": 1795273915.2775042,
+  "urls": []
+ },
+ "12833": {
+  "desde": 1795273924.8147006,
+  "urls": []
+ },
  "12874": {
+  "desde": 1795273919.5889478,
+  "ultimo_nuevo": 1795273919.5889535,
   "urls": [
+   "https://hestproperties.com/propiedad/alquilar/barcelona-alquilar/atico-exclusivo-con-terraza-de-20-m%c2%b2-en-tres-torres",
    "https://hestproperties.com/propiedad/alquilar-oficinas/oficina-reformada-de-385-m%c2%b2-con-terraza-en-finca-regia-en-muntaner",
    "https://hestproperties.com/propiedad/alquilar-oficinas/440m2-aragon-luz-natural-terrazas",
    "https://hestproperties.com/propiedad/alquilar-oficinas/reformada-213m-en-aragon-grandes-ventanales-terrazas-comunitarias",
@@ -270,7 +406,36 @@
    "https://finquesgarvi.com/es/servicios/alquila-tu-piso-11.htm"
   ]
  },
+ "1298": {
+  "desde": 1795273889.9219184,
+  "urls": []
+ },
+ "1302": {
+  "desde": 1795273889.5969055,
+  "urls": []
+ },
+ "1303": {
+  "desde": 1795273891.9638586,
+  "urls": []
+ },
+ "13031": {
+  "desde": 1795273915.8338146,
+  "urls": []
+ },
+ "13079": {
+  "desde": 1795273916.186947,
+  "urls": []
+ },
+ "13110": {
+  "desde": 1795273919.8180418,
+  "urls": []
+ },
+ "1314": {
+  "desde": 1795273889.7451222,
+  "urls": []
+ },
  "13194": {
+  "desde": 1795273916.3726292,
   "urls": [
    "https://lucasfox.es/alquilar-vivienda/espana/barcelona/barcelona-ciudad/eixample/sant-antoni/piso/bcnr5312.html",
    "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/malasana/piso/madr74271.html",
@@ -300,6 +465,7 @@
   ]
  },
  "13231": {
+  "desde": 1795273916.7814965,
   "urls": [
    "https://allhousesbcn.com/es/venta_o_alquiler_o_traspaso/ref-1082",
    "https://allhousesbcn.com/es/venta_o_alquiler_o_traspaso/ref-1350",
@@ -375,6 +541,7 @@
   ]
  },
  "13305": {
+  "desde": 1795273919.1308715,
   "urls": [
    "https://finquescampanya.com/immobles/95",
    "https://finquescampanya.com/immobles/524",
@@ -384,7 +551,11 @@
   ]
  },
  "1335": {
+  "desde": 1795273891.1131513,
+  "ultimo_nuevo": 1795273891.113158,
   "urls": [
+   "https://finquestorne.com/ficha/parking/montcada-i-reixac/mas-rampinyo-carrerada/9920/27925704/es",
+   "https://finquestorne.com/ficha/local-comercial/montcada-i-reixac/mas-rampinyo-carrerada/9920/30513379/es",
    "https://finquestorne.com/alquiler/es/index.php?vistas=1",
    "https://finquestorne.com/alquiler/es/index.php?descartadas=1",
    "https://finquestorne.com/alquiler/es/index.php?favoritas=1",
@@ -392,12 +563,34 @@
    "https://finquestorne.com/alquiler/es/ficha/local-comercial/montcada-i-reixac/mas-rampinyo-carrerada/9920/30513379/es"
   ]
  },
+ "13389": {
+  "desde": 1795273917.706671,
+  "urls": []
+ },
+ "13555": {
+  "desde": 1795273919.5584276,
+  "urls": []
+ },
+ "13602": {
+  "desde": 1795273917.0696363,
+  "urls": []
+ },
  "13613": {
+  "desde": 1795273917.930372,
   "urls": [
    "https://casablau.net/index.php?option=com_osproperty&tmpl=component&task=property_resetfilterform&return=aHR0cHM6Ly9jYXNhYmxhdS5uZXQvYWxxdWlsZXIvcGlzb3MtZW4tYWxxdWlsZXI%3D"
   ]
  },
+ "13650": {
+  "desde": 1795273918.535395,
+  "urls": []
+ },
+ "13654": {
+  "desde": 1795273921.4114652,
+  "urls": []
+ },
  "1368": {
+  "desde": 1795273892.6760392,
   "urls": [
    "https://gestin3.com/inmueble/piso-en-alquiler-en-paseo-del-mare-nostrum-63-port-badalona",
    "https://gestin3.com/inmueble/1821",
@@ -411,6 +604,10 @@
    "https://gestin3.com/inmueble/piso-alquiler-barcelona-3028"
   ]
  },
+ "1371": {
+  "desde": 1795273890.2462597,
+  "urls": []
+ },
  "13833": {
   "urls": [
    "https://immoserveis.com/spa/p/inmo/property/alquiler-turistico-sant-antoni-calonge-palamos/v/tipus/temp/211.htm",
@@ -419,12 +616,38 @@
   ]
  },
  "13840": {
+  "desde": 1795273918.2149894,
   "urls": [
    "https://sgproperties.es/alquiler-propiedad-inmobiliaria?inmo_zona_filter=Dreta+de+l%C2%B4Eixample&inmo_accion=alquiler",
    "https://sgproperties.es/alquiler-propiedad-inmobiliaria?inmo_zona_filter=L%C2%B4Antiga+Esquerra+de+lEixample&inmo_accion=alquiler"
   ]
  },
+ "139": {
+  "desde": 1795273888.3180676,
+  "urls": []
+ },
+ "13934": {
+  "desde": 1795273919.023221,
+  "urls": []
+ },
+ "1400": {
+  "desde": 1795273890.156825,
+  "urls": []
+ },
+ "1419": {
+  "desde": 1795273890.0165224,
+  "urls": []
+ },
+ "142": {
+  "desde": 1795273886.903732,
+  "urls": []
+ },
+ "1424": {
+  "desde": 1795273890.2012537,
+  "urls": []
+ },
  "1425": {
+  "desde": 1795273891.0171971,
   "urls": [
    "https://fin-per.com/alquiler/es/index.php?vistas=1",
    "https://fin-per.com/alquiler/es/index.php?descartadas=1",
@@ -444,6 +667,7 @@
   ]
  },
  "1431": {
+  "desde": 1795273890.9984186,
   "urls": [
    "https://finquesbellavista.com/alquiler/es/index.php?vistas=1",
    "https://finquesbellavista.com/alquiler/es/index.php?descartadas=1",
@@ -451,12 +675,17 @@
   ]
  },
  "1433": {
+  "desde": 1795273890.5126219,
   "urls": [
    "https://monikarusch.com/piso-en-castelldefels-con-piscina-es1797976.html",
    "https://monikarusch.com/piso-en-barcelona-sant-gervasi--putxet-con-ascensor-es1649216.html",
    "https://monikarusch.com/piso-en-sitges-con-piscina-es1462866.html",
    "https://monikarusch.com/piso-en-barcelona-ciutat-vella--born-con-ascensor-es1462928.html"
   ]
+ },
+ "1434": {
+  "desde": 1795273892.1753545,
+  "urls": []
  },
  "1435": {
   "urls": [
@@ -478,6 +707,7 @@
   ]
  },
  "1448": {
+  "desde": 1795273891.2311692,
   "urls": [
    "https://diagonal111.com/alquiler/es/index.php?vistas=1",
    "https://diagonal111.com/alquiler/es/index.php?descartadas=1",
@@ -490,6 +720,7 @@
   ]
  },
  "145": {
+  "desde": 1795273887.690915,
   "urls": [
    "https://amatimmobiliaris.com/es/alquiler/plaza-parquing/barcelona/sant-joan-despi/placa-de-parquing-en-lloguer-a-torreblanca_1"
   ]
@@ -500,6 +731,7 @@
   ]
  },
  "1477": {
+  "desde": 1795273890.9320512,
   "urls": [
    "https://inmosearch.com/piso-en-barcelona-eixample-con-vistas-es1617139.html",
    "https://inmosearch.com/piso-en-barcelona-eixample-con-ascensor-es684382.html",
@@ -520,14 +752,32 @@
   ]
  },
  "1480": {
+  "desde": 1795273894.0725265,
+  "ultimo_nuevo": 1795273894.0725322,
   "urls": [
-   "https://basmifinques.com/local-alquiler-sant-antoni-90-ciutat-vella-barcelona-2178"
+   "https://basmifinques.com/inmuebles?gestion=2",
+   "https://basmifinques.com/inmuebles/maps?gestion=2",
+   "https://basmifinques.com/oficinadespacho-alquiler-lesseps-2-gracia-barcelona-2212",
+   "https://basmifinques.com/piso-alquiler-raval-36-ciutat-vella-barcelona-2186",
+   "https://basmifinques.com/piso-alquiler-montcada-29-ciutat-vella-barcelona-2231",
+   "https://basmifinques.com/piso-alquiler-montmany-37-gracia-barcelona-2227",
+   "https://basmifinques.com/piso-alquiler-g-v-corts-catalanes-757-eixample-barcelona-2207",
+   "https://basmifinques.com/piso-alquiler-augusta-147-sarria-sant-gervasi-barcelona-2224",
+   "https://basmifinques.com/oficinadespacho-alquiler-tamarit-187-eixample-barcelona-2158",
+   "https://basmifinques.com/local-alquiler-sant-antoni-90-ciutat-vella-barcelona-2178",
+   "https://basmifinques.com/oficinadespacho-alquiler-diagonal-449-eixample-barcelona-2200",
+   "https://basmifinques.com/local-alquiler-valencia-191-eixample-barcelona-2226"
   ]
  },
  "1507": {
+  "desde": 1795273893.0785615,
   "urls": [
    "https://nuevacasa.net/generar-pdf?id=6866"
   ]
+ },
+ "1508": {
+  "desde": 1795273891.9839718,
+  "urls": []
  },
  "1511": {
   "urls": [
@@ -537,12 +787,26 @@
    "https://finquesros.com/property/local-en-alquiler-en-calle-corsega-3"
   ]
  },
+ "16": {
+  "desde": 1795273888.257239,
+  "urls": []
+ },
+ "1813": {
+  "desde": 1795273890.569478,
+  "urls": []
+ },
  "190": {
+  "desde": 1795273889.5315032,
   "urls": [
    "https://cefersa.com/propiedad/amplias-oficinas-reformadas-en-parque-empresarial-citypark-en-cornella-2"
   ]
  },
+ "1917": {
+  "desde": 1795273891.3278623,
+  "urls": []
+ },
  "2091": {
+  "desde": 1795273892.277031,
   "urls": [
    "https://immobiliarius.com/alquiler/es/ficha/parking/barcelona/vilapicina-i-la-torre-llobeta/8093/11079234/es",
    "https://immobiliarius.com/alquiler/es/ficha/parking/barcelona/porta/8093/15637159/es",
@@ -551,6 +815,7 @@
   ]
  },
  "2101": {
+  "desde": 1795273891.7250402,
   "urls": [
    "https://catrealestate.com/es/propiedades/venta-carrer-rafael-batlle/366",
    "https://catrealestate.com/es/propiedades/edificio-carboneria-venta/346",
@@ -589,12 +854,18 @@
   ]
  },
  "216": {
+  "desde": 1795273886.7221806,
   "urls": [
    "http://inmobarna.es/01130-LOCAL_EN_ALQUILER_EN_LHOSPITALET-DE-LLOBREGAT.php",
    "https://inmobarna.es/inmueble.php?id_inmueble=1130"
   ]
  },
+ "219": {
+  "desde": 1795273888.7084026,
+  "urls": []
+ },
  "233": {
+  "desde": 1795273887.2712526,
   "urls": [
    "https://inmobiliariaenbarcelona.finquesbou.es/propiedad/local-comercial-barcelona-75m2-inmo-00550-303915",
    "https://inmobiliariaenbarcelona.finquesbou.es/propiedad/piso-barcelona-95m2-inmo-00550-200224",
@@ -602,28 +873,48 @@
   ]
  },
  "2489": {
+  "desde": 1795273892.3040318,
   "urls": [
    "https://aligarealestate.com/ficha/chalet/benahavis/la-zagaleta-el-madronal/4942/22491612/es/ficha/tipo/ciudad/zona/4942/22313860/es"
   ]
  },
  "2545": {
+  "desde": 1795273893.2776194,
   "urls": [
    "https://metresquadrats.com/ca/ca/lloguer/pis-a-barcelona-sant-gervasi-la-bonanova_a-021c.html",
    "https://metresquadrats.com/ca/ca/lloguer/oficina-a-barcelona-dreta-de-eixample_a-095.html",
    "https://metresquadrats.com/ca/ca/lloguer/pis-a-garraf-garraf_bcn-a877.html"
   ]
  },
+ "2677": {
+  "desde": 1795273892.52494,
+  "urls": []
+ },
  "2692": {
+  "desde": 1795273934.4236732,
+  "ultimo_nuevo": 1795273934.423679,
   "urls": [
+   "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=2&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc",
+   "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=5&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc",
+   "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=6&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc",
+   "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=14&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc",
+   "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=12&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc",
+   "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=7&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc",
+   "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=8&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc",
+   "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=10&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc",
+   "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=9&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc",
+   "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=23&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc",
    "https://coldwellbanker.es/javea-xabia/montanar-el-arenal/atena-82-exclusivos-apartamentos-en-javea"
   ]
  },
  "2736": {
+  "desde": 1795273892.227927,
   "urls": [
    "https://bcn-advisors.com/propiedades/atico-de-lujo-en-alquiler-con-2-terrazas-y-parking-en-les-tres-torres"
   ]
  },
  "2763": {
+  "desde": 1795273893.0168335,
   "urls": [
    "https://mayoball2007.com/alquiler/es/index.php?vistas=1",
    "https://mayoball2007.com/alquiler/es/index.php?descartadas=1",
@@ -631,6 +922,7 @@
   ]
  },
  "2876": {
+  "desde": 1795273892.5808487,
   "urls": [
    "https://lacasa.net/inmueble/LCB45922",
    "https://lacasa.net/inmueble/LCB45940",
@@ -661,7 +953,16 @@
    "https://lacasa.net/inmueble/LCBI45902"
   ]
  },
+ "2917": {
+  "desde": 1795273893.184696,
+  "urls": []
+ },
+ "3122": {
+  "desde": 1795273893.3772361,
+  "urls": []
+ },
  "3162": {
+  "desde": 1795273893.042444,
   "urls": [
    "https://grupogalisan.com/es/alquiler/ref-1282",
    "https://grupogalisan.com/es/alquiler/ref-1440",
@@ -670,12 +971,37 @@
    "https://grupogalisan.com/es/alquiler/ref-1466"
   ]
  },
+ "3168": {
+  "desde": 1795273893.1690295,
+  "urls": []
+ },
+ "3175": {
+  "desde": 1795273893.6252751,
+  "urls": []
+ },
+ "319": {
+  "desde": 1795273886.85446,
+  "urls": []
+ },
  "3224": {
   "urls": [
    "https://multipiso.net/informacion_gastos?id=1165"
   ]
  },
+ "323": {
+  "desde": 1795273886.9591377,
+  "urls": []
+ },
+ "3272": {
+  "desde": 1795273893.635508,
+  "urls": [
+   "https://cascanticbcn.com/en/2019/09/30/renting-a-place-in-the-eixample-best-advantatges",
+   "https://cascanticbcn.com/en/2026/09/30/how-to-rent-a-house-in-barcelona",
+   "https://cascanticbcn.com/2019/09/23/alquiler-con-opcion-a-compra-buena-eleccion"
+  ]
+ },
  "328": {
+  "desde": 1795273887.4153385,
   "urls": [
    "https://shbarcelona.com/es/alquiler-pisos/temporal/barcelona/1-habitacion",
    "https://shbarcelona.com/es/alquiler-pisos/temporal/barcelona/2-habitaciones",
@@ -683,11 +1009,13 @@
   ]
  },
  "3289": {
+  "desde": 1795273893.5978668,
   "urls": [
    "https://mashabitat.net/piso-en-lhospitalet-de-llobregat-con-ascensor-es1747290.html"
   ]
  },
  "3300": {
+  "desde": 1795273894.2117236,
   "urls": [
    "https://flashinmuebles.com/inmueble.php?zona=sants-08029&id=853",
    "https://flashinmuebles.com/inmueble.php?zona=baix-emporda-girona-17121&id=831",
@@ -697,9 +1025,24 @@
    "https://flashinmuebles.com/inmueble.php?zona=sant-gervasi-galvany-08021&id=893"
   ]
  },
+ "332": {
+  "desde": 1795273887.360623,
+  "urls": []
+ },
+ "3339": {
+  "desde": 1795273893.441238,
+  "urls": []
+ },
+ "3343": {
+  "desde": 1795273894.5239513,
+  "urls": []
+ },
  "3350": {
+  "desde": 1795273894.689776,
+  "ultimo_nuevo": 1795273894.6897824,
   "urls": [
    "https://donpiso.com/que-piso-casa-buscas?form=3",
+   "https://donpiso.com/pisos-y-casas/286240_piso-en-alquiler-badajoz",
    "https://donpiso.com/pisos-y-casas/302977_apartamento-en-alquiler-garrucha",
    "https://donpiso.com/pisos-y-casas/306916_apto- playa-en-alquiler-vera"
   ]
@@ -715,14 +1058,52 @@
    "https://tracteimmobiliari.com/detalle/inmueble/30035986148.116700"
   ]
  },
+ "3367": {
+  "desde": 1795273894.3670547,
+  "urls": []
+ },
+ "3371": {
+  "desde": 1795273893.7336378,
+  "urls": []
+ },
+ "350": {
+  "desde": 1795273887.3930888,
+  "urls": []
+ },
+ "3501": {
+  "desde": 1795273896.099755,
+  "urls": []
+ },
+ "3505": {
+  "desde": 1795273899.8589792,
+  "urls": []
+ },
+ "3517": {
+  "desde": 1795273896.9759243,
+  "urls": []
+ },
+ "354": {
+  "desde": 1795273887.6648724,
+  "urls": []
+ },
+ "3574": {
+  "desde": 1795273893.7062356,
+  "urls": []
+ },
+ "360": {
+  "desde": 1795273887.5107868,
+  "urls": []
+ },
  "368": {
+  "desde": 1795273889.0414598,
   "urls": [
-   "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-6",
    "https://atico.es/property/atico-en-venta-en-gracia-3",
+   "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-6",
    "https://atico.es/property/atico-en-venta-en-gracia-2"
   ]
  },
  "371": {
+  "desde": 1795273888.2031555,
   "urls": [
    "https://finquessafa.com/alquiler/es/index.php?vistas=1",
    "https://finquessafa.com/alquiler/es/index.php?descartadas=1",
@@ -731,18 +1112,21 @@
   ]
  },
  "3715": {
+  "desde": 1795273894.1343749,
   "urls": [
    "https://segermar.es/propiedades/propiedades.php?id_modalidad=2",
    "https://segermar.es/propiedades?cart=1&secc=propiedades_seleccionadas"
   ]
  },
  "3721": {
+  "desde": 1795273894.5724883,
   "urls": [
    "https://fincasgilser.com/propiedades/compra/viviendas/barcelona-province/barcelona/sants-montjuic/detalle/477",
    "https://fincasgilser.com/propiedades/compra/viviendas/barcelona-province/barcelona/sant-marti/detalle/474"
   ]
  },
  "375": {
+  "desde": 1795273888.6675014,
   "urls": [
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/49659/CAT/poble-sec-mata.htm",
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/96205/CAT/sants-alcolea.htm",
@@ -763,7 +1147,19 @@
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/93020/CAT/sants-burgos-64-plaza-1.htm"
   ]
  },
+ "3813": {
+  "desde": 1795273896.0997071,
+  "urls": [
+   "https://esponafinques.com/2023/03/30/local-en-alquiler",
+   "https://esponafinques.com/2023/03/28/piso-en-alquiler"
+  ]
+ },
+ "3815": {
+  "desde": 1795273899.6010568,
+  "urls": []
+ },
  "3819": {
+  "desde": 1795273896.0998166,
   "urls": [
    "https://fincasblanco.es/alquiler/es/index.php?vistas=1",
    "https://fincasblanco.es/alquiler/es/index.php?descartadas=1",
@@ -810,6 +1206,10 @@
    "https://fincasvitra.com/index.php?option=com_propiedades&view=propiedad&catid=7%3Aventa&id=160%3Acasa-a-montigala"
   ]
  },
+ "3875": {
+  "desde": 1795273896.099748,
+  "urls": []
+ },
  "3952": {
   "urls": [
    "https://veinou.cat/es/inmuebles/alquilar-288123",
@@ -818,6 +1218,7 @@
   ]
  },
  "397": {
+  "desde": 1795273889.28866,
   "urls": [
    "https://finquesrubio.com/propiedad-alquiler/traspaso-de-peluqueria-canina-y-tienda-de-mascotas-en-sant-adria-de-besos--105-m²--local-esquinero--negocio-en-funcionamiento-30770749",
    "https://finquesrubio.com/propiedad-alquiler/alquiler-de-plaza-de-parking-en-c-garriga-30728768",
@@ -835,6 +1236,7 @@
   ]
  },
  "4026": {
+  "desde": 1795273896.0997245,
   "urls": [
    "https://bc91.es/ficha-inmueble/local-comercial-en-barcelona-81-00m2/id/inmo_00091_400747-inmo_00717/lang/es",
    "https://bc91.es/ficha-inmueble/local-comercial-en-barcelona-83-00m2/id/inmo_00358_347776-inmo_00717/lang/es",
@@ -851,6 +1253,7 @@
   ]
  },
  "4041": {
+  "desde": 1795273896.0997703,
   "urls": [
    "https://finquespalau.com/pisos-en-alquiler-24-2.html?i=12&c=12",
    "https://finquespalau.com/pisos-en-alquiler-24-2.html?i=24&c=12",
@@ -877,22 +1280,41 @@
   ]
  },
  "4084": {
+  "desde": 1795273896.099761,
   "urls": [
    "https://labordemarcet.com/inmuebles?wpv-wpcf-tipo=Locales+Comerciales&wpv_aux_current_post_id=4738&wpv_aux_parent_post_id=4738&wpv_view_count=4823&wpv-operacion=rentabilidad",
    "https://labordemarcet.com/inmuebles?wpv-wpcf-tipo=Edificios&wpv_aux_current_post_id=4738&wpv_aux_parent_post_id=4738&wpv_view_count=4823"
   ]
  },
+ "4113": {
+  "desde": 1795273896.099741,
+  "urls": []
+ },
+ "4236": {
+  "desde": 1795273899.385997,
+  "urls": []
+ },
  "4256": {
+  "desde": 1795273896.7064373,
   "urls": [
-   "https://finquescatalonia.es/propiedad/101/apartamento-piso/alquiler/espana/girona/platja-d-aro/platja-d-aro",
-   "https://finquescatalonia.es/propiedades?loct%5B%5D=8247&date=1785309672&langx=es"
+   "https://finquescatalonia.es/propiedades?loct%5B%5D=8247&date=1785309672&langx=es",
+   "https://finquescatalonia.es/propiedad/101/apartamento-piso/alquiler/espana/girona/platja-d-aro/platja-d-aro"
   ]
  },
+ "4263": {
+  "desde": 1795273896.4079468,
+  "urls": []
+ },
  "4274": {
+  "desde": 1795273896.0997953,
   "urls": [
    "https://living.es/que-piso-casa-buscas?form=3",
    "https://living.es/pisos-y-casas/306356_casa-en-alquiler-sant just desvern"
   ]
+ },
+ "4391": {
+  "desde": 1795273896.0997903,
+  "urls": []
  },
  "4420": {
   "urls": [
@@ -907,11 +1329,17 @@
   ]
  },
  "4485": {
+  "desde": 1795273896.1756682,
   "urls": [
    "https://premiumhouse.es/inmuebles?brk=39911784"
   ]
  },
+ "4554": {
+  "desde": 1795273896.0998096,
+  "urls": []
+ },
  "4622": {
+  "desde": 1795273896.2408898,
   "urls": [
    "https://maxicasa.es/house/4299476-piso-en-venta-en-barcelona-de-72-m2-269000eur-0011291",
    "https://maxicasa.es/house/4297593-magnifico-piso-en-horta-residencial-369000eur-0011289",
@@ -931,6 +1359,7 @@
   ]
  },
  "4623": {
+  "desde": 1795273896.7576916,
   "urls": [
    "https://masiesemporda.cat/en-lloguer/casa-pedra-540-m2-reformada-90-parcella-1000-m2-alt-emporda",
    "https://masiesemporda.cat/en-lloguer/masia-en-lloguer-450m2-datada-segle-xvii-envoltada-parcella-20000m2-baix-emporda-costa",
@@ -974,6 +1403,14 @@
    "https://masiesemporda.cat/buscar?field_clasificacion_propiedad_tid=312&field_ambito_geografico_tid=274"
   ]
  },
+ "4641": {
+  "desde": 1795273896.569073,
+  "urls": []
+ },
+ "4647": {
+  "desde": 1795273897.960959,
+  "urls": []
+ },
  "4650": {
   "urls": [
    "https://altostandingbcn.com/alquiler-barcelona-oficina-en-galvany-5-321.html",
@@ -988,6 +1425,21 @@
    "https://altostandingbcn.com/alquiler-barcelona-con-terraza-en-vila-de-gràcia-5-450.html",
    "https://altostandingbcn.com/alquiler-barcelona-ático-con-terraza-en-les-corts-5-431.html"
   ]
+ },
+ "4681": {
+  "desde": 1795273903.15812,
+  "urls": [
+   "https://nolkersconsulting.com/inmueble/oficina-en-alquiler-en-cornella/19604493",
+   "https://nolkersconsulting.com/inmueble/oficina-en-aquiler-en-cornella/19604413",
+   "https://nolkersconsulting.com/inmueble/oficina-en-alquiler-cornella/19604282",
+   "https://nolkersconsulting.com/inmueble/oficina-atico-en-eixample/19568869",
+   "https://nolkersconsulting.com/inmueble/local-en-alquiler-en-barcelona/27015466",
+   "https://nolkersconsulting.com/inmueble/oficina-en-alquiler-diagonal/19602652"
+  ]
+ },
+ "4692": {
+  "desde": 1795273898.6087513,
+  "urls": []
  },
  "4693": {
   "urls": [
@@ -1045,14 +1497,28 @@
   ]
  },
  "4774": {
+  "desde": 1795273898.1331162,
+  "ultimo_nuevo": 1795273898.133122,
   "urls": [
+   "https://ariinversions.com/estate_property/local-de-lloguer-a-carrer-padua-82",
+   "https://ariinversions.com/estate_property/local-en-traspas-a-carrer-bailen-242",
+   "https://ariinversions.com/estate_property/local-en-traspas-a-carrer-saragossa-116",
+   "https://ariinversions.com/estate_property/local-de-lloguer-a-av-josep-tarradellas-20",
+   "https://ariinversions.com/estate_property/local-de-lloguer-a-carrer-muntaner-170",
+   "https://ariinversions.com/estate_property/local-de-lloguer-a-carrer-balmes-114",
+   "https://ariinversions.com/estate_property/local-de-lloguer-a-placa-joaquim-folguera-2",
    "https://ariinversions.com/estate_property/local-de-lloguer-a-rbla-catalunya-19",
    "https://ariinversions.com/estate_property/local-de-lloguer-a-mallorca-445",
    "https://ariinversions.com/estate_property/local-en-traspas-a-carrer-sant-pere-mes-baix-44",
    "https://ariinversions.com/estate_property/local-en-traspas-a-comte-borrell-50"
   ]
  },
+ "4778": {
+  "desde": 1795273897.2434483,
+  "urls": []
+ },
  "4839": {
+  "desde": 1795273897.3002157,
   "urls": [
    "https://mauriassessors.cat/propietat-lloguer/pis-en-lloguer-en-viladecavalls-69198822076.523835",
    "https://mauriassessors.cat/propietat-lloguer/garatge-en-lloguer-en-can-boada-torrent-d'en-pere-parres(08225)-67560023065.523835",
@@ -1062,6 +1528,7 @@
   ]
  },
  "4851": {
+  "desde": 1795273897.6079404,
   "urls": [
    "https://avenir-bcn.com/portfolio-item/alquiler-temporada-2",
    "https://avenir-bcn.com/portfolio-item/alquiler-de-temporada-en-dreta-eixample-2"
@@ -1214,7 +1681,16 @@
    "https://guinotprunera.com/es/alquiler/ref-4568"
   ]
  },
+ "5010": {
+  "desde": 1795273897.0747192,
+  "urls": []
+ },
+ "5042": {
+  "desde": 1795273898.6396134,
+  "urls": []
+ },
  "5108": {
+  "desde": 1795273897.8460233,
   "urls": [
    "https://gesbau.com/ficha-inmueble/suelo-urbano-en-torrelles-de-llobregat-360-00m2/id/inmo_01410_18063/lang/es",
    "https://gesbau.com/ficha-inmueble/piso-en-sant-adria-de-besos-70-00m2/id/inmo_01410_205476/lang/es",
@@ -1228,12 +1704,18 @@
    "https://gesbau.com/venta_y_alquiler-inmuebles/lang/es?per_page=9"
   ]
  },
+ "5110": {
+  "desde": 1795273897.9087765,
+  "urls": []
+ },
  "5205": {
+  "desde": 1795273898.3344924,
   "urls": [
    "https://atbarcelona.es/alquiler.aspx?cv=1"
   ]
  },
  "5243": {
+  "desde": 1795273898.6125286,
   "urls": [
    "https://maxricart.com/luxury-properties-for-rent-in-barcelona/1",
    "https://maxricart.com/propiedades-de-lujo-en-barcelona/1",
@@ -1320,20 +1802,43 @@
    "https://rent-it.es/ref-160"
   ]
  },
+ "5252": {
+  "desde": 1795273899.4517717,
+  "urls": []
+ },
+ "5265": {
+  "desde": 1795273900.6392446,
+  "urls": []
+ },
  "5295": {
+  "desde": 1795273898.8033555,
   "urls": [
    "https://barcelonacityhome.com/properties/gorgeus-sagrada-familia-160sqm-apartment-up-7pax",
    "https://barcelonacityhome.com/properties/amazing-chill-terrace-apartment-4pax"
   ]
  },
+ "5417": {
+  "desde": 1795273901.2868629,
+  "urls": []
+ },
  "5468": {
+  "desde": 1795273899.6437867,
   "urls": [
    "https://pisos-barcelona.com/alquiler/es/index.php?vistas=1",
    "https://pisos-barcelona.com/alquiler/es/index.php?descartadas=1",
    "https://pisos-barcelona.com/alquiler/es/index.php?favoritas=1"
   ]
  },
+ "5509": {
+  "desde": 1795273899.3356283,
+  "urls": []
+ },
+ "5551": {
+  "desde": 1795273899.7644413,
+  "urls": []
+ },
  "5556": {
+  "desde": 1795273900.386774,
   "urls": [
    "https://finquesmur.com/alquiler/es/index.php?vistas=1",
    "https://finquesmur.com/alquiler/es/index.php?descartadas=1",
@@ -1348,11 +1853,16 @@
   ]
  },
  "5565": {
+  "desde": 1795273900.7630134,
   "urls": [
    "https://caraltvalls.com/alquiler/es/index.php?vistas=1",
    "https://caraltvalls.com/alquiler/es/index.php?descartadas=1",
    "https://caraltvalls.com/alquiler/es/index.php?favoritas=1"
   ]
+ },
+ "5634": {
+  "desde": 1795273900.2314613,
+  "urls": []
  },
  "5663": {
   "urls": [
@@ -1373,7 +1883,12 @@
    "https://ponshouse.com/alquiler/es/ficha/terreno-urbanizable/vilafranca-del-penedes/centro/2837/22929698/es"
   ]
  },
+ "5681": {
+  "desde": 1795273902.4430554,
+  "urls": []
+ },
  "5702": {
+  "desde": 1795273900.219822,
   "urls": [
    "https://arearetail.es/inmuebles/bdd9eb76531b42ab92ba7f90874bd3f9",
    "https://arearetail.es/inmuebles/4ef106e1f6744b26b264d5fbc1b25703",
@@ -1387,13 +1902,19 @@
   ]
  },
  "5809": {
+  "desde": 1795273900.1295033,
   "urls": [
    "https://eurekaimmobles.com/property-category/en-alquiler?layout=grid-3",
    "https://eurekaimmobles.com/inmueble/test-005-terrassa",
    "https://eurekaimmobles.com/inmueble/test-004-barcelona"
   ]
  },
+ "5826": {
+  "desde": 1795273900.2746365,
+  "urls": []
+ },
  "5846": {
+  "desde": 1795273901.0204754,
   "urls": [
    "https://santsfinques.cat/alquiler/es/index.php?vistas=1",
    "https://santsfinques.cat/alquiler/es/index.php?descartadas=1",
@@ -1401,12 +1922,33 @@
    "https://santsfinques.cat/alquiler/es/ficha/edificio/barcelona/la-bordeta/11367/29205762/es"
   ]
  },
+ "5864": {
+  "desde": 1795273900.2949631,
+  "urls": []
+ },
  "5914": {
   "urls": [
    "https://mayorcasa.com/mcpropiedades/atico-duplex-luminoso-con-2-terrazas-en-pl-de-la-vila"
   ]
  },
+ "5924": {
+  "desde": 1795273900.7813828,
+  "urls": []
+ },
+ "5942": {
+  "desde": 1795273901.1859026,
+  "urls": []
+ },
+ "5944": {
+  "desde": 1795273900.6869903,
+  "urls": []
+ },
+ "5978": {
+  "desde": 1795273902.4327524,
+  "urls": []
+ },
  "6022": {
+  "desde": 1795273901.6010733,
   "urls": [
    "https://inmofinders.com/en-alquiler/piso-cerca-parque-santa-amelia-466",
    "https://inmofinders.com/en-alquiler/piso-alto-standing-en-galvany-barcelona-120",
@@ -1434,17 +1976,29 @@
   ]
  },
  "6042": {
+  "desde": 1795273901.5571532,
   "urls": [
    "https://realtysantcugat.com/static2/alquilamos_tu_vivienda"
   ]
  },
+ "6074": {
+  "desde": 1795273901.7299068,
+  "urls": []
+ },
  "6099": {
+  "desde": 1795273901.9201343,
   "urls": []
  },
  "6122": {
   "urls": [
    "https://gdibo.com/es/alquiler/ref-1037",
    "https://gdibo.com/es/alquiler/ref-1070"
+  ]
+ },
+ "6184": {
+  "desde": 1795273901.5201633,
+  "urls": [
+   "https://immoaugusta.com/nuevos-decretos-vivienda-2026-inquilinos-propietarios"
   ]
  },
  "6185": {
@@ -1460,6 +2014,7 @@
   ]
  },
  "6186": {
+  "desde": 1795273901.632938,
   "urls": [
    "https://tucasabcn.es/ficha-inmueble/tienda-en-barcelona-27-00m2/id/inmo_02388_266815/lang/es",
    "https://tucasabcn.es/ficha-inmueble/local-comercial-en-ripollet-110-00m2/id/inmo_02388_296609/lang/es",
@@ -1476,13 +2031,30 @@
   ]
  },
  "6207": {
+  "desde": 1795273919.7687488,
+  "ultimo_nuevo": 1795273919.768756,
   "urls": [
+   "https://immollar.com/tu-alquiler-en-barcelona-vence-en-2028-o-antes",
+   "https://immollar.com/alquiler-en-barcelona-2026-que-cambia-con-el-decreto",
+   "https://immollar.com/piso-bien-valorado-barcelona-2026",
+   "https://immollar.com/category/alquiler/page/2",
+   "https://immollar.com/category/alquiler/page/3",
+   "https://immollar.com/category/alquiler/page/4",
    "https://immollar.com/propiedad/local-plaza-europa-ref-26023",
    "https://immollar.com/propiedad/local-plaza-europa-ref-25923",
    "https://immollar.com/propiedad/independencia-ref-29725"
   ]
  },
+ "6224": {
+  "desde": 1795273902.3372867,
+  "urls": []
+ },
+ "6263": {
+  "desde": 1795273903.4203913,
+  "urls": []
+ },
  "6267": {
+  "desde": 1795273908.5177236,
   "urls": [
    "https://oirealestate.net/alquiler/viviendas/page-2",
    "https://oirealestate.net/propiedad/251059/piso-de-alquiler-en-carrer-de-sardenya-315-sagrada-familia-barcelona",
@@ -1513,18 +2085,36 @@
   ]
  },
  "6280": {
+  "desde": 1795273902.2901297,
   "urls": [
    "https://housing-bcn.com/property-offers/1",
    "https://housing-bcn.com/property-offers/0",
    "https://housing-bcn.com/property-offers/2"
   ]
  },
+ "6410": {
+  "desde": 1795273904.2717545,
+  "urls": []
+ },
  "6490": {
   "urls": [
    "https://coldwellbanker.es/javea-xabia/montanar-el-arenal/atena-82-exclusivos-apartamentos-en-javea"
   ]
  },
+ "6528": {
+  "desde": 1795273903.0543437,
+  "urls": []
+ },
+ "6570": {
+  "desde": 1795273905.4536448,
+  "urls": []
+ },
+ "6584": {
+  "desde": 1795273903.1017878,
+  "urls": []
+ },
  "6595": {
+  "desde": 1795273904.63872,
   "urls": [
    "https://immopep.cat/property/jb-731-oficina-de-lloguer-en-bon-estat",
    "https://immopep.cat/property/308-12-oficina-molt-lluminosa-en-perfecte-estat-totalment-diafana",
@@ -1532,6 +2122,7 @@
   ]
  },
  "6611": {
+  "desde": 1795273904.5354373,
   "urls": [
    "https://inmoservicebarcelona.com/alquiler/es/index.php?vistas=1",
    "https://inmoservicebarcelona.com/alquiler/es/index.php?descartadas=1",
@@ -1551,40 +2142,72 @@
   ]
  },
  "6624": {
+  "desde": 1795273908.112915,
   "urls": [
    "https://inmueblesbcn.com/alquiler/local-comercial/barcelona/barcelona/sant-marti-poblenou-glorias/alquiler-local-comercial-barcelona-barcelona-sant-marti-poblenou-glorias-E-A-BOL2.html",
    "https://inmueblesbcn.com/alquiler/garaje/la-coruna/santiago-de-compostela/santa-marta/alquiler-garaje-la-coruna-santiago-de-compostela-santa-marta-G-A-GAR-STMARTA22.html"
   ]
  },
+ "6653": {
+  "desde": 1795273904.0995584,
+  "urls": []
+ },
  "6712": {
+  "desde": 1795273908.1434684,
+  "ultimo_nuevo": 1795273908.1434739,
   "urls": [
+   "https://espaibcnflats.net/inmueble/planta-baja-en-la-barceloneta-alquiler-temporal/26971077",
+   "https://espaibcnflats.net/inmueble/exclusiva-propiedad-en-alquiler-totalmente-reformada-a-estrenar-/26821276",
+   "https://espaibcnflats.net/inmueble/edificio-industrial-singular-917-m-con-montacargas-para-coches/25853292",
+   "https://espaibcnflats.net/inmueble/piso-luminoso-con-2-habitaciones-dobles-junto-al-htauli/25950399",
    "https://espaibcnflats.net/inmueble/espectacular-atico-con-doble-orientacion-y-dos-terrazas/25950251"
   ]
  },
+ "6716": {
+  "desde": 1795273903.8929706,
+  "urls": []
+ },
+ "6771": {
+  "desde": 1795273904.4960968,
+  "urls": []
+ },
  "6832": {
+  "desde": 1795273905.218014,
   "urls": [
    "https://arelhome.es/2023/01/10/es-rentable-comprar-un-piso-para-alquilar",
    "https://arelhome.es/2025/04/25/cuales-son-los-gastos-de-la-compra-de-una-vivienda"
   ]
  },
  "6998": {
+  "desde": 1795273904.9514198,
   "urls": [
    "https://fincasbalsells.com/pisos-en-alquiler/servicios/administraci%c3%b3n-de-fincas-en-r%c3%a9gimen-de-propiedad-horizontal-comunidades-de-propietarios/index.html",
    "https://fincasbalsells.com/pisos-en-alquiler/servicios/gesti%c3%b3n-de-alquileres/index.html"
   ]
  },
  "7021": {
+  "desde": 1795273906.4511478,
   "urls": [
    "https://080realestate.com/2021/09/11/un-ano-de-la-ley-de-alquileres-catalana-objetivo-cumplido"
   ]
  },
+ "7052": {
+  "desde": 1795273905.0817943,
+  "urls": []
+ },
  "7104": {
+  "desde": 1795273905.3307154,
   "urls": [
    "https://serviguest.com/inmuebles/acogedor-apartamento-en-barrio-gotico-ref1098",
    "https://serviguest.com/inmuebles/estudio-en-pleno-barrio-gotico-1170"
   ]
  },
+ "7138": {
+  "desde": 1795273905.659873,
+  "urls": []
+ },
  "7192": {
+  "desde": 1795273905.74581,
   "urls": [
    "https://inmuebling.com/house/4205308-apartamento-en-alquiler-en-madrid-de-51-m2-1500eur-IMALQSANVICENTE102025",
    "https://inmuebling.com/house/4164837-piso-en-alquiler-en-madrid-de-26-m2-890eur-IMALQMINIST0726",
@@ -1592,7 +2215,12 @@
    "https://inmuebling.com/house/3935941-piso-en-alquiler-en-madrid-de-92-m2-1950eur-IMALQGPERON0726"
   ]
  },
+ "7274": {
+  "desde": 1795273905.8235052,
+  "urls": []
+ },
  "7277": {
+  "desde": 1795273908.4258308,
   "urls": [
    "https://somoscasa.com/ver-pisos-2/carrer-de-les-delicies-08940-cornella-de-llobregat-barcelona-espana",
    "https://somoscasa.com/ver-pisos-2/carrer-santa-maria-131-08340-vilassar-de-mar-barcelona-espana",
@@ -1608,8 +2236,15 @@
    "https://somoscasa.com/ver-pisos-2/c-de-aragon-08015-barcelona"
   ]
  },
+ "7303": {
+  "desde": 1795273906.1490927,
+  "urls": []
+ },
  "7312": {
+  "desde": 1795273907.8716364,
+  "ultimo_nuevo": 1795273907.871645,
   "urls": [
+   "https://finquesbonallar.com/es/propiedad-alquiler/garaje-en-alquiler-en-masrampinyo-4262458",
    "https://finquesbonallar.com/es/propiedad-alquiler/¡local-en-alquiler-en-el-centro-de-montcada!-4297565",
    "https://finquesbonallar.com/es/propiedad-alquiler/gran-local-en-alquiler-con-acceso-de-vehiculos-3444997",
    "https://finquesbonallar.com/es/propiedad-alquiler/local-en-alquiler-en-montcada-i-reixac-de-71-m2-3842570",
@@ -1620,6 +2255,7 @@
   ]
  },
  "7327": {
+  "desde": 1795273907.2319384,
   "urls": [
    "https://globalinvestejd.com/alquiler/es/index.php?vistas=1",
    "https://globalinvestejd.com/alquiler/es/index.php?descartadas=1",
@@ -1648,6 +2284,7 @@
   ]
  },
  "7530": {
+  "desde": 1795273907.9006221,
   "urls": [
    "https://gesticasa.es/como-afecta-al-irpf-2022-vender-o-alquilar-una-vivienda",
    "https://gesticasa.es/wp-login.php?redirect_to=https%3A%2F%2Fgesticasa.es%2Fse-prorroga-en-2023-el-limite-de-las-rentas-de-alquiler-al-2%2F"
@@ -1673,7 +2310,12 @@
    "https://franklin.cat/inmuebles/8-0-1-1-0-1-0-0---1"
   ]
  },
+ "7583": {
+  "desde": 1795273906.7841275,
+  "urls": []
+ },
  "7666": {
+  "desde": 1795273908.798523,
   "urls": [
    "https://fincasduenas.com/propiedad-alquiler/piso-en-sarria-de-64m2-6108028",
    "https://fincasduenas.com/propiedad-alquiler/gran-local-comercial-diafano-y-luminoso-30782715",
@@ -1683,6 +2325,7 @@
   ]
  },
  "7693": {
+  "desde": 1795273908.37568,
   "urls": [
    "https://centricbcn.com/immobles?search_status=rent&page_id=1849",
    "https://centricbcn.com/immobles?search_status=sale&page_id=1849",
@@ -1690,6 +2333,7 @@
   ]
  },
  "7698": {
+  "desde": 1795273908.0031245,
   "urls": [
    "https://martbel.com/immobles/29596?portfolioCats=15",
    "https://martbel.com/immobles/piso-en-cornella?portfolioCats=15",
@@ -1726,7 +2370,12 @@
    "https://martbel.com/lloguer/page/4"
   ]
  },
+ "7718": {
+  "desde": 1795273908.543234,
+  "urls": []
+ },
  "7748": {
+  "desde": 1795273908.5388765,
   "urls": [
    "https://fincascascales.com/ficha-inmueble/piso-en-barcelona-41-00m2/id/inmo_00174_399285-inmo_02458/lang/es",
    "https://fincascascales.com/ficha-inmueble/local-comercial-en-barcelona-97-00m2/id/inmo_00409_393804-inmo_02458/lang/es",
@@ -1743,6 +2392,7 @@
   ]
  },
  "7762": {
+  "desde": 1795273908.5740292,
   "urls": [
    "https://peraireinmobiliaria.com/propiedad-alquiler/¡impecable-y-reformado!-30380632",
    "https://peraireinmobiliaria.com/propiedad-alquiler/local-comercial-en-alquiler-r-rda-general-mitre--balmes-(el-putxet-i-el-farro)-28855251",
@@ -1752,12 +2402,18 @@
    "https://peraireinmobiliaria.com/propiedad-alquiler/smart-o-2-motos-17446001"
   ]
  },
+ "7793": {
+  "desde": 1795273910.8951173,
+  "urls": []
+ },
  "7812": {
+  "desde": 1795273909.067706,
   "urls": [
    "https://rentuos.com/decreto-vivienda-2026"
   ]
  },
  "7896": {
+  "desde": 1795273909.0832644,
   "urls": [
    "https://bcnhome.net/apartamento-en-sant-cugat-del-valls-con-garaje-es1439227.html"
   ]
@@ -1799,10 +2455,34 @@
   ]
  },
  "8045": {
+  "desde": 1795273909.7392752,
   "urls": [
    "https://fincaseuropa.com/alquiler/es/index.php?vistas=1",
    "https://fincaseuropa.com/alquiler/es/index.php?descartadas=1",
    "https://fincaseuropa.com/alquiler/es/index.php?favoritas=1"
+  ]
+ },
+ "8218": {
+  "desde": 1795273910.2303686,
+  "urls": [
+   "https://fincaslluria.com/ca/immobles.cfm/id/33054/local-alquiler-mundet.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/33053/piso-venta-l_antiga-esquerra-l_eixample.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/33052/plaza-parking-venta-av-diagonal-con-aribau.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/33051/autentica-masia-catalana-aislada-venta.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/33050/local-diafano-estrenar-vila-gracia.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/32969/masia-venta-xvii-con-piscina-y-fronton.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/1851/piso-venta-calle-calabria-con-terraza.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/33045/despacho-alquiler-eixample.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/32968/una-masia-xvii-y-otra-xix-venta.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/32967/masia-segle-xix-venda.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/33044/casa-alquiler-con-piscina.htm",
+   "https://fincaslluria.com/ca/immobles.cfm/id/33043/piso-venta-l_antigua-esquerra-eixample.htm"
+  ]
+ },
+ "8254": {
+  "desde": 1795273911.1396697,
+  "urls": [
+   "https://finquesgracia.cat/inmueble/venta-local-ronda-universitat-2"
   ]
  },
  "8274": {
@@ -1810,14 +2490,45 @@
    "https://fincasnunez.com/propiedades/piso-alquiler-temporal-3-habitaciones-en-aribau---barcelona"
   ]
  },
+ "8360": {
+  "desde": 1795273909.4616842,
+  "urls": []
+ },
  "8458": {
+  "desde": 1795273909.362881,
   "urls": [
    "https://finquesvalldhebron.es/es/venta_o_alquiler_o_traspaso/ref-1161",
    "https://finquesvalldhebron.es/es/venta_o_alquiler_o_traspaso/ref-1162"
   ]
  },
+ "8500": {
+  "desde": 1795273909.1483374,
+  "urls": []
+ },
  "8542": {
+  "desde": 1795273950.1472764,
+  "ultimo_nuevo": 1795273950.147286,
   "urls": [
+   "https://solvia.es/es/propiedades/alquilar/oficina-benifaio-2-dormitorios-182569-221174",
+   "https://solvia.es/es/propiedades/alquilar/edificio-sedavi-4-dormitorios-216110-265426",
+   "https://solvia.es/es/propiedades/alquilar/locales-girona-106606-135860",
+   "https://solvia.es/es/propiedades/alquilar/locales-getafe-186075-225991",
+   "https://solvia.es/es/propiedades/alquilar/locales-reus-184382-223382",
+   "https://solvia.es/es/propiedades/alquilar/nave-industrial-valencia-215656-261540",
+   "https://solvia.es/es/propiedades/alquilar/oficina-ejido-el-205400-250450",
+   "https://solvia.es/es/propiedades/alquilar/locales-sant-boi-de-llobregat-207878-253096",
+   "https://solvia.es/es/propiedades/alquilar/locales-viladecans-163170-200924",
+   "https://solvia.es/es/propiedades/alquilar/locales-vilanova-i-la-geltru-184315-223312",
+   "https://solvia.es/es/propiedades/alquilar/locales-puerto-de-la-cruz-210338-255733",
+   "https://solvia.es/es/propiedades/alquilar/locales-altafulla-184269-223261",
+   "https://solvia.es/es/propiedades/alquilar/locales-badalona-168112-206237",
+   "https://solvia.es/es/propiedades/alquilar/locales-alcala-de-xivert-17880-20412",
+   "https://solvia.es/es/propiedades/alquilar/locales-torrent-207396-252534",
+   "https://solvia.es/es/propiedades/alquilar/locales-xeraco-201199-245942",
+   "https://solvia.es/es/propiedades/alquilar/locales-tarragona-158881-196383",
+   "https://solvia.es/es/propiedades/alquilar/edificio-almaden-30-dormitorios-207005-252106",
+   "https://solvia.es/es/propiedades/alquilar/locales-castellon-de-la-plana-castello-de-la-plana-70980-90499",
+   "https://solvia.es/es/propiedades/alquilar/locales-fuenlabrada-217327-263509",
    "https://solvia.es/es/propiedades/comprar/chalet-adosado-molina-de-segura-4-dormitorios-13627-148510",
    "https://solvia.es/es/propiedades/comprar/chalet-adosado-aranjuez-4-dormitorios-168968-207160",
    "https://solvia.es/es/propiedades/comprar/chalet-adosado-aranjuez-4-dormitorios-224972-273325",
@@ -1841,12 +2552,14 @@
   ]
  },
  "8551": {
+  "desde": 1795273909.816795,
   "urls": [
    "https://prime-houses.com/apartment-in-benidorm-comarca-benidorm-with-swimming-pool-gb1636483.html",
    "https://prime-houses.com/apartment-in-alfaz-del-pi-lalfs-del-pi-with-swimming-pool-gb1787250.html"
   ]
  },
  "8564": {
+  "desde": 1795273910.0491633,
   "urls": [
    "https://iadespana.es/anuncio/inmueble-comercial-alquiler-8-habitaciones-orihuela-2000m2/r166756",
    "https://iadespana.es/anuncio/inmueble-comercial-alquiler-alicante-alacant-67m2/r175284",
@@ -1914,8 +2627,8 @@
    "https://iadespana.es/anuncios/santa-coloma-de-gramenet_08/alquiler",
    "https://iadespana.es/anuncios/vilanova-i-la-geltru_08/alquiler",
    "https://iadespana.es/anuncios/cunit_43/alquiler",
-   "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/sitges_08/alquiler",
+   "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
    "https://iadespana.es/anuncios/orihuela_03/alquiler",
    "https://iadespana.es/anuncios/campos_07/alquiler",
@@ -1923,22 +2636,66 @@
    "https://iadespana.es/anuncio/piso-alquiler-2-habitaciones-barcelona-73m2/r173426"
   ]
  },
+ "8603": {
+  "desde": 1795273909.586393,
+  "urls": []
+ },
  "8605": {
+  "desde": 1795273911.7785532,
+  "ultimo_nuevo": 1795273911.7785583,
   "urls": [
-   "https://habitabarcelona.com/contacto?piso=casa-5-hab-sarria-sant-gervasi-ac-pal28",
+   "https://habitabarcelona.com/alquileres/casa-7-hab-sarria-ac-sant",
+   "https://habitabarcelona.com/alquileres/casa-5-hab-sarria-sant-gervasi-ac-pal28",
+   "https://habitabarcelona.com/alquileres/piso-barcelona-al-mon1",
    "https://habitabarcelona.com/alquileres/piso-3-hab-ciutat-vella-amtg-avib2",
-   "https://habitabarcelona.com/alquileres/piso-3-hab-la-dreta-de-leixample-amt-baie2"
+   "https://habitabarcelona.com/alquileres/casa-5-hab-costa-brava-amt-argent",
+   "https://habitabarcelona.com/alquileres/piso-2-hab-passeig-de-gracia-amt-pso32",
+   "https://habitabarcelona.com/alquileres/piso-4-hab-sant-gervasi-la-bonanova-a-cas32",
+   "https://habitabarcelona.com/alquileres/piso-3-hab-sant-gervasi-galvany-a-lafb21",
+   "https://habitabarcelona.com/alquileres/piso-2-hab-la-dreta-de-leixample-amt-ron41",
+   "https://habitabarcelona.com/alquileres/piso-3-hab-la-dreta-de-leixample-amt-baie2",
+   "https://habitabarcelona.com/alquileres/piso-2-hab-quadrat-dor-amt-psj11",
+   "https://habitabarcelona.com/alquileres/piso-2-hab-lantiga-esquerra-de-leixample-amt-cor3d",
+   "https://habitabarcelona.com/alquileres/piso-1-hab-lantiga-esquerra-de-leixample-a-mall31b",
+   "https://habitabarcelona.com/alquileres/piso-2-hab-la-nova-esquerra-de-leixample-amt-ent52",
+   "https://habitabarcelona.com/alquileres/piso-1-hab-vila-de-gracia-amt-joa3",
+   "https://habitabarcelona.com/alquileres/piso-1-hab-gracia-amt-nap22",
+   "https://habitabarcelona.com/alquileres/piso-2-hab-el-gotic-amt-rosa42",
+   "https://habitabarcelona.com/alquileres/piso-2-hab-el-poble-sec-parc-de-montjuic-amto-bla41",
+   "https://habitabarcelona.com/contacto?piso=casa-5-hab-sarria-sant-gervasi-ac-pal28"
   ]
  },
+ "8708": {
+  "desde": 1795273910.1405993,
+  "urls": []
+ },
+ "8710": {
+  "desde": 1795273910.4628577,
+  "urls": []
+ },
+ "8785": {
+  "desde": 1795273910.5035882,
+  "urls": []
+ },
  "8818": {
+  "desde": 1795273912.9864933,
   "urls": [
    "https://querolquerol.com/listing/piso-en-la-barceloneta-2"
   ]
  },
+ "8910": {
+  "desde": 1795273910.7708006,
+  "urls": []
+ },
  "8925": {
+  "desde": 1795273910.5541708,
   "urls": [
    "https://sosuite.es/propiedades?author=619c0b16b04e65709d51c3d8"
   ]
+ },
+ "8945": {
+  "desde": 1795273911.037688,
+  "urls": []
  },
  "9184": {
   "urls": [
@@ -1957,6 +2714,8 @@
   ]
  },
  "9189": {
+  "desde": 1795273911.9749937,
+  "ultimo_nuevo": 1795273911.9750392,
   "urls": [
    "https://immomax.es/es/alquiler/ref-2083",
    "https://immomax.es/es/alquiler/ref-2403",
@@ -1994,12 +2753,26 @@
    "https://immomax.es/es/alquiler/ref-18411",
    "https://immomax.es/es/alquiler/ref-18415",
    "https://immomax.es/es/alquiler/ref-18416",
+   "https://immomax.es/es/alquiler/ref-18422",
    "https://immomax.es/es/alquiler/ref-18424",
    "https://immomax.es/es/alquiler/ref-18428",
    "https://immomax.es/es/alquiler/ref-18332"
   ]
  },
+ "9292": {
+  "desde": 1795273911.7301402,
+  "urls": []
+ },
+ "9498": {
+  "desde": 1795273911.6594136,
+  "urls": []
+ },
+ "9525": {
+  "desde": 1795273911.5201378,
+  "urls": []
+ },
  "9677": {
+  "desde": 1795273912.9380946,
   "urls": [
    "https://laclaudesarria.com/property/magnifico-y-muy-luminoso-piso-esquinero-de-3h-en-sarria-centro",
    "https://laclaudesarria.com/property/en-alquiler-magnifico-y-soleado-atico-de-2h-en-el-corazon-de-sarria",
@@ -2013,6 +2786,7 @@
   ]
  },
  "9688": {
+  "desde": 1795273912.9380636,
   "urls": [
    "https://lainmobarcelona.com/property/gran-via-hostafrancs-4"
   ]

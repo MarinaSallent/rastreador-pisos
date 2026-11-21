@@ -1,6 +1,48 @@
 {
  "offset": 382224922,
  "pendientes": {
+  "0aca4eca55": {
+   "agencia": "Solvia",
+   "estado": "avisado",
+   "fecha": 1795273950,
+   "titulo": "Tu registro se ha completado correctamente. Ahora, desde tu Área privada podrás tener controlados tus inmuebles favorito",
+   "url": "https://solvia.es/es/propiedades/alquilar/locales-reus-184382-223382"
+  },
+  "3f79437b91": {
+   "agencia": "Coldwell Banker Prestige Barcelona (7 oficinas)",
+   "estado": "avisado",
+   "fecha": 1795273934,
+   "titulo": "Costa Blanca",
+   "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=5&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
+  },
+  "48ffc6c053": {
+   "agencia": "Don piso (15 oficinas)",
+   "estado": "avisado",
+   "fecha": 1795273894,
+   "titulo": "286240",
+   "url": "https://donpiso.com/pisos-y-casas/286240_piso-en-alquiler-badajoz"
+  },
+  "59dff0bcf7": {
+   "agencia": "Coldwell Banker Prestige Barcelona (7 oficinas)",
+   "estado": "avisado",
+   "fecha": 1795273941,
+   "titulo": "Principado de Andorra",
+   "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=9&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
+  },
+  "61e21b2a9f": {
+   "agencia": "Solvia",
+   "estado": "avisado",
+   "fecha": 1795273957,
+   "titulo": "Tu registro se ha completado correctamente. Ahora, desde tu Área privada podrás tener controlados tus inmuebles favorito",
+   "url": "https://solvia.es/es/propiedades/alquilar/locales-alcala-de-xivert-17880-20412"
+  },
+  "7b72391612": {
+   "agencia": "Coldwell Banker Prestige Barcelona (7 oficinas)",
+   "estado": "avisado",
+   "fecha": 1795273940,
+   "titulo": "Madrid provincia",
+   "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=8&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
+  },
   "7f97352083": {
    "agencia": "Ático",
    "estado": "avisado",
@@ -8,12 +50,96 @@
    "titulo": "Ático en venta en Dreta de l´Eixample",
    "url": "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-6"
   },
+  "84e9997edd": {
+   "agencia": "Solvia",
+   "estado": "avisado",
+   "fecha": 1795273951,
+   "titulo": "Tu registro se ha completado correctamente. Ahora, desde tu Área privada podrás tener controlados tus inmuebles favorito",
+   "url": "https://solvia.es/es/propiedades/alquilar/locales-sant-boi-de-llobregat-207878-253096"
+  },
+  "894f15426f": {
+   "agencia": "Coldwell Banker Prestige Barcelona (7 oficinas)",
+   "estado": "avisado",
+   "fecha": 1795273936,
+   "titulo": "España Galicia Tu búsqueda Filtrar Lo más nuevo Precio más alto Precio más bajo Más grandes Más pequeños En este momento",
+   "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=6&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
+  },
+  "92cc155690": {
+   "agencia": "Solvia",
+   "estado": "avisado",
+   "fecha": 1795273950,
+   "titulo": "Tu registro se ha completado correctamente. Ahora, desde tu Área privada podrás tener controlados tus inmuebles favorito",
+   "url": "https://solvia.es/es/propiedades/alquilar/oficina-benifaio-2-dormitorios-182569-221174"
+  },
+  "a44da7ced3": {
+   "agencia": "Coldwell Banker Prestige Barcelona (7 oficinas)",
+   "estado": "avisado",
+   "fecha": 1795273949,
+   "titulo": "Pyrénées-Orientales",
+   "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=23&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
+  },
+  "a9eb5b2767": {
+   "agencia": "Solvia",
+   "estado": "avisado",
+   "fecha": 1795273955,
+   "titulo": "Tu registro se ha completado correctamente. Ahora, desde tu Área privada podrás tener controlados tus inmuebles favorito",
+   "url": "https://solvia.es/es/propiedades/alquilar/locales-vilanova-i-la-geltru-184315-223312"
+  },
   "b1b1df91b1": {
    "agencia": "Ático",
    "estado": "avisado",
    "fecha": 1795197972,
    "titulo": "Ático en venta en Grácia",
    "url": "https://atico.es/property/atico-en-venta-en-gracia-3"
+  },
+  "c3e45676ae": {
+   "agencia": "Coldwell Banker Prestige Barcelona (7 oficinas)",
+   "estado": "avisado",
+   "fecha": 1795273941,
+   "titulo": "Girona - Costa Brava",
+   "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=10&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
+  },
+  "c972152c5f": {
+   "agencia": "Solvia",
+   "estado": "avisado",
+   "fecha": 1795273950,
+   "titulo": "Tu registro se ha completado correctamente. Ahora, desde tu Área privada podrás tener controlados tus inmuebles favorito",
+   "url": "https://solvia.es/es/propiedades/alquilar/oficina-ejido-el-205400-250450"
+  },
+  "cb13510a62": {
+   "agencia": "Coldwell Banker Prestige Barcelona (7 oficinas)",
+   "estado": "avisado",
+   "fecha": 1795273937,
+   "titulo": "Costa del Sol",
+   "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=12&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
+  },
+  "cdb27c8196": {
+   "agencia": "Solvia",
+   "estado": "avisado",
+   "fecha": 1795273958,
+   "titulo": "Tu registro se ha completado correctamente. Ahora, desde tu Área privada podrás tener controlados tus inmuebles favorito",
+   "url": "https://solvia.es/es/propiedades/alquilar/locales-torrent-207396-252534"
+  },
+  "d51883a188": {
+   "agencia": "Coldwell Banker Prestige Barcelona (7 oficinas)",
+   "estado": "avisado",
+   "fecha": 1795273937,
+   "titulo": "Valencia provincia",
+   "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=14&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
+  },
+  "da956ab95d": {
+   "agencia": "Solvia",
+   "estado": "avisado",
+   "fecha": 1795273956,
+   "titulo": "Tu registro se ha completado correctamente. Ahora, desde tu Área privada podrás tener controlados tus inmuebles favorito",
+   "url": "https://solvia.es/es/propiedades/alquilar/locales-puerto-de-la-cruz-210338-255733"
+  },
+  "e282846e36": {
+   "agencia": "Solvia",
+   "estado": "avisado",
+   "fecha": 1795273958,
+   "titulo": "1 / 7",
+   "url": "https://solvia.es/es/propiedades/alquilar/locales-xeraco-201199-245942"
   }
  }
 }
