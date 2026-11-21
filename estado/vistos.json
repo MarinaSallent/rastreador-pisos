@@ -279,7 +279,6 @@
    "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/embajadores/piso/madr70229.html",
    "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/hortaleza/conde-orgaz-piovera/piso/madr74620.html",
    "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/salamanca/goya/piso/madr70197.html",
-   "https://lucasfox.es/alquilar-vivienda/espana/islas-baleares/mallorca/palma-surroundings/palma-de-mallorca/piso/malr67582.html",
    "https://lucasfox.es/alquilar-vivienda/espana/valencia/valencia-ciudad/la-seu/piso/valr59357.html",
    "https://lucasfox.es/alquilar-vivienda/espana/valencia/valencia-ciudad/ruzafa/atico/valr74592.html",
    "https://lucasfox.es/alquilar-vivienda/espana/valencia/valencia-ciudad/ruzafa/piso/valr54924.html",
@@ -295,7 +294,9 @@
    "https://lucasfox.es/alquilar-vivienda/espana/islas-baleares/menorca/ciudadela-de-menorca/casa-villa/menr42671.html",
    "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/cortes/piso/madr65933.html",
    "https://lucasfox.es/alquilar-vivienda/espana/barcelona/esplugues/piso/sjdr55801.html",
-   "https://lucasfox.es/alquilar-vivienda/espana/barcelona/esplugues/piso/sjdr56677.html"
+   "https://lucasfox.es/alquilar-vivienda/espana/barcelona/esplugues/piso/sjdr56677.html",
+   "https://lucasfox.es/alquilar-vivienda/espana/islas-baleares/mallorca/palma-surroundings/palma-de-mallorca/piso/malr74773.html",
+   "https://lucasfox.es/alquilar-vivienda/espana/islas-baleares/mallorca/palma-surroundings/palma-de-mallorca/piso/malr67582.html"
   ]
  },
  "13231": {
@@ -705,14 +706,18 @@
  },
  "3365": {
   "urls": [
+   "https://tracteimmobiliari.com/detalle/inmueble/57586099477.116700",
+   "https://tracteimmobiliari.com/detalle/inmueble/48407934382.116700",
+   "https://tracteimmobiliari.com/detalle/inmueble/28430550115.116700",
+   "https://tracteimmobiliari.com/detalle/inmueble/60856315940.116700",
    "https://tracteimmobiliari.com/detalle/inmueble/67541559045.116700",
    "https://tracteimmobiliari.com/detalle/inmueble/11765448200.116700",
-   "https://tracteimmobiliari.com/detalle/inmueble/30035986148.116700",
-   "https://tracteimmobiliari.com/detalle/inmueble/57586099477.116700"
+   "https://tracteimmobiliari.com/detalle/inmueble/30035986148.116700"
   ]
  },
  "368": {
   "urls": [
+   "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-6",
    "https://atico.es/property/atico-en-venta-en-gracia-3",
    "https://atico.es/property/atico-en-venta-en-gracia-2"
   ]
@@ -1042,8 +1047,9 @@
  "4774": {
   "urls": [
    "https://ariinversions.com/estate_property/local-de-lloguer-a-rbla-catalunya-19",
-   "https://ariinversions.com/estate_property/local-en-traspas-a-comte-borrell-50",
-   "https://ariinversions.com/estate_property/local-en-traspas-a-carrer-sant-pere-mes-baix-44"
+   "https://ariinversions.com/estate_property/local-de-lloguer-a-mallorca-445",
+   "https://ariinversions.com/estate_property/local-en-traspas-a-carrer-sant-pere-mes-baix-44",
+   "https://ariinversions.com/estate_property/local-en-traspas-a-comte-borrell-50"
   ]
  },
  "4839": {
@@ -1427,6 +1433,32 @@
    "https://inmofinders.com/en-alquiler/piso-de-lujo-en-can-rabia-barcelona-150"
   ]
  },
+ "6042": {
+  "urls": [
+   "https://realtysantcugat.com/static2/alquilamos_tu_vivienda"
+  ]
+ },
+ "6099": {
+  "urls": []
+ },
+ "6122": {
+  "urls": [
+   "https://gdibo.com/es/alquiler/ref-1037",
+   "https://gdibo.com/es/alquiler/ref-1070"
+  ]
+ },
+ "6185": {
+  "urls": [
+   "https://urbenorte.com/inmueble/oficina-en-villanueva-de-la-canada-alq2717-estudiantes",
+   "https://urbenorte.com/inmueble/habitacion-en-villanueva-de-la-canada-3",
+   "https://urbenorte.com/inmueble/piso-en-villanueva-de-la-canada-urbanizaciones-2",
+   "https://urbenorte.com/inmueble/piso-en-pozuelo-de-alarcon-de-europa-23",
+   "https://urbenorte.com/inmueble/piso-en-madrid-capital-pacifico-3",
+   "https://urbenorte.com/inmueble/piso-en-madrid-capital-pacifico-2",
+   "https://urbenorte.com/inmueble/piso-en-a-coruna-alq9128",
+   "https://urbenorte.com/inmueble/local-en-a-coruna-alq9119"
+  ]
+ },
  "6186": {
   "urls": [
    "https://tucasabcn.es/ficha-inmueble/tienda-en-barcelona-27-00m2/id/inmo_02388_266815/lang/es",
@@ -1441,6 +1473,13 @@
    "https://tucasabcn.es/venta_y_alquiler-inmuebles/lang/es?per_page=9",
    "https://tucasabcn.es/venta_y_alquiler-inmuebles/lang/es?per_page=18",
    "https://tucasabcn.es/venta_y_alquiler-inmuebles/lang/es?per_page=36"
+  ]
+ },
+ "6207": {
+  "urls": [
+   "https://immollar.com/propiedad/local-plaza-europa-ref-26023",
+   "https://immollar.com/propiedad/local-plaza-europa-ref-25923",
+   "https://immollar.com/propiedad/independencia-ref-29725"
   ]
  },
  "6267": {
@@ -1471,6 +1510,13 @@
    "https://oirealestate.net/propiedad/120030/piso-en-alquiler-de-estilo-contemporaneo-en-la-dreta-de-leixample-barcelona",
    "https://oirealestate.net/propiedad/120028/piso-en-alquiler-con-balcon-en-la-dreta-de-leixample-barcelona",
    "https://oirealestate.net/propiedad/116252/atico-con-espectaculares-vistas-en-el-guinardo-barcelona"
+  ]
+ },
+ "6280": {
+  "urls": [
+   "https://housing-bcn.com/property-offers/1",
+   "https://housing-bcn.com/property-offers/0",
+   "https://housing-bcn.com/property-offers/2"
   ]
  },
  "6490": {
@@ -1504,10 +1550,62 @@
    "https://inmoservicebarcelona.com/alquiler/es/ficha/parking/barcelona/fort-pienc/2015/17854851/es"
   ]
  },
+ "6624": {
+  "urls": [
+   "https://inmueblesbcn.com/alquiler/local-comercial/barcelona/barcelona/sant-marti-poblenou-glorias/alquiler-local-comercial-barcelona-barcelona-sant-marti-poblenou-glorias-E-A-BOL2.html",
+   "https://inmueblesbcn.com/alquiler/garaje/la-coruna/santiago-de-compostela/santa-marta/alquiler-garaje-la-coruna-santiago-de-compostela-santa-marta-G-A-GAR-STMARTA22.html"
+  ]
+ },
+ "6712": {
+  "urls": [
+   "https://espaibcnflats.net/inmueble/espectacular-atico-con-doble-orientacion-y-dos-terrazas/25950251"
+  ]
+ },
+ "6832": {
+  "urls": [
+   "https://arelhome.es/2023/01/10/es-rentable-comprar-un-piso-para-alquilar",
+   "https://arelhome.es/2025/04/25/cuales-son-los-gastos-de-la-compra-de-una-vivienda"
+  ]
+ },
  "6998": {
   "urls": [
    "https://fincasbalsells.com/pisos-en-alquiler/servicios/administraci%c3%b3n-de-fincas-en-r%c3%a9gimen-de-propiedad-horizontal-comunidades-de-propietarios/index.html",
    "https://fincasbalsells.com/pisos-en-alquiler/servicios/gesti%c3%b3n-de-alquileres/index.html"
+  ]
+ },
+ "7021": {
+  "urls": [
+   "https://080realestate.com/2021/09/11/un-ano-de-la-ley-de-alquileres-catalana-objetivo-cumplido"
+  ]
+ },
+ "7104": {
+  "urls": [
+   "https://serviguest.com/inmuebles/acogedor-apartamento-en-barrio-gotico-ref1098",
+   "https://serviguest.com/inmuebles/estudio-en-pleno-barrio-gotico-1170"
+  ]
+ },
+ "7192": {
+  "urls": [
+   "https://inmuebling.com/house/4205308-apartamento-en-alquiler-en-madrid-de-51-m2-1500eur-IMALQSANVICENTE102025",
+   "https://inmuebling.com/house/4164837-piso-en-alquiler-en-madrid-de-26-m2-890eur-IMALQMINIST0726",
+   "https://inmuebling.com/house/4091691-piso-en-alquiler-en-madrid-de-54-m2-1300eur-IMALQSTBRIGIDA1126",
+   "https://inmuebling.com/house/3935941-piso-en-alquiler-en-madrid-de-92-m2-1950eur-IMALQGPERON0726"
+  ]
+ },
+ "7277": {
+  "urls": [
+   "https://somoscasa.com/ver-pisos-2/carrer-de-les-delicies-08940-cornella-de-llobregat-barcelona-espana",
+   "https://somoscasa.com/ver-pisos-2/carrer-santa-maria-131-08340-vilassar-de-mar-barcelona-espana",
+   "https://somoscasa.com/ver-pisos-2/carrer-daribau-eixample-08011-barcelona-espana",
+   "https://somoscasa.com/ver-pisos-2/av-de-madrid-sants-montjuic-08028-barcelona-espana-2",
+   "https://somoscasa.com/ver-pisos-2/gran-via-de-les-corts-catalanes-leixample-08007-barcelona-espana-4",
+   "https://somoscasa.com/ver-pisos-2/gran-via-de-les-corts-catalanes-leixample-08007-barcelona-espana-3",
+   "https://somoscasa.com/ver-pisos-2/gran-via-de-les-corts-catalanes-leixample-08007-barcelona-espana-2",
+   "https://somoscasa.com/ver-pisos-2/gran-via-de-les-corts-catalanes-leixample-08007-barcelona-espana",
+   "https://somoscasa.com/ver-pisos-2/gran-via-de-les-corts-catalanes-leixample-08007-barcelona",
+   "https://somoscasa.com/ver-pisos-2/83930-2",
+   "https://somoscasa.com/ver-pisos-2/c-taxdirt-08025-barcelona-espana-2",
+   "https://somoscasa.com/ver-pisos-2/c-de-aragon-08015-barcelona"
   ]
  },
  "7312": {
@@ -1519,6 +1617,40 @@
    "https://finquesbonallar.com/es/propiedad-alquiler/local-en-alquiler-en-el-centro-de-montcada-4188131",
    "https://finquesbonallar.com/es/propiedad-alquiler/gran-local-en-alquiler-3419632",
    "https://finquesbonallar.com/es/propiedad-alquiler/nave-en-alquiler-de-280mt-en-canovelles-4209661"
+  ]
+ },
+ "7327": {
+  "urls": [
+   "https://globalinvestejd.com/alquiler/es/index.php?vistas=1",
+   "https://globalinvestejd.com/alquiler/es/index.php?descartadas=1",
+   "https://globalinvestejd.com/alquiler/es/index.php?favoritas=1",
+   "https://globalinvestejd.com/alquiler/es/ficha/despacho/badalona/centro/7399/27300502/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/negocio/santa-coloma-de-gramanet/centre/7399/30841792/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/negocio/barcelona/el-gotic/7399/30503032/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/negocio/blanes/centre/7399/30494517/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/local-comercial/barcelona/navas/7399/26745654/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/negocio/barcelona/horta/7399/29719390/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/negocio/badalona/pep-ventura/7399/30526885/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/negocio/barcelona/el-gotic/7399/30483001/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/negocio/premia-de-dalt/can-botei/7399/29829566/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/negocio/barcelona/la-prosperitat/7399/30841898/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/local-comercial/badalona/gorg/7399/23475039/es",
+   "https://globalinvestejd.com/alquiler/es/ficha/local-comercial/barcelona/born/7399/30313464/es"
+  ]
+ },
+ "7514": {
+  "urls": [
+   "https://sinergiahabitat.com/propiedad/garaje-en-alquiler-en-calle-santa-anna-11-centre-centre-hospitalet-de-llobregat",
+   "https://sinergiahabitat.com/propiedad/garaje-en-venta-en-calle-digoine-11-centre-centre-hospitalet-de-llobregat",
+   "https://sinergiahabitat.com/propiedad/garaje-en-venta-en-calle-de-sant-roc-63-centre-centre-hospitalet-de-llobregat",
+   "https://sinergiahabitat.com/propiedad/garaje-en-venta-en-calle-santa-anna-11",
+   "https://sinergiahabitat.com/propiedad/piso-en-venta-en-avenida-dalvarez-de-castro-2"
+  ]
+ },
+ "7530": {
+  "urls": [
+   "https://gesticasa.es/como-afecta-al-irpf-2022-vender-o-alquilar-una-vivienda",
+   "https://gesticasa.es/wp-login.php?redirect_to=https%3A%2F%2Fgesticasa.es%2Fse-prorroga-en-2023-el-limite-de-las-rentas-de-alquiler-al-2%2F"
   ]
  },
  "7571": {
@@ -1539,6 +1671,22 @@
    "https://franklin.cat/en-alquiler/nave-industrial-en-cornella-de-llobregat-de-1600-m2",
    "https://franklin.cat/inmuebles/2-0-1-1-0-1-0-0---1",
    "https://franklin.cat/inmuebles/8-0-1-1-0-1-0-0---1"
+  ]
+ },
+ "7666": {
+  "urls": [
+   "https://fincasduenas.com/propiedad-alquiler/piso-en-sarria-de-64m2-6108028",
+   "https://fincasduenas.com/propiedad-alquiler/gran-local-comercial-diafano-y-luminoso-30782715",
+   "https://fincasduenas.com/propiedad-alquiler/local-de-286m2-con-pequeno-patio-30135125",
+   "https://fincasduenas.com/propiedad-alquiler/negocio-de-69m2-pl-superior-+-62m2-pl-inferior-(total-131m2)-con-traspaso-29367873",
+   "https://fincasduenas.com/propiedad-alquiler/parking-doble-en-sants-18050997"
+  ]
+ },
+ "7693": {
+  "urls": [
+   "https://centricbcn.com/immobles?search_status=rent&page_id=1849",
+   "https://centricbcn.com/immobles?search_status=sale&page_id=1849",
+   "https://centricbcn.com/property/pis-1-minut-platja"
   ]
  },
  "7698": {
@@ -1578,6 +1726,22 @@
    "https://martbel.com/lloguer/page/4"
   ]
  },
+ "7748": {
+  "urls": [
+   "https://fincascascales.com/ficha-inmueble/piso-en-barcelona-41-00m2/id/inmo_00174_399285-inmo_02458/lang/es",
+   "https://fincascascales.com/ficha-inmueble/local-comercial-en-barcelona-97-00m2/id/inmo_00409_393804-inmo_02458/lang/es",
+   "https://fincascascales.com/ficha-inmueble/atico-en-barcelona-61-00m2/id/inmo_00409_401671-inmo_02458/lang/es",
+   "https://fincascascales.com/ficha-inmueble/en-olivella-1001-00m2/id/inmo_00486_387604-inmo_02458/lang/es",
+   "https://fincascascales.com/ficha-inmueble/local-comercial-en-esplugues-de-llobregat-550-00m2/id/inmo_00506_399678-inmo_02458/lang/es",
+   "https://fincascascales.com/ficha-inmueble/piso-en-barcelona-65-00m2/id/inmo_00506_400037-inmo_02458/lang/es",
+   "https://fincascascales.com/ficha-inmueble/local-comercial-en-barcelona-46-00m2/id/inmo_00664_399898-inmo_02458/lang/es",
+   "https://fincascascales.com/ficha-inmueble/suelo-urbano-en-llia-d-amunt-2498-00m2/id/inmo_00715_389816-inmo_02458/lang/es",
+   "https://fincascascales.com/ficha-inmueble/tienda-en-barcelona-75-00m2/id/inmo_00780_394045-inmo_02458/lang/es",
+   "https://fincascascales.com/venta_y_alquiler-inmuebles/lang/es?per_page=9",
+   "https://fincascascales.com/venta_y_alquiler-inmuebles/lang/es?per_page=18",
+   "https://fincascascales.com/venta_y_alquiler-inmuebles/lang/es?per_page=54"
+  ]
+ },
  "7762": {
   "urls": [
    "https://peraireinmobiliaria.com/propiedad-alquiler/¡impecable-y-reformado!-30380632",
@@ -1593,12 +1757,24 @@
    "https://rentuos.com/decreto-vivienda-2026"
   ]
  },
+ "7896": {
+  "urls": [
+   "https://bcnhome.net/apartamento-en-sant-cugat-del-valls-con-garaje-es1439227.html"
+  ]
+ },
+ "7910": {
+  "urls": [
+   "https://inmosolutions.es/piso-en-madrid-madrid-con-piscina-es340117.html",
+   "https://inmosolutions.es/piso-en-madrid-avenida-de-america-con-ascensor-es270146.html",
+   "https://inmosolutions.es/piso-en-madrid-barrio-de-salamanca-con-ascensor-es270141.html"
+  ]
+ },
  "7925": {
   "urls": [
    "https://servihabitat.com/es/venta/vivienda-piso/barcelona-barcelones-bcnsantmarti/60454431",
    "https://servihabitat.com/es/venta/vivienda-casa/tarragona-baixcamp-riudecanyes/60497687",
-   "https://servihabitat.com/es/venta/vivienda-casa/barcelona-garraf-cubelles/60444602",
    "https://servihabitat.com/es/venta/vivienda-casa/barcelona-maresme-tordera/60446297",
+   "https://servihabitat.com/es/venta/vivienda-casa/barcelona-garraf-cubelles/60444602",
    "https://servihabitat.com/es/venta/vivienda-casa/barcelona-vallesoriental-martorelles/60457330",
    "https://servihabitat.com/es/venta/vivienda-plantabaja/barcelona-barcelones-badalona/60444969",
    "https://servihabitat.com/es/venta/vivienda-piso/barcelona-barcelones-badalona/60455489",
@@ -1615,6 +1791,18 @@
    "https://servihabitat.com/es/venta/vivienda-casa/tarragona-baixcamp-cambrils/60455424",
    "https://servihabitat.com/es/venta/vivienda-casa/tarragona-baixebre-deltebre/60493037",
    "https://servihabitat.com/es/venta/vivienda-piso/barcelona-vallesoccidental-castellardelvalles/60440953"
+  ]
+ },
+ "7977": {
+  "urls": [
+   "https://asahabitatges.es/Alquiler-Nave-Badalona-REMEI-678"
+  ]
+ },
+ "8045": {
+  "urls": [
+   "https://fincaseuropa.com/alquiler/es/index.php?vistas=1",
+   "https://fincaseuropa.com/alquiler/es/index.php?descartadas=1",
+   "https://fincaseuropa.com/alquiler/es/index.php?favoritas=1"
   ]
  },
  "8274": {
@@ -1650,6 +1838,12 @@
    "https://solvia.es/es/propiedades/comprar/chalet-adosado-aracena-3-dormitorios-225496-273977",
    "https://solvia.es/es/propiedades/comprar/chalet-adosado-ceuti-3-dormitorios-168982-207182",
    "https://solvia.es/es/propiedades/comprar/chalet-adosado-belmonte-de-tajo-3-dormitorios-159860-197404"
+  ]
+ },
+ "8551": {
+  "urls": [
+   "https://prime-houses.com/apartment-in-benidorm-comarca-benidorm-with-swimming-pool-gb1636483.html",
+   "https://prime-houses.com/apartment-in-alfaz-del-pi-lalfs-del-pi-with-swimming-pool-gb1787250.html"
   ]
  },
  "8564": {
@@ -1695,15 +1889,15 @@
    "https://iadespana.es/anuncios/valencia-46/alquiler",
    "https://iadespana.es/anuncios/malaga-29/alquiler",
    "https://iadespana.es/anuncios/huelva-21/alquiler",
-   "https://iadespana.es/anuncios/castellon-12/alquiler",
    "https://iadespana.es/anuncios/jaen-23/alquiler",
+   "https://iadespana.es/anuncios/pontevedra-36/alquiler",
+   "https://iadespana.es/anuncios/cadiz-11/alquiler",
    "https://iadespana.es/anuncios/asturias-33/alquiler",
    "https://iadespana.es/anuncios/gipuzkoa-20/alquiler",
-   "https://iadespana.es/anuncios/pontevedra-36/alquiler",
-   "https://iadespana.es/anuncios/santa-cruz-de-tenerife-38/alquiler",
-   "https://iadespana.es/anuncios/cadiz-11/alquiler",
    "https://iadespana.es/anuncios/toledo-45/alquiler",
+   "https://iadespana.es/anuncios/santa-cruz-de-tenerife-38/alquiler",
    "https://iadespana.es/anuncios/salamanca-37/alquiler",
+   "https://iadespana.es/anuncios/castellon-12/alquiler",
    "https://iadespana.es/anuncios/madrid_28/alquiler",
    "https://iadespana.es/anuncios/barcelona_08/alquiler",
    "https://iadespana.es/anuncios/rivas-vaciamadrid_28/alquiler",
@@ -1711,18 +1905,19 @@
    "https://iadespana.es/anuncios/alicante_03/alquiler",
    "https://iadespana.es/anuncios/badalona_08/alquiler",
    "https://iadespana.es/anuncios/sant-pere-de-ribes_08/alquiler",
-   "https://iadespana.es/anuncios/murcia_30/alquiler",
    "https://iadespana.es/anuncios/valladolid_47/alquiler",
    "https://iadespana.es/anuncios/denia_03/alquiler",
    "https://iadespana.es/anuncios/palma_07/alquiler",
+   "https://iadespana.es/anuncios/murcia_30/alquiler",
    "https://iadespana.es/anuncios/los-santos-de-la-humosa_28/alquiler",
    "https://iadespana.es/anuncios/pobladura-de-pelayo-garcia_24/alquiler",
    "https://iadespana.es/anuncios/santa-coloma-de-gramenet_08/alquiler",
    "https://iadespana.es/anuncios/vilanova-i-la-geltru_08/alquiler",
-   "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
    "https://iadespana.es/anuncios/cunit_43/alquiler",
    "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/sitges_08/alquiler",
+   "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
+   "https://iadespana.es/anuncios/orihuela_03/alquiler",
    "https://iadespana.es/anuncios/campos_07/alquiler",
    "https://iadespana.es/anuncio/piso-alquiler-2-habitaciones-grao-de-moncofar-81m2/r174869",
    "https://iadespana.es/anuncio/piso-alquiler-2-habitaciones-barcelona-73m2/r173426"
@@ -1738,6 +1933,11 @@
  "8818": {
   "urls": [
    "https://querolquerol.com/listing/piso-en-la-barceloneta-2"
+  ]
+ },
+ "8925": {
+  "urls": [
+   "https://sosuite.es/propiedades?author=619c0b16b04e65709d51c3d8"
   ]
  },
  "9184": {
