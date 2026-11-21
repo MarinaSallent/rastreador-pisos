@@ -2,12 +2,16 @@
 filtros:
   metros_minimos: 60
   precio_maximo: 1000        # €/mes
-  # Si el anuncio no dice el barrio: true = avisar igualmente (marcado con ⚠️) cuando la agencia tiene la
-  # oficina en tus distritos (columna en_tus_zonas = sí). Si la agencia está en otra zona, un anuncio sin
-  # barrio se descarta siempre, para no llenarte de avisos de pisos en Sants o Badalona.
-  avisar_si_zona_desconocida: true
-  # Si el anuncio no indica precio o metros: true = avisar igualmente (marcado con ⚠️).
-  avisar_si_faltan_datos: true
+  # Solo viviendas: si el título o la dirección del anuncio dice local, oficina, nave, parking, trastero,
+  # terreno, edificio, habitación, traspaso, temporada o turístico, se descarta.
+  solo_viviendas: true
+  # true = solo avisa si el anuncio (o su ficha) dice que está en uno de tus barrios. Si no lo dice, se descarta.
+  # false = avisarlo igualmente, marcado con ⚠️.
+  zona_obligatoria: true
+  # true = descartar los anuncios sin precio (ni en la tarjeta ni en la ficha).
+  precio_obligatorio: true
+  # Si el anuncio cumple todo lo demás pero no dice los metros: true = avisar marcado con ⚠️.
+  avisar_si_faltan_metros: true
 
 # Palabras que identifican tus zonas (sin importar mayúsculas ni acentos).
 zonas:
@@ -37,7 +41,6 @@ zonas:
     - camp de l'arpa
     - camp de larpa
     - besos
-    - maresme
   Sarrià - Sant Gervasi:
     - sarria
     - sant gervasi
@@ -61,8 +64,8 @@ zonas:
     - penitents
     - el coll
 
-# Otros barrios y municipios: si el anuncio nombra uno de estos ANTES que una de tus zonas
-# (en el título, la dirección web o la tarjeta), se descarta. Ej.: «Ático en Dreta de l'Eixample».
+# Otros barrios de Barcelona: si el anuncio nombra uno de estos ANTES que uno de tus barrios, se descarta.
+# Ej.: «Ático en Dreta de l'Eixample, cerca de Gràcia».
 otras_zonas:
   - eixample
   - sagrada familia
@@ -89,26 +92,56 @@ otras_zonas:
   - verdun
   - zona franca
   - montjuic
+
+# Otros municipios y provincias: si la ubicación del anuncio nombra uno de estos (en cualquier posición),
+# se descarta. Sirve para las redes nacionales (Solvia, Coldwell Banker, iad…) y los barrios con el mismo
+# nombre en otra ciudad (La Salut de Badalona, Gràcia de Sabadell…).
+# No se ponen ciudades que también son calles de Barcelona (València, Mallorca, Girona, Tarragona, Lleida,
+# Saragossa, Múrcia, Torrent de l'Olla…): un piso en «carrer de València, el Clot» es bueno.
+otros_municipios:
   - badalona
   - hospitalet
   - cornella
   - esplugues
   - sant cugat
   - santa coloma
-  - sant adria de besos
+  - sant adria
   - montcada
   - sant joan despi
   - sant just
   - sant feliu
   - el prat
+  - prat de llobregat
   - montgat
   - castelldefels
+  - gava
+  - viladecans
   - sitges
   - mataro
+  - maresme
   - sabadell
   - terrassa
-  - javea
+  - granollers
+  - mollet
   - alella
+  - masnou
+  - tiana
+  - cerdanyola
+  - ripollet
+  - molins de rei
+  - vallirana
+  - vilanova
+  - penedes
+  - baix llobregat
+  - costa brava
+  - emporda
+  - pyrenees
+  - malaga
+  - marbella
+  - ibiza
+  - javea
+  - orihuela
+  - benidorm
 
 # Palabras que descartan un anuncio aunque coincida una zona
 # (evita falsos positivos como "Sant Martí Sarroca" o "Sant Andreu de la Barca").

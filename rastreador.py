@@ -54,9 +54,19 @@ PATRON_FICHA = re.compile(
 EXCLUIR_URL = re.compile(
     r"(\.pdf|\.jpe?g|\.png|\.webp|mailto:|tel:|whatsapp|facebook|instagram|twitter|linkedin|"
     r"youtube|google\.|/blog|/noticia|/news|aviso-legal|avis-legal|privacidad|privacitat|cookies|"
-    r"contacto$|contacte$|/login|/registro|/vender|/valorar|/valoracio|/tasaci)",
+    r"contacto$|contacte$|/login|/registro|/vender|/valorar|/valoracio|/tasaci|"
+    r"wp-login|/author/|/forms?/|contact-individual|/maps\b|imprimir|print|generar-pdf|pdf\.php|"
+    r"informacion_gastos|/actualitat|/actualidad|_noticia|/20\d\d/\d\d/|[?&]page_id=|"
+    r"[?&](vistas|descartadas|sort|orden|ordenada|ascdesc|order|orderby|ob|cart|secc|per_page|es_category%5b0%5d|es_category|es_type)=)",
     re.I,
 )
+# Inmuebles que no son una vivienda (se mira en el título y la dirección del anuncio, no en la descripción)
+RE_NO_VIVIENDA = re.compile(
+    r"\b(locales?|local comercial|inmueble comercial|oficina\w*|despacho\w*|motos?|naves?|nau|industrial|logistic[ao]s?|parkings?|parquing|"
+    r"garajes?|aparcament|aparcamiento|plazas? de (garaje|parking|aparcamiento)|placa de parquing|trasteros?|"
+    r"terrenos?|solar(es)?|parcelas?|edificios?|lote de|lotes|restaurante|bar restaurante|hotel|hostal|"
+    r"habitacion(es)?|habitacio|room|coliving|traspaso|traspas|temporada|turistic[oa]?|vacacional|"
+    r"holiday|masia|finca rustica|bodega|almacen|magatzem|nave industrial)\b")
 PARAMS_BASURA = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
                  "fbclid", "gclid", "lang", "idioma"}
 
@@ -129,7 +139,14 @@ def extraer_metros(texto: str) -> int | None:
 RE_VENTA = re.compile(r"\b(venta|en venda|es ven|se vende|for sale|comprar|compraventa|obra nueva|obra nova|traspaso|traspas)\b")
 RE_ALQUILER = re.compile(r"\b(alquiler|alquilar|alquila|lloguer|llogar|es lloga|se alquila|for rent|to rent|arrendamiento)\b")
 # Calles con nombre de barrio que en realidad están en otro (Passeig de Gràcia es Eixample)
-FRASES_ENGANOSAS = [(r"\b(passeig|paseo|pg\.?|pº) de gracia\b", "eixample"), (r"\bsarria de ter\b", "girona")]
+FRASES_ENGANOSAS = [(r"\b(passeig|paseo|pg\.?|pº) de gracia\b", "eixample"), (r"\bsarria de ter\b", "girona"),
+                    (r"\b(el )?besos i (el )?maresme\b", "besos"), (r"\bbesos y (el )?maresme\b", "besos")]
+
+
+def no_es_vivienda(texto: str) -> str | None:
+    """Devuelve el tipo de inmueble (local, oficina, parking…) si no es una vivienda."""
+    m = RE_NO_VIVIENDA.search(normalizar(texto).replace("-", " ").replace("_", " ").replace("/", " "))
+    return m.group(1) if m else None
 
 
 def es_venta(texto: str) -> bool:
@@ -142,7 +159,7 @@ def _buscar(t: str, palabras: list[str]) -> int | None:
     return min(pos) if pos else None
 
 
-def detectar_zona(texto: str, cfg: dict) -> tuple[str | None, bool]:
+def detectar_zona(texto: str, cfg: dict, municipios: bool = True) -> tuple[str | None, bool]:
     """Devuelve (zona, descartado).
 
     zona = una de tus zonas si es lo primero que se nombra; descartado = True si se nombra antes otro barrio
@@ -158,6 +175,8 @@ def detectar_zona(texto: str, cfg: dict) -> tuple[str | None, bool]:
         p = _buscar(t, palabras)
         if p is not None and (pos_mejor is None or p < pos_mejor):
             mejor, pos_mejor = zona, p
+    if municipios and _buscar(t, cfg.get("otros_municipios", [])) is not None:  # otra ciudad: fuera, se nombre donde se nombre
+        return None, True
     pos_otra = _buscar(t, cfg.get("otras_zonas", []))
     if pos_otra is not None and (pos_mejor is None or pos_otra < pos_mejor):
         return None, True
@@ -168,6 +187,99 @@ def detectar_zona(texto: str, cfg: dict) -> tuple[str | None, bool]:
         if cp in cps:
             return f"CP {cp}", False
     return None, False
+
+
+TIPOS_ANUNCIO = {"realestatelisting", "offer", "product", "apartment", "house", "singlefamilyresidence", "residence",
+                 "accommodation", "place", "breadcrumblist", "webpage", "itempage"}
+TIPOS_AGENCIA = {"realestateagent", "organization", "localbusiness", "website", "corporation", "person"}
+
+
+def _jsonld(soup: BeautifulSoup) -> list[dict]:
+    objetos = []
+    for sc in soup.find_all("script", type="application/ld+json"):
+        try:
+            datos = json.loads(sc.string or sc.get_text() or "")
+        except (json.JSONDecodeError, TypeError):
+            continue
+        pila = datos if isinstance(datos, list) else [datos]
+        while pila:
+            o = pila.pop()
+            if isinstance(o, list):
+                pila.extend(o)
+            elif isinstance(o, dict):
+                if "@graph" in o:
+                    pila.extend(o["@graph"] if isinstance(o["@graph"], list) else [o["@graph"]])
+                objetos.append(o)
+    return objetos
+
+
+def _textos(o, profundidad=0) -> list[str]:
+    """Textos útiles de un objeto JSON-LD (nombre, dirección, url…), sin datos de la agencia que lo publica."""
+    if profundidad > 4:
+        return []
+    if isinstance(o, str):
+        return [o]
+    if isinstance(o, list):
+        return [t for x in o for t in _textos(x, profundidad + 1)]
+    if not isinstance(o, dict):
+        return []
+    tipo = o.get("@type", "")
+    tipo = normalizar(" ".join(tipo) if isinstance(tipo, list) else str(tipo))
+    if any(t in tipo.split() for t in TIPOS_AGENCIA):
+        return []
+    out = []
+    for k in ("name", "url", "@id", "address", "addressLocality", "addressRegion", "streetAddress", "postalCode",
+              "containedInPlace", "itemListElement", "item", "areaServed", "location"):
+        if k in o:
+            out += _textos(o[k], profundidad + 1)
+    return out
+
+
+def datos_ficha(soup: BeautifulSoup) -> dict:
+    """Lo que la ficha dice de sí misma: dónde está, título, precio y metros.
+
+    Se fía primero de los datos estructurados (JSON-LD de schema.org, dirección canónica), que muchas plataformas de
+    agencias rellenan con ciudad y barrio exactos, y nunca de la dirección de la oficina de la agencia."""
+    lugar, precio, metros, nombre = [], None, None, ""
+    for o in _jsonld(soup):
+        tipo = o.get("@type", "")
+        tipo = normalizar(" ".join(tipo) if isinstance(tipo, list) else str(tipo))
+        if any(t in tipo.split() for t in TIPOS_AGENCIA) or not any(t in tipo.split() for t in TIPOS_ANUNCIO):
+            continue
+        lugar += _textos(o)
+        nombre = nombre or (o.get("name") if isinstance(o.get("name"), str) and "breadcrumb" not in tipo else "")
+        ofertas = o.get("offers") or (o if "offer" in tipo.split() else None)
+        for of in (ofertas if isinstance(ofertas, list) else [ofertas] if ofertas else []):
+            if isinstance(of, dict):
+                try:
+                    precio = precio or int(float(str(of.get("price", "")).replace(",", ".")))
+                except ValueError:
+                    pass
+        tam = o.get("floorSize")
+        if isinstance(tam, dict):
+            try:
+                metros = metros or int(float(str(tam.get("value", ""))))
+            except ValueError:
+                pass
+    for sel in ["link[rel=canonical]", "meta[property='og:url']"]:
+        el = soup.select_one(sel)
+        if el and (el.get("href") or el.get("content")):
+            lugar.append(urlparse(el.get("href") or el.get("content")).path)
+    titulo = ""
+    for sel in ["meta[property='og:title']", "h1"]:
+        el = soup.select_one(sel)
+        t = (el.get("content") if el and el.name == "meta" else el.get_text(" ", strip=True) if el else "") or ""
+        if len(t.strip()) >= 6:
+            titulo = titulo or t.strip()
+            lugar.append(t)
+    for sel in ["[class*=breadcrumb]", "[class*=location]", "[class*=localizacion]", "[class*=ubicacion]",
+                "[class*=address]", "[class*=direccion]", "[class*=zona]", "[class*=barrio]", "[itemprop=address]"]:
+        for el in soup.select(sel)[:2]:
+            if not el.find_parent(["footer", "header", "nav"]):
+                lugar.append(el.get_text(" ", strip=True)[:200])
+    return {"lugar": " · ".join(x for x in lugar if x), "titulo": (nombre or titulo)[:140],
+            "precio": precio if precio and 200 <= precio < 10_000_000 else None,
+            "metros": metros if metros and 15 <= metros < 1000 else None}
 
 
 def cabecera_ficha(soup: BeautifulSoup) -> str:
@@ -213,6 +325,9 @@ def extraer_anuncios(html_txt: str, url_base: str) -> list[dict]:
             continue
         limpia = limpiar_url(url)
         if limpia == base_limpia:
+            continue
+        # Mismo listado con otros filtros (zona, orden, tipo…): no es un anuncio. Ej. Coldwell «search?z=9»
+        if urlparse(url).path.rstrip("/") == urlparse(url_base).path.rstrip("/") and urlparse(url).netloc.removeprefix("www.") == urlparse(url_base).netloc.removeprefix("www."):
             continue
         ruta = urlparse(url).path + "?" + urlparse(url).query
         if not PATRON_FICHA.search(ruta) or not re.search(r"\d", ruta):
@@ -313,6 +428,17 @@ def _leer_tabla(ruta: Path) -> list[dict]:
                 for fila in csv.DictReader(f)]
 
 
+# Portales que bloquean a los bots: el rastreador no puede leerlos. Las agencias que publican ahí se cubren con
+# una búsqueda guardada con alertas en el propio portal (ver README).
+PORTALES = re.compile(r"(idealista\.com|fotocasa\.es|habitaclia\.com|pisos\.com|yaencontre\.com|milanuncios\.com)", re.I)
+
+
+def portal_de(url: str) -> str | None:
+    m = PORTALES.search(urlparse(url).netloc)
+    return {"idealista": "Idealista", "fotocasa": "Fotocasa", "habitaclia": "Habitaclia", "pisos": "pisos.com",
+            "yaencontre": "yaencontre", "milanuncios": "Milanuncios"}[m.group(1).split(".")[0].lower()] if m else None
+
+
 def cargar_agencias() -> list[dict]:
     """agencias.csv (lista completa + webs descubiertas) con tus cambios de mis_agencias.csv encima.
 
@@ -326,7 +452,8 @@ def cargar_agencias() -> list[dict]:
 
     por_url: dict[tuple, dict] = {}
     for fila in base.values():
-        urls = tuple(u for u in re.split(r"[|\n ]+", fila.get("url_alquiler", "")) if u.startswith("http"))
+        urls = tuple(u for u in re.split(r"[|\n ]+", fila.get("url_alquiler", ""))
+                     if u.startswith("http") and not portal_de(u))  # los portales bloquean al bot: no se piden
         if not urls or normalizar(fila.get("vigilar", "")) not in SI:
             continue
         nombre = fila.get("nombre", "") or urls[0]
@@ -349,52 +476,65 @@ def cargar_agencias() -> list[dict]:
 
 # ---------------------------------------------------------------- lógica principal
 def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agencia_en_zona: bool = True) -> dict:
+    """Decide si un anuncio nuevo merece aviso. Orden: ¿es un anuncio de vivienda en alquiler? → ¿dónde está?
+    (tarjeta y dirección web; si no lo dicen, la ficha) → precio y metros."""
+    f = cfg["filtros"]
     texto = anuncio["texto"]
-    identidad = f"{anuncio['titulo']} {urlparse(anuncio['url']).path} {texto[:300]}"
+    ruta = urlparse(anuncio["url"]).path + " " + urlparse(anuncio["url"]).query
+    identidad = f"{anuncio['titulo']} {ruta} {texto[:300]}"
     precio, metros = extraer_precio(texto), extraer_metros(texto)
     venta = es_venta(identidad)
+    tipo = no_es_vivienda(f"{anuncio['titulo']} {ruta}") if f.get("solo_viviendas", True) else None
     # La zona se decide por el título, la dirección web y la tarjeta; nunca por menús o pisos relacionados
-    zona, excluido = detectar_zona(f"{anuncio['titulo']} · {urlparse(anuncio['url']).path} · {texto}", cfg)
+    zona, excluido = detectar_zona(f"{anuncio['titulo']} · {ruta} · {texto}", cfg)
     precios_altos = [p for p in [precio] if p and p >= 30000]
-    if abrir and not venta and not excluido and (precio is None or metros is None or zona is None):
+    if abrir and not venta and not tipo and not excluido and (precio is None or metros is None or zona is None):
         try:
             anuncio["_html"] = descargar(anuncio["url"], timeout, modo)
             soup = BeautifulSoup(anuncio["_html"], "html.parser")
+            ficha = datos_ficha(soup)
             cab = cabecera_ficha(soup)
-            cuerpo = texto_principal(soup)[:4000]
-            venta = venta or es_venta(cab)
-            # Precio: el de la cabecera; si no, el primero del cuerpo. Un importe de venta en la ficha
-            # (≥ 30.000 €) delata una venta aunque haya una «cuota de hipoteca» de 1.000 €/mes.
+            cuerpo = texto_principal(BeautifulSoup(anuncio["_html"], "html.parser"))[:4000]
+            venta = venta or es_venta(f"{ficha['titulo']} {cab}")
+            if f.get("solo_viviendas", True):
+                tipo = no_es_vivienda(ficha["titulo"])
+            # Un importe de venta en la ficha (≥ 30.000 €) delata una venta aunque haya una «cuota» de 1.000 €/mes
             todos = [int(re.sub(r"[.\s]", "", m.group("a") or m.group("b"))) for m in RE_PRECIO.finditer(cab + " " + cuerpo)]
-            precios_altos += [p for p in todos if p >= 30000]
-            precio = precio or extraer_precio(cab) or extraer_precio(cuerpo)
-            metros = metros or extraer_metros(cab) or extraer_metros(cuerpo)
-            if zona is None and not excluido:
-                zona, excluido = detectar_zona(cab, cfg)
-                if zona is None and not excluido:
-                    zona, excluido = detectar_zona(cuerpo[:1500], cfg)
-            if not anuncio["titulo"] or len(anuncio["titulo"]) < 8:
+            precios_altos += [p for p in todos + [ficha["precio"] or 0] if p >= 30000]
+            precio = precio or ficha["precio"] or extraer_precio(cab) or extraer_precio(cuerpo)
+            metros = metros or ficha["metros"] or extraer_metros(cab) or extraer_metros(cuerpo)
+            # Dónde está: datos estructurados y cabecera de la ficha; el cuerpo solo como último recurso
+            for fuente, municipios in ((ficha["lugar"], True), (cab, True), (cuerpo[:1500], False)):
+                if zona is not None or excluido:
+                    break
+                zona, excluido = detectar_zona(fuente, cfg, municipios)
+            if ficha["titulo"]:
+                anuncio["titulo"] = ficha["titulo"]
+            elif not anuncio["titulo"] or len(anuncio["titulo"]) < 8:
                 anuncio["titulo"] = (soup.find("h1").get_text(" ", strip=True) if soup.find("h1") else cuerpo)[:120]
         except Exception as e:  # la ficha falla: seguimos con lo que hay
             anuncio["error_ficha"] = str(e)[:100]
-    f = cfg["filtros"]
     motivo = None
     if venta:
         motivo = "es una venta"
+    elif tipo:
+        motivo = f"no es una vivienda ({tipo})"
     elif precios_altos:
         motivo = f"parece venta ({max(precios_altos)} €)"
     elif excluido:
         motivo = "fuera de tus zonas"
+    elif zona is None and f.get("zona_obligatoria", True):
+        motivo = "no dice en qué barrio está"
+    elif precio is None and f.get("precio_obligatorio", True):
+        motivo = "no indica el precio"
     elif precio is not None and precio > 10000:
         motivo = f"parece venta ({precio} €)"
     elif precio is not None and precio > f["precio_maximo"]:
         motivo = f"precio {precio} € > {f['precio_maximo']}"
     elif metros is not None and metros < f["metros_minimos"]:
         motivo = f"{metros} m² < {f['metros_minimos']}"
-    elif (precio is None or metros is None) and not f.get("avisar_si_faltan_datos", True):
-        motivo = "faltan precio o metros"
-    elif zona is None and not (f.get("avisar_si_zona_desconocida", True) and agencia_en_zona):
-        motivo = "zona no indicada" + ("" if agencia_en_zona else " (agencia fuera de tus distritos)")
+    elif metros is None and not f.get("avisar_si_faltan_metros", True):
+        motivo = "no indica los metros"
     return {**anuncio, "precio": precio, "metros": metros, "zona": zona, "motivo_descarte": motivo}
 
 

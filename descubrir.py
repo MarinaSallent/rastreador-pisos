@@ -93,6 +93,28 @@ def clave_marca(nombre: str) -> str:
     return " ".join(tokens_marca(nombre_comercial(nombre))) or r.normalizar(nombre)
 
 
+GENERICAS_DOMINIO = PALABRAS_VACIAS | {"immobiliaris", "inmobiliarios", "immobiliaries", "inmobiliarias", "apartments",
+                                       "apartamentos", "flats", "pisos", "habitat", "llar", "rent", "lloguer",
+                                       "alquiler", "assessoria", "asesoria", "administracio", "administracion",
+                                       "patrimonial", "patrimonio", "consultors", "consultores", "services"}
+
+
+def dominio_de_marca(url: str, marca: str) -> bool:
+    """¿El dominio lleva el nombre de la agencia? Evita quedarse con webs de otros (finanzio.es para
+    «Hipotecasolución», serveisimmobiliaris.cat para «Serveis Immobiliaris Sarrià»…)."""
+    host = re.sub(r"^www\d?\.", "", urlparse(url).netloc.lower().split(":")[0])
+    host = re.sub(r"[^a-z0-9]", "", host.rsplit(".", 1)[0])
+    palabras = re.sub(r"[^a-z0-9 ]", " ", r.normalizar(marca).replace("&", " ")).split()
+    propias = [w for w in palabras if len(w) >= 2 and w not in GENERICAS_DOMINIO]
+    if propias:
+        return any(w in host for w in propias)
+    completo = "".join(w for w in palabras if w not in LEGALES_DOMINIO)
+    return bool(completo) and completo in host
+
+
+LEGALES_DOMINIO = {"sl", "slu", "scp", "sa", "sau", "slp", "sccl", "scsp", "cb"}
+
+
 # ---------------------------------------------------------------- buscadores
 def _pausa():
     time.sleep(random.uniform(2.5, 5.0))
@@ -290,6 +312,9 @@ def dominios_probables(marca: str) -> list[str]:
         bases.append("".join(palabras[-1:] + palabras[:-1]))
     if len(palabras) > 2:
         bases.append("".join(palabras[:2]))
+    distintivas = {w for w in palabras if w not in GENERICAS_DOMINIO}
+    if distintivas:  # «serveisimmobiliaris.cat» es de cualquiera: la base debe llevar alguna palabra propia
+        bases = [b for b in bases if any(w in b for w in distintivas)]
     vistos, out = set(), []
     for b in bases:
         for tld in ("es", "cat", "com", "net"):
@@ -318,7 +343,8 @@ def adivinar_web(marca: str, aicat: set[str]) -> tuple[str, str] | None:
     candidatos = dominios_probables(marca)
     with ThreadPoolExecutor(max_workers=8) as ex:
         for res in ex.map(probar, candidatos):
-            if res and not NO_SON_AGENCIA.search(dominio(res[1])) and parece_inmobiliaria(res[2], marca, aicat):
+            if (res and not NO_SON_AGENCIA.search(dominio(res[1])) and dominio_de_marca(res[1], marca)
+                    and parece_inmobiliaria(res[2], marca, aicat)):
                 return res[1], res[2]
     return None
 
@@ -328,14 +354,62 @@ VERSION = 3  # sube cuando cambian los criterios: las marcas de versiones anteri
 ZONA_BCN = re.compile(r"(barcelona|bcn|hospitalet|badalona|sant cugat|esplugues|cornella|santa coloma|sant adria|"
                       r"eixample|gracia|sarria|sant gervasi|sant marti|poblenou|sant andreu|les corts|sants|horta|"
                       r"nou barris|ciutat vella|sagrera|clot|guinardo|vallcarca|putxet|bonanova|\b08\d{3}\b)")
-RUTA_PROHIBIDA = re.compile(r"(noticia|news|blog|actualitat|article|servici|servei|gestion-de|gestio-de|administraci|"
-                            r"tasaci|valoraci|relocation|local|oficina|despacho|nave|industrial|parking|garaje|"
-                            r"trastero|obra.?nueva|rentabilidad|inversi|por-que|faq|contact|vacacional|turistic|"
-                            r"temporada|habitacion|room|coliving|holiday)")
+RUTA_PROHIBIDA = re.compile(r"(noticia|news|blog|actualitat|article|servici|services|servei|gestion|gestio\b|gestio-|administraci|"
+                            r"administrador|tasaci|valoraci|relocation|local|oficina|despacho|nave|industrial|parking|"
+                            r"garaje|trastero|obra.?nueva|rentabilidad|inversi|por-que|faq|contact|vacacional|turistic|"
+                            r"temporada|habitacion|room|coliving|holiday|moratoria|guia|guide|consejo|consell|"
+                            r"como-|que-es|leasing|build.?rent|build.?to.?rent|project|proyecto|sell|vender|vendre|"
+                            r"agencia-immobiliaria|quienes-somos|nosotros|about|limitacion|ley-|llei-)")
 RUTA_VENTA = re.compile(r"(venta|venda|comprar|buy|sale|traspas)")
 RUTAS_TIPICAS = ["alquiler", "es/alquiler", "lloguer", "ca/lloguer", "alquiler/es/", "lloguer/ca/", "inmuebles/alquiler",
                  "propiedades/alquiler", "es/inmuebles-en-alquiler", "pisos-alquiler", "es/pisos-en-alquiler",
                  "rent", "en/rent"]
+RUTA_ALQUILER = re.compile(r"(?<![a-z])(alquil\w*|lloguer\w*|llogu\w*|arrend\w*|rent|rental|rentals|renting|"
+                           r"for-rent|to-rent|status-alquiler)(?![a-z])")
+NO_ES_PAGINA = re.compile(r"(\.(png|jpe?g|gif|webp|svg|pdf|docx?|xlsx?|zip)$|/wp-content/uploads/)")
+FICHA_RUTA = re.compile(r"(/ficha/|/detalle|/details?/|/property/[^/]+|/propiedad/[^/]+|/inmueble/[^/]+|"
+                        r"/immoble/[^/]+|/mcpropiedades/[^/]+|/anuncio/[^/]+|/listing/[^/]+|inmueble\.php|"
+                        r"ficha\.php|detalle\.php|[?&](id|ref|idinmueble|cod)=\d+)")
+UN_PISO = re.compile(r"\b(piso|pis|casa|atico|chalet|apartamento|apartament|duplex|estudio|estudi|loft|torre)\b")
+VARIOS = re.compile(r"\b(pisos|casas|cases|viviendas|habitatges|inmuebles|immobles|propiedades|apartamentos|"
+                    r"apartaments|aticos|listado|resultados|buscador|search)\b")
+OTRA_CIUDAD = re.compile(r"(?<![a-z])(madrid|valencia|sevilla|malaga|alicante|badajoz|girona|tarragona|lleida|tortosa|"
+                         r"murcia|zaragoza|bilbao|mallorca|palma|ibiza|eivissa|menorca|marbella|cadiz|granada|"
+                         r"asturias|oviedo|cantabria|santander|coruna|vigo|toledo|valladolid|salamanca|cordoba|"
+                         r"almeria|huelva|jaen|castellon|tenerife|canarias|gran-canaria|lanzarote|reus|salou|"
+                         r"cambrils|figueres|blanes|lloret|andorra|javea|benidorm|torrevieja|denia|costa-brava|"
+                         r"cardedeu|ripollet|manresa|vic|igualada|vilanova|sitges|mataro)(?![a-z])")
+FECHA_BLOG = re.compile(r"/(19|20)\d\d/\d\d?/")
+
+
+def validar_ruta(url: str, anuncios: int | None = None) -> tuple[bool, str]:
+    """Comprobaciones que solo miran la dirección. Con anuncios == 0 (página vacía hoy) se exige que la propia
+    dirección diga «alquiler», porque no hay pisos con los que confirmarlo."""
+    p = urlparse(url)
+    ruta = r.normalizar(p.path + ("?" + p.query if p.query else ""))
+    ruta_sep = re.sub(r"[^a-z0-9]+", "-", ruta)
+    if NO_ES_PAGINA.search(p.path.lower()):
+        return False, "es una imagen o un documento, no una página"
+    if p.path.strip("/") == "" and not RUTA_ALQUILER.search(ruta_sep):
+        return False, "es la portada"
+    if FECHA_BLOG.search(p.path) or RUTA_PROHIBIDA.search(ruta):
+        return False, "la dirección es de noticias, servicios, locales u oficinas"
+    if RUTA_VENTA.search(ruta) and not RUTA_ALQUILER.search(ruta_sep):
+        return False, "la dirección es de venta"
+    if OTRA_CIUDAD.search(ruta_sep) and "barcelona" not in ruta:
+        return False, "la página es de otra ciudad"
+    segmentos = [s for s in p.path.lower().split("/") if s]
+    ultimo = segmentos[-1] if segmentos else ""
+    if (FICHA_RUTA.search(p.path.lower() + ("?" + p.query.lower() if p.query else ""))
+            or any(re.fullmatch(r"\d{3,}", s) or re.search(r"\d{4,}", s) for s in segmentos)
+            or ultimo.count("-") >= 7):
+        return False, "parece la ficha de un solo piso"
+    palabras_ultimo = ultimo.replace("-", " ").replace("_", " ")
+    if ultimo.count("-") >= 3 and UN_PISO.search(palabras_ultimo) and not VARIOS.search(palabras_ultimo):
+        return False, "parece la ficha de un solo piso"
+    if anuncios == 0 and not RUTA_ALQUILER.search(ruta_sep):
+        return False, "está vacía y la dirección no dice que sea de alquiler"
+    return True, "ok"
 
 
 NO_ENCONTRADA = re.compile(r"(404|no encontrad|not found|no existe|pagina no disponible|page not found|no s'ha trobat)")
@@ -344,22 +418,17 @@ NO_ENCONTRADA = re.compile(r"(404|no encontrad|not found|no existe|pagina no dis
 def validar_listado(html: str, url: str) -> tuple[bool, str, int]:
     """¿Es la página donde la agencia publica sus pisos de alquiler? Puede estar vacía hoy: también vale.
 
-    Se descartan solo direcciones que claramente no lo son (noticias, servicios, locales, oficinas, venta,
-    la ficha de un solo piso) y listados con anuncios pero todos de fuera de la zona de Barcelona."""
-    ruta = r.normalizar(urlparse(url).path + "?" + urlparse(url).query)
-    if RUTA_PROHIBIDA.search(ruta):
-        return False, "la dirección es de noticias, servicios, locales u oficinas", 0
-    if RUTA_VENTA.search(ruta) and not re.search(r"(alquil|lloguer|rent)", ruta):
-        return False, "la dirección es de venta", 0
-    ultimo = urlparse(url).path.rstrip("/").rsplit("/", 1)[-1]
-    if re.search(r"\d{4,}", ultimo) or ultimo.count("-") >= 6:
-        return False, "parece la ficha de un solo piso", 0
-    if urlparse(url).path.strip("/") == "":
-        return False, "es la portada", 0
-    texto = r.normalizar(BeautifulSoup(html, "html.parser").get_text(" ", strip=True)[:20000])
-    titulo = r.normalizar((BeautifulSoup(html, "html.parser").title or BeautifulSoup("", "html.parser")).get_text() or "")
+    Se descartan direcciones que claramente no lo son (noticias, servicios, locales, venta, la ficha de un solo
+    piso, imágenes, otras ciudades) y listados con anuncios pero todos de fuera de la zona de Barcelona."""
+    ok, motivo = validar_ruta(url)
+    if not ok:
+        return False, motivo, 0
+    soup = BeautifulSoup(html, "html.parser")
+    texto = r.normalizar(soup.get_text(" ", strip=True)[:20000])
+    titulo = r.normalizar((soup.title.get_text() if soup.title else "") or "")
     if NO_ENCONTRADA.search(titulo) or (len(texto) < 3000 and NO_ENCONTRADA.search(texto)):
         return False, "la página no existe", 0
+    ruta = r.normalizar(urlparse(url).path + "?" + urlparse(url).query)
     if not re.search(r"(alquil|lloguer|llogar|rent|arrend)", ruta + " " + titulo + " " + texto[:5000]):
         return False, "no habla de alquiler", 0
     anuncios = r.extraer_anuncios(html, url)
@@ -368,13 +437,37 @@ def validar_listado(html: str, url: str) -> tuple[bool, str, int]:
         if any(precios) and not any(p and 250 <= p <= 8000 for p in precios):
             return False, "los anuncios no tienen precios de alquiler", len(anuncios)
         textos = r.normalizar(" ".join(a["texto"] + " " + a["url"] for a in anuncios) + " " + url)
-        if len(anuncios) >= 3 and not ZONA_BCN.search(textos):
+        if not ZONA_BCN.search(textos) and (len(anuncios) >= 3 or OTRA_CIUDAD.search(textos)):
             return False, "ningún anuncio de la zona de Barcelona", len(anuncios)
+    else:
+        ok, motivo = validar_ruta(url, 0)
+        if not ok:
+            return False, motivo, 0
     return True, "ok", len(anuncios)
+
+
+PERFIL_PORTAL = re.compile(
+    r"https?://(?:www\.)?(idealista\.com/(?:[a-z]{2}/)?pro/[^/?#\s\"'<>]+(?:/[^?#\s\"'<>]*)?|"
+    r"fotocasa\.es/[^\s\"'#]*(?:inmobiliaria|agencia|profesional)[^\s\"'#]*|"
+    r"habitaclia\.com/[^\s\"'#]*(?:inmobiliaria|agencia|profesional|-i\d+)[^\s\"'#]*|"
+    r"pisos\.com/inmobiliaria[^\s\"'#]*|yaencontre\.com/[^\s\"'#]*(?:inmobiliaria|agencia)[^\s\"'#]*)", re.I)
+
+
+def enlace_portal(html: str) -> str | None:
+    """Si la web de la agencia manda a su escaparate en Idealista (o Fotocasa, Habitaclia…), lo devuelve.
+    Prefiere el enlace a los alquileres del perfil."""
+    encontrados = [m.group(0).rstrip("\\") for m in PERFIL_PORTAL.finditer(html or "")]
+    if not encontrados:
+        return None
+    encontrados.sort(key=lambda u: (not re.search(r"(alquiler|lloguer|rent)", u), "idealista" not in u, len(u)))
+    return encontrados[0]
 
 
 def buscar_paginas_alquiler(info: dict, html: str, web: str) -> dict:
     info["version"] = VERSION
+    portal = enlace_portal(html)
+    if portal:
+        info["portal"] = portal
     paginas = paginas_alquiler(html, web)
     if not paginas:  # el menú de la portada a veces se pinta con JavaScript
         try:
@@ -412,6 +505,15 @@ def buscar_paginas_alquiler(info: dict, html: str, web: str) -> dict:
             continue
         if ok and n:
             return {**info, "url_alquiler": url, "anuncios": n, "estado": "vigilable", "modo": "js"}
+    if not info.get("portal"):  # el menú pintado con JavaScript también puede llevar el enlace al portal
+        try:
+            info["portal"] = enlace_portal(r.descargar_js(web, 30)) or None
+        except Exception:
+            pass
+        if not info.get("portal"):
+            info.pop("portal", None)
+    if info.get("portal"):  # sus pisos están en Idealista u otro portal, que bloquea al bot
+        return {**info, "estado": "publica_en_portal"}
     if vacias:  # sin pisos hoy: se vigila igual; el rastreador la aparta si en 6 meses no publica nada
         return {**info, "url_alquiler": vacias[0], "anuncios": 0, "estado": "vigilable"}
     info["rechazadas"] = dict(list(rechazos.items())[:5])
@@ -474,19 +576,28 @@ def guardar_csv(campos: list[str], filas: list[dict]) -> None:
 def aplicar(progreso: dict) -> tuple[int, int]:
     """Vuelca lo descubierto en agencias.csv. Tus cambios a mano van en mis_agencias.csv y mandan sobre esto."""
     campos, filas = cargar_csv()
-    webs = vig = 0
+    webs = vig = portales = 0
     for fila in filas:
         res = progreso.get(clave_marca(fila["nombre"]))
         if res and res.get("revisar"):  # pendiente de revisar con los criterios nuevos: de momento no se vigila
             fila["url_alquiler"] = fila["vigilar"] = fila["modo"] = ""
         elif res:
-            fila["web"] = res.get("web", "") if res["estado"] in ("web_ok", "vigilable") else ""
+            fila["web"] = res.get("web", "") if res["estado"] in ("web_ok", "vigilable", "publica_en_portal") else ""
+            nota = fila.get("notas", "")
+            if res.get("portal") and res["estado"] == "publica_en_portal":
+                nombre_portal = r.portal_de(res["portal"]) or "un portal"
+                if not nota or nota.startswith("Publica sus pisos en"):
+                    fila["notas"] = f"Publica sus pisos en {nombre_portal}: {res['portal']}"
+            elif nota.startswith("Publica sus pisos en"):
+                fila["notas"] = ""
             fila["url_alquiler"] = res.get("url_alquiler", "")
             fila["vigilar"] = "sí" if res.get("url_alquiler") else ""
             fila["modo"] = res.get("modo", "")
+        portales += bool(res and res.get("estado") == "publica_en_portal" and not res.get("revisar"))
         webs += bool(fila.get("web"))
         vig += bool(fila.get("url_alquiler"))
     guardar_csv(campos, filas)
+    print(f"Oficinas que publican sus pisos en un portal (Idealista…): {portales}")
     return webs, vig
 
 
@@ -504,7 +615,15 @@ def main() -> int:
     progreso = {k: v for k, v in progreso.items()
                 if not (v.get("estado") in ("sin_web", "error") and not v.get("candidatas"))
                 and not (v.get("estado") == "web_ok" and "pagina_sin_anuncios" not in v and not v.get("revisado_js"))}
-    viejas = [k for k, v in progreso.items() if v.get("web") and v.get("version", 1) < VERSION]
+    # Webs que no son de la agencia (el dominio no lleva su nombre): se vuelven a buscar desde cero
+    ajenas = [k for k, v in progreso.items() if v.get("web") and not dominio_de_marca(v["web"], v.get("marca", k))]
+    for k in ajenas:
+        del progreso[k]
+    if ajenas:
+        print(f"Descarto {len(ajenas)} webs que no llevan el nombre de la agencia: se buscarán de nuevo")
+    viejas = [k for k, v in progreso.items() if v.get("web") and (
+        v.get("version", 1) < VERSION
+        or (v.get("url_alquiler") and not validar_ruta(v["url_alquiler"], v.get("anuncios"))[0]))]
     if viejas:
         print(f"Revisando con los criterios nuevos {len(viejas)} marcas que ya tenían web")
         for k in viejas:

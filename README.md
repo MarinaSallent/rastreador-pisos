@@ -130,14 +130,22 @@ Antes de añadirla, compruébalo: **Actions → Probar una web → Run workflow*
 ## Cómo decide si avisarte
 
 - **Primera revisión de una agencia:** guarda los anuncios que ya hay sin avisarte, para que no te lleguen 40 mensajes de golpe. A partir de ahí, solo te avisa de los nuevos.
-- **Precio y metros:** los lee de la tarjeta del anuncio. Si faltan, abre la ficha.
-  - Más de 10.000 € se considera venta y se descarta.
-  - Si no encuentra el precio o los metros, te avisa igualmente con ⚠️, para que no se te escape nada.
-- **Zona:** busca nombres de barrio (Gràcia, Vallcarca, Poblenou, Sagrera, Sant Gervasi, Galvany, Putxet…) o el código postal.
-  - Si no encuentra ninguno y la agencia tiene la oficina en tus distritos, te avisa con «⚠️ zona no indicada».
-  - Si la agencia está en otra zona y el anuncio no dice el barrio, lo descarta, para no llenarte de pisos de otros barrios.
-  - Para descartar siempre los anuncios sin barrio, pon `avisar_si_zona_desconocida: false` en `config.yaml`.
+- **Solo anuncios de verdad:** ignora los enlaces del propio buscador (filtros, orden, páginas), noticias, PDF y formularios.
+- **Solo viviendas:** si el título o la dirección del anuncio dice local, oficina, nave, parking, trastero, terreno, edificio, habitación, traspaso, temporada o turístico, lo descarta (`solo_viviendas`).
+- **Zona:** primero mira la tarjeta y la dirección web del anuncio. Si no dicen el barrio, abre la ficha y lo lee de sus datos estructurados (la mayoría de plataformas de agencias indican ahí ciudad y barrio), del título, de las migas de pan o del campo de ubicación. Nunca usa la dirección de la oficina de la agencia.
+  - Si nombra otro municipio (Badalona, Sabadell, Sitges…) o antes otro barrio (Eixample, Sants…), lo descarta.
+  - Si no dice en qué barrio está, lo descarta (`zona_obligatoria: true`). Con `false` te avisaría marcado con «⚠️ zona no indicada».
+- **Precio y metros:** de la tarjeta; si faltan, de la ficha.
+  - Sin precio, se descarta (`precio_obligatorio`). Más de 10.000 € se considera venta.
+  - Si cumple todo pero no dice los metros, te avisa con ⚠️ (`avisar_si_faltan_metros`).
 - **Si la web de una agencia falla 6 veces seguidas**, te llega un aviso para que revises la URL.
+
+## Agencias que publican en Idealista (u otro portal)
+
+Algunas agencias no tienen listado propio: el botón «nuestros pisos» de su web lleva a su escaparate en Idealista, Fotocasa o Habitaclia. Esos portales bloquean a los bots, así que el rastreador no los lee.
+
+- El descubridor las detecta y en `agencias.csv` les pone la nota «Publica sus pisos en Idealista: enlace». No se vigilan.
+- Para no perderos sus pisos, cread en Idealista una **búsqueda guardada con alertas instantáneas** (alquiler, vuestras zonas dibujadas en el mapa, hasta 1.000 €, desde 60 m²). Cubre a todas las agencias que publican allí.
 
 ## Agencias que no publican: contactar en persona
 
