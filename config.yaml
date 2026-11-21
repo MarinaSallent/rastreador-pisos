@@ -65,6 +65,37 @@ zonas:
     - vallcarca
     - penitents
     - el coll
+  Nou Barris:
+    - nou barris
+    - vilapicina
+    - torre llobeta
+    - turo de la peira
+    - can peguera
+    - guineueta
+    - canyelles
+    - roquetes
+    - verdun
+    - verdum
+    - prosperitat
+    - trinitat nova
+    - torre baro
+    - ciutat meridiana
+    - vallbona
+    - fabra i puig
+    - virrei amat
+  Sant Cugat:
+    - sant cugat
+    - valldoreix
+    - mira-sol
+    - mirasol
+    - la floresta
+    - volpelleres
+    - can trias
+
+# Zonas que son un municipio entero: si el anuncio lo nombra, cuenta como tu zona aunque mencione un barrio
+# con nombre de Barcelona (Sant Cugat también tiene «Eixample» o «Centre»).
+zonas_municipio:
+  - Sant Cugat
 
 # Otros barrios de Barcelona: si el anuncio nombra uno de estos ANTES que uno de tus barrios, se descarta.
 # Ej.: «Ático en Dreta de l'Eixample, cerca de Gràcia».
@@ -88,10 +119,6 @@ otras_zonas:
   - horta
   - guinardo
   - carmel
-  - nou barris
-  - vilapicina
-  - prosperitat
-  - verdun
   - zona franca
   - montjuic
 
@@ -105,7 +132,6 @@ otros_municipios:
   - hospitalet
   - cornella
   - esplugues
-  - sant cugat
   - santa coloma
   - sant adria
   - montcada
@@ -144,12 +170,57 @@ otros_municipios:
   - orihuela
   - benidorm
 
+# Otras ciudades de España (redes como Lucas Fox, iad o Guinot tienen pisos allí). Solo cuentan si aparecen como
+# lugar del anuncio («en alquiler en Goya, Madrid», «/espana/madrid/…»), no como nombre de calle («calle Valencia»).
+otras_ciudades:
+  - madrid
+  - valencia
+  - malaga
+  - marbella
+  - sevilla
+  - alicante
+  - murcia
+  - zaragoza
+  - bilbao
+  - palma
+  - mallorca
+  - ibiza
+  - menorca
+  - leon
+  - girona
+  - tarragona
+  - lleida
+  - reus
+  - salou
+  - cambrils
+  - palamos
+  - platja d'aro
+  - vilassar de mar
+  - premia de mar
+  - canoves
+  - montseny
+  - llinars del valles
+  - viladecavalls
+  - garraf
+  - pego
+  - denia
+  - javea
+  - benidorm
+  - torrevieja
+  - alfaz del pi
+  - estepona
+  - sotogrande
+  - baqueira
+  - puigcerda
+  - cerdanya
+
 # Palabras que descartan un anuncio aunque coincida una zona
 # (evita falsos positivos como "Sant Martí Sarroca" o "Sant Andreu de la Barca").
 exclusiones:
   - sant marti sarroca
   - sant andreu de la barca
   - sant andreu de llavaneres
+  - sant cugat sesgarrigues
   - traspaso
   - traspas
   - local comercial
@@ -177,6 +248,17 @@ codigos_postales:
   - "08033"
   - "08034"
   - "08037"
+  # Nou Barris
+  - "08016"
+  - "08031"
+  - "08042"
+  # Sant Cugat del Vallès
+  - "08172"
+  - "08173"
+  - "08174"
+  - "08195"
+  - "08197"
+  - "08198"
 
 rastreo:
   # Si la ficha del anuncio no muestra precio/metros en el listado, abrir la ficha (más lento pero más preciso).

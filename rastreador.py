@@ -58,7 +58,7 @@ EXCLUIR_URL = re.compile(
     r"youtube|google\.|/blog|/noticia|/news|aviso-legal|avis-legal|privacidad|privacitat|cookies|"
     r"contacto$|contacte$|/login|/registro|/vender|/valorar|/valoracio|/tasaci|"
     r"wp-login|/author/|/forms?/|contact-individual|/maps\b|imprimir|print|generar-pdf|pdf\.php|"
-    r"informacion_gastos|/actualitat|/actualidad|_noticia|/20\d\d/\d\d/|[?&]page_id=|"
+    r"informacion_gastos|favoritas=|/lang/[a-z]{2}/change|property-submit|que-piso-casa-buscas|/actualitat|/actualidad|_noticia|/20\d\d/\d\d/|[?&]page_id=|"
     r"[?&](vistas|descartadas|sort|orden|ordenada|ascdesc|order|orderby|ob|cart|secc|per_page|es_category%5b0%5d|es_category|es_type)=)",
     re.I,
 )
@@ -170,6 +170,35 @@ EXTRAS = re.compile(r"^(parkings?|parquing|garajes?|aparcament|aparcamiento|plaz
                     r"motos?)")
 
 
+RE_CP_PARENTESIS = re.compile(r"\((\d{5})\)|\b(\d{5})\s+[A-ZÁÉÍÓÚÀÈÒÇ][a-záéíóúàèòç]")
+RE_FICHA_CIUDAD = re.compile(r"/ficha/[^/]+/([^/]+)/")  # plataforma Inmovilla: /ficha/<tipo>/<ciudad>/<zona>/…
+
+
+def otra_ciudad(titulo: str, ruta: str, texto: str, cfg: dict) -> str | None:
+    """¿El anuncio es de otra ciudad? Lo dicen el código postal («Pego (03780)»), la dirección web
+    («/espana/madrid/…», «/ficha/piso/palamos/…») o el título («…en alquiler en Goya, Madrid»)."""
+    for m in RE_CP_PARENTESIS.finditer(f"{titulo} {texto[:300]}"):
+        cp = m.group(1) or m.group(2)
+        if not cp.startswith("08"):
+            return f"CP {cp}"
+    propias = [normalizar(w) for z in cfg.get("zonas_municipio", []) for w in cfg["zonas"].get(z, [])]
+    m = RE_FICHA_CIUDAD.search(ruta.lower())
+    if m and normalizar(m.group(1)) not in ("barcelona", "bcn") and not any(
+            w in normalizar(m.group(1)).replace("-", " ") for w in propias):
+        return m.group(1)
+    ciudades = [normalizar(c) for c in cfg.get("otras_ciudades", [])]
+    segmentos = {normalizar(s) for s in re.split(r"[/?&=]", ruta.lower()) if s}
+    for c in ciudades:
+        if c.replace(" ", "-") in segmentos:
+            return c
+    t = normalizar(f"{titulo} · {texto[:300]}")
+    for c in ciudades:
+        if re.search(r"(?<!calle )(?<!carrer )(?<!c/ )(?<!avenida )(?<!avinguda )"
+                     r"(\ben|\ba|\bin|,|·|-)\s+" + re.escape(c) + r"\b", t):
+            return c
+    return None
+
+
 def no_es_vivienda(texto: str) -> str | None:
     """Devuelve el tipo de inmueble (local, oficina, parking…) si no es una vivienda.
 
@@ -211,6 +240,9 @@ def detectar_zona(texto: str, cfg: dict, municipios: bool = True) -> tuple[str |
         p = _buscar(t, palabras)
         if p is not None and (pos_mejor is None or p < pos_mejor):
             mejor, pos_mejor = zona, p
+    for zona_m in cfg.get("zonas_municipio", []):  # municipio entero (Sant Cugat): basta con que se nombre
+        if _buscar(t, cfg["zonas"].get(zona_m, [])) is not None:
+            return zona_m, False
     if municipios and _buscar(t, cfg.get("otros_municipios", [])) is not None:  # otra ciudad: fuera, se nombre donde se nombre
         return None, True
     pos_otra = _buscar(t, cfg.get("otras_zonas", []))
@@ -572,6 +604,8 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
     tipo = no_es_vivienda(f"{anuncio['titulo']} {ruta}") if f.get("solo_viviendas", True) else None
     # La zona se decide por el título, la dirección web y la tarjeta; nunca por menús o pisos relacionados
     zona, excluido = detectar_zona(f"{anuncio['titulo']} · {ruta} · {texto}", cfg)
+    ciudad = None if zona else otra_ciudad(anuncio["titulo"], urlparse(anuncio["url"]).path, texto, cfg)
+    excluido = excluido or bool(ciudad)
     precios_altos = [p for p in [precio] if p and p >= 30000]
     if abrir and not venta and not alquilado and not tipo and not excluido and (precio is None or metros is None or zona is None):
         try:
@@ -593,6 +627,9 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
                 if zona is not None or excluido:
                     break
                 zona, excluido = detectar_zona(fuente, cfg, municipios)
+            if zona is None and not excluido:
+                ciudad = otra_ciudad(ficha["titulo"], ficha["lugar"], cab, cfg)
+                excluido = bool(ciudad)
             alquilado = alquilado or ya_alquilado(ficha["titulo"])
             if ficha["titulo"]:
                 anuncio["titulo"] = ficha["titulo"]
@@ -609,8 +646,12 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
         motivo = f"no es una vivienda ({tipo})"
     elif precios_altos:
         motivo = f"parece venta ({max(precios_altos)} €)"
+    elif re.match(r"^\s*\d+\s+(inmuebles?|propiedades|pisos|anuncios|viviendas|immobles)\b", normalizar(anuncio["titulo"])):
+        motivo = "no es un anuncio (es un listado)"
     elif excluido:
-        motivo = "fuera de tus zonas"
+        motivo = "fuera de tus zonas" + (" (otra ciudad)" if ciudad else "")
+    elif precio is None and metros is None and zona is None:
+        motivo = "no parece un anuncio (sin precio, metros ni barrio)"
     elif zona is None and f.get("zona_obligatoria", True):
         motivo = "no dice en qué barrio está"
     elif precio is None and f.get("precio_obligatorio", True):
