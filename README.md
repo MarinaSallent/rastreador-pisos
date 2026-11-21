@@ -86,7 +86,8 @@ El directorio AICAT no publica las webs, así que la tarea **Descubrir webs de a
 
 - Se ejecuta cada hora en tandas de unos 50 minutos. Tarda alrededor de un día en recorrer las ~2.700 marcas; las oficinas de una misma cadena (las 166 Tecnocasa, las La Casa Agency…) cuentan como una sola.
 - Para cada marca busca su web, comprueba que es una inmobiliaria y localiza su página de alquileres.
-- Si el rastreador detecta pisos en esa página, rellena `url_alquiler` y pone `vigilar = sí` en `agencias.csv`. Desde ese momento el rastreador la revisa cada 5 minutos.
+- Si encuentra su página de alquileres, rellena `url_alquiler` y pone `vigilar = sí` en `agencias.csv`, **aunque hoy esté vacía**: muchas agencias tienen la sección sin pisos y publican uno de repente. Desde ese momento el rastreador la revisa cada 5 minutos.
+- Solo descarta las direcciones que claramente no son un listado de alquiler (noticias, servicios, locales u oficinas, venta, la ficha de un solo piso) y los listados cuyos anuncios son todos de fuera de la zona de Barcelona.
 - Empieza por las agencias de tus barrios y por las cadenas grandes.
 - Los agentes que figuran solo con nombre de persona (sin nombre comercial) se saltan: casi nunca tienen web propia.
 - Para empezar ya, sin esperar a la hora en punto: **Actions → Descubrir webs de agencias → Run workflow**.
@@ -138,6 +139,14 @@ Antes de añadirla, compruébalo: **Actions → Probar una web → Run workflow*
   - Para descartar siempre los anuncios sin barrio, pon `avisar_si_zona_desconocida: false` en `config.yaml`.
 - **Si la web de una agencia falla 6 veces seguidas**, te llega un aviso para que revises la URL.
 
+## Agencias que no publican: contactar en persona
+
+Si una agencia vigilada pasa **6 meses sin publicar ningún piso nuevo** en su web (cumpla o no vuestros filtros), el rastreador deja de vigilarla y os avisa por Telegram con su dirección: probablemente gestiona los alquileres con su propia lista de interesados, y lo útil es pasar por la oficina y dejar vuestro perfil.
+
+- Quedan apuntadas en `estado/a_contactar.json`.
+- El plazo se cambia en `config.yaml` (`dias_sin_novedades`; 0 = vigilar siempre).
+- Para volver a vigilar una, borra su entrada de `estado/a_contactar.json`.
+
 ## Límites que conviene saber
 
 - GitHub no garantiza los 5 minutos exactos: en horas de mucha carga, una ejecución puede retrasarse de 5 a 15 minutos. Sigue siendo mucho antes de que el piso llegue a Idealista.
@@ -155,6 +164,7 @@ Antes de añadirla, compruébalo: **Actions → Probar una web → Run workflow*
 | `mis_agencias.csv` | Tus cambios exportados desde el panel (contactadas, URLs corregidas, vigilar sí/no) |
 | `descubrir.py` | El buscador automático de webs |
 | `estado/vistos.json` | Anuncios ya vistos (lo actualiza el propio rastreador) |
+| `estado/a_contactar.json` | Agencias que llevan 6 meses sin publicar: para visitar en persona |
 | `estado/telegram.json` | Anuncios avisados y si ya se enviaron los datos (sin datos personales) |
 | `.github/workflows/` | Las tareas automáticas de GitHub |
 | `datos/` | Datos originales del directorio AICAT y generador del panel |

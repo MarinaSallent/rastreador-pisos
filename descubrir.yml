@@ -1,0 +1,50 @@
+name: Descubrir webs de agencias
+
+# Busca la web y la página de alquileres de cada agencia de agencias.csv.
+# Va por tandas de ~50 minutos cada hora hasta terminar (unas 2.700 marcas: ~1 día).
+# Cuando ya no quedan pendientes, cada ejecución termina en segundos.
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Marcas a procesar en esta tanda"
+        default: "400"
+
+concurrency:
+  group: descubrir
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  descubrir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 58
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Buscar webs
+        id: buscar
+        env:
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          MAX: ${{ inputs.max || '400' }}
+        run: python descubrir.py --max "$MAX" --minutos 50
+      - name: Guardar resultados
+        run: |
+          git config user.name "rastreador-pisos"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add agencias.csv datos/descubrimiento.json
+          git diff --cached --quiet || (git commit -m "Webs de agencias descubiertas" && git pull --rebase && git push)
+      - name: Lanzar la siguiente tanda si quedan pendientes
+        if: ${{ steps.buscar.outputs.restantes != '' && steps.buscar.outputs.restantes != '0' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run descubrir.yml --ref "${{ github.ref_name }}"

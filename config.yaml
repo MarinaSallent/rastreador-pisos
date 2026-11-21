@@ -61,6 +61,55 @@ zonas:
     - penitents
     - el coll
 
+# Otros barrios y municipios: si el anuncio nombra uno de estos ANTES que una de tus zonas
+# (en el título, la dirección web o la tarjeta), se descarta. Ej.: «Ático en Dreta de l'Eixample».
+otras_zonas:
+  - eixample
+  - sagrada familia
+  - fort pienc
+  - sant antoni
+  - poble sec
+  - poblesec
+  - raval
+  - gotic
+  - born
+  - barceloneta
+  - ciutat vella
+  - sants
+  - hostafrancs
+  - la bordeta
+  - les corts
+  - pedralbes
+  - horta
+  - guinardo
+  - carmel
+  - nou barris
+  - vilapicina
+  - prosperitat
+  - verdun
+  - zona franca
+  - montjuic
+  - badalona
+  - hospitalet
+  - cornella
+  - esplugues
+  - sant cugat
+  - santa coloma
+  - sant adria de besos
+  - montcada
+  - sant joan despi
+  - sant just
+  - sant feliu
+  - el prat
+  - montgat
+  - castelldefels
+  - sitges
+  - mataro
+  - sabadell
+  - terrassa
+  - javea
+  - alella
+
 # Palabras que descartan un anuncio aunque coincida una zona
 # (evita falsos positivos como "Sant Martí Sarroca" o "Sant Andreu de la Barca").
 exclusiones:
@@ -104,3 +153,6 @@ rastreo:
   avisar_tras_fallos: 6
   # Tras cada revisión, el bot se queda atento a los botones «Enviar mis datos» hasta la siguiente.
   escuchar_botones_segundos: 240
+  # Si una agencia no publica ningún piso nuevo en este tiempo, se deja de vigilar y se avisa para
+  # contactarla en persona (queda en estado/a_contactar.json). 0 = vigilar siempre.
+  dias_sin_novedades: 180
