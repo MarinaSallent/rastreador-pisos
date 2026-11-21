@@ -50,9 +50,14 @@ SI = {"si", "sí", "s", "yes", "y", "1", "x", "true", "verdadero"}
 PATRON_FICHA = re.compile(
     r"(inmueble|immoble|ficha|fitxa|propiedad|propietat|property|propert|piso|pis-|/pis/|"
     r"vivienda|habitatge|detalle|detall|anuncio|anunci|referencia|/ref|alquiler|lloguer|"
-    r"rent|flat|apartment|apartamento|apartament|inmovilla|/p/|/es/\d|/ca/\d|ficha\.php|id=)",
+    r"rent|flat|apartment|apartamento|apartament|inmovilla|/p/|/es/\d|/ca/\d|ficha\.php|id=|"
+    r"producto|oferta|offer|listing|immobles|inmuebles)",
     re.I,
 )
+# Fichas cuya dirección no lleva ningún número: «/oferta-inmobiliaria/piso-luminoso-en-gracia/»
+FICHA_SIN_NUMERO = re.compile(
+    r"/(productos?|oferta-inmobiliaria|ofertas?|propiedad|propiedades|property|properties|inmueble|inmuebles|"
+    r"immoble|immobles|anuncio|ficha|fitxa|detalle|listing|vivienda|pisos?)/[^/?#]*-[^/?#]*-[^/?#]+/?$", re.I)
 EXCLUIR_URL = re.compile(
     r"(\.pdf|\.jpe?g|\.png|\.webp|mailto:|tel:|whatsapp|facebook|instagram|twitter|linkedin|"
     r"youtube|google\.|/blog|/noticia|/news|aviso-legal|avis-legal|privacidad|privacitat|cookies|"
@@ -171,7 +176,8 @@ EXTRAS = re.compile(r"^(parkings?|parquing|garajes?|aparcament|aparcamiento|plaz
 
 
 RE_CP_PARENTESIS = re.compile(r"\((\d{5})\)|\b(\d{5})\s+[A-ZÁÉÍÓÚÀÈÒÇ][a-záéíóúàèòç]")
-RE_FICHA_CIUDAD = re.compile(r"/ficha/[^/]+/([^/]+)/")  # plataforma Inmovilla: /ficha/<tipo>/<ciudad>/<zona>/…
+# Inmovilla: /ficha/<tipo>/<ciudad>/<zona>/… · webs de pisos.com: /detalle/en_alquiler/<tipo>/<provincia>/<ciudad>/…
+RE_FICHA_CIUDAD = re.compile(r"/ficha/[^/]+/([^/]+)/|/detalle/en_[a-z]+/[^/]+/[^/]+/([^/]+)/")
 
 
 def otra_ciudad(titulo: str, ruta: str, texto: str, cfg: dict) -> str | None:
@@ -183,9 +189,10 @@ def otra_ciudad(titulo: str, ruta: str, texto: str, cfg: dict) -> str | None:
             return f"CP {cp}"
     propias = [normalizar(w) for z in cfg.get("zonas_municipio", []) for w in cfg["zonas"].get(z, [])]
     m = RE_FICHA_CIUDAD.search(ruta.lower())
-    if m and normalizar(m.group(1)) not in ("barcelona", "bcn") and not any(
-            w in normalizar(m.group(1)).replace("-", " ") for w in propias):
-        return m.group(1)
+    ciudad = (m.group(1) or m.group(2)) if m else None
+    if ciudad and not re.match(r"(barcelona|bcn)\b", normalizar(ciudad).replace("_", " ")) and not any(
+            w in normalizar(ciudad).replace("-", " ").replace("_", " ") for w in propias):
+        return ciudad
     ciudades = [normalizar(c) for c in cfg.get("otras_ciudades", [])]
     segmentos = {normalizar(s) for s in re.split(r"[/?&=]", ruta.lower()) if s}
     for c in ciudades:
@@ -197,6 +204,19 @@ def otra_ciudad(titulo: str, ruta: str, texto: str, cfg: dict) -> str | None:
                      r"(\ben|\ba|\bin|,|·|-)\s+" + re.escape(c) + r"\b", t):
             return c
     return None
+
+
+# En la descripción de la ficha: señales de que es un negocio o local aunque el título diga «Otras casas»
+RE_NEGOCIO = re.compile(
+    r"\b(escaparates?|licencia (de actividad|de bar|de restauracion|2\.2|c\d)|llicencia d.activitat|"
+    r"bar musical|negocio en funcionamiento|en pleno funcionamiento|en plena actividad|traspaso|traspas|"
+    r"fondo de comercio|ubicacion local|uso comercial|apto para (negocio|oficina|actividad)|"
+    r"tipo\s*:\s*(local|oficina|nave|garaje|parking|trastero|terreno|otro))\b")
+
+
+def negocio_en_ficha(texto: str) -> str | None:
+    m = RE_NEGOCIO.search(normalizar(texto))
+    return m.group(1) if m else None
 
 
 def no_es_vivienda(texto: str) -> str | None:
@@ -384,8 +404,12 @@ def extraer_anuncios(html_txt: str, url_base: str) -> list[dict]:
 
     base_limpia = limpiar_url(url_base)
     enlaces: dict[str, list] = {}
-    for a in soup.find_all("a", href=True):
-        href = a["href"].strip()
+    for a in soup.find_all(lambda t: t.has_attr("href") or t.has_attr("data-path") or t.has_attr("data-href")
+                           or t.has_attr("data-url")):
+        # Algunas plataformas (webs de pisos.com) guardan la ficha en data-path y dejan href vacío
+        href = (a.get("href") or "").strip()
+        if not href or href.startswith("#") or href.lower().startswith("javascript"):
+            href = (a.get("data-path") or a.get("data-href") or a.get("data-url") or "").strip()
         if not href or href.startswith("#") or href.lower().startswith("javascript"):
             continue
         url = urljoin(url_base, href)
@@ -398,7 +422,7 @@ def extraer_anuncios(html_txt: str, url_base: str) -> list[dict]:
         if urlparse(url).path.rstrip("/") == urlparse(url_base).path.rstrip("/") and urlparse(url).netloc.removeprefix("www.") == urlparse(url_base).netloc.removeprefix("www."):
             continue
         ruta = urlparse(url).path + "?" + urlparse(url).query
-        if not PATRON_FICHA.search(ruta) or not re.search(r"\d", ruta):
+        if not PATRON_FICHA.search(ruta) or not (re.search(r"\d", ruta) or FICHA_SIN_NUMERO.search(urlparse(url).path)):
             continue
         # Paginación del propio listado: no es un anuncio
         if (re.search(r"[?&](page|pag|pagina|p|paged)=\d+$", "?" + urlparse(url).query, re.I)
@@ -616,7 +640,7 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
             cuerpo = texto_principal(BeautifulSoup(anuncio["_html"], "html.parser"))[:4000]
             venta = venta or es_venta(f"{ficha['titulo']} {cab}")
             if f.get("solo_viviendas", True):
-                tipo = no_es_vivienda(ficha["titulo"])
+                tipo = no_es_vivienda(ficha["titulo"]) or negocio_en_ficha(cuerpo[:2500])
             # Un importe de venta en la ficha (≥ 30.000 €) delata una venta aunque haya una «cuota» de 1.000 €/mes
             todos = [int(re.sub(r"[.,\s]", "", m.group("a") or m.group("b"))) for m in RE_PRECIO.finditer(cab + " " + cuerpo)]
             precios_altos += [p for p in todos + [ficha["precio"] or 0] if p >= 30000]
@@ -664,6 +688,23 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
         motivo = f"{metros} m² < {f.get('metros_minimos_con_aviso', f['metros_minimos'])}"
     elif metros is None and not f.get("avisar_si_faltan_metros", True):
         motivo = "no indica los metros"
+    if motivo is None and abrir and "_html" not in anuncio:
+        # Va a enviarse: antes, un vistazo a la ficha (un «Otras casas» puede ser un bar en traspaso)
+        try:
+            anuncio["_html"] = descargar(anuncio["url"], timeout, modo)
+            soup = BeautifulSoup(anuncio["_html"], "html.parser")
+            ficha = datos_ficha(soup)
+            cuerpo = texto_principal(BeautifulSoup(anuncio["_html"], "html.parser"))[:2500]
+            if es_venta(f"{ficha['titulo']} {cabecera_ficha(soup)}"):
+                motivo = "es una venta"
+            elif ya_alquilado(ficha["titulo"]):
+                motivo = f"ya alquilado o reservado ({ya_alquilado(ficha['titulo'])})"
+            elif f.get("solo_viviendas", True) and (no_es_vivienda(ficha["titulo"]) or negocio_en_ficha(cuerpo)):
+                motivo = f"no es una vivienda ({no_es_vivienda(ficha['titulo']) or negocio_en_ficha(cuerpo)})"
+            elif ficha["titulo"] and (len(anuncio["titulo"]) < 8 or anuncio["titulo"].lower().startswith(("+ info", "ref"))):
+                anuncio["titulo"] = ficha["titulo"]
+        except Exception as e:
+            anuncio["error_ficha"] = str(e)[:100]
     return {**anuncio, "precio": precio, "metros": metros, "zona": zona, "motivo_descarte": motivo}
 
 

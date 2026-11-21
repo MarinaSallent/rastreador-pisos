@@ -38,6 +38,10 @@ import rastreador as r
 RAIZ = Path(__file__).resolve().parent
 CSV = RAIZ / "agencias.csv"
 PROGRESO = RAIZ / "datos" / "descubrimiento.json"
+# Webs conocidas por otras vías: el listado del Col·legi API (datos/webs_conocidas.csv) y las que pones tú en
+# mis_agencias.csv. Para esas agencias no hace falta adivinar ni buscar: solo encontrar su página de alquileres.
+WEBS_CONOCIDAS = RAIZ / "datos" / "webs_conocidas.csv"
+MIS_AGENCIAS = RAIZ / "mis_agencias.csv"
 
 # Dominios que nunca son la web propia de una agencia
 NO_SON_AGENCIA = re.compile(
@@ -617,7 +621,32 @@ def main() -> int:
                 if not (v.get("estado") in ("sin_web", "error") and not v.get("candidatas"))
                 and not (v.get("estado") == "web_ok" and "pagina_sin_anuncios" not in v and not v.get("revisado_js"))}
     # Webs que no son de la agencia (el dominio no lleva su nombre): se vuelven a buscar desde cero
-    ajenas = [k for k, v in progreso.items() if v.get("web") and not dominio_de_marca(v["web"], v.get("marca", k))]
+    # Webs que alguien ha dado (Col·legi API, tú): se usan tal cual y se busca en ellas la página de alquileres
+    _, filas_csv = cargar_csv()
+    marca_de = {f["aicat"]: clave_marca(f["nombre"]) for f in filas_csv}
+    nombre_de = {f["aicat"]: nombre_comercial(f["nombre"]) for f in filas_csv}
+    dadas: dict[str, str] = {}
+    for ruta in (WEBS_CONOCIDAS, MIS_AGENCIAS):
+        if ruta.exists():
+            with ruta.open(encoding="utf-8-sig", newline="") as fh:
+                for fila in csv.DictReader(fh):
+                    web = (fila.get("web") or "").strip()
+                    if web and not (fila.get("url_alquiler") or "").strip() and fila.get("aicat") in marca_de:
+                        dadas[fila["aicat"]] = web if web.startswith("http") else "https://" + web
+    nuevas_dadas = 0
+    for aicat, web in dadas.items():
+        k = marca_de[aicat]
+        previo = progreso.get(k, {})
+        if previo.get("web_dada") == web or (previo.get("url_alquiler") and previo.get("web") and
+                                             dominio(previo["web"]) == dominio(web)):
+            continue
+        progreso[k] = {"marca": previo.get("marca") or nombre_de[aicat], "web": web, "estado": "web_ok",
+                       "metodo": "dada", "web_dada": web, "version": 0}
+        nuevas_dadas += 1
+    if nuevas_dadas:
+        print(f"{nuevas_dadas} webs dadas (Col·legi API o mis_agencias.csv): busco su página de alquileres")
+    ajenas = [k for k, v in progreso.items() if v.get("web") and not v.get("web_dada")
+              and not dominio_de_marca(v["web"], v.get("marca", k))]
     for k in ajenas:
         del progreso[k]
     if ajenas:
@@ -666,6 +695,10 @@ def main() -> int:
             previo = progreso.get(k, {})
             res = descubrir_marca(m["marca"], m["municipio"], m["aicat"],
                                   previo.get("web") if previo.get("revisar") else None)
+            if previo.get("web_dada"):
+                res["web_dada"] = previo["web_dada"]
+                if not res.get("web"):
+                    res.update(web=previo["web_dada"], estado="web_ok")
         except Exception as e:
             res = {"marca": m["marca"], "estado": "error", "error": str(e)[:150]}
         progreso[k] = res
