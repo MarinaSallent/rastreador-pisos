@@ -465,6 +465,7 @@ def enlace_portal(html: str) -> str | None:
 
 def buscar_paginas_alquiler(info: dict, html: str, web: str) -> dict:
     info["version"] = VERSION
+    info["portal_revisado"] = True
     portal = enlace_portal(html)
     if portal:
         info["portal"] = portal
@@ -623,6 +624,8 @@ def main() -> int:
         print(f"Descarto {len(ajenas)} webs que no llevan el nombre de la agencia: se buscarán de nuevo")
     viejas = [k for k, v in progreso.items() if v.get("web") and (
         v.get("version", 1) < VERSION
+        # webs sin página de alquileres revisadas antes de saber detectar Idealista: ¿mandan a un portal?
+        or (v.get("estado") == "web_ok" and not v.get("portal_revisado"))
         or (v.get("url_alquiler") and not validar_ruta(v["url_alquiler"], v.get("anuncios"))[0]))]
     if viejas:
         print(f"Revisando con los criterios nuevos {len(viejas)} marcas que ya tenían web")
