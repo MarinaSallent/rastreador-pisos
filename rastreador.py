@@ -37,6 +37,7 @@ RAIZ = Path(__file__).resolve().parent
 ESTADO = RAIZ / "estado"
 VISTOS = ESTADO / "vistos.json"
 TELEGRAM = ESTADO / "telegram.json"
+A_CONTACTAR = ESTADO / "a_contactar.json"
 FALLOS = ESTADO / "fallos.json"
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -125,21 +126,62 @@ def extraer_metros(texto: str) -> int | None:
     return max(valores) if valores else None
 
 
+RE_VENTA = re.compile(r"\b(venta|en venda|es ven|se vende|for sale|comprar|compraventa|obra nueva|obra nova|traspaso|traspas)\b")
+RE_ALQUILER = re.compile(r"\b(alquiler|alquilar|alquila|lloguer|llogar|es lloga|se alquila|for rent|to rent|arrendamiento)\b")
+# Calles con nombre de barrio que en realidad están en otro (Passeig de Gràcia es Eixample)
+FRASES_ENGANOSAS = [(r"\b(passeig|paseo|pg\.?|pº) de gracia\b", "eixample"), (r"\bsarria de ter\b", "girona")]
+
+
+def es_venta(texto: str) -> bool:
+    t = normalizar(texto).replace("-", " ").replace("_", " ")
+    return bool(RE_VENTA.search(t)) and not RE_ALQUILER.search(t)
+
+
+def _buscar(t: str, palabras: list[str]) -> int | None:
+    pos = [m.start() for p in palabras for m in [re.search(r"\b" + re.escape(normalizar(p)) + r"\b", t)] if m]
+    return min(pos) if pos else None
+
+
 def detectar_zona(texto: str, cfg: dict) -> tuple[str | None, bool]:
-    """Devuelve (zona encontrada, excluido)."""
-    t = normalizar(texto)
+    """Devuelve (zona, descartado).
+
+    zona = una de tus zonas si es lo primero que se nombra; descartado = True si se nombra antes otro barrio
+    o municipio (p. ej. «Dreta de l'Eixample»), o una palabra de exclusión."""
+    t = normalizar(texto).replace("-", " ").replace("_", " ").replace("´", "'")
+    for patron, sustituto in FRASES_ENGANOSAS:
+        t = re.sub(patron, sustituto, t)
     for frase in cfg.get("exclusiones", []):
         if re.search(r"\b" + re.escape(normalizar(frase)) + r"\b", t):
             return None, True
+    mejor, pos_mejor = None, None
     for zona, palabras in cfg["zonas"].items():
-        for p in palabras:
-            if re.search(r"\b" + re.escape(normalizar(p)) + r"\b", t):
-                return zona, False
+        p = _buscar(t, palabras)
+        if p is not None and (pos_mejor is None or p < pos_mejor):
+            mejor, pos_mejor = zona, p
+    pos_otra = _buscar(t, cfg.get("otras_zonas", []))
+    if pos_otra is not None and (pos_mejor is None or pos_otra < pos_mejor):
+        return None, True
+    if mejor:
+        return mejor, False
     cps = set(cfg.get("codigos_postales", []))
     for cp in RE_CP.findall(t):
         if cp in cps:
             return f"CP {cp}", False
     return None, False
+
+
+def cabecera_ficha(soup: BeautifulSoup) -> str:
+    """Título, migas de pan y descripción corta de una ficha: donde se dice de verdad qué y dónde es."""
+    partes = [soup.title.get_text(" ", strip=True) if soup.title else ""]
+    for sel in ["meta[property='og:title']", "meta[name='description']", "meta[property='og:description']"]:
+        m = soup.select_one(sel)
+        if m and m.get("content"):
+            partes.append(m["content"])
+    for sel in ["h1", "[class*=breadcrumb]", "[class*=location]", "[class*=ubicacion]", "[class*=address]",
+                "[class*=zona]", "[itemprop=address]"]:
+        for el in soup.select(sel)[:2]:
+            partes.append(el.get_text(" ", strip=True)[:300])
+    return " · ".join(p for p in partes if p)
 
 
 def texto_principal(soup: BeautifulSoup) -> str:
@@ -291,7 +333,9 @@ def cargar_agencias() -> list[dict]:
         m = re.search(r"\(([^()]+)\)\s*$", nombre)
         ag = por_url.setdefault(urls, {
             "id": fila.get("aicat") or urls[0], "nombre": m.group(1) if m else nombre, "urls": list(urls),
-            "modo": fila.get("modo", ""), "contactado": False, "en_zona": False, "oficinas": 0})
+            "modo": fila.get("modo", ""), "contactado": False, "en_zona": False, "oficinas": 0,
+            "direccion": ", ".join(x for x in [fila.get("direccion", ""), fila.get("cp", ""), fila.get("municipio", "")] if x),
+            "web": fila.get("web", "")})
         ag["oficinas"] += 1
         ag["contactado"] |= normalizar(fila.get("contactado", "")) in SI
         # Si la oficina está en tus distritos, un anuncio sin barrio probablemente es de la zona
@@ -306,24 +350,41 @@ def cargar_agencias() -> list[dict]:
 # ---------------------------------------------------------------- lógica principal
 def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agencia_en_zona: bool = True) -> dict:
     texto = anuncio["texto"]
+    identidad = f"{anuncio['titulo']} {urlparse(anuncio['url']).path} {texto[:300]}"
     precio, metros = extraer_precio(texto), extraer_metros(texto)
-    zona, excluido = detectar_zona(texto, cfg)
-    if abrir and (precio is None or metros is None or zona is None):
+    venta = es_venta(identidad)
+    # La zona se decide por el título, la dirección web y la tarjeta; nunca por menús o pisos relacionados
+    zona, excluido = detectar_zona(f"{anuncio['titulo']} · {urlparse(anuncio['url']).path} · {texto}", cfg)
+    precios_altos = [p for p in [precio] if p and p >= 30000]
+    if abrir and not venta and not excluido and (precio is None or metros is None or zona is None):
         try:
             anuncio["_html"] = descargar(anuncio["url"], timeout, modo)
-            ficha = texto_principal(BeautifulSoup(anuncio["_html"], "html.parser"))
-            precio = precio or extraer_precio(ficha)
-            metros = metros or extraer_metros(ficha)
+            soup = BeautifulSoup(anuncio["_html"], "html.parser")
+            cab = cabecera_ficha(soup)
+            cuerpo = texto_principal(soup)[:4000]
+            venta = venta or es_venta(cab)
+            # Precio: el de la cabecera; si no, el primero del cuerpo. Un importe de venta en la ficha
+            # (≥ 30.000 €) delata una venta aunque haya una «cuota de hipoteca» de 1.000 €/mes.
+            todos = [int(re.sub(r"[.\s]", "", m.group("a") or m.group("b"))) for m in RE_PRECIO.finditer(cab + " " + cuerpo)]
+            precios_altos += [p for p in todos if p >= 30000]
+            precio = precio or extraer_precio(cab) or extraer_precio(cuerpo)
+            metros = metros or extraer_metros(cab) or extraer_metros(cuerpo)
             if zona is None and not excluido:
-                zona, excluido = detectar_zona(ficha[:6000], cfg)
+                zona, excluido = detectar_zona(cab, cfg)
+                if zona is None and not excluido:
+                    zona, excluido = detectar_zona(cuerpo[:1500], cfg)
             if not anuncio["titulo"] or len(anuncio["titulo"]) < 8:
-                anuncio["titulo"] = ficha[:120]
+                anuncio["titulo"] = (soup.find("h1").get_text(" ", strip=True) if soup.find("h1") else cuerpo)[:120]
         except Exception as e:  # la ficha falla: seguimos con lo que hay
             anuncio["error_ficha"] = str(e)[:100]
     f = cfg["filtros"]
     motivo = None
-    if excluido:
-        motivo = "excluido por palabra clave"
+    if venta:
+        motivo = "es una venta"
+    elif precios_altos:
+        motivo = f"parece venta ({max(precios_altos)} €)"
+    elif excluido:
+        motivo = "fuera de tus zonas"
     elif precio is not None and precio > 10000:
         motivo = f"parece venta ({precio} €)"
     elif precio is not None and precio > f["precio_maximo"]:
@@ -397,7 +458,28 @@ def ciclo(cfg: dict) -> int:
     tg_estado = cargar_tg()
     agencias = cargar_agencias()
     vistos, fallos = cargar_json(VISTOS, {}), cargar_json(FALLOS, {})
-    print(f"{datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC · {len(agencias)} agencias vigiladas")
+    a_contactar = cargar_json(A_CONTACTAR, {})
+    dias = cfg["rastreo"].get("dias_sin_novedades", 180)
+    ahora = time.time()
+    activas = []
+    for ag in agencias:
+        if ag["id"] in a_contactar:
+            continue
+        reg = vistos.get(ag["id"])
+        if reg and dias and ahora - max(reg.get("desde", ahora), reg.get("ultimo_nuevo", 0)) > dias * 86400:
+            a_contactar[ag["id"]] = {"nombre": ag["nombre"], "direccion": ag.get("direccion", ""),
+                                     "web": ag.get("web", ""), "url_alquiler": ag["urls"][0],
+                                     "desde": datetime.now(timezone.utc).strftime("%Y-%m-%d")}
+            enviar_telegram(f"🏢 <b>{html.escape(ag['nombre'])}</b> lleva {dias // 30} meses sin publicar ningún piso "
+                            f"nuevo en su web. Dejo de vigilarla: mejor pasar por la oficina y dejar vuestro perfil.\n"
+                            f"📍 {html.escape(ag.get('direccion', '') or 'dirección no disponible')}")
+            continue
+        activas.append(ag)
+    if len(activas) != len(agencias):
+        guardar_json(A_CONTACTAR, a_contactar)
+    agencias = activas
+    print(f"{datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC · {len(agencias)} agencias vigiladas"
+          f" · {len(a_contactar)} para contactar en persona")
     total = 0
     with ThreadPoolExecutor(max_workers=12) as ex:
         futuros = {ex.submit(revisar_agencia, ag, cfg, vistos): ag for ag in agencias}
@@ -415,7 +497,11 @@ def ciclo(cfg: dict) -> int:
             fallos.pop(ag["id"], None)
             if not urls:
                 print(f"? {ag['nombre']}: no se detecta ningún anuncio; prueba --probar o modo js")
+            nueva = ag["id"] not in vistos
             reg = vistos.setdefault(ag["id"], {"urls": []})
+            reg.setdefault("desde", time.time())
+            if not nueva and any(u not in set(reg["urls"]) for u in urls):
+                reg["ultimo_nuevo"] = time.time()  # ha publicado algo (cumpla o no vuestros filtros)
             reg["urls"] = list(dict.fromkeys(urls + reg["urls"]))[:3000]
             for a in avisos:
                 contacto.notificar(mensaje(ag, a), a["url"], a.get("detalle") or {}, tg_estado["pendientes"],

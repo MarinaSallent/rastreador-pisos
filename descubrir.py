@@ -323,7 +323,58 @@ def adivinar_web(marca: str, aicat: set[str]) -> tuple[str, str] | None:
     return None
 
 
+VERSION = 3  # sube cuando cambian los criterios: las marcas de versiones anteriores se revisan de nuevo
+
+ZONA_BCN = re.compile(r"(barcelona|bcn|hospitalet|badalona|sant cugat|esplugues|cornella|santa coloma|sant adria|"
+                      r"eixample|gracia|sarria|sant gervasi|sant marti|poblenou|sant andreu|les corts|sants|horta|"
+                      r"nou barris|ciutat vella|sagrera|clot|guinardo|vallcarca|putxet|bonanova|\b08\d{3}\b)")
+RUTA_PROHIBIDA = re.compile(r"(noticia|news|blog|actualitat|article|servici|servei|gestion-de|gestio-de|administraci|"
+                            r"tasaci|valoraci|relocation|local|oficina|despacho|nave|industrial|parking|garaje|"
+                            r"trastero|obra.?nueva|rentabilidad|inversi|por-que|faq|contact|vacacional|turistic|"
+                            r"temporada|habitacion|room|coliving|holiday)")
+RUTA_VENTA = re.compile(r"(venta|venda|comprar|buy|sale|traspas)")
+RUTAS_TIPICAS = ["alquiler", "es/alquiler", "lloguer", "ca/lloguer", "alquiler/es/", "lloguer/ca/", "inmuebles/alquiler",
+                 "propiedades/alquiler", "es/inmuebles-en-alquiler", "pisos-alquiler", "es/pisos-en-alquiler",
+                 "rent", "en/rent"]
+
+
+NO_ENCONTRADA = re.compile(r"(404|no encontrad|not found|no existe|pagina no disponible|page not found|no s'ha trobat)")
+
+
+def validar_listado(html: str, url: str) -> tuple[bool, str, int]:
+    """¿Es la página donde la agencia publica sus pisos de alquiler? Puede estar vacía hoy: también vale.
+
+    Se descartan solo direcciones que claramente no lo son (noticias, servicios, locales, oficinas, venta,
+    la ficha de un solo piso) y listados con anuncios pero todos de fuera de la zona de Barcelona."""
+    ruta = r.normalizar(urlparse(url).path + "?" + urlparse(url).query)
+    if RUTA_PROHIBIDA.search(ruta):
+        return False, "la dirección es de noticias, servicios, locales u oficinas", 0
+    if RUTA_VENTA.search(ruta) and not re.search(r"(alquil|lloguer|rent)", ruta):
+        return False, "la dirección es de venta", 0
+    ultimo = urlparse(url).path.rstrip("/").rsplit("/", 1)[-1]
+    if re.search(r"\d{4,}", ultimo) or ultimo.count("-") >= 6:
+        return False, "parece la ficha de un solo piso", 0
+    if urlparse(url).path.strip("/") == "":
+        return False, "es la portada", 0
+    texto = r.normalizar(BeautifulSoup(html, "html.parser").get_text(" ", strip=True)[:20000])
+    titulo = r.normalizar((BeautifulSoup(html, "html.parser").title or BeautifulSoup("", "html.parser")).get_text() or "")
+    if NO_ENCONTRADA.search(titulo) or (len(texto) < 3000 and NO_ENCONTRADA.search(texto)):
+        return False, "la página no existe", 0
+    if not re.search(r"(alquil|lloguer|llogar|rent|arrend)", ruta + " " + titulo + " " + texto[:5000]):
+        return False, "no habla de alquiler", 0
+    anuncios = r.extraer_anuncios(html, url)
+    if anuncios:
+        precios = [r.extraer_precio(a["texto"]) for a in anuncios]
+        if any(precios) and not any(p and 250 <= p <= 8000 for p in precios):
+            return False, "los anuncios no tienen precios de alquiler", len(anuncios)
+        textos = r.normalizar(" ".join(a["texto"] + " " + a["url"] for a in anuncios) + " " + url)
+        if len(anuncios) >= 3 and not ZONA_BCN.search(textos):
+            return False, "ningún anuncio de la zona de Barcelona", len(anuncios)
+    return True, "ok", len(anuncios)
+
+
 def buscar_paginas_alquiler(info: dict, html: str, web: str) -> dict:
+    info["version"] = VERSION
     paginas = paginas_alquiler(html, web)
     if not paginas:  # el menú de la portada a veces se pinta con JavaScript
         try:
@@ -331,30 +382,51 @@ def buscar_paginas_alquiler(info: dict, html: str, web: str) -> dict:
             paginas = paginas_alquiler(html_js, web)
         except Exception:
             pass
+    base = web if web.endswith("/") else web + "/"
+    for ruta in RUTAS_TIPICAS:  # direcciones habituales aunque no estén enlazadas en la portada
+        u = urljoin(base, ruta)
+        if u not in paginas:
+            paginas.append(u)
+    rechazos = {}
+    vacias: list[str] = []  # páginas de alquiler válidas pero hoy sin anuncios legibles
     for url in paginas:
         try:
             h2, url_final = descargar(url)
-            anuncios = r.extraer_anuncios(h2, url_final)
         except Exception:
             continue
-        if anuncios:
-            return {**info, "url_alquiler": url_final, "anuncios": len(anuncios), "estado": "vigilable"}
-        time.sleep(1)
-    # Sin anuncios en el HTML: probar la mejor página con un navegador real (webs con JavaScript)
-    for url in paginas[:2]:
+        if url_final in vacias or url_final in rechazos:
+            continue
+        ok, motivo, n = validar_listado(h2, url_final)
+        if ok and n:
+            return {**info, "url_alquiler": url_final, "anuncios": n, "estado": "vigilable"}
+        if ok:
+            vacias.append(url_final)
+        else:
+            rechazos[url_final] = motivo
+        time.sleep(0.5)
+    # ¿Las «vacías» cargan los pisos con JavaScript? Se prueba con un navegador real
+    for url in vacias[:2]:
         try:
-            anuncios = r.extraer_anuncios(r.descargar_js(url, 30), url)
+            ok, motivo, n = validar_listado(r.descargar_js(url, 30), url)
         except Exception:
             continue
-        if anuncios:
-            return {**info, "url_alquiler": url, "anuncios": len(anuncios), "estado": "vigilable", "modo": "js"}
-    if paginas:
-        info["pagina_sin_anuncios"] = paginas[0]
+        if ok and n:
+            return {**info, "url_alquiler": url, "anuncios": n, "estado": "vigilable", "modo": "js"}
+    if vacias:  # sin pisos hoy: se vigila igual; el rastreador la aparta si en 6 meses no publica nada
+        return {**info, "url_alquiler": vacias[0], "anuncios": 0, "estado": "vigilable"}
+    info["rechazadas"] = dict(list(rechazos.items())[:5])
     info["revisado_js"] = True
     return info
 
 
-def descubrir_marca(marca: str, municipio: str, aicat: set[str]) -> dict:
+def descubrir_marca(marca: str, municipio: str, aicat: set[str], web_conocida: str | None = None) -> dict:
+    if web_conocida:  # ya sabemos la web: solo hay que buscar bien la página de alquileres
+        try:
+            html, final = descargar(web_conocida)
+            return buscar_paginas_alquiler({"marca": marca, "metodo": "dominio", "web": final, "estado": "web_ok"},
+                                           html, final)
+        except Exception:
+            pass
     # 1) Sin buscador: probar dominios con el nombre de la agencia
     adivinada = adivinar_web(marca, aicat)
     if adivinada:
@@ -400,22 +472,20 @@ def guardar_csv(campos: list[str], filas: list[dict]) -> None:
 
 
 def aplicar(progreso: dict) -> tuple[int, int]:
+    """Vuelca lo descubierto en agencias.csv. Tus cambios a mano van en mis_agencias.csv y mandan sobre esto."""
     campos, filas = cargar_csv()
     webs = vig = 0
     for fila in filas:
         res = progreso.get(clave_marca(fila["nombre"]))
-        if not res:
-            continue
-        if res.get("web") and res["estado"] in ("web_ok", "vigilable") and not fila.get("web"):
-            fila["web"] = res["web"]
-        if res.get("url_alquiler") and not fila.get("url_alquiler"):
-            fila["url_alquiler"] = res["url_alquiler"]
-            if res.get("modo") and not fila.get("modo"):
-                fila["modo"] = res["modo"]
-            if not fila.get("vigilar"):
-                fila["vigilar"] = "sí"
+        if res and res.get("revisar"):  # pendiente de revisar con los criterios nuevos: de momento no se vigila
+            fila["url_alquiler"] = fila["vigilar"] = fila["modo"] = ""
+        elif res:
+            fila["web"] = res.get("web", "") if res["estado"] in ("web_ok", "vigilable") else ""
+            fila["url_alquiler"] = res.get("url_alquiler", "")
+            fila["vigilar"] = "sí" if res.get("url_alquiler") else ""
+            fila["modo"] = res.get("modo", "")
         webs += bool(fila.get("web"))
-        vig += r.normalizar(fila.get("vigilar", "")) in r.SI and bool(fila.get("url_alquiler"))
+        vig += bool(fila.get("url_alquiler"))
     guardar_csv(campos, filas)
     return webs, vig
 
@@ -434,6 +504,11 @@ def main() -> int:
     progreso = {k: v for k, v in progreso.items()
                 if not (v.get("estado") in ("sin_web", "error") and not v.get("candidatas"))
                 and not (v.get("estado") == "web_ok" and "pagina_sin_anuncios" not in v and not v.get("revisado_js"))}
+    viejas = [k for k, v in progreso.items() if v.get("web") and v.get("version", 1) < VERSION]
+    if viejas:
+        print(f"Revisando con los criterios nuevos {len(viejas)} marcas que ya tenían web")
+        for k in viejas:
+            progreso[k]["revisar"] = True
     if any(v.get("estado") == "busqueda_pendiente" for v in progreso.values()):
         try:
             buscar("inmobiliaria Gràcia Barcelona")
@@ -449,8 +524,6 @@ def main() -> int:
     _, filas = cargar_csv()
     marcas: dict[str, dict] = {}
     for f in filas:
-        if f.get("web") or f.get("url_alquiler"):
-            continue
         if es_persona(f["nombre"]) and not args.incluir_personas:
             continue
         k = clave_marca(f["nombre"])
@@ -458,8 +531,8 @@ def main() -> int:
                                   "aicat": set(), "tu_zona": False})
         m["aicat"].add(f["aicat"])
         m["tu_zona"] |= r.normalizar(f.get("en_tus_zonas", "")) in r.SI
-    pendientes = [(k, m) for k, m in marcas.items() if k not in progreso]
-    pendientes.sort(key=lambda x: (not x[1]["tu_zona"], -len(x[1]["aicat"])))  # primero tus barrios y las cadenas
+    pendientes = [(k, m) for k, m in marcas.items() if k not in progreso or progreso[k].get("revisar")]
+    pendientes.sort(key=lambda x: (not progreso.get(x[0], {}).get("revisar"), not x[1]["tu_zona"], -len(x[1]["aicat"])))  # primero tus barrios y las cadenas
     print(f"{len(marcas)} marcas · {len(pendientes)} pendientes · esta tanda: {min(args.max, len(pendientes))}")
 
     fin = time.time() + args.minutos * 60
@@ -468,11 +541,16 @@ def main() -> int:
         if time.time() > fin:
             break
         try:
-            res = descubrir_marca(m["marca"], m["municipio"], m["aicat"])
+            previo = progreso.get(k, {})
+            res = descubrir_marca(m["marca"], m["municipio"], m["aicat"],
+                                  previo.get("web") if previo.get("revisar") else None)
         except Exception as e:
             res = {"marca": m["marca"], "estado": "error", "error": str(e)[:150]}
         progreso[k] = res
         hechas += 1
+        if res.get("rechazadas") and res["estado"] != "vigilable":
+            for u, mot in list(res["rechazadas"].items())[:2]:
+                print(f"{'':22}descartada: {u[:80]} ({mot})")
         print(f"[{res['estado']:>18}] {m['marca'][:45]:45} {res.get('url_alquiler') or res.get('web') or ''}"
               + (" (js)" if res.get("modo") == "js" else ""))
         if hechas % 20 == 0:
