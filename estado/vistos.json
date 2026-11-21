@@ -39,6 +39,7 @@
   ]
  },
  "10113": {
+  "desde": 1795285037.009859,
   "urls": [
    "https://ofolomeproperty.com/author/ofolomeproperty_a3uklg"
   ]
@@ -127,9 +128,6 @@
    "https://serviciosclaris.com/properties/otras-casas-barcelona-297-00-m2",
    "https://serviciosclaris.com/properties/despacho-barcelona-104-00-m2",
    "https://serviciosclaris.com/properties/otras-casas-barcelona-90-00-m2-5",
-   "https://serviciosclaris.com/alquiler-anual/page/2",
-   "https://serviciosclaris.com/alquiler-anual/page/3",
-   "https://serviciosclaris.com/alquiler-anual/page/10",
    "https://serviciosclaris.com/properties/otras-casas-barcelona-70-00-m2-3",
    "https://serviciosclaris.com/properties/oficina-barcelona-91-00-m2",
    "https://serviciosclaris.com/properties/otras-casas-barcelona-40-00-m2",
@@ -139,7 +137,6 @@
    "https://serviciosclaris.com/properties/otras-casas-barcelona-32-00-m2",
    "https://serviciosclaris.com/properties/otras-casas-barcelona-240-00-m2",
    "https://serviciosclaris.com/properties/otras-casas-barcelona-103-00-m2",
-   "https://serviciosclaris.com/alquiler-anual/page/4",
    "https://serviciosclaris.com/properties/otras-casas-hospitalet-de-llobregat-436-00-m2",
    "https://serviciosclaris.com/properties/otras-casas-barcelona-237-00-m2",
    "https://serviciosclaris.com/properties/oficina-barcelona-80-00-m2",
@@ -149,12 +146,16 @@
    "https://serviciosclaris.com/properties/oficina-barcelona-430-00-m2",
    "https://serviciosclaris.com/properties/otras-casas-barcelona-55-00-m2",
    "https://serviciosclaris.com/properties/otras-casas-barcelona-85-00-m2-3",
-   "https://serviciosclaris.com/alquiler-anual/page/5",
    "https://serviciosclaris.com/properties/oficina-barcelona-150-00-m2",
    "https://serviciosclaris.com/properties/otras-casas-barcelona-158-00-m2-2",
    "https://serviciosclaris.com/properties/otras-casas-barcelona-248-00-m2-2",
    "https://serviciosclaris.com/properties/oficina-barcelona-115-00-m2",
    "https://serviciosclaris.com/properties/local-comercial-barcelona-125-00-m2-3",
+   "https://serviciosclaris.com/alquiler-anual/page/2",
+   "https://serviciosclaris.com/alquiler-anual/page/3",
+   "https://serviciosclaris.com/alquiler-anual/page/10",
+   "https://serviciosclaris.com/alquiler-anual/page/4",
+   "https://serviciosclaris.com/alquiler-anual/page/5",
    "https://serviciosclaris.com/alquiler-anual/page/9",
    "https://serviciosclaris.com/alquiler-anual/page/8",
    "https://serviciosclaris.com/buesqueda-de-pisos?sort=newest&search_type=0&search_category=0&search_sub_category=0&search_bedrooms=0&search_bathrooms=0",
@@ -171,13 +172,31 @@
    "https://pimpamcapital.com/property-submit-front-2"
   ]
  },
+ "10571": {
+  "desde": 1795285072.9586759,
+  "urls": [
+   "https://reddfincas3000.com/inmueble/garaje-parking-para-coche-mediano-situado-en-la-calle-dos-de-maig-esquina-valencia-facil-acceso-en-prime/26966840",
+   "https://reddfincas3000.com/inmueble/estudio-ideal/26156546",
+   "https://reddfincas3000.com/inmueble/garaje-plaza-de-aparcamiento-situada-en-la-calle-padilla-entre-las-calles-valencia-y-aragon-esta-plaza-d/21572634",
+   "https://reddfincas3000.com/inmueble/piso-en-alquiler-en-calle-de-provenca-128-barcelona/23438512",
+   "https://reddfincas3000.com/inmueble/piso-2-habitaciones-alquiler-temporal-piso-de-2-dormitorios-totalmente-amueblado-y-equipado-con-todos-los-electrodom/23438511",
+   "https://reddfincas3000.com/inmueble/piso-3-habitaciones-disponible-solo-en-septiembre-precioso-apartamento-en-playa-daro-junto-a-la-playa-sa-conca-/22661886",
+   "https://reddfincas3000.com/inmueble/garaje-plazas-de-parking-en-alquiler-en-el-barrio-de-la-sagrada-familia-en-la-calle-aragon-entre-las-calle/21446082",
+   "https://reddfincas3000.com/inmueble/garaje-amplio-garaje-en-alquiler-ubicado-estrategicamente-entre-las-calles-cartagena-y-castillejos-este-/21446090",
+   "https://reddfincas3000.com/inmueble/garaje-plaza-de-parking-en-alquiler-situada-en-passatge-vilaret-entre-las-calles-valencia-y-mallorcacon-f/21446081"
+  ]
+ },
  "10622": {
   "desde": 1795273912.0977895,
   "urls": []
  },
  "1063": {
   "desde": 1795273888.2805836,
+  "ultimo_nuevo": 1795284994.65773,
   "urls": [
+   "https://carolinamarti.es/search?t=14&o=rental&a=1&l=1",
+   "https://carolinamarti.es/search?t=14&o=rental&a=1&l=1&d=5",
+   "https://carolinamarti.es/eixample-dret/piso-en-venta-en-eixample-105m2-3-habitaciones-y-patio-de-manzana-en-roger-de-lluria",
    "https://carolinamarti.es/search?t=1&o=rental&a=1&l=6"
   ]
  },
@@ -469,9 +488,6 @@
    "https://locabarcelona.com/en/property/tourism-property-provencals-del-poblenou-tua6cbadr908",
    "https://locabarcelona.com/en/property/property-marina-del-prat-vermell-barcelona-lapc82mot322",
    "https://locabarcelona.com/en/property/apartment-sant-pere-santa-caterina-ta12rec228",
-   "https://locabarcelona.com/en/property-for-rent/page/2",
-   "https://locabarcelona.com/en/property-for-rent/page/3",
-   "https://locabarcelona.com/en/property-for-rent/page/4",
    "https://locabarcelona.com/en/property/property-sagrera-barcelona-ta13neo616",
    "https://locabarcelona.com/en/property/4-bedrooms-flat-in-the-city-center-2",
    "https://locabarcelona.com/en/property/furnished-apartment-short-term-rental-gracia-barcelona-ta13grg951",
@@ -487,7 +503,6 @@
    "https://locabarcelona.com/en/property/tourism-rental-sant-antoni-barcelona-tua23cou1134",
    "https://locabarcelona.com/en/property/shortterm-rental-poble-sec-barcelona-ta11mag",
    "https://locabarcelona.com/en/property/shortterm-rental-apartment-barcelona-ta15ar4665",
-   "https://locabarcelona.com/en/property-for-rent/page/5",
    "https://locabarcelona.com/en/property/property-nova-esquerra-de-l-eixample-barcelona-ta23ent876",
    "https://locabarcelona.com/en/property/short-term-rental-sant-antoni-barcelona-ta21ent662",
    "https://locabarcelona.com/en/property/apartment-sant-pere-santa-caterina-la-ribera-barcelona-ta4pon878",
@@ -503,7 +518,6 @@
    "https://locabarcelona.com/en/property/housing-tourism-camp-de-larpa-del-clot-tua31ind1115",
    "https://locabarcelona.com/en/property/tourist-apartment-camp-de-larpa-del-clot-tua1ind1011",
    "https://locabarcelona.com/en/property/tourist-apartment-camp-de-larpa-del-clot-barcelona-tua3ind1113",
-   "https://locabarcelona.com/en/property-for-rent/page/6",
    "https://locabarcelona.com/en/property/tourist-apartment-camp-de-larpa-del-clot-tua3ind1112",
    "https://locabarcelona.com/en/property/shortterm-rental-property-barcelona-ta22ari874",
    "https://locabarcelona.com/en/property/property-sant-antoni-barcelona-tuaebe1par1133",
@@ -519,6 +533,11 @@
    "https://locabarcelona.com/en/property/short-term-rental-barri-gotic-ta11cod851",
    "https://locabarcelona.com/en/property/short-term-rental-navas-barcelona-ta36bis",
    "https://locabarcelona.com/en/property/short-term-rental-raval-barcelona-ta33judc839",
+   "https://locabarcelona.com/en/property-for-rent/page/2",
+   "https://locabarcelona.com/en/property-for-rent/page/3",
+   "https://locabarcelona.com/en/property-for-rent/page/4",
+   "https://locabarcelona.com/en/property-for-rent/page/5",
+   "https://locabarcelona.com/en/property-for-rent/page/6",
    "https://locabarcelona.com/en/property-for-rent/page/7"
   ]
  },
@@ -536,6 +555,10 @@
  },
  "11627": {
   "desde": 1795282404.4265175,
+  "urls": []
+ },
+ "11756": {
+  "desde": 1795285049.7616735,
   "urls": []
  },
  "11808": {
@@ -872,11 +895,11 @@
  "13305": {
   "desde": 1795273919.1308715,
   "urls": [
-   "https://finquescampanya.com/immobles/95",
    "https://finquescampanya.com/immobles/524",
    "https://finquescampanya.com/immobles/533",
    "https://finquescampanya.com/immobles/551",
-   "https://finquescampanya.com/immobles/550"
+   "https://finquescampanya.com/immobles/550",
+   "https://finquescampanya.com/immobles/95"
   ]
  },
  "1335": {
@@ -978,8 +1001,6 @@
  "1425": {
   "desde": 1795273891.0171971,
   "urls": [
-   "https://fin-per.com/alquiler/es/index.php?vistas=1",
-   "https://fin-per.com/alquiler/es/index.php?descartadas=1",
    "https://fin-per.com/alquiler/es/index.php?favoritas=1",
    "https://fin-per.com/alquiler/es/ficha/parking/barcelona/eixample/6806/25105219/es",
    "https://fin-per.com/alquiler/es/ficha/parking/barcelona/sant-antoni/6806/9072251/es",
@@ -992,7 +1013,9 @@
    "https://fin-per.com/alquiler/es/ficha/parking/barcelona/poble-sec/6806/15018471/es",
    "https://fin-per.com/alquiler/es/ficha/parking/barcelona/sant-antoni/6806/26372079/es",
    "https://fin-per.com/alquiler/es/ficha/parking/hospitalet-de-llobregat/collblanc/6806/27334469/es",
-   "https://fin-per.com/alquiler/es/ficha/parking/barcelona/poble-sec/6806/16878637/es"
+   "https://fin-per.com/alquiler/es/ficha/parking/barcelona/poble-sec/6806/16878637/es",
+   "https://fin-per.com/alquiler/es/index.php?vistas=1",
+   "https://fin-per.com/alquiler/es/index.php?descartadas=1"
   ]
  },
  "1431": {
@@ -1345,13 +1368,17 @@
  },
  "3300": {
   "desde": 1795273894.2117236,
+  "ultimo_nuevo": 1795284999.8535717,
   "urls": [
-   "https://flashinmuebles.com/inmueble.php?zona=sants-08029&id=853",
-   "https://flashinmuebles.com/inmueble.php?zona=baix-emporda-girona-17121&id=831",
-   "https://flashinmuebles.com/inmueble.php?zona=ensanche-izquierdo-&id=854",
+   "https://flashinmuebles.com/inmueble.php?zona=sants&id=928",
+   "https://flashinmuebles.com/inmueble.php?zona=gelida-alt-penedes&id=927",
+   "https://flashinmuebles.com/inmueble.php?zona=eixample-dret&id=911",
    "https://flashinmuebles.com/inmueble.php?zona=ciutat-vella-el-raval-08001&id=926",
    "https://flashinmuebles.com/inmueble.php?zona=torrelles-de-foix-&id=905",
-   "https://flashinmuebles.com/inmueble.php?zona=sant-gervasi-galvany-08021&id=893"
+   "https://flashinmuebles.com/inmueble.php?zona=sant-gervasi-galvany-08021&id=893",
+   "https://flashinmuebles.com/inmueble.php?zona=sants-08029&id=853",
+   "https://flashinmuebles.com/inmueble.php?zona=baix-emporda-girona-17121&id=831",
+   "https://flashinmuebles.com/inmueble.php?zona=ensanche-izquierdo-&id=854"
   ]
  },
  "332": {
@@ -2090,9 +2117,6 @@
  "5243": {
   "desde": 1795273898.6125286,
   "urls": [
-   "https://maxricart.com/luxury-properties-for-rent-in-barcelona/1",
-   "https://maxricart.com/propiedades-de-lujo-en-barcelona/1",
-   "https://maxricart.com/casas-y-pisos-de-lujo-en-alquiler-barcelona/2",
    "https://maxricart.com/propiedades/alquiler/espectacular-casa-de-diseno-en-la-bonanova/1895",
    "https://maxricart.com/propiedades/alquiler/inmejorable-vivienda-reformada-con-vistas-al-turo-park/2744",
    "https://maxricart.com/propiedades/alquiler/casa-independiente-con-jardin-y-piscina-en-pedralbes-510m/4259",
@@ -2118,6 +2142,9 @@
    "https://maxricart.com/propiedades/alquiler/totalmente-amueblado-al-lado-de-turo-park/960",
    "https://maxricart.com/propiedades/alquiler/espectacular-de-diseno-a-estrenar-en-el-eixample-100m/2853",
    "https://maxricart.com/propiedades/alquiler/las-mejores-vistas-de-barcelona/4604",
+   "https://maxricart.com/luxury-properties-for-rent-in-barcelona/1",
+   "https://maxricart.com/propiedades-de-lujo-en-barcelona/1",
+   "https://maxricart.com/casas-y-pisos-de-lujo-en-alquiler-barcelona/2",
    "https://maxricart.com/pisos-de-lujo-en-alquiler-barcelona/1",
    "https://maxricart.com/casas-de-lujo-en-alquiler-barcelona/1",
    "https://maxricart.com/aticos-de-lujo-en-alquiler-barcelona/1",
@@ -2268,9 +2295,9 @@
  "5565": {
   "desde": 1795273900.7630134,
   "urls": [
+   "https://caraltvalls.com/alquiler/es/index.php?favoritas=1",
    "https://caraltvalls.com/alquiler/es/index.php?vistas=1",
-   "https://caraltvalls.com/alquiler/es/index.php?descartadas=1",
-   "https://caraltvalls.com/alquiler/es/index.php?favoritas=1"
+   "https://caraltvalls.com/alquiler/es/index.php?descartadas=1"
   ]
  },
  "5634": {
@@ -2467,13 +2494,13 @@
    "https://immollar.com/tu-alquiler-en-barcelona-vence-en-2028-o-antes",
    "https://immollar.com/alquiler-en-barcelona-2026-que-cambia-con-el-decreto",
    "https://immollar.com/piso-bien-valorado-barcelona-2026",
-   "https://immollar.com/category/alquiler/page/2",
-   "https://immollar.com/category/alquiler/page/3",
-   "https://immollar.com/category/alquiler/page/4",
    "https://immollar.com/cataluna-regulara-los-precios-del-alquiler-en-140-municipios-declarados-como-zonas-tensionadas",
    "https://immollar.com/debes-firmar-tu-contrato-de-alquiler-por-1-ano-o-por-3",
    "https://immollar.com/el-gobierno-plantea-un-aumento-del-contrato-de-alquiler-de-3-a-5-anos",
    "https://immollar.com/las-6-clausulas-nulas-mas-comunes-de-un-contrato-de-alquiler-para-el-inquilino",
+   "https://immollar.com/category/alquiler/page/2",
+   "https://immollar.com/category/alquiler/page/3",
+   "https://immollar.com/category/alquiler/page/4",
    "https://immollar.com/propiedad/local-plaza-europa-ref-26023",
    "https://immollar.com/propiedad/local-plaza-europa-ref-25923",
    "https://immollar.com/propiedad/independencia-ref-29725"
@@ -2808,9 +2835,6 @@
    "https://martbel.com/immobles/piso-alquiler-galvany?portfolioCats=15",
    "https://martbel.com/immobles/pis-al-carrer-denia?portfolioCats=15",
    "https://martbel.com/immobles/piso-espectacular-en-poble-sec?portfolioCats=15",
-   "https://martbel.com/lloguer/page/2",
-   "https://martbel.com/lloguer/page/3",
-   "https://martbel.com/lloguer/page/4",
    "https://martbel.com/immobles/pis-amb-vistes-tot-exterior?portfolioCats=15",
    "https://martbel.com/immobles/pis-espectacular-tot-exterior-al-c-torns?portfolioCats=15",
    "https://martbel.com/immobles/piso-en-el-ensanche-2?portfolioCats=15",
@@ -2871,7 +2895,10 @@
    "https://martbel.com/immobles/piso-en-casanovas-listo-para-entrat?portfolioCats=15",
    "https://martbel.com/immobles/piso-amueblado-en-consell-de-cent?portfolioCats=15",
    "https://martbel.com/immobles/piso-con-terraza-bonanova?portfolioCats=15",
-   "https://martbel.com/immobles/fantastic-local-comercial-dobra-nova?portfolioCats=15"
+   "https://martbel.com/immobles/fantastic-local-comercial-dobra-nova?portfolioCats=15",
+   "https://martbel.com/lloguer/page/2",
+   "https://martbel.com/lloguer/page/3",
+   "https://martbel.com/lloguer/page/4"
   ]
  },
  "7718": {
@@ -2912,7 +2939,9 @@
  },
  "7812": {
   "desde": 1795273909.067706,
+  "ultimo_nuevo": 1795285027.4870014,
   "urls": [
+   "https://rentuos.com/ley-11-2026-cataluna-alquiler",
    "https://rentuos.com/decreto-vivienda-2026"
   ]
  },
@@ -3146,8 +3175,8 @@
    "https://iadespana.es/anuncios/santa-coloma-de-gramenet_08/alquiler",
    "https://iadespana.es/anuncios/vilanova-i-la-geltru_08/alquiler",
    "https://iadespana.es/anuncios/cunit_43/alquiler",
-   "https://iadespana.es/anuncios/sitges_08/alquiler",
    "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
+   "https://iadespana.es/anuncios/sitges_08/alquiler",
    "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
    "https://iadespana.es/anuncios/orihuela_03/alquiler",
    "https://iadespana.es/anuncio/inmueble-comercial-alquiler-palma-de-mallorca-266m2/r173289",
@@ -3348,6 +3377,10 @@
   "desde": 1795273911.037688,
   "urls": []
  },
+ "9042": {
+  "desde": 1795285032.99506,
+  "urls": []
+ },
  "9059": {
   "desde": 1795282404.4257321,
   "urls": []
@@ -3503,13 +3536,13 @@
    "https://laclaudesarria.com/property/extraordinario-y-soleado-piso-de-4-habitaciones-en-sarria-centro",
    "https://laclaudesarria.com/property/espectacular-atico-reformado-de-3h-en-sarria",
    "https://laclaudesarria.com/property/exclusiva-y-luminosa-casa-chalet-de-3h-en-el-casco-antiguo-de-sarria",
-   "https://laclaudesarria.com/property-status/alquiler/page/2",
    "https://laclaudesarria.com/property/centrico-y-acogedor-piso-de-1h-en-sarria",
    "https://laclaudesarria.com/property/moderno-y-elegante-piso-de-2h-en-sarria",
    "https://laclaudesarria.com/property/elegante-piso-exterior-de-4-hab-en-pedralbes",
    "https://laclaudesarria.com/property/espectacular-piso-de-4-habitaciones",
    "https://laclaudesarria.com/property/piso-5-hab-en-asco-antiguo-de-sarria",
-   "https://laclaudesarria.com/property/piso-3-hab-con-encanto-en-sarria"
+   "https://laclaudesarria.com/property/piso-3-hab-con-encanto-en-sarria",
+   "https://laclaudesarria.com/property-status/alquiler/page/2"
   ]
  },
  "9688": {
