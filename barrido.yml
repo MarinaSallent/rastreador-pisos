@@ -1,0 +1,55 @@
+name: Barrido completo
+
+# Revisa TODOS los anuncios publicados en las webs vigiladas (no solo los nuevos), siguiendo las páginas
+# 2, 3… de cada listado, y envía a Telegram los que encajan con vuestros filtros y aún no se habían enviado.
+# Al final llega un resumen con los motivos de descarte, para afinar los criterios en config.yaml.
+on:
+  workflow_dispatch:
+    inputs:
+      reenviar:
+        description: "¿Reenviar también los pisos que ya se enviaron antes? (sí / no)"
+        required: false
+        default: "no"
+
+concurrency:
+  group: rastreador          # no coincide con las revisiones de cada 5 minutos
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  barrido:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Revisar todos los anuncios publicados
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CONTACTO_DATOS: ${{ secrets.CONTACTO_DATOS }}
+          REENVIAR: ${{ inputs.reenviar }}
+        run: |
+          if echo "$REENVIAR" | grep -qiE '^(s|sí|si|yes|y)$'; then
+            python rastreador.py --barrido --reenviar --sin-escuchar
+          else
+            python rastreador.py --barrido --sin-escuchar
+          fi
+
+      - name: Guardar estado y resultado del barrido
+        if: always()
+        run: |
+          git config user.name "rastreador-pisos"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add estado/
+          git diff --cached --quiet || (git commit -m "Barrido completo" && git pull --rebase && git push)
