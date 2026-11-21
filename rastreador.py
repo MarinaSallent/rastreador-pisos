@@ -64,11 +64,12 @@ EXCLUIR_URL = re.compile(
 )
 # Inmuebles que no son una vivienda (se mira en el título y la dirección del anuncio, no en la descripción)
 RE_NO_VIVIENDA = re.compile(
-    r"\b(locales?|local comercial|inmueble comercial|oficina\w*|despacho\w*|motos?|naves?|nau|industrial|logistic[ao]s?|parkings?|parquing|"
+    r"\b(local(?:es)?|local comercial|inmueble comercial|oficina\w*|despacho\w*|motos?|naves?|nau|industrial|logistic[ao]s?|parkings?|parquing|"
     r"garajes?|aparcament|aparcamiento|plazas? de (garaje|parking|aparcamiento)|placa de parquing|trasteros?|"
     r"terrenos?|solar(es)?|parcelas?|edificios?|lote de|lotes|restaurante|bar restaurante|hotel|hostal|"
-    r"habitacion(es)?|habitacio|room|coliving|traspaso|traspas|temporada|turistic[oa]?|vacacional|"
-    r"holiday|masia|finca rustica|bodega|almacen|magatzem|nave industrial)\b")
+    r"habitacion en alquiler|alquiler de habitacion(es)?|habitacio en lloguer|lloguer d.habitacio(ns)?|"
+    r"habitacion en piso compartido|piso compartido|pis compartit|room for rent|room in|coliving|traspaso|traspas|temporada|temporal|turistic[oa]?|vacacional|"
+    r"holiday|tourism|tourist|short.term|bodega|almacen|magatzem|nave industrial)\b")
 PARAMS_BASURA = {"utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
                  "fbclid", "gclid", "lang", "idioma"}
 
@@ -108,8 +109,8 @@ def guardar_json(ruta: Path, datos) -> None:
 
 # ---------------------------------------------------------------- extracción de datos
 RE_PRECIO = re.compile(
-    r"(?:€\s*(?P<a>\d{1,3}(?:[.\s]\d{3})+|\d+)(?:,\d{1,2})?)"
-    r"|(?:(?P<b>\d{1,3}(?:[.\s]\d{3})+|\d+)(?:,\d{1,2})?\s*(?:€|eur\b|euros?\b))",
+    r"(?:(?:€|eur)\s*(?P<a>\d{1,3}(?:[.,\s]\d{3})+(?!\d)|\d+)(?:[.,]\d{1,2}(?!\d))?)"
+    r"|(?:(?P<b>\d{1,3}(?:[.,\s]\d{3})+(?!\d)|\d+)(?:[.,]\d{1,2}(?!\d))?\s*(?:€|eur\b|euros?\b))",
     re.I,
 )
 RE_MES = re.compile(r"^\s*(?:€)?\s*(?:/|al|per|por|a)?\s*(?:mes|mensual|month|mo\b)", re.I)
@@ -121,7 +122,7 @@ def extraer_precio(texto: str) -> int | None:
     candidatos = []
     for m in RE_PRECIO.finditer(texto):
         bruto = m.group("a") or m.group("b")
-        valor = int(re.sub(r"[.\s]", "", bruto))
+        valor = int(re.sub(r"[.,\s]", "", bruto))
         if valor < 200:          # cantidades sueltas (gastos, fianzas pequeñas...) no son el alquiler
             continue
         mensual = bool(RE_MES.match(texto[m.end():m.end() + 15]))
@@ -138,17 +139,50 @@ def extraer_metros(texto: str) -> int | None:
     return max(valores) if valores else None
 
 
-RE_VENTA = re.compile(r"\b(venta|en venda|es ven|se vende|for sale|comprar|compraventa|obra nueva|obra nova|traspaso|traspas)\b")
+RE_VENTA = re.compile(r"\b(venta|en venda|es ven|se vende|for sale|comprar|compra|compraventa|obra nueva|obra nova|traspaso|traspas)\b")
 RE_ALQUILER = re.compile(r"\b(alquiler|alquilar|alquila|lloguer|llogar|es lloga|se alquila|for rent|to rent|arrendamiento)\b")
 # Calles con nombre de barrio que en realidad están en otro (Passeig de Gràcia es Eixample)
 FRASES_ENGANOSAS = [(r"\b(passeig|paseo|pg\.?|pº) de gracia\b", "eixample"), (r"\bsarria de ter\b", "girona"),
                     (r"\b(el )?besos i (el )?maresme\b", "besos"), (r"\bbesos y (el )?maresme\b", "besos")]
 
 
+# Carteles de «ya alquilado / reservado» en la tarjeta del listado (texto, clases o imagen del cartel)
+RE_NO_DISPONIBLE = re.compile(
+    r"\b(llogat|llogada|alquilad[oa]s?|reservad[oa]s?|reservat|reservada|rented|let agreed|leased|"
+    r"no disponible|ya no disponible|vendid[oa]|venut|venuda|sold|en tramite|en tramit|senyalitzat|senalizado)\b")
+MARCA_NO_DISPONIBLE = re.compile(r"(?<![a-z])(llogat|llogada|alquilad[oa]s?|reservad[oa]s?|reservat|rented|sold|"
+                                 r"vendid[oa]s?|venut|venuda|no-?disponible|not-?available|unavailable|let-?agreed)"
+                                 r"(?![a-z])", re.I)
+
+
+def ya_alquilado(texto: str, marcas: str = "") -> str | None:
+    """¿La tarjeta dice que el piso ya está alquilado o reservado? Devuelve la palabra que lo indica."""
+    m = RE_NO_DISPONIBLE.search(normalizar(texto))
+    if m:
+        return m.group(1)
+    m = MARCA_NO_DISPONIBLE.search(marcas or "")
+    return m.group(1).lower() if m else None
+
+
+VIVIENDA = re.compile(r"\b(piso|pis|atico|atic|casa|duplex|apartamento|apartament|estudio|estudi|loft|vivienda|"
+                      r"habitatge|chalet|xalet|torre|masia|flat|apartment|penthouse|house)\b")
+EXTRAS = re.compile(r"^(parkings?|parquing|garajes?|aparcament|aparcamiento|plazas? de|placa de|trasteros?|"
+                    r"motos?)")
+
+
 def no_es_vivienda(texto: str) -> str | None:
-    """Devuelve el tipo de inmueble (local, oficina, parking…) si no es una vivienda."""
-    m = RE_NO_VIVIENDA.search(normalizar(texto).replace("-", " ").replace("_", " ").replace("/", " "))
-    return m.group(1) if m else None
+    """Devuelve el tipo de inmueble (local, oficina, parking…) si no es una vivienda.
+
+    «Piso de 3 habitaciones» o «Pis amb plaça de parking» son viviendas: el parking o el trastero solo cuentan
+    como tipo de inmueble si no se ha nombrado antes una vivienda."""
+    t = normalizar(texto).replace("-", " ").replace("_", " ").replace("/", " ")
+    if re.match(r"^\s*(habitacion|habitacio|room)\b", t):
+        return "habitación"
+    for m in RE_NO_VIVIENDA.finditer(t):
+        if EXTRAS.match(m.group(1)) and VIVIENDA.search(t[:m.start()]):
+            continue
+        return m.group(1)
+    return None
 
 
 def es_venta(texto: str) -> bool:
@@ -335,13 +369,21 @@ def extraer_anuncios(html_txt: str, url_base: str) -> list[dict]:
         if not PATRON_FICHA.search(ruta) or not re.search(r"\d", ruta):
             continue
         # Paginación del propio listado: no es un anuncio
-        if re.search(r"([?&](page|pag|pagina|p)=\d+$)|(/(page|pagina)/\d+/?$)", ruta, re.I):
+        if (re.search(r"[?&](page|pag|pagina|p|paged)=\d+$", "?" + urlparse(url).query, re.I)
+                or re.search(r"/(page|pagina|pag)/\d+/?$", urlparse(url).path, re.I)):
+            continue
+        # Listados por zona («…/en-alquiler-barcelona/galvany/1»): acaban en un número de página
+        if re.search(r"/\d{1,2}/?$", urlparse(url).path) and not re.search(r"\d{3,}", urlparse(url).path):
+            continue
+        # Enlaces a otros listados («19 inmuebles en alquiler en León»), no a un piso
+        if re.match(r"^\s*\d+\s+(inmuebles?|propiedades|pisos|anuncios|viviendas|immobles|habitatges)\b",
+                    a.get_text(" ", strip=True), re.I):
             continue
         enlaces.setdefault(limpia, []).append(a)
 
     anuncios = []
     for url, anchors in enlaces.items():
-        mejor = ""
+        mejor, marcas = "", ""
         for a in anchors:
             nodo, texto = a, a.get_text(" ", strip=True)
             for _ in range(8):  # subir hasta la "tarjeta" que contiene solo este anuncio
@@ -358,9 +400,17 @@ def extraer_anuncios(html_txt: str, url_base: str) -> list[dict]:
                 nodo, texto = padre, t
             if len(texto) > len(mejor):
                 mejor = texto
+                # clases e imágenes de la tarjeta: algunas webs marcan «alquilado» solo con un cartel
+                partes = [" ".join(nodo.get("class", []))] if hasattr(nodo, "get") else []
+                for el in (nodo.find_all(True) if hasattr(nodo, "find_all") else [])[:80]:
+                    partes.append(" ".join(el.get("class", [])))
+                    if el.name == "img":
+                        partes += [el.get("src", ""), el.get("alt", "")]
+                marcas = " ".join(p for p in partes if p)[:2000]
         titulo = next((a.get("title") or a.get_text(" ", strip=True) for a in anchors
                        if (a.get("title") or a.get_text(strip=True))), "")
-        anuncios.append({"url": url, "texto": re.sub(r"\s+", " ", mejor)[:1500], "titulo": titulo[:140]})
+        anuncios.append({"url": url, "texto": re.sub(r"\s+", " ", mejor)[:1500], "titulo": titulo[:140],
+                         "marcas": marcas})
     return anuncios
 
 
@@ -518,11 +568,12 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
     identidad = f"{anuncio['titulo']} {ruta} {texto[:300]}"
     precio, metros = extraer_precio(texto), extraer_metros(texto)
     venta = es_venta(identidad)
+    alquilado = ya_alquilado(f"{anuncio['titulo']} {texto[:400]}", anuncio.get("marcas", ""))
     tipo = no_es_vivienda(f"{anuncio['titulo']} {ruta}") if f.get("solo_viviendas", True) else None
     # La zona se decide por el título, la dirección web y la tarjeta; nunca por menús o pisos relacionados
     zona, excluido = detectar_zona(f"{anuncio['titulo']} · {ruta} · {texto}", cfg)
     precios_altos = [p for p in [precio] if p and p >= 30000]
-    if abrir and not venta and not tipo and not excluido and (precio is None or metros is None or zona is None):
+    if abrir and not venta and not alquilado and not tipo and not excluido and (precio is None or metros is None or zona is None):
         try:
             anuncio["_html"] = descargar(anuncio["url"], timeout, modo)
             soup = BeautifulSoup(anuncio["_html"], "html.parser")
@@ -533,7 +584,7 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
             if f.get("solo_viviendas", True):
                 tipo = no_es_vivienda(ficha["titulo"])
             # Un importe de venta en la ficha (≥ 30.000 €) delata una venta aunque haya una «cuota» de 1.000 €/mes
-            todos = [int(re.sub(r"[.\s]", "", m.group("a") or m.group("b"))) for m in RE_PRECIO.finditer(cab + " " + cuerpo)]
+            todos = [int(re.sub(r"[.,\s]", "", m.group("a") or m.group("b"))) for m in RE_PRECIO.finditer(cab + " " + cuerpo)]
             precios_altos += [p for p in todos + [ficha["precio"] or 0] if p >= 30000]
             precio = precio or ficha["precio"] or extraer_precio(cab) or extraer_precio(cuerpo)
             metros = metros or ficha["metros"] or extraer_metros(cab) or extraer_metros(cuerpo)
@@ -542,6 +593,7 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
                 if zona is not None or excluido:
                     break
                 zona, excluido = detectar_zona(fuente, cfg, municipios)
+            alquilado = alquilado or ya_alquilado(ficha["titulo"])
             if ficha["titulo"]:
                 anuncio["titulo"] = ficha["titulo"]
             elif not anuncio["titulo"] or len(anuncio["titulo"]) < 8:
@@ -551,6 +603,8 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
     motivo = None
     if venta:
         motivo = "es una venta"
+    elif alquilado:
+        motivo = f"ya alquilado o reservado ({alquilado})"
     elif tipo:
         motivo = f"no es una vivienda ({tipo})"
     elif precios_altos:
@@ -565,8 +619,8 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
         motivo = f"parece venta ({precio} €)"
     elif precio is not None and precio > f["precio_maximo"]:
         motivo = f"precio {precio} € > {f['precio_maximo']}"
-    elif metros is not None and metros < f["metros_minimos"]:
-        motivo = f"{metros} m² < {f['metros_minimos']}"
+    elif metros is not None and metros < f.get("metros_minimos_con_aviso", f["metros_minimos"]):
+        motivo = f"{metros} m² < {f.get('metros_minimos_con_aviso', f['metros_minimos'])}"
     elif metros is None and not f.get("avisar_si_faltan_metros", True):
         motivo = "no indica los metros"
     return {**anuncio, "precio": precio, "metros": metros, "zona": zona, "motivo_descarte": motivo}
@@ -576,6 +630,9 @@ def mensaje(agencia: dict, a: dict) -> str:
     e = html.escape
     precio = f"{a['precio']} €/mes" if a["precio"] else "⚠️ precio no indicado"
     metros = f"{a['metros']} m²" if a["metros"] else "⚠️ m² no indicados"
+    minimo = (CFG_ACTUAL.get("filtros") or {}).get("metros_minimos")
+    if a["metros"] and minimo and a["metros"] < minimo:
+        metros += f" ⚠️ (menos de {minimo})"
     zona = a["zona"] or "⚠️ zona no indicada"
     contacto = "\n✅ Ya tienen tu perfil" if agencia.get("contactado") else ""
     cabecera = "Piso disponible" if a.get("existente") else "Nuevo piso"
@@ -649,7 +706,12 @@ def guardar_tg(tg: dict) -> None:
         guardar_json(TELEGRAM, tg)
 
 
+CFG_ACTUAL: dict = {}
+
+
 def ciclo(cfg: dict, barrido: bool = False, reenviar: bool = False) -> int:
+    CFG_ACTUAL.clear()
+    CFG_ACTUAL.update(cfg)
     tg_estado = cargar_tg()
     avisados = cargar_json(AVISADOS, {})
     resumen: dict[str, int] = {}

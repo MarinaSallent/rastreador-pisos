@@ -1,6 +1,8 @@
 # Filtros de búsqueda. Cambia lo que quieras y haz commit: el siguiente ciclo ya lo usa.
 filtros:
   metros_minimos: 60
+  # Pisos algo más pequeños: desde estos metros también se envían, marcados con ⚠️ (menos de 60).
+  metros_minimos_con_aviso: 55
   precio_maximo: 1000        # €/mes
   # Solo viviendas: si el título o la dirección del anuncio dice local, oficina, nave, parking, trastero,
   # terreno, edificio, habitación, traspaso, temporada o turístico, se descarta.
@@ -120,7 +122,6 @@ otros_municipios:
   - mataro
   - maresme
   - sabadell
-  - terrassa
   - granollers
   - mollet
   - alella
