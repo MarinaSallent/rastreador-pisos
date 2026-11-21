@@ -181,6 +181,14 @@ rastreo:
   # Si la ficha del anuncio no muestra precio/metros en el listado, abrir la ficha (más lento pero más preciso).
   abrir_fichas: true
   max_fichas_por_agencia: 15
+  # Agencias nuevas en la lista: true = la primera vez se revisan TODOS sus anuncios publicados y se envían los
+  # que encajan; false = la primera vez solo se memorizan y se avisa de los que salgan después.
+  avisar_existentes_al_empezar: true
+  # Agencias nuevas que se revisan a fondo en cada pasada de 5 minutos (el resto espera a la siguiente).
+  agencias_nuevas_por_ciclo: 8
+  # Barrido completo (Actions → «Barrido completo») y primera revisión: páginas del listado y fichas por agencia.
+  max_paginas_barrido: 10
+  max_fichas_barrido: 150
   timeout_segundos: 20
   # Avisar por Telegram si la web de una agencia falla N veces seguidas (para que revises la URL).
   avisar_tras_fallos: 6

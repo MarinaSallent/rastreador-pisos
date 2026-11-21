@@ -129,7 +129,8 @@ Antes de añadirla, compruébalo: **Actions → Probar una web → Run workflow*
 
 ## Cómo decide si avisarte
 
-- **Primera revisión de una agencia:** guarda los anuncios que ya hay sin avisarte, para que no te lleguen 40 mensajes de golpe. A partir de ahí, solo te avisa de los nuevos.
+- **Primera revisión de una agencia:** revisa todos los anuncios que ya tiene publicados (también las páginas 2, 3…) y te envía los que encajan, con el título «Piso disponible». A partir de ahí, solo te avisa de los nuevos («Nuevo piso»). Nunca envía dos veces el mismo anuncio.
+- **Barrido completo:** **Actions → Barrido completo → Run workflow** vuelve a revisar todos los anuncios publicados en todas las webs vigiladas y envía los que encajan y no se habían enviado. Al final llega a Telegram un resumen con cuántos se descartaron y por qué (zona, precio, metros, tipo…). Úsalo después de cambiar los filtros en `config.yaml`. Con `reenviar: sí` manda también los que ya se enviaron. Tarda entre 30 y 90 minutos.
 - **Solo anuncios de verdad:** ignora los enlaces del propio buscador (filtros, orden, páginas), noticias, PDF y formularios.
 - **Solo viviendas:** si el título o la dirección del anuncio dice local, oficina, nave, parking, trastero, terreno, edificio, habitación, traspaso, temporada o turístico, lo descarta (`solo_viviendas`).
 - **Zona:** primero mira la tarjeta y la dirección web del anuncio. Si no dicen el barrio, abre la ficha y lo lee de sus datos estructurados (la mayoría de plataformas de agencias indican ahí ciudad y barrio), del título, de las migas de pan o del campo de ubicación. Nunca usa la dirección de la oficina de la agencia.

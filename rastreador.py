@@ -39,6 +39,8 @@ VISTOS = ESTADO / "vistos.json"
 TELEGRAM = ESTADO / "telegram.json"
 A_CONTACTAR = ESTADO / "a_contactar.json"
 FALLOS = ESTADO / "fallos.json"
+AVISADOS = ESTADO / "avisados.json"          # anuncios ya enviados a Telegram (para no repetirlos)
+BARRIDO = ESTADO / "ultimo_barrido.json"     # resultado del último barrido completo, para afinar criterios
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
@@ -362,6 +364,38 @@ def extraer_anuncios(html_txt: str, url_base: str) -> list[dict]:
     return anuncios
 
 
+RE_PAGINA = re.compile(r"([?&](page|pag|pagina|p|pg|numpag|start|offset)=(\d+))|(/(page|pagina|pag|p)/(\d+)/?$)|"
+                       r"(/(\d{1,2})/?$)", re.I)
+
+
+def otras_paginas(html_txt: str, url_base: str, maximo: int) -> list[str]:
+    """Páginas 2, 3… del mismo listado (para el barrido completo)."""
+    if maximo <= 1:
+        return []
+    soup = BeautifulSoup(html_txt, "html.parser")
+    base = urlparse(url_base)
+    paginas: dict[int, str] = {}
+    for a in soup.find_all("a", href=True):
+        url = urljoin(url_base, a["href"].strip()).split("#")[0]
+        p = urlparse(url)
+        if not mismo_sitio(url, url_base) or limpiar_url(url) == limpiar_url(url_base):
+            continue
+        texto = a.get_text(" ", strip=True).lower()
+        m = RE_PAGINA.search(p.path + ("?" + p.query if p.query else ""))
+        if not m:
+            continue
+        num = int(next(g for g in (m.group(3), m.group(6), m.group(8)) if g))
+        mismo_listado = p.path.rstrip("/").startswith(base.path.rstrip("/")) or p.path.split("/")[:3] == base.path.split("/")[:3]
+        if not mismo_listado or not (2 <= num <= 200):
+            continue
+        if m.group(8) and not (texto.isdigit() or a.get("rel") == ["next"] or re.search(r"(siguiente|seguent|next|›|»)", texto)):
+            continue  # «/2» al final de la ruta solo cuenta si el enlace es de paginación
+        if m.group(2) and m.group(2).lower() in ("start", "offset"):
+            num = len(paginas) + 2
+        paginas.setdefault(num, url)
+    return [paginas[n] for n in sorted(paginas)][: maximo - 1]
+
+
 # ---------------------------------------------------------------- red
 SESION = requests.Session()
 SESION.headers.update({"User-Agent": UA, "Accept-Language": "es-ES,es;q=0.9,ca;q=0.8"})
@@ -544,42 +578,63 @@ def mensaje(agencia: dict, a: dict) -> str:
     metros = f"{a['metros']} m²" if a["metros"] else "⚠️ m² no indicados"
     zona = a["zona"] or "⚠️ zona no indicada"
     contacto = "\n✅ Ya tienen tu perfil" if agencia.get("contactado") else ""
-    return (f"🏠 <b>Nuevo piso · {e(agencia['nombre'])}</b>\n"
+    cabecera = "Piso disponible" if a.get("existente") else "Nuevo piso"
+    return (f"🏠 <b>{cabecera} · {e(agencia['nombre'])}</b>\n"
             f"💶 {e(precio)} · 📐 {e(metros)}\n📍 {e(zona)}\n"
             f"{e(a['titulo'][:120])}\n{e(a['url'])}{contacto}")
 
 
-def revisar_agencia(agencia: dict, cfg: dict, vistos: dict) -> tuple[list, list, str | None]:
-    """Devuelve (anuncios a avisar, todas las urls vistas, error)."""
+def revisar_agencia(agencia: dict, cfg: dict, vistos: dict, avisados: dict | None = None,
+                    barrido: bool = False, reenviar: bool = False) -> tuple[list, list, str | None, list]:
+    """Devuelve (anuncios a avisar, todas las urls vistas, error, evaluaciones).
+
+    Normal: solo se evalúan los anuncios nuevos. Barrido (o primera vez que se ve la agencia): se evalúan todos los
+    publicados, siguiendo las páginas 2, 3… del listado, y se avisa de los que cumplan y no se hayan enviado ya."""
     r = cfg["rastreo"]
-    todas, nuevos = [], []
+    avisados = avisados if avisados is not None else {}
+    todas, candidatos = [], []
     previos = set(vistos.get(agencia["id"], {}).get("urls", []))
     primera_vez = agencia["id"] not in vistos
+    completo = barrido or (primera_vez and r.get("avisar_existentes_al_empezar", True))
     try:
         for url in agencia["urls"]:
-            anuncios = extraer_anuncios(descargar(url, r["timeout_segundos"], agencia["modo"]), url)
-            todas += [a["url"] for a in anuncios]
-            nuevos += [a for a in anuncios if a["url"] not in previos]
+            html_listado = descargar(url, r["timeout_segundos"], agencia["modo"])
+            paginas = [(url, html_listado)]
+            if completo:
+                for extra in otras_paginas(html_listado, url, r.get("max_paginas_barrido", 10)):
+                    try:
+                        paginas.append((extra, descargar(extra, r["timeout_segundos"], agencia["modo"])))
+                    except Exception:
+                        break
+            for u, h in paginas:
+                anuncios = [a for a in extraer_anuncios(h, u) if a["url"] not in todas]
+                todas += [a["url"] for a in anuncios]
+                if completo:
+                    candidatos += [a for a in anuncios if reenviar or a["url"] not in avisados]
+                else:
+                    candidatos += [a for a in anuncios if a["url"] not in previos and a["url"] not in avisados]
     except Exception as e:
-        return [], [], f"{type(e).__name__}: {str(e)[:150]}"
-    if primera_vez:  # primera pasada: guardamos lo que ya había sin avisar
-        return [], todas, None
-    avisos = []
-    for i, a in enumerate(nuevos):
-        ev = evaluar(a, cfg, r["timeout_segundos"], agencia["modo"],
-                     r.get("abrir_fichas", True) and i < r.get("max_fichas_por_agencia", 15),
-                     agencia.get("en_zona", False))
+        return [], [], f"{type(e).__name__}: {str(e)[:150]}", []
+    if primera_vez and not completo:  # primera pasada sin barrido: guardamos lo que ya había sin avisar
+        return [], todas, None, []
+    limite = r.get("max_fichas_barrido", 150) if completo else r.get("max_fichas_por_agencia", 15)
+    avisos, evaluaciones = [], []
+    for i, a in enumerate(candidatos):
+        ev = evaluar(a, cfg, r["timeout_segundos"], agencia["modo"], r.get("abrir_fichas", True) and i < limite)
+        evaluaciones.append({k: ev.get(k) for k in ("url", "titulo", "precio", "metros", "zona", "motivo_descarte")})
         if ev["motivo_descarte"]:
-            print(f"  - descartado ({ev['motivo_descarte']}): {a['url']}")
+            if not completo:
+                print(f"  - descartado ({ev['motivo_descarte']}): {a['url']}")
         else:
             try:  # fotos, teléfono y formulario de la ficha
                 html_ficha = ev.get("_html") or descargar(a["url"], r["timeout_segundos"], agencia["modo"])
                 ev["detalle"] = contacto.extraer_detalle(html_ficha, a["url"])
             except Exception:
                 ev["detalle"] = {}
-            ev.pop("_html", None)
+            ev["existente"] = completo
             avisos.append(ev)
-    return avisos, todas, None
+        ev.pop("_html", None)
+    return avisos, todas, None, evaluaciones
 
 
 def cargar_tg() -> dict:
@@ -594,8 +649,11 @@ def guardar_tg(tg: dict) -> None:
         guardar_json(TELEGRAM, tg)
 
 
-def ciclo(cfg: dict) -> int:
+def ciclo(cfg: dict, barrido: bool = False, reenviar: bool = False) -> int:
     tg_estado = cargar_tg()
+    avisados = cargar_json(AVISADOS, {})
+    resumen: dict[str, int] = {}
+    detalle_barrido: list[dict] = []
     agencias = cargar_agencias()
     vistos, fallos = cargar_json(VISTOS, {}), cargar_json(FALLOS, {})
     a_contactar = cargar_json(A_CONTACTAR, {})
@@ -615,6 +673,13 @@ def ciclo(cfg: dict) -> int:
                             f"📍 {html.escape(ag.get('direccion', '') or 'dirección no disponible')}")
             continue
         activas.append(ag)
+    if not barrido:  # las agencias nuevas se revisan a fondo: unas pocas por pasada para no pasarse de tiempo
+        tope = cfg["rastreo"].get("agencias_nuevas_por_ciclo", 8)
+        nuevas = [ag for ag in activas if ag["id"] not in vistos]
+        if cfg["rastreo"].get("avisar_existentes_al_empezar", True) and len(nuevas) > tope:
+            esperan = {ag["id"] for ag in nuevas[tope:]}
+            print(f"{len(esperan)} agencias nuevas esperan a la siguiente pasada")
+            activas = [ag for ag in activas if ag["id"] not in esperan]
     if len(activas) != len(agencias):
         guardar_json(A_CONTACTAR, a_contactar)
     agencias = activas
@@ -622,10 +687,14 @@ def ciclo(cfg: dict) -> int:
           f" · {len(a_contactar)} para contactar en persona")
     total = 0
     with ThreadPoolExecutor(max_workers=12) as ex:
-        futuros = {ex.submit(revisar_agencia, ag, cfg, vistos): ag for ag in agencias}
+        futuros = {ex.submit(revisar_agencia, ag, cfg, vistos, avisados, barrido, reenviar): ag for ag in agencias}
         for fut in as_completed(futuros):
             ag = futuros[fut]
-            avisos, urls, error = fut.result()
+            avisos, urls, error, evaluaciones = fut.result()
+            for ev in evaluaciones:
+                motivo = re.sub(r"\d[\d.]*", "N", ev["motivo_descarte"] or "ENVIADO")
+                resumen[motivo] = resumen.get(motivo, 0) + 1
+                detalle_barrido.append({**ev, "agencia": ag["nombre"]})
             if error:
                 n = fallos.get(ag["id"], 0) + 1
                 fallos[ag["id"]] = n
@@ -644,14 +713,30 @@ def ciclo(cfg: dict) -> int:
                 reg["ultimo_nuevo"] = time.time()  # ha publicado algo (cumpla o no vuestros filtros)
             reg["urls"] = list(dict.fromkeys(urls + reg["urls"]))[:3000]
             for a in avisos:
+                if a["url"] in avisados and not reenviar:
+                    continue  # otra oficina de la misma red ya lo envió
                 contacto.notificar(mensaje(ag, a), a["url"], a.get("detalle") or {}, tg_estado["pendientes"],
                                    {"titulo": a["titulo"][:120], "agencia": ag["nombre"]})
+                avisados[a["url"]] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
                 total += 1
+                if total % 10 == 0:  # si el barrido se cortara, no se repiten los ya enviados
+                    guardar_json(AVISADOS, avisados)
+                    guardar_tg(tg_estado)
+                if barrido or len(avisos) > 3:
+                    time.sleep(2)  # Telegram limita los mensajes por minuto en los grupos
             print(f"✓ {ag['nombre']}: {len(urls)} anuncios, {len(avisos)} avisos")
     guardar_json(VISTOS, vistos)
     guardar_json(FALLOS, fallos)
+    guardar_json(AVISADOS, avisados)
     guardar_tg(tg_estado)
     print(f"Avisos enviados: {total}")
+    if barrido:
+        guardar_json(BARRIDO, {"fecha": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"), "resumen": resumen,
+                               "anuncios": detalle_barrido})
+        revisados = sum(resumen.values())
+        lineas = "\n".join(f"· {m}: {n}" for m, n in sorted(resumen.items(), key=lambda x: -x[1]) if m != "ENVIADO")
+        enviar_telegram(f"🔎 <b>Barrido completo terminado</b>\n{len(agencias)} agencias · {revisados} anuncios revisados"
+                        f" · <b>{total} os encajan</b> (enviados arriba)\n\nDescartados:\n{html.escape(lineas[:3000])}")
     return 0
 
 
@@ -681,6 +766,9 @@ def main() -> int:
     ap.add_argument("--probar-telegram", action="store_true")
     ap.add_argument("--sin-escuchar", action="store_true", help="no esperar pulsaciones de botones")
     ap.add_argument("--probar-formulario", metavar="URL", help="rellena el formulario de un anuncio SIN enviarlo")
+    ap.add_argument("--barrido", action="store_true",
+                    help="revisa TODOS los anuncios publicados (no solo los nuevos) y envía los que encajen")
+    ap.add_argument("--reenviar", action="store_true", help="con --barrido: envía también los que ya se enviaron")
     args = ap.parse_args()
     cfg = yaml.safe_load((RAIZ / "config.yaml").read_text(encoding="utf-8"))
     if args.probar_formulario:
@@ -694,7 +782,7 @@ def main() -> int:
         probar(args.probar, cfg, args.modo)
         return 0
     inicio = time.time()
-    codigo = ciclo(cfg)
+    codigo = ciclo(cfg, barrido=args.barrido, reenviar=args.reenviar)
     escuchar = cfg["rastreo"].get("escuchar_botones_segundos", 240)
     if escuchar and not args.sin_escuchar:
         # Atiende los botones «Enviar mis datos» hasta que empiece la siguiente revisión
