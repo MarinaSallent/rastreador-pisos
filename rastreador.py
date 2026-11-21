@@ -64,6 +64,7 @@ EXCLUIR_URL = re.compile(
     r"contacto$|contacte$|/login|/registro|/vender|/valorar|/valoracio|/tasaci|"
     r"wp-login|/author/|/forms?/|contact-individual|/maps\b|imprimir|print|generar-pdf|pdf\.php|"
     r"informacion_gastos|favoritas=|/lang/[a-z]{2}/change|property-submit|que-piso-casa-buscas|/actualitat|/actualidad|_noticia|/20\d\d/\d\d/|[?&]page_id=|"
+    r"\.(css|js|json|xml|ico|woff2?)(\?|$)|/wp-json/|oembed|"
     r"[?&](vistas|descartadas|sort|orden|ordenada|ascdesc|order|orderby|ob|cart|secc|per_page|es_category%5b0%5d|es_category|es_type)=)",
     re.I,
 )
@@ -404,8 +405,8 @@ def extraer_anuncios(html_txt: str, url_base: str) -> list[dict]:
 
     base_limpia = limpiar_url(url_base)
     enlaces: dict[str, list] = {}
-    for a in soup.find_all(lambda t: t.has_attr("href") or t.has_attr("data-path") or t.has_attr("data-href")
-                           or t.has_attr("data-url")):
+    for a in soup.find_all(lambda t: (t.name == "a" and t.has_attr("href")) or t.has_attr("data-path")
+                           or t.has_attr("data-href") or t.has_attr("data-url")):
         # Algunas plataformas (webs de pisos.com) guardan la ficha en data-path y dejan href vacío
         href = (a.get("href") or "").strip()
         if not href or href.startswith("#") or href.lower().startswith("javascript"):
