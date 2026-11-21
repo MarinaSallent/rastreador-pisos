@@ -75,12 +75,15 @@
   "web": "https://www.aainmo.com/"
  },
  "abc realty": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Abc Realty Barcelona",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.abcrealtybarcelona.com/alquilar/Atico-en-alquiler-con-espectacular-vista",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.abcrealtybarcelona.com/alquilar/Atico-en-alquiler-con-espectacular-vista": "parece la ficha de un solo piso",
+   "https://www.abcrealtybarcelona.com/error404": "la página no existe"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.abcrealtybarcelona.com/"
  },
@@ -117,15 +120,12 @@
   "marca": "Aclair Real Estate"
  },
  "actiu": {
-  "estado": "web_ok",
+  "anuncios": 0,
+  "estado": "vigilable",
   "marca": "Actiu Immobiliaria",
   "metodo": "dominio",
-  "rechazadas": {
-   "https://actiuimmobiliaria.com/properties/parking-en-alquiler/": "la dirección es de noticias, servicios, locales u oficinas",
-   "https://actiuimmobiliaria.com/properties/planta-baja-de-alquiler-en-coll-fava/": "parece la ficha de un solo piso"
-  },
-  "revisado_js": true,
-  "revisar": true,
+  "portal_revisado": true,
+  "url_alquiler": "https://actiuimmobiliaria.com/properties/planta-baja-de-alquiler-en-coll-fava/",
   "version": 3,
   "web": "https://actiuimmobiliaria.com/"
  },
@@ -236,11 +236,11 @@
   "estado": "web_ok",
   "marca": "La casa del administrador",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.lacasadeladministrador.com/gestion-de-alquileres": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.lacasadeladministrador.com/"
  },
@@ -605,14 +605,14 @@
   "estado": "web_ok",
   "marca": "Alfa Inmobiliaria / Bcntrivium",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.alfainmo.com/alquiler-con-opcion-a-compra-a-quien-beneficia-mas/": "parece la ficha de un solo piso",
    "https://www.alfainmo.com/cada-pais-y-persona-es-un-mundo-en-el-universo-de-la-franquicia/": "parece la ficha de un solo piso",
-   "https://www.alfainmo.com/es-buen-momento-para-comprar-casa-10-consejos-para-no-fallar/": "la dirección es de venta",
+   "https://www.alfainmo.com/es-buen-momento-para-comprar-casa-10-consejos-para-no-fallar/": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.alfainmo.com/ref/2520-327/": "parece la ficha de un solo piso"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.alfainmo.com/"
  },
@@ -865,9 +865,9 @@
   "estado": "web_ok",
   "marca": "Ana inmobiliaria",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.anainmobiliaria.com/"
  },
@@ -1100,14 +1100,12 @@
   "marca": "Fincas Anzizu SL"
  },
  "aparici humet associats": {
-  "estado": "web_ok",
+  "anuncios": 0,
+  "estado": "vigilable",
   "marca": "Finques Aparici-Humet associats SL",
   "metodo": "dominio",
-  "rechazadas": {
-   "https://www.finquesaparici.cat/venta-y-alquiler-de-inmuebles-en-barcelona": "parece la ficha de un solo piso"
-  },
-  "revisado_js": true,
-  "revisar": true,
+  "portal_revisado": true,
+  "url_alquiler": "https://www.finquesaparici.cat/venta-y-alquiler-de-inmuebles-en-barcelona",
   "version": 3,
   "web": "https://www.finquesaparici.cat/"
  },
@@ -1753,11 +1751,11 @@
   "estado": "web_ok",
   "marca": "Barna Finques",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
-   "https://barnafinques.com/2026/10/01/camtica-crack-product-key-windows-11-2025/": "parece la ficha de un solo piso"
+   "https://barnafinques.com/2026/10/01/camtica-crack-product-key-windows-11-2025/": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://barnafinques.com/"
  },
@@ -1918,9 +1916,9 @@
   "estado": "web_ok",
   "marca": "BDN Immobles",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.bdn-immobles.com/"
  },
@@ -1965,12 +1963,12 @@
   "marca": "Bellare Bcn"
  },
  "bellavista": {
-  "anuncios": 0,
+  "anuncios": 1,
   "estado": "vigilable",
   "marca": "Finques Bellavista",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.finquesbellavista.com/ficha/chalet/badalona/centre/13635/27772120/es/",
+  "portal_revisado": true,
+  "url_alquiler": "https://www.finquesbellavista.com/alquiler/es/",
   "version": 3,
   "web": "https://www.finquesbellavista.com/"
  },
@@ -2162,12 +2160,11 @@
   "web": "https://www.finquesbonallar.com/es/"
  },
  "bonell": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "publica_en_portal",
   "marca": "Bonell Properties",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://bonellproperties.com/property/casa-a-vilanova-i-la-geltru/",
+  "portal": "https://www.idealista.com/pro/bonell-properties/alquiler-viviendas/",
+  "portal_revisado": true,
   "version": 3,
   "web": "https://bonellproperties.com/"
  },
@@ -2204,9 +2201,9 @@
   "estado": "web_ok",
   "marca": "BR Casa Ideal SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.brcasaideal.es/es"
  },
@@ -2234,11 +2231,11 @@
   "estado": "web_ok",
   "marca": "Finques Bruc SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.finquesbruc.com/es/servicios/": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.finquesbruc.com/es/"
  },
@@ -2274,9 +2271,9 @@
   "estado": "web_ok",
   "marca": "Buscomasia SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.buscomasia.com/"
  },
@@ -2289,12 +2286,15 @@
   "marca": "Businfreu Fincas - Numància Habitat"
  },
  "busquets galvez": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Busquets i Galvez SL",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.busquetsgalvez.es/listing/spacious-city-apartment/",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.busquetsgalvez.es/listing/oficina-tuset/": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://www.busquetsgalvez.es/listing/spacious-city-apartment/": "parece la ficha de un solo piso"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.busquetsgalvez.es/"
  },
@@ -2345,8 +2345,8 @@
   "estado": "vigilable",
   "marca": "Calfer grup",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.calfergrup.com/inmobiliaria/",
+  "portal_revisado": true,
+  "url_alquiler": "https://www.calfergrup.com/alquiler-y-venta-de-inmuebles/",
   "version": 3,
   "web": "https://www.calfergrup.com/"
  },
@@ -2371,6 +2371,7 @@
   "estado": "web_ok",
   "marca": "Cambra De La Propietat Urbana De Barcelona",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.cambrapropietat.cat/noticia/derogat-el-reial-decret-llei-8-2026-s-anul-len-les-prorrogues-extraordinaries-de-2-anys-i-la-limitacio-del-2-en-l-actualitzacio-del-lloguer": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.cambrapropietat.cat/noticia/el-nou-reial-decret-llei-29-2026-canvia-les-regles-del-lloguer-que-han-de-saber-els-propietaris": "la dirección es de noticias, servicios, locales u oficinas",
@@ -2378,7 +2379,6 @@
    "https://www.cambrapropietat.cat/noticia/subvencions-per-al-pagament-del-lloguer-o-preu-de-cessio-d-habitatge-o-habitacio-per-a-persones-joves": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.cambrapropietat.cat/"
  },
@@ -2386,6 +2386,7 @@
   "estado": "web_ok",
   "marca": "Cambra De La Propietat Urbana De Badalona",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.cambrapropietat.cat/noticia/derogat-el-reial-decret-llei-8-2026-s-anul-len-les-prorrogues-extraordinaries-de-2-anys-i-la-limitacio-del-2-en-l-actualitzacio-del-lloguer": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.cambrapropietat.cat/noticia/el-nou-reial-decret-llei-29-2026-canvia-les-regles-del-lloguer-que-han-de-saber-els-propietaris": "la dirección es de noticias, servicios, locales u oficinas",
@@ -2393,7 +2394,6 @@
    "https://www.cambrapropietat.cat/noticia/subvencions-per-al-pagament-del-lloguer-o-preu-de-cessio-d-habitatge-o-habitacio-per-a-persones-joves": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.cambrapropietat.cat/"
  },
@@ -2401,6 +2401,7 @@
   "estado": "web_ok",
   "marca": "Cambra de la Propietat Urbana de l'Hospitalet",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.cambrapropietat.cat/noticia/derogat-el-reial-decret-llei-8-2026-s-anul-len-les-prorrogues-extraordinaries-de-2-anys-i-la-limitacio-del-2-en-l-actualitzacio-del-lloguer": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.cambrapropietat.cat/noticia/el-nou-reial-decret-llei-29-2026-canvia-les-regles-del-lloguer-que-han-de-saber-els-propietaris": "la dirección es de noticias, servicios, locales u oficinas",
@@ -2408,7 +2409,6 @@
    "https://www.cambrapropietat.cat/noticia/subvencions-per-al-pagament-del-lloguer-o-preu-de-cessio-d-habitatge-o-habitacio-per-a-persones-joves": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.cambrapropietat.cat/"
  },
@@ -2567,12 +2567,11 @@
   "web": "https://finquescarrio.com/"
  },
  "cartelina cinco": {
-  "estado": "web_ok",
+  "estado": "publica_en_portal",
   "marca": "Cartelina Cinco",
   "metodo": "dominio",
-  "rechazadas": {},
-  "revisado_js": true,
-  "revisar": true,
+  "portal": "https://www.idealista.com/pro/finques-cartelina-cinco/venta-viviendas/",
+  "portal_revisado": true,
   "version": 3,
   "web": "https://cartelinacinco.com/"
  },
@@ -3042,13 +3041,13 @@
   "estado": "web_ok",
   "marca": "Coldwell Banker City",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.coldwellbanker.es/bocairent/hotel-rural-masia-el-parral-con-segunda-vivienda-independiente-en-un-entorno-natural-excepcional": "parece la ficha de un solo piso",
-   "https://www.coldwellbanker.es/javea-xabia/montanar-el-arenal/hotel-boutique-de-lujo-frente-al-mar-en-javea-con-licencia-de-obra-y-restaurante-chill-out": "parece la ficha de un solo piso",
+   "https://www.coldwellbanker.es/javea-xabia/montanar-el-arenal/hotel-boutique-de-lujo-frente-al-mar-en-javea-con-licencia-de-obra-y-restaurante-chill-out": "la página es de otra ciudad",
    "https://www.coldwellbanker.es/pozuelo-de-alarcon/prado-de-somosaguas-la-finca/chalet-independiente-en-venta-en-paseo-de-la-finca": "la dirección es de venta"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.coldwellbanker.es/"
  },
@@ -3056,13 +3055,13 @@
   "estado": "web_ok",
   "marca": "Coldwell Banker Class Real Estate",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.coldwellbanker.es/bocairent/hotel-rural-masia-el-parral-con-segunda-vivienda-independiente-en-un-entorno-natural-excepcional": "parece la ficha de un solo piso",
-   "https://www.coldwellbanker.es/javea-xabia/montanar-el-arenal/hotel-boutique-de-lujo-frente-al-mar-en-javea-con-licencia-de-obra-y-restaurante-chill-out": "parece la ficha de un solo piso",
+   "https://www.coldwellbanker.es/javea-xabia/montanar-el-arenal/hotel-boutique-de-lujo-frente-al-mar-en-javea-con-licencia-de-obra-y-restaurante-chill-out": "la página es de otra ciudad",
    "https://www.coldwellbanker.es/pozuelo-de-alarcon/prado-de-somosaguas-la-finca/chalet-independiente-en-venta-en-paseo-de-la-finca": "la dirección es de venta"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.coldwellbanker.es/"
  },
@@ -3098,13 +3097,13 @@
   "estado": "web_ok",
   "marca": "Coldwell Banker Prestige Barcelona",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.coldwellbanker.es/bocairent/hotel-rural-masia-el-parral-con-segunda-vivienda-independiente-en-un-entorno-natural-excepcional": "parece la ficha de un solo piso",
-   "https://www.coldwellbanker.es/javea-xabia/montanar-el-arenal/hotel-boutique-de-lujo-frente-al-mar-en-javea-con-licencia-de-obra-y-restaurante-chill-out": "parece la ficha de un solo piso",
+   "https://www.coldwellbanker.es/javea-xabia/montanar-el-arenal/hotel-boutique-de-lujo-frente-al-mar-en-javea-con-licencia-de-obra-y-restaurante-chill-out": "la página es de otra ciudad",
    "https://www.coldwellbanker.es/pozuelo-de-alarcon/prado-de-somosaguas-la-finca/chalet-independiente-en-venta-en-paseo-de-la-finca": "la dirección es de venta"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.coldwellbanker.es/"
  },
@@ -3236,9 +3235,9 @@
   "estado": "web_ok",
   "marca": "Cuarta Planta",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.cuartaplanta.com/"
  },
@@ -3317,12 +3316,15 @@
   "marca": "Daniel Ordoñez Argiz"
  },
  "david": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "David Real Estate",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.davidrealestate.es/es/invierte-genera-patrimonio-seguro-y-rentable",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.davidrealestate.es/es/invierte-genera-patrimonio-seguro-y-rentable": "está vacía y la dirección no dice que sea de alquiler",
+   "https://www.davidrealestate.es/es/quieres-alquilar-o-vender-tu-inmueble-con-todas-las-garantias": "la dirección es de noticias, servicios, locales u oficinas"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.davidrealestate.es/es"
  },
@@ -3350,13 +3352,13 @@
   "estado": "web_ok",
   "marca": "Serveis DC Barcelona",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "http://www.serveisdcbarcelona.es/producto/alquiler-de-piso-en-calle-de-federico-garcia-lorca-les-roquetes-canyelles-barcelona/": "parece la ficha de un solo piso",
    "https://www.serveisdcbarcelona.es/producto/alquiler-de-piso-en-calle-de-federico-garcia-lorca-les-roquetes-canyelles-barcelona/": "parece la ficha de un solo piso",
    "https://www.serveisdcbarcelona.es/producto/calle-aragon/": "no habla de alquiler"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.serveisdcbarcelona.es/"
  },
@@ -3373,12 +3375,16 @@
   "marca": "Deivit Plus, S.l"
  },
  "dels lloguers": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "La Casa Dels Lloguers",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://lacasadelslloguers.com/sobre-nosotros",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://lacasadelslloguers.com/": "es la portada",
+   "https://lacasadelslloguers.com/contacto": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://lacasadelslloguers.com/sobre-nosotros": "la dirección es de noticias, servicios, locales u oficinas"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://lacasadelslloguers.com/"
  },
@@ -3427,12 +3433,12 @@
   "estado": "web_ok",
   "marca": "DGS Real Estate",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
-   "https://dgsrealestate.es/casa-de-ensuenos-en-esparraguera/": "no habla de alquiler",
+   "https://dgsrealestate.es/casa-de-ensuenos-en-esparraguera/": "parece la ficha de un solo piso",
    "https://dgsrealestate.es/propiedades/espectacular-atico-a-200m-del-mar-en-segur-de-calafell/": "parece la ficha de un solo piso"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://dgsrealestate.es/"
  },
@@ -3461,9 +3467,9 @@
   "estado": "web_ok",
   "marca": "Diagonalcasa",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.diagonalcasa.com/"
  },
@@ -3471,9 +3477,9 @@
   "estado": "web_ok",
   "marca": "Diana Finques",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.dianafinques.com/"
  },
@@ -3786,9 +3792,9 @@
   "estado": "web_ok",
   "marca": "Duvet Properties / Maite Llorens",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.duvetproperties.es/"
  },
@@ -3822,12 +3828,16 @@
   "marca": "Finques Edo 2013 SL"
  },
  "edu canon global": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Edu Canon Global Real Estate",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://educanon.net/listing/casa-en-la-cerdanya/",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://educanon.net/listing/casa-en-la-cerdanya/": "parece la ficha de un solo piso",
+   "https://educanon.net/rl_gallery/alquiler-despacho-oficina-ganduxer/": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://educanon.net/rl_gallery/escar-9-5/": "no habla de alquiler"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://educanon.net/"
  },
@@ -4070,6 +4080,7 @@
   "estado": "web_ok",
   "marca": "Estrada & Partners Asesores Inmobiliarios SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://estradapartners.com/": "es la portada",
    "https://estradapartners.com/naves-industriales-en-alquiler/": "la dirección es de noticias, servicios, locales u oficinas",
@@ -4078,7 +4089,6 @@
    "https://estradapartners.com/propiedades/nave-logistica-de-alquiler-en-castellbisbal-de-4-997-m%C2%B2/": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://estradapartners.com/"
  },
@@ -4217,12 +4227,15 @@
   "web": "https://ethicrealestate.com/"
  },
  "etna studio": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Etna Studio",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.etnastudio.com/estilo-atemporal-o-de-tendencia/",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.etnastudio.com/en/project/caldetas/": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://www.etnastudio.com/estilo-atemporal-o-de-tendencia/": "está vacía y la dirección no dice que sea de alquiler"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.etnastudio.com/"
  },
@@ -4261,12 +4274,14 @@
   "marca": "Euro Servicios Urbanísticos e Inmobiliarios SL"
  },
  "eurofincas": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Eurofincas",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.eurofincas.es/gestion-patrimonial-alquiler?lang=es",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.eurofincas.es/gestion-patrimonial-alquiler?lang=es": "la dirección es de noticias, servicios, locales u oficinas"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.eurofincas.es/"
  },
@@ -4666,9 +4681,9 @@
   "estado": "web_ok",
   "marca": "Find It Property Group",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://finditpropertygroup.com/"
  },
@@ -4685,14 +4700,11 @@
   "marca": "Finedo Service SL"
  },
  "finestrelles": {
-  "estado": "web_ok",
+  "estado": "publica_en_portal",
   "marca": "Fincas Finestrelles",
   "metodo": "dominio",
-  "rechazadas": {
-   "https://fincasfinestrelles.com": "es la portada"
-  },
-  "revisado_js": true,
-  "revisar": true,
+  "portal": "https://www.idealista.com/pro/fincasfinestrelles/alquiler-viviendas/",
+  "portal_revisado": true,
   "version": 3,
   "web": "https://fincasfinestrelles.com/"
  },
@@ -4708,19 +4720,22 @@
   "estado": "web_ok",
   "marca": "Fincas Finurba",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.fincasfinurba.com/cat/index.php"
  },
  "firstline houses": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Firstline Houses",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://firstlinehouses.com/services/property-search-and-location-expertise/",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://firstlinehouses.com/costa-brava-real-estate/cadaques/": "la página es de otra ciudad",
+   "https://firstlinehouses.com/services/property-search-and-location-expertise/": "la dirección es de noticias, servicios, locales u oficinas"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://firstlinehouses.com/"
  },
@@ -4962,12 +4977,12 @@
   "estado": "web_ok",
   "marca": "Gabinet Immobiliari Pratenc SCP",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
-   "https://www.gabinetimmobiliari.com/detalle/inmueble/51672187627.391600": "parece la ficha de un solo piso",
+   "https://www.gabinetimmobiliari.com/detalle/inmueble/47542349125.391600": "parece la ficha de un solo piso",
    "https://www.gabinetimmobiliari.com/detalle/inmueble/85906361353.391600": "parece la ficha de un solo piso"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.gabinetimmobiliari.com/"
  },
@@ -5063,8 +5078,8 @@
   "estado": "vigilable",
   "marca": "Fincas Gandia Servicios Inmobiliarios",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.fincasgandia.com/wp-content/uploads/2019/05/RENT.jpg",
+  "portal_revisado": true,
+  "url_alquiler": "https://www.fincasgandia.com/ca/lloguer-i-venda/",
   "version": 3,
   "web": "https://www.fincasgandia.com/"
  },
@@ -5088,6 +5103,7 @@
   "estado": "web_ok",
   "marca": "Garvi Finques",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.finquesgarvi.com/es/blog/actualitat-1/agencia-inmobliaria-lider-alquileres-barcelona-hospitalet-29.htm": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.finquesgarvi.com/es/blog/venta-o-lloguer-4/clientes-opinan-de-nuestro-servicio-del-alquiler-de-pisos-33.htm": "la dirección es de noticias, servicios, locales u oficinas",
@@ -5096,7 +5112,6 @@
    "https://www.finquesgarvi.com/es/servicios/seguros-de-alquiler-6.htm": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.finquesgarvi.com/es/index.htm"
  },
@@ -5219,9 +5234,9 @@
   "estado": "web_ok",
   "marca": "Germà Juli",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.germajuli.com/"
  },
@@ -5258,11 +5273,11 @@
   "estado": "web_ok",
   "marca": "Gesgrama",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://gesgrama.es/noticias/descubre-todo-sobre-una-vivienda-de-obra-nueva": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://gesgrama.es/"
  },
@@ -5381,12 +5396,15 @@
   "marca": "GHabitatMLS"
  },
  "gil": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Finques Gil",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://gilamargos.com/gestio-patrimonial-i-lloguers",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://gilamargos.com/es/lnd-es/cambio-de-administrador-de-comunidad-en-barcelona": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://gilamargos.com/gestio-patrimonial-i-lloguers": "la dirección es de noticias, servicios, locales u oficinas"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://gilamargos.com/"
  },
@@ -5438,8 +5456,8 @@
   "estado": "vigilable",
   "marca": "GlamHabitat",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://glamhabitat.es/piso-chic/",
+  "portal_revisado": true,
+  "url_alquiler": "https://glamhabitat.es/alquilar/",
   "version": 3,
   "web": "https://glamhabitat.es/"
  },
@@ -5527,9 +5545,9 @@
   "estado": "web_ok",
   "marca": "Goldmark",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.goldmark.es/"
  },
@@ -5538,12 +5556,16 @@
   "marca": "Gómez y Real 2911"
  },
  "gomez ros": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Gómez Ros Asesores",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://gomezrosasesores.com/declaracion-renta-hospitalet/",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://gomezrosasesores.com/ca/calendari-laboral-2027-catalunya/": "parece la ficha de un solo piso",
+   "https://gomezrosasesores.com/declaracion-renta-hospitalet/": "está vacía y la dirección no dice que sea de alquiler",
+   "https://gomezrosasesores.com/gestoria-autonomos-hospitalet/": "está vacía y la dirección no dice que sea de alquiler"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://gomezrosasesores.com/"
  },
@@ -5551,9 +5573,9 @@
   "estado": "web_ok",
   "marca": "Gon & CE Gestió",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.goncegestio.es/"
  },
@@ -5565,9 +5587,9 @@
   "estado": "web_ok",
   "marca": "González Fincas",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.fincasgonzalez.com/"
  },
@@ -5771,12 +5793,15 @@
   "marca": "Guillermo Silva Bernardo"
  },
  "guimar": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Guimar Consulting Inmobiliario",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.guimarconsulting.es/gestionamos-su-inmueble.php",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.guimarconsulting.es/gestionamos-su-inmueble.php": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://www.guimarconsulting.es/inmuebles-en-rentabilidad.php": "la dirección es de noticias, servicios, locales u oficinas"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.guimarconsulting.es/"
  },
@@ -5822,9 +5847,9 @@
   "estado": "web_ok",
   "marca": "Habitahogar",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://habitahogar.com/"
  },
@@ -5845,9 +5870,9 @@
   "estado": "web_ok",
   "marca": "Habitat Apartments",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.habitatapartments.com/es"
  },
@@ -5930,11 +5955,11 @@
   "estado": "web_ok",
   "marca": "Hegava",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://hegava.com/": "es la portada"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://hegava.com/"
  },
@@ -5952,12 +5977,18 @@
   "marca": "Heritage Real Estate SL"
  },
  "hermes mathew": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Hermes & Mathew",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://hermesmathew.com/guia-de-alquiler/",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://hermesmathew.com/espana-tercer-destino-preferido-para-el-inversor-inmobiliario-extranjero/": "parece la ficha de un solo piso",
+   "https://hermesmathew.com/guia-de-alquiler/": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://hermesmathew.com/property/elegante-piso-de-diseno-vistas-al-mar-en-venta-frente-al-port-vell/": "la dirección es de venta",
+   "https://hermesmathew.com/property/elegante-piso-en-venta-a-estrenar-frente-al-port-vell-con-rooftop-piscina-y-esencia-historica/": "la dirección es de venta",
+   "https://hermesmathew.com/property/exclusivo-y-sofisticado-piso-en-venta-reformado-a-estrenar-frente-al-port-vell/": "la dirección es de venta"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.hermesmathew.com/"
  },
@@ -6039,9 +6070,9 @@
   "estado": "web_ok",
   "marca": "La Home Barcelona",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.lahomebarcelona.com/"
  },
@@ -6053,11 +6084,11 @@
   "estado": "web_ok",
   "marca": "Home4bcn",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.home4bcn.com/relocation_services.html": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.home4bcn.com/"
  },
@@ -6111,12 +6142,13 @@
   "marca": "Housfy Real Estate"
  },
  "housing": {
-  "anuncios": 3,
+  "anuncios": 2,
   "estado": "vigilable",
   "marca": "Housing Bcn",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.housing-bcn.com/property/Studio_flat_for_rent_in_paseo_de_la_Marina",
+  "portal": "https://www.idealista.com/pro/housing-bcn/",
+  "portal_revisado": true,
+  "url_alquiler": "https://www.housing-bcn.com/property-offers/1",
   "version": 3,
   "web": "https://www.housing-bcn.com/"
  },
@@ -6295,14 +6327,14 @@
   "estado": "web_ok",
   "marca": "Immo Serveis Immobiliaris",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
-   "https://www.immoserveis.com/spa/inmo/property/tipus/rent-moblat-selloption/inmuebles-alquiler-anual-sant-antoni-calonge-palamos.html": "parece la ficha de un solo piso",
+   "https://www.immoserveis.com/spa/inmo/property/tipus/rent-moblat-selloption/inmuebles-alquiler-anual-sant-antoni-calonge-palamos.html": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.immoserveis.com/spa/inmo/property/tipus/temp/alquiler-turistico-sant-antoni-calonge-palamos.html": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.immoserveis.com/spa/p/inmo/property/alquiler-turistico-sant-antoni-calonge-palamos/22/v/tipus/temp/211.htm": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.immoserveis.com/spa/p/inmo/property/alquiler-turistico-sant-antoni-calonge-palamos/24/v/tipus/temp/307.htm": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.immoserveis.com/"
  },
@@ -6378,11 +6410,11 @@
   "estado": "web_ok",
   "marca": "Immoclau",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
-   "https://immoclau.es/2024/09/09/cambia-de-casa-y-disfruta-de-tu-nueva-vida/": "parece la ficha de un solo piso"
+   "https://immoclau.es/2024/09/09/cambia-de-casa-y-disfruta-de-tu-nueva-vida/": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://immoclau.es/"
  },
@@ -6513,9 +6545,9 @@
   "estado": "web_ok",
   "marca": "Ingenii",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.ingenii.es/"
  },
@@ -6552,12 +6584,15 @@
   "marca": "Inmarba"
  },
  "inmo": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Inmo - Gestión",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.inmogestion.cat/gestion-alquileres",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.inmogestion.cat/gestion-alquileres": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://www.inmogestion.cat/vendidos": "está vacía y la dirección no dice que sea de alquiler"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.inmogestion.cat/"
  },
@@ -6727,14 +6762,8 @@
   "marca": "Inmomarto Gestió Immobiliària"
  },
  "inmoplus": {
-  "estado": "web_ok",
-  "marca": "Inmoplus",
-  "metodo": "dominio",
-  "rechazadas": {},
-  "revisado_js": true,
-  "revisar": true,
-  "version": 3,
-  "web": "https://inmoplus.net/"
+  "estado": "busqueda_pendiente",
+  "marca": "Inmoplus"
  },
  "inmoqualitats": {
   "estado": "busqueda_pendiente",
@@ -6925,19 +6954,18 @@
   "estado": "web_ok",
   "marca": "Interfincas",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.interfincas.net/"
  },
  "interfinques": {
-  "estado": "web_ok",
+  "estado": "publica_en_portal",
   "marca": "Interfinques",
   "metodo": "dominio",
-  "rechazadas": {},
-  "revisado_js": true,
-  "revisar": true,
+  "portal": "https://www.pisos.com/inmobiliaria-interfinques/",
+  "portal_revisado": true,
   "version": 3,
   "web": "https://www.interfinques.es/"
  },
@@ -7275,9 +7303,9 @@
   "estado": "web_ok",
   "marca": "JRE Global Properties SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.jreglobalproperties.com/"
  },
@@ -7285,9 +7313,9 @@
   "estado": "web_ok",
   "marca": "JS Inmobiliaria",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://jsinmobiliaria.es/"
  },
@@ -7561,9 +7589,9 @@
   "estado": "web_ok",
   "marca": "Layvak",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.layvak.es/"
  },
@@ -7571,9 +7599,9 @@
   "estado": "web_ok",
   "marca": "Finques Leant SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://finquesleant.com/"
  },
@@ -7601,12 +7629,12 @@
   "estado": "web_ok",
   "marca": "Finques Lesseps",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://finqueslesseps.com/com-treballem": "no habla de alquiler",
    "https://finqueslesseps.com/incidencies-manteniment": "no habla de alquiler"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://finqueslesseps.com/"
  },
@@ -7737,12 +7765,17 @@
   "marca": "Lloguer Protegit"
  },
  "lloguer segur": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Lloguer Segur",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.alquilerseguro.es/ca-es/viviendas/destacados",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.alquilerseguro.es/ca-es/": "está vacía y la dirección no dice que sea de alquiler",
+   "https://www.alquilerseguro.es/ca-es/inquilino": "está vacía y la dirección no dice que sea de alquiler",
+   "https://www.alquilerseguro.es/ca-es/propietario": "está vacía y la dirección no dice que sea de alquiler",
+   "https://www.alquilerseguro.es/ca-es/viviendas/destacados": "está vacía y la dirección no dice que sea de alquiler"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.alquilerseguro.es/ca-es/"
  },
@@ -7844,13 +7877,13 @@
   "estado": "web_ok",
   "marca": "LR Advocats",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.lradvocats.com/els-nostres-serveis": "la dirección es de noticias, servicios, locales u oficinas",
-   "https://www.lradvocats.com/guias-practicas/canvis-en-la-reduccio-per-lloguer-dhabitatge-1": "parece la ficha de un solo piso",
+   "https://www.lradvocats.com/guias-practicas/canvis-en-la-reduccio-per-lloguer-dhabitatge-1": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.lradvocats.com/noticia-del-dia/lloguer-de-local": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.lradvocats.com/"
  },
@@ -7892,11 +7925,11 @@
   "estado": "web_ok",
   "marca": "Lugo Property",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.lugoproperty.com/": "es la portada"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.lugoproperty.com/"
  },
@@ -7977,12 +8010,14 @@
   "marca": "Magarfinc"
  },
  "magna urbis": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Magna Urbis BCN SL",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://magnaurbis.com/patrimonios-inmobiliarios/",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://magnaurbis.com/patrimonios-inmobiliarios/": "está vacía y la dirección no dice que sea de alquiler"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://magnaurbis.com/"
  },
@@ -8143,12 +8178,11 @@
   "marca": "Maria Tutusaus"
  },
  "marpa": {
-  "estado": "web_ok",
+  "estado": "publica_en_portal",
   "marca": "Marpa Fincas",
   "metodo": "dominio",
-  "rechazadas": {},
-  "revisado_js": true,
-  "revisar": true,
+  "portal": "https://www.idealista.com/pro/fincas-marpa/alquiler-locales/",
+  "portal_revisado": true,
   "version": 3,
   "web": "https://www.fincasmarpa.com/"
  },
@@ -8174,12 +8208,18 @@
   "web": "https://martbel.com/"
  },
  "martell": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Finques Martell",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://finquesmartell.com/alquilar-tu-piso-en-el-carmel/",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://finquesmartell.com/alquilar-tu-piso-en-el-carmel/": "parece la ficha de un solo piso",
+   "https://finquesmartell.com/ca/immoble/canada-joan-de-peguera-barcelona-venta-2545/": "la dirección es de venta",
+   "https://finquesmartell.com/como-alquilar-tu-piso-en-la-sagrada-familia/": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://finquesmartell.com/servicios/compra-venta-y-alquiler/": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://finquesmartell.com/servicios/pisos-de-alquiler-en-barcelona/": "la dirección es de noticias, servicios, locales u oficinas"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://finquesmartell.com/"
  },
@@ -8229,12 +8269,17 @@
   "marca": "Mashogar"
  },
  "masies emporda": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Masies Empordà",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.masiesemporda.cat/buscar?field_clasificacion_propiedad_tid=68&field_ambito_geografico_tid=263",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.masiesemporda.cat/buscar?field_clasificacion_propiedad_tid=68&field_ambito_geografico_tid=253": "está vacía y la dirección no dice que sea de alquiler",
+   "https://www.masiesemporda.cat/buscar?field_clasificacion_propiedad_tid=68&field_ambito_geografico_tid=255": "ningún anuncio de la zona de Barcelona",
+   "https://www.masiesemporda.cat/buscar?field_clasificacion_propiedad_tid=68&field_ambito_geografico_tid=263": "está vacía y la dirección no dice que sea de alquiler",
+   "https://www.masiesemporda.cat/en-lloguer": "ningún anuncio de la zona de Barcelona"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.masiesemporda.cat/"
  },
@@ -8296,12 +8341,12 @@
   "marca": "Mawa Real Estate"
  },
  "max loyalty": {
-  "anuncios": 1,
+  "anuncios": 3,
   "estado": "vigilable",
   "marca": "Max Loyalty Properties",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://maxloyalty.es/propiedades/alquiler-de-piso-en-calle-paris/",
+  "portal_revisado": true,
+  "url_alquiler": "https://maxloyalty.es/propiedades/calle-almogavers87-4o-planta-de-barcelona/",
   "version": 3,
   "web": "https://maxloyalty.es/"
  },
@@ -8380,12 +8425,16 @@
   "marca": "Mconsultoria peritos 2023 SL"
  },
  "md promoven": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Md Promoven",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.mdpromoven.com/wp-content/uploads/piso-en-alquiler-en-barcelona-2.jpeg",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.mdpromoven.com": "es la portada",
+   "https://www.mdpromoven.com/wp-content/uploads/piso-en-alquiler-1.jpeg": "es una imagen o un documento, no una página",
+   "https://www.mdpromoven.com/wp-content/uploads/piso-en-alquiler-en-barcelona-2.jpeg": "es una imagen o un documento, no una página"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.mdpromoven.com/"
  },
@@ -8579,12 +8628,14 @@
   "marca": "Milans"
  },
  "milla": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Finques Milla",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.finquesmilla.es/inmuebles?operacion=1",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.finquesmilla.es/inmuebles?operacion=1": "está vacía y la dirección no dice que sea de alquiler"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.finquesmilla.es/"
  },
@@ -8613,9 +8664,9 @@
   "estado": "web_ok",
   "marca": "Fincas Mirafer",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.fincasmirafer.com/"
  },
@@ -8653,9 +8704,9 @@
   "estado": "web_ok",
   "marca": "Finques Mixoy i Sánchez SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.finquesmixoy.com/"
  },
@@ -8792,9 +8843,9 @@
   "estado": "web_ok",
   "marca": "Mor Assessors",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.morassessors.es/es/"
  },
@@ -8862,12 +8913,12 @@
   "estado": "web_ok",
   "marca": "Multipiso",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.multipiso.net/Venta-Garaje-l-Hospitalet-de-Llobregat-La-Florida-1165": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.multipiso.net/contactar": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.multipiso.net/"
  },
@@ -8936,9 +8987,9 @@
   "estado": "web_ok",
   "marca": "Nashira Living SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://nashiraliving.com/"
  },
@@ -9109,9 +9160,9 @@
   "estado": "web_ok",
   "marca": "Noucasa",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.noucasa.com/"
  },
@@ -9228,11 +9279,11 @@
   "estado": "web_ok",
   "marca": "Oficasa",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.oficasa.es/ObraNueva-Venta-Castell%C3%B3n-Corte-Ingl%C3%A9s-1195": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.oficasa.es/"
  },
@@ -9292,12 +9343,17 @@
   "marca": "Finques Ollé"
  },
  "olle bertran": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Olle Bertran",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.ollebertran.com/ca/propietaris/_llogar:true/",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.ollebertran.com/ca/actualitat/demanda-lloguer-a-barcelona-els-pisos-de-lloguer-volen/_noticia:45/": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://www.ollebertran.com/ca/propietaris/_llogar:true/": "está vacía y la dirección no dice que sea de alquiler",
+   "https://www.ollebertran.com/ca/serveis/_id:3/": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://www.ollebertran.com/ca/serveis/administracio-de-lloguers/_id:3/": "la dirección es de noticias, servicios, locales u oficinas"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.ollebertran.com/"
  },
@@ -9320,12 +9376,11 @@
   "marca": "Inmobiliaria Olvacan SL"
  },
  "on viure": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "publica_en_portal",
   "marca": "On viure",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://on-viure.com/wp-content/uploads/2023/01/alquiler.jpg",
+  "portal": "https://www.idealista.com/pro/on-viurecom/alquiler-locales/",
+  "portal_revisado": true,
   "version": 3,
   "web": "https://on-viure.com/"
  },
@@ -9397,12 +9452,15 @@
   "marca": "Orti Associats"
  },
  "ortuno": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Asesores Ortuño SCCL",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.asesoresortuno.net/inmobiliaria2.php",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://www.asesoresortuno.net/": "es la portada",
+   "https://www.asesoresortuno.net/inmobiliaria2.php": "está vacía y la dirección no dice que sea de alquiler"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://www.asesoresortuno.net/"
  },
@@ -9585,11 +9643,11 @@
   "estado": "web_ok",
   "marca": "Perfecthome",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.perfecthome.es/casa-chalet-en-gironella-es1785795.html": "parece la ficha de un solo piso"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.perfecthome.es/"
  },
@@ -9633,6 +9691,7 @@
   "estado": "web_ok",
   "marca": "Fincas Picasso",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.fincaspicasso.es/": "es la portada",
    "https://www.fincaspicasso.es/alquiler/oficina/barcelona/cornella-de-llobregat/almeda-can-mercader/alquiler-oficina-barcelona-cornella-de-llobregat-almeda-can-mercader.html": "la dirección es de noticias, servicios, locales u oficinas",
@@ -9641,7 +9700,6 @@
    "https://www.fincaspicasso.es/alquiler/oficina/barcelona/esplugues-de-llobregat/la-plana-montesa/alquiler-oficina-barcelona-esplugues-de-llobregat-la-plana-montesa.html": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.fincaspicasso.es/"
  },
@@ -9779,11 +9837,11 @@
   "estado": "web_ok",
   "marca": "Pisos Sant Cugat",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.pisossantcugat.net/sant-cugat/alquileres": "los anuncios no tienen precios de alquiler"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.pisossantcugat.net/"
  },
@@ -9846,8 +9904,8 @@
   "estado": "vigilable",
   "marca": "Polenova & Partners SL",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://polenovapartners.com/dogovor-arendy-ispania/",
+  "portal_revisado": true,
+  "url_alquiler": "https://polenovapartners.com/rent/",
   "version": 3,
   "web": "https://polenovapartners.com/"
  },
@@ -9859,12 +9917,12 @@
   "estado": "web_ok",
   "marca": "Pons House",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.ponshouse.com/alquiler": "los anuncios no tienen precios de alquiler",
    "https://www.ponshouse.com/alquiler/es/": "los anuncios no tienen precios de alquiler"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.ponshouse.com/"
  },
@@ -9939,12 +9997,12 @@
   "estado": "web_ok",
   "marca": "Primemax Real Estate SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://primemaxrealestate.es": "es la portada",
    "https://primemaxrealestate.es/": "es la portada"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://primemaxrealestate.es/"
  },
@@ -9992,11 +10050,11 @@
   "estado": "web_ok",
   "marca": "Finques Progrés & Associats",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.finquesprogres.com/contact-10": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.finquesprogres.com/"
  },
@@ -10205,9 +10263,9 @@
   "estado": "web_ok",
   "marca": "Publifincas",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://publifincas.com/"
  },
@@ -10494,11 +10552,11 @@
   "estado": "web_ok",
   "marca": "Renda Sant Cugat",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://rendasantcugat.es/carrito/": "no habla de alquiler"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://rendasantcugat.es/"
  },
@@ -10592,9 +10650,9 @@
   "estado": "web_ok",
   "marca": "Revalore",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://revalore.es/"
  },
@@ -10634,9 +10692,9 @@
   "estado": "web_ok",
   "marca": "Ricasa",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.ricasa.es/"
  },
@@ -10705,12 +10763,11 @@
   "marca": "Rocío Aguilar Soto"
  },
  "rodes": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "publica_en_portal",
   "marca": "Rodes Finques",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://finquesrodes.cat/es/canal-etic/",
+  "portal": "https://www.habitaclia.com/inmobiliaria-finques_rodes_4101_1/",
+  "portal_revisado": true,
   "version": 3,
   "web": "https://finquesrodes.cat/"
  },
@@ -10762,6 +10819,7 @@
   "estado": "web_ok",
   "marca": "Finques Ros",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://finquesros.com/": "es la portada",
    "https://finquesros.com/property/local-en-alquiler-en-gala-placidia": "la dirección es de noticias, servicios, locales u oficinas",
@@ -10770,7 +10828,6 @@
    "https://finquesros.com/status/alquiler": "ningún anuncio de la zona de Barcelona"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://finquesros.com/"
  },
@@ -10958,16 +11015,11 @@
   "marca": "San Marti Alquileres Real Estate SL"
  },
  "sanchez": {
-  "estado": "web_ok",
+  "estado": "publica_en_portal",
   "marca": "Fincas Sánchez",
   "metodo": "dominio",
-  "rechazadas": {
-   "https://www.fincassanchez.es/alquiler-piso-centro-12269": "parece la ficha de un solo piso",
-   "https://www.fincassanchez.es/alquiler-piso-centro-13527": "parece la ficha de un solo piso",
-   "https://www.fincassanchez.es/blog/pisos-alquiler-zaragoza-radiografia-del-mercado-de-alquiler-en-zaragoza-26": "la dirección es de noticias, servicios, locales u oficinas"
-  },
-  "revisado_js": true,
-  "revisar": true,
+  "portal": "https://www.idealista.com/pro/fincassanchez/venta-viviendas/",
+  "portal_revisado": true,
   "version": 3,
   "web": "https://www.fincassanchez.es/"
  },
@@ -11098,12 +11150,12 @@
   "estado": "web_ok",
   "marca": "Savills",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.savills.es/publicaciones/noticias/395811/teatro-barcelo-a-grupo-sounds": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.savills.es/servicios/alquiler.aspx": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.savills.es/"
  },
@@ -11321,14 +11373,11 @@
   "marca": "Fincas Del Siglo"
  },
  "siglo xxi": {
-  "estado": "web_ok",
+  "estado": "publica_en_portal",
   "marca": "Fincas Siglo Xxi",
   "metodo": "dominio",
-  "rechazadas": {
-   "https://www.fincassigloxxi.es/servicios": "la dirección es de noticias, servicios, locales u oficinas"
-  },
-  "revisado_js": true,
-  "revisar": true,
+  "portal": "https://www.idealista.com/pro/fincas-siglo-xxi/",
+  "portal_revisado": true,
   "version": 3,
   "web": "https://www.fincassigloxxi.es/"
  },
@@ -11413,12 +11462,12 @@
   "estado": "web_ok",
   "marca": "SmartPlus30",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
-   "https://www.smartplus30.com/?s=&property_status=&property_type=&property_location=&tm-re-more-property-fields=on&min_price=&max_price=&min_bedrooms=&max_bedrooms=&min_bathrooms=&max_bathrooms=&min_area=&max_area=&min_parking_place=&max_parking_place=&post_type=tm-property": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://www.smartplus30.com/?s=&property_status=&property_type=&property_location=&tm-re-more-property-fields=on&min_price=&max_price=&min_bedrooms=&max_bedrooms=&min_bathrooms=&max_bathrooms=&min_area=&max_area=&min_parking_place=&max_parking_place=&post_type=tm-property": "es la portada",
    "https://www.smartplus30.com/properties/casa-o-chalet-independiente-en-venta-en-calle-avet-vallvidrera-el-tibidabo-i-les-planes-barcelona/": "la dirección es de venta"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.smartplus30.com/"
  },
@@ -11482,6 +11531,7 @@
   "estado": "web_ok",
   "marca": "Soler Finques",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://solerfinques.com/propiedades/alquiler/locales/barcelona-province/sant-cugat-del-valles/detalle/80": "la dirección es de noticias, servicios, locales u oficinas",
    "https://solerfinques.com/propiedades/alquiler/oficinas/barcelona-province/sant-cugat-del-valles/detalle/55": "la dirección es de noticias, servicios, locales u oficinas",
@@ -11489,7 +11539,6 @@
    "https://solerfinques.com/propiedades/alquiler/oficinas/barcelona-province/sant-cugat-del-valles/detalle/96": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://solerfinques.com/"
  },
@@ -11525,14 +11574,14 @@
   "estado": "web_ok",
   "marca": "Solución Inmobiliaria Santa Eulalia SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.solucioninmobiliaria.es/es/alquiler": "ningún anuncio de la zona de Barcelona",
    "https://www.solucioninmobiliaria.es/es/carbajosa_de_la_sagrada/elecrerc/chalets_pareados/ref-3784": "parece la ficha de un solo piso",
-   "https://www.solucioninmobiliaria.es/es/salamanca/barrio_del_oeste/apartamentos/ref-3903": "parece la ficha de un solo piso",
-   "https://www.solucioninmobiliaria.es/es/salamanca/casco_historico/apartamentos/ref-3963": "parece la ficha de un solo piso"
+   "https://www.solucioninmobiliaria.es/es/salamanca/barrio_del_oeste/apartamentos/ref-3903": "la página es de otra ciudad",
+   "https://www.solucioninmobiliaria.es/es/salamanca/casco_historico/apartamentos/ref-3963": "la página es de otra ciudad"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.solucioninmobiliaria.es/"
  },
@@ -11756,9 +11805,9 @@
   "estado": "web_ok",
   "marca": "TC Flats SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://tcflats.com/"
  },
@@ -11830,9 +11879,9 @@
   "estado": "web_ok",
   "marca": "Fincas Tema SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.fincastema.com/"
  },
@@ -11943,12 +11992,12 @@
   "estado": "web_ok",
   "marca": "Finques Tolher",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.finquestolher.com/buscador-de-alquiler-inmobiliaria-pisos-casas-locales-garajes-montgat.html": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.finquestolher.com/gestion-de-alquileres-inmobiliaria-pisos-casas-locales-garajes-montgat.html": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.finquestolher.com/"
  },
@@ -11980,13 +12029,13 @@
   "estado": "web_ok",
   "marca": "Top House Realty SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.tophouse.es/casa-chalet-en-cheste-con-piscina-es1645445.html": "parece la ficha de un solo piso",
    "https://www.tophouse.es/locales-comerciales-en-alquiler-10-2.html": "la dirección es de noticias, servicios, locales u oficinas",
    "https://www.tophouse.es/nave-en-quart-de-poblet-es1541618.html": "la dirección es de noticias, servicios, locales u oficinas"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.tophouse.es/"
  },
@@ -12033,13 +12082,13 @@
   "estado": "web_ok",
   "marca": "Tot Habitat Montcada SL",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.tothabitatmontcada.com/lng/Esp/2453": "parece la ficha de un solo piso",
    "https://www.tothabitatmontcada.com/lng/Esp/2580": "parece la ficha de un solo piso",
    "https://www.tothabitatmontcada.com/lng/Esp/3049": "parece la ficha de un solo piso"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.tothabitatmontcada.com/"
  },
@@ -12048,12 +12097,16 @@
   "marca": "Tot Traspàs"
  },
  "toysan": {
-  "anuncios": 0,
-  "estado": "vigilable",
+  "estado": "web_ok",
   "marca": "Toysan Finques SL",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://toysanfinques.com/es/",
+  "portal_revisado": true,
+  "rechazadas": {
+   "https://toysanfinques.com": "es la portada",
+   "https://toysanfinques.com/administracio-de-lloguers/": "la dirección es de noticias, servicios, locales u oficinas",
+   "https://toysanfinques.com/es/": "está vacía y la dirección no dice que sea de alquiler"
+  },
+  "revisado_js": true,
   "version": 3,
   "web": "https://toysanfinques.com/"
  },
@@ -12065,11 +12118,11 @@
   "estado": "web_ok",
   "marca": "Tracte immobiliari 2009",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.tracteimmobiliari.com/": "es la portada"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.tracteimmobiliari.com/"
  },
@@ -12300,6 +12353,7 @@
   "estado": "web_ok",
   "marca": "Urbenorte",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://urbenorte.com/alquilar/": "ningún anuncio de la zona de Barcelona",
    "https://urbenorte.com/alquilar/es/": "la página no existe",
@@ -12307,7 +12361,6 @@
    "https://urbenorte.com/inmueble/casa-%c2%b7-ven6511/": "parece la ficha de un solo piso"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://urbenorte.com/"
  },
@@ -12383,12 +12436,12 @@
   "estado": "web_ok",
   "marca": "Vallbona Finques",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.finquesvallbona.net/alquiler": "ningún anuncio de la zona de Barcelona",
    "https://www.finquesvallbona.net/alquiler/es/": "ningún anuncio de la zona de Barcelona"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.finquesvallbona.net/"
  },
@@ -12453,11 +12506,11 @@
   "estado": "web_ok",
   "marca": "Veí nou equip immobiliari",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.veinou.cat/ca/immobles/llogar/": "ningún anuncio de la zona de Barcelona"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.veinou.cat/ca/"
  },
@@ -12465,11 +12518,11 @@
   "estado": "web_ok",
   "marca": "Veinou",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {
    "https://www.veinou.cat/ca/immobles/llogar/": "ningún anuncio de la zona de Barcelona"
   },
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.veinou.cat/ca/"
  },
@@ -12510,8 +12563,8 @@
   "estado": "vigilable",
   "marca": "Finques Victor",
   "metodo": "dominio",
-  "revisar": true,
-  "url_alquiler": "https://www.finquesvictor.es/es/compra/viviendas/barcelona/hospitalet-de-llobregat-l/873",
+  "portal_revisado": true,
+  "url_alquiler": "https://www.finquesvictor.es/es/alquiler",
   "version": 3,
   "web": "https://www.finquesvictor.es/"
  },
@@ -12613,9 +12666,9 @@
   "estado": "web_ok",
   "marca": "Villa Secreta",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.villasecreta.com/"
  },
@@ -12652,14 +12705,12 @@
   "marca": "Visual Real Estate Position"
  },
  "vitra": {
-  "estado": "web_ok",
+  "anuncios": 0,
+  "estado": "vigilable",
   "marca": "Fincas Vitra",
   "metodo": "dominio",
-  "rechazadas": {
-   "https://www.fincasvitra.com/index.php?option=com_propiedades&view=propiedades&catid=8:alquiler&Itemid=": "los anuncios no tienen precios de alquiler"
-  },
-  "revisado_js": true,
-  "revisar": true,
+  "portal_revisado": true,
+  "url_alquiler": "https://www.fincasvitra.com/index.php?option=com_propiedades&view=propiedades&catid=8:alquiler&Itemid=",
   "version": 3,
   "web": "https://www.fincasvitra.com/"
  },
@@ -12667,9 +12718,9 @@
   "estado": "web_ok",
   "marca": "Viure Bé serveis immobiliaris",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://viurebe.com/"
  },
@@ -12894,9 +12945,9 @@
   "estado": "web_ok",
   "marca": "Zona Fincas",
   "metodo": "dominio",
+  "portal_revisado": true,
   "rechazadas": {},
   "revisado_js": true,
-  "revisar": true,
   "version": 3,
   "web": "https://www.zonafincas.es/"
  },
