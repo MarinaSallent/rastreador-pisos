@@ -291,3 +291,12 @@ rastreo:
   # Si una agencia no publica ningún piso nuevo en este tiempo, se deja de vigilar y se avisa para
   # contactarla en persona (queda en estado/a_contactar.json). 0 = vigilar siempre.
   dias_sin_novedades: 180
+
+# Ritmo de revisión (hora de Madrid). En horario comercial cada 5 minutos; de noche cada 30 y los pisos
+# que aparezcan se guardan y llegan todos juntos a Telegram a las 8:00 (para no despertar a nadie).
+horario:
+  zona: Europe/Madrid
+  inicio: 8
+  fin: 20
+  intervalo_minutos: 5
+  intervalo_noche_minutos: 30

@@ -19,6 +19,7 @@ import html
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import unicodedata
@@ -40,6 +41,7 @@ TELEGRAM = ESTADO / "telegram.json"
 A_CONTACTAR = ESTADO / "a_contactar.json"
 FALLOS = ESTADO / "fallos.json"
 AVISADOS = ESTADO / "avisados.json"          # anuncios ya enviados a Telegram (para no repetirlos)
+NOCTURNOS = ESTADO / "avisos_nocturnos.json"  # pisos encontrados de noche, se envían a primera hora
 BARRIDO = ESTADO / "ultimo_barrido.json"     # resultado del último barrido completo, para afinar criterios
 CALLES = ESTADO / "calles_bcn.json"          # calles de Barcelona → barrio (datos abiertos del Ayuntamiento)
 URL_DIRECCIONES = ("https://opendata-ajuntament.barcelona.cat/data/dataset/6b5cfa7b-1d8d-45f0-990a-d1844d43ffd1/"
@@ -1020,8 +1022,15 @@ def ciclo(cfg: dict, barrido: bool = False, reenviar: bool = False) -> int:
             for a in avisos:
                 if a["url"] in avisados and not reenviar:
                     continue  # otra oficina de la misma red ya lo envió
-                contacto.notificar(mensaje(ag, a), a["url"], a.get("detalle") or {}, tg_estado["pendientes"],
-                                   {"titulo": a["titulo"][:120], "agencia": ag["nombre"]})
+                args_aviso = [mensaje(ag, a), a["url"], a.get("detalle") or {},
+                              {"titulo": a["titulo"][:120], "agencia": ag["nombre"]}]
+                if MODO_NOCHE and not barrido:  # de noche se guardan y se envían todos juntos por la mañana
+                    nocturnos = cargar_json(NOCTURNOS, [])
+                    nocturnos.append(args_aviso)
+                    guardar_json(NOCTURNOS, nocturnos)
+                else:
+                    contacto.notificar(args_aviso[0], args_aviso[1], args_aviso[2], tg_estado["pendientes"],
+                                       args_aviso[3])
                 avisados[a["url"]] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
                 total += 1
                 if total % 10 == 0:  # si el barrido se cortara, no se repiten los ya enviados
@@ -1064,6 +1073,131 @@ def probar(url: str, cfg: dict, modo: str) -> None:
               "pon 'js' en la columna modo y vuelve a probar con --modo js.")
 
 
+def _sh(*cmd: str) -> subprocess.CompletedProcess:
+    return subprocess.run(cmd, cwd=RAIZ, capture_output=True, text=True)
+
+
+def _huella_codigo() -> str:
+    """Identifica la versión del código y la configuración, para reiniciar si subes cambios."""
+    r = _sh("git", "rev-parse", "HEAD:rastreador.py", "HEAD:config.yaml", "HEAD:contacto.py",
+            "HEAD:mis_agencias.csv", "HEAD:agencias.csv")
+    return r.stdout
+
+
+def guardar_en_git(mensaje: str) -> None:
+    """Sube estado/ al repositorio (si ha cambiado) e incorpora lo que hayas subido tú mientras tanto."""
+    _sh("git", "add", "estado/")
+    if _sh("git", "diff", "--cached", "--quiet").returncode != 0:
+        _sh("git", "commit", "-q", "-m", mensaje)
+    for _ in range(3):
+        if _sh("git", "pull", "-q", "--rebase").returncode != 0:
+            _sh("git", "rebase", "--abort")
+            print("No se pudo combinar con el repositorio; se reintenta en la próxima pasada")
+            return
+        if _sh("git", "push", "-q").returncode == 0:
+            return
+        time.sleep(5)
+
+
+def barrido_pendiente() -> bool:
+    """¿Has lanzado un «Barrido completo»? Entonces esta pasada se aparta para dejarle sitio."""
+    if not os.environ.get("GH_TOKEN"):
+        return False
+    r = _sh("gh", "run", "list", "--workflow", "barrido.yml", "--limit", "5", "--json", "status")
+    try:
+        return any(x.get("status") in ("queued", "in_progress", "waiting", "pending")
+                   for x in json.loads(r.stdout or "[]"))
+    except ValueError:
+        return False
+
+
+MODO_NOCHE = False
+
+
+def es_horario_comercial(cfg: dict) -> bool:
+    h = cfg.get("horario") or {}
+    if not h:
+        return True
+    from zoneinfo import ZoneInfo
+    ahora = datetime.now(ZoneInfo(h.get("zona", "Europe/Madrid")))
+    return int(h.get("inicio", 8)) <= ahora.hour < int(h.get("fin", 20))
+
+
+def segundos_hasta_apertura(cfg: dict) -> float:
+    h = cfg.get("horario") or {}
+    from zoneinfo import ZoneInfo
+    from datetime import timedelta
+    ahora = datetime.now(ZoneInfo(h.get("zona", "Europe/Madrid")))
+    apertura = ahora.replace(hour=int(h.get("inicio", 8)), minute=0, second=0, microsecond=0)
+    if apertura <= ahora:
+        apertura += timedelta(days=1)
+    return (apertura - ahora).total_seconds()
+
+
+def enviar_nocturnos() -> None:
+    """Envía a primera hora los pisos que aparecieron durante la noche."""
+    nocturnos = cargar_json(NOCTURNOS, [])
+    if not nocturnos:
+        return
+    enviar_telegram(f"🌙 <b>{len(nocturnos)} piso{'s' if len(nocturnos) != 1 else ''} publicado"
+                    f"{'s' if len(nocturnos) != 1 else ''} durante la noche</b>")
+    tg_estado = cargar_tg()
+    try:
+        for texto, url, detalle, info in nocturnos:
+            contacto.notificar(texto, url, detalle, tg_estado.setdefault("pendientes", {}), info)
+            time.sleep(2)
+    finally:
+        guardar_tg(tg_estado)
+    guardar_json(NOCTURNOS, [])
+
+
+def bucle(cfg: dict, minutos: int) -> int:
+    """Una sola ejecución de GitHub que revisa cada 5 minutos durante `minutos` y atiende los botones entre
+    revisión y revisión. GitHub no respeta un cron de 5 minutos (lo retrasa horas), así que el ritmo lo
+    marca el propio bot. Al terminar, el workflow lanza la siguiente ejecución."""
+    global MODO_NOCHE
+    fin = time.time() + minutos * 60
+    huella = _huella_codigo()
+    vueltas = 0
+    while time.time() < fin - 60:
+        if barrido_pendiente():
+            print("Hay un barrido completo pendiente: el rastreador se detiene y lo retomará el barrido")
+            return 3
+        inicio = time.time()
+        vueltas += 1
+        try:
+            cfg = yaml.safe_load((RAIZ / "config.yaml").read_text(encoding="utf-8"))
+            MODO_NOCHE = not es_horario_comercial(cfg)
+            if not MODO_NOCHE:
+                enviar_nocturnos()
+            ciclo(cfg)
+        except Exception as e:  # una pasada fallida no debe parar el bucle
+            print(f"Error en la pasada {vueltas}: {e!r}")
+        guardar_en_git("Actualiza estado del rastreador")
+        if _huella_codigo() != huella:
+            print("Has subido código o configuración nueva: se reinicia con la versión nueva")
+            return 0
+        clave = "intervalo_noche_minutos" if MODO_NOCHE else "intervalo_minutos"
+        defecto = 30 if MODO_NOCHE else 5
+        intervalo = int((cfg.get("horario") or {}).get(clave) or cfg["rastreo"].get(clave, defecto)) * 60
+        hasta = min(inicio + intervalo, fin)
+        if MODO_NOCHE:  # que la primera revisión de la mañana sea a la hora de apertura, no media hora después
+            hasta = min(hasta, inicio + max(60, segundos_hasta_apertura(cfg)))
+        tg_estado = cargar_tg()
+        try:
+            contacto.escuchar(tg_estado, hasta)
+        except Exception as e:
+            print(f"Error atendiendo botones: {e!r}")
+        finally:
+            guardar_tg(tg_estado)
+        guardar_en_git("Actualiza estado del rastreador")
+        espera = hasta - time.time()
+        if espera > 0:
+            time.sleep(espera)
+        print(f"Pasada {vueltas} terminada a las {datetime.now(timezone.utc):%H:%M} UTC")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--probar", metavar="URL")
@@ -1074,6 +1208,8 @@ def main() -> int:
     ap.add_argument("--barrido", action="store_true",
                     help="revisa TODOS los anuncios publicados (no solo los nuevos) y envía los que encajen")
     ap.add_argument("--reenviar", action="store_true", help="con --barrido: envía también los que ya se enviaron")
+    ap.add_argument("--bucle", type=int, metavar="MINUTOS",
+                    help="repite la revisión cada 5 minutos durante MINUTOS (modo GitHub Actions)")
     args = ap.parse_args()
     cfg = yaml.safe_load((RAIZ / "config.yaml").read_text(encoding="utf-8"))
     if args.probar_formulario:
@@ -1086,6 +1222,8 @@ def main() -> int:
     if args.probar:
         probar(args.probar, cfg, args.modo)
         return 0
+    if args.bucle:
+        return bucle(cfg, args.bucle)
     inicio = time.time()
     codigo = ciclo(cfg, barrido=args.barrido, reenviar=args.reenviar)
     escuchar = cfg["rastreo"].get("escuchar_botones_segundos", 240)

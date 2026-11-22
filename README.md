@@ -76,7 +76,7 @@ Para que el botón **✉️ Enviar mis datos** pueda rellenar el formulario del 
 2. Pestaña **Actions** → si lo pide, *I understand my workflows, go ahead and enable them*.
 3. **Probar una web → Run workflow**, pon cualquier URL y `telegram: sí`. Si te llega «✅ El rastreador de pisos está conectado a Telegram», todo funciona.
 
-Desde ese momento **Rastreador de pisos** se ejecuta solo cada 5 minutos.
+Desde ese momento **Rastreador de pisos** se queda en marcha: cada ejecución dura unas 5 h 30 min, revisa las webs cada 5 minutos y al terminar lanza la siguiente. Si alguna vez ves que no hay ninguna en marcha (ni amarilla ni en cola), pulsa **Run workflow** una vez.
 
 ---
 
@@ -160,7 +160,10 @@ Si una agencia vigilada pasa **6 meses sin publicar ningún piso nuevo** en su w
 
 ## Límites que conviene saber
 
-- GitHub no garantiza los 5 minutos exactos: en horas de mucha carga, una ejecución puede retrasarse de 5 a 15 minutos. Sigue siendo mucho antes de que el piso llegue a Idealista.
+- GitHub no respeta un cron de 5 minutos (en repositorios nuevos puede pasar horas sin lanzarlo), por eso el ritmo lo marca el propio bot dentro de una ejecución larga. El cron de cada hora es solo un seguro por si la cadena se corta.
+- Horario (sección `horario` de `config.yaml`): de 8:00 a 20:00 (hora de Madrid) revisa cada 5 minutos; de noche cada 30 y los pisos que encuentra se guardan y llegan todos juntos a las 8:00 con el aviso «🌙 publicados durante la noche».
+- Si subes código o configuración nueva, la ejecución en marcha lo detecta en la siguiente pasada y se reinicia sola con la versión nueva.
+- Al lanzar un **Barrido completo**, el rastreador se aparta (como mucho ~5 min de espera) y el barrido lo vuelve a poner en marcha al terminar.
 - Cada web es distinta. El detector reconoce la mayoría de plantillas de agencia (Inmovilla, Witei, WordPress y similares), pero conviene probar cada URL una vez.
 - GitHub pausa las tareas programadas de un repositorio sin actividad durante 60 días. Aquí no pasará, porque el rastreador guarda su estado con commits.
 
