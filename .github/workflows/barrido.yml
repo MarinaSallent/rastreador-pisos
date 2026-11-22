@@ -12,17 +12,30 @@ on:
         default: "no"
 
 concurrency:
-  group: rastreador          # no coincide con las revisiones de cada 5 minutos
+  group: barrido
   cancel-in-progress: false
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   barrido:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 170
     steps:
+      - name: Esperar a que el rastreador de 5 minutos se aparte
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          # El rastreador comprueba antes de cada pasada si hay un barrido y, si lo hay, se detiene.
+          for i in $(seq 1 40); do
+            n=$(gh run list --workflow rastreador.yml --status in_progress --limit 5 --json databaseId --jq 'length')
+            [ "$n" = "0" ] && exit 0
+            echo "El rastreador sigue en marcha; esperando…"; sleep 30
+          done
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -53,3 +66,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add estado/
           git diff --cached --quiet || (git commit -m "Barrido completo" && git pull --rebase && git push)
+
+      - name: Volver a poner en marcha el rastreador de 5 minutos
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run rastreador.yml --ref "${{ github.ref_name }}"
