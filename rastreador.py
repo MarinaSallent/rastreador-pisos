@@ -41,6 +41,11 @@ A_CONTACTAR = ESTADO / "a_contactar.json"
 FALLOS = ESTADO / "fallos.json"
 AVISADOS = ESTADO / "avisados.json"          # anuncios ya enviados a Telegram (para no repetirlos)
 BARRIDO = ESTADO / "ultimo_barrido.json"     # resultado del último barrido completo, para afinar criterios
+CALLES = ESTADO / "calles_bcn.json"          # calles de Barcelona → barrio (datos abiertos del Ayuntamiento)
+URL_DIRECCIONES = ("https://opendata-ajuntament.barcelona.cat/data/dataset/6b5cfa7b-1d8d-45f0-990a-d1844d43ffd1/"
+                   "resource/50c9b17f-d297-4668-bad4-e1c217580747/download")
+URL_CARRERER = ("https://opendata-ajuntament.barcelona.cat/data/dataset/d7802fd1-cdfb-4562-9148-d18722d7e2d8/"
+                "resource/2b010e59-6952-4b27-9c4e-47fcaf64c916/download")
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/130.0 Safari/537.36")
@@ -63,7 +68,7 @@ EXCLUIR_URL = re.compile(
     r"youtube|google\.|/blog|/noticia|/news|aviso-legal|avis-legal|privacidad|privacitat|cookies|"
     r"contacto$|contacte$|/login|/registro|/vender|/valorar|/valoracio|/tasaci|"
     r"wp-login|/author/|/forms?/|contact-individual|/maps\b|imprimir|print|generar-pdf|pdf\.php|"
-    r"informacion_gastos|favoritas=|/lang/[a-z]{2}/change|property-submit|que-piso-casa-buscas|/actualitat|/actualidad|_noticia|/20\d\d/\d\d/|[?&]page_id=|"
+    r"informacion_gastos|favoritas=|add-fav|rem-fav|favoritos|/lang/[a-z]{2}/change|property-submit|que-piso-casa-buscas|/actualitat|/actualidad|_noticia|/20\d\d/\d\d/|[?&]page_id=|"
     r"\.(css|js|json|xml|ico|woff2?)(\?|$)|/wp-json/|oembed|"
     r"[?&](vistas|descartadas|sort|orden|ordenada|ascdesc|order|orderby|ob|cart|secc|per_page|es_category%5b0%5d|es_category|es_type)=)",
     re.I,
@@ -178,7 +183,7 @@ EXTRAS = re.compile(r"^(parkings?|parquing|garajes?|aparcament|aparcamiento|plaz
 
 RE_CP_PARENTESIS = re.compile(r"\((\d{5})\)|\b(\d{5})\s+[A-ZÁÉÍÓÚÀÈÒÇ][a-záéíóúàèòç]")
 # Inmovilla: /ficha/<tipo>/<ciudad>/<zona>/… · webs de pisos.com: /detalle/en_alquiler/<tipo>/<provincia>/<ciudad>/…
-RE_FICHA_CIUDAD = re.compile(r"/ficha/[^/]+/([^/]+)/|/detalle/en_[a-z]+/[^/]+/[^/]+/([^/]+)/")
+RE_FICHA_CIUDAD = re.compile(r"/ficha/[^/]+/([^/]+)/|/detall(?:e)?/(?:en|a)_[a-z]+/[^/]+/[^/]+/([^/]+)/")
 
 
 def otra_ciudad(titulo: str, ruta: str, texto: str, cfg: dict) -> str | None:
@@ -257,6 +262,99 @@ def extras_incluidos(texto: str) -> list[str]:
                 encontrados.append(nombre)
                 break
     return encontrados
+
+
+# ---------------------------------------------------------------- calles → barrio
+TIPOS_VIA = (r"carrer|calle|c/|c\.|cl\.?|avinguda|avenida|avda\.?|av\.?|passeig|paseo|pg\.?|pº|placa|plaza|pl\.?|"
+             r"pza\.?|ronda|rambla|travessera|travesera|via|passatge|pasaje|pje\.?|baixada|bajada|cami|camino|"
+             r"carretera|ctra\.?|gran via")
+RE_VIA = re.compile(r"(?:^|[\s,.;:(·-])(?:" + TIPOS_VIA + r")\s*(?:de |del |de la |de les |dels |d'|de l'|la |el |les |els |l')?"
+                    r"([a-z0-9'·]+(?:[ -][a-z0-9'·]+){0,5})")
+ARTICULOS = re.compile(r"^(?:de |del |de la |de les |dels |d'|de l'|la |el |les |els |l')")
+_calles_cache: dict = {}
+import threading as _threading
+_calles_lock = _threading.Lock()
+
+
+def clave_calle(nombre: str) -> str:
+    """«Carrer de Bertran» → «bertran»; «Carrer Gran de Gràcia» → «gran de gracia»."""
+    t = normalizar(nombre).replace("·", "").replace("-", " ")
+    t = re.sub(r"^(carrer|avinguda|passeig|placa|placeta|passatge|rambla|ronda|travessera|via|baixada|cami|carretera|"
+               r"escales|drecera|torrent|riera|moll|platja|carrero|costa|pas|davallada|travessia|espigo|grup)\s+", "", t)
+    return ARTICULOS.sub("", t).strip()
+
+
+def preparar_calles(cfg: dict) -> dict:
+    """Descarga (una vez) las direcciones postales y el callejero de Barcelona y guarda, para cada calle que toca
+    tus zonas, en qué zona cae cada tramo de números. Se guarda en estado/calles_bcn.json."""
+    if _calles_cache:
+        return _calles_cache
+    with _calles_lock:  # las agencias se revisan en paralelo: que solo un hilo lo descargue
+        if _calles_cache:
+            return _calles_cache
+        return _preparar_calles(cfg)
+
+
+def _preparar_calles(cfg: dict) -> dict:
+    datos = cargar_json(CALLES, None)
+    if not datos:
+        try:
+            import csv as _csv, io
+            nombres = {}
+            for fila in _csv.DictReader(io.StringIO(SESION.get(URL_CARRERER, timeout=120).content.decode("utf-8-sig"))):
+                nombres[fila["codi_via"]] = fila["nom_oficial"]
+            zona_de_barri = {int(b): z for z, bs in (cfg.get("barris_por_zona") or {}).items() for b in bs}
+            tramos: dict[str, dict[str, list]] = {}
+            texto = SESION.get(URL_DIRECCIONES, timeout=300).content.decode("utf-8-sig")
+            for fila in _csv.DictReader(io.StringIO(texto)):
+                nombre = nombres.get(fila["codi_carrer"])
+                if not nombre:
+                    continue
+                zona = zona_de_barri.get(int(fila["barri"] or 0), "fuera")
+                num = int(re.sub(r"\D", "", fila["numpost"]) or 0)
+                t = tramos.setdefault(clave_calle(nombre), {}).setdefault(zona, [num, num])
+                t[0], t[1] = min(t[0], num), max(t[1], num)
+            datos = {"calles": {k: v for k, v in tramos.items() if any(z != "fuera" for z in v)}}
+            guardar_json(CALLES, datos)
+            print(f"Callejero de Barcelona preparado: {len(datos['calles'])} calles tocan tus zonas")
+        except Exception as e:
+            print(f"(no se pudo preparar el callejero: {e})")
+            datos = {"calles": {}}
+    _calles_cache.update(datos)
+    return _calles_cache
+
+
+def zona_por_calle(texto: str, cfg: dict) -> str | None:
+    """Si el anuncio solo dice la calle («c/ Bertran 45», «Calle Gran de Gràcia»), la zona según el callejero.
+    Si la calle cruza tu zona y otras y no se puede saber el tramo, devuelve «⚠️ zona a chequear (…)»: el piso
+    se envía igual (si cumple todo lo demás) para que lo miréis vosotros. Si el número cae fuera, None."""
+    calles = preparar_calles(cfg).get("calles", {})
+    if not calles:
+        return None
+    t = normalizar(texto)
+    t = re.sub(r"\bsan\b", "sant", t).replace("mayor", "major")
+    for m in RE_VIA.finditer(t):
+        palabras = m.group(1).replace("-", " ").split()
+        for n in range(min(len(palabras), 5), 0, -1):  # la coincidencia más larga primero
+            clave = ARTICULOS.sub("", " ".join(palabras[:n]))
+            if clave not in calles:
+                continue
+            tramos = calles[clave]
+            resto = t[m.start(1) + len(" ".join(palabras[:n])):][:20]
+            num = re.match(r"\s*,?\s*(?:n[º°o.]?\s*)?(\d{1,3})(?!\s*(?:m|€|eur|hab|dorm|%|\d|,\d|\.\d))", resto)
+            zonas = [z for z in tramos if z != "fuera"]
+            if num:
+                n_ = int(num.group(1))
+                dentro = [z for z, (a, b) in tramos.items() if a <= n_ <= b]
+                if len(dentro) == 1:
+                    return None if dentro[0] == "fuera" else dentro[0]
+            elif "fuera" not in tramos and len(zonas) == 1:
+                return zonas[0]
+            # La calle pasa por tu zona pero no se puede saber el tramo (sin número, o cruza varios barrios)
+            nombre_calle = " ".join(palabras[:n]).title()
+            return f"⚠️ zona a chequear (c/ {nombre_calle}: en parte {' / '.join(zonas)})"
+            break
+    return None
 
 
 def no_es_vivienda(texto: str) -> str | None:
@@ -532,7 +630,7 @@ def otras_paginas(html_txt: str, url_base: str, maximo: int) -> list[str]:
             continue
         num = int(next(g for g in (m.group(3), m.group(6), m.group(8)) if g))
         mismo_listado = p.path.rstrip("/").startswith(base.path.rstrip("/")) or p.path.split("/")[:3] == base.path.split("/")[:3]
-        if not mismo_listado or not (2 <= num <= 200):
+        if not mismo_listado or not (1 <= num <= 200):  # algunas webs cuentan las páginas desde 0
             continue
         if m.group(8) and not (texto.isdigit() or a.get("rel") == ["next"] or re.search(r"(siguiente|seguent|next|›|»)", texto)):
             continue  # «/2» al final de la ruta solo cuenta si el enlace es de paginación
@@ -670,6 +768,8 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
     zona, excluido = detectar_zona(f"{anuncio['titulo']} · {ruta} · {texto}", cfg)
     ciudad = None if zona else otra_ciudad(anuncio["titulo"], urlparse(anuncio["url"]).path, texto, cfg)
     excluido = excluido or bool(ciudad)
+    if zona is None and not excluido and cfg.get("barris_por_zona"):
+        zona = zona_por_calle(f"{anuncio['titulo']} · {texto[:600]}", cfg)
     precios_altos = [p for p in [precio] if p and p >= 30000]
     if abrir and not venta and not alquilado and not tipo and not excluido and (precio is None or metros is None or zona is None):
         try:
@@ -694,6 +794,8 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
             if zona is None and not excluido:
                 ciudad = otra_ciudad(ficha["titulo"], ficha["lugar"], cab, cfg)
                 excluido = bool(ciudad)
+            if zona is None and not excluido and cfg.get("barris_por_zona"):
+                zona = zona_por_calle(f"{ficha['titulo']} · {ficha['lugar']} · {cab} · {cuerpo[:800]}", cfg)
             alquilado = alquilado or ya_alquilado(ficha["titulo"])
             if ficha["titulo"]:
                 anuncio["titulo"] = ficha["titulo"]
@@ -724,8 +826,12 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
         motivo = f"parece venta ({precio} €)"
     elif precio is not None and precio > f.get("precio_maximo_con_extras", f["precio_maximo"]):
         motivo = f"precio {precio} € > {f.get('precio_maximo_con_extras', f['precio_maximo'])}"
+    elif metros is not None and metros < f.get("metros_minimos_con_aviso", f["metros_minimos"]):
+        motivo = f"{metros} m² < {f.get('metros_minimos_con_aviso', f['metros_minimos'])}"
+    elif metros is None and not f.get("avisar_si_faltan_metros", True):
+        motivo = "no indica los metros"
     elif precio is not None and precio > f["precio_maximo"]:
-        # Entre 1.000 y 1.100 €: vale solo si incluye parking o terraza (se mira la tarjeta y, si hace falta, la ficha)
+        # Entre 1.000 y 1.100 €: solo si cumple todo lo demás (zona, tipo, metros…) y además incluye un extra
         textos = f"{anuncio['titulo']} {texto}"
         extras = extras_incluidos(textos)
         if not extras and abrir:
@@ -738,15 +844,12 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
         if extras:
             anuncio["extras"] = extras
         else:
-            motivo = f"precio {precio} € > {f['precio_maximo']} (sin parking ni terraza)"
-    elif metros is not None and metros < f.get("metros_minimos_con_aviso", f["metros_minimos"]):
-        motivo = f"{metros} m² < {f.get('metros_minimos_con_aviso', f['metros_minimos'])}"
-    elif metros is None and not f.get("avisar_si_faltan_metros", True):
-        motivo = "no indica los metros"
-    if motivo is None and abrir and "_html" not in anuncio:
+            motivo = f"precio {precio} € > {f['precio_maximo']} (sin parking, terraza, patio, jardín ni piscina)"
+    if motivo is None and abrir and not anuncio.get("_ficha_comprobada"):
         # Va a enviarse: antes, un vistazo a la ficha (un «Otras casas» puede ser un bar en traspaso)
+        anuncio["_ficha_comprobada"] = True
         try:
-            anuncio["_html"] = descargar(anuncio["url"], timeout, modo)
+            anuncio.setdefault("_html", descargar(anuncio["url"], timeout, modo))
             soup = BeautifulSoup(anuncio["_html"], "html.parser")
             ficha = datos_ficha(soup)
             cuerpo = texto_principal(BeautifulSoup(anuncio["_html"], "html.parser"))[:2500]
@@ -830,6 +933,7 @@ def revisar_agencia(agencia: dict, cfg: dict, vistos: dict, avisados: dict | Non
             ev["existente"] = completo
             avisos.append(ev)
         ev.pop("_html", None)
+        ev.pop("_ficha_comprobada", None)
     return avisos, todas, None, evaluaciones
 
 

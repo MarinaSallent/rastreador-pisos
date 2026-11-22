@@ -134,6 +134,7 @@ Antes de añadirla, compruébalo: **Actions → Probar una web → Run workflow*
 - **Solo anuncios de verdad:** ignora los enlaces del propio buscador (filtros, orden, páginas), noticias, PDF y formularios.
 - **Solo viviendas:** si el título o la dirección del anuncio dice local, oficina, nave, parking, trastero, terreno, edificio, habitación, traspaso, temporada o turístico, lo descarta (`solo_viviendas`).
 - **Zona:** primero mira la tarjeta y la dirección web del anuncio. Si no dicen el barrio, abre la ficha y lo lee de sus datos estructurados (la mayoría de plataformas de agencias indican ahí ciudad y barrio), del título, de las migas de pan o del campo de ubicación. Nunca usa la dirección de la oficina de la agencia.
+  - Si solo dice la calle («c/ Bertran 45», «Calle Gran de Gràcia»), la busca en el callejero oficial del Ayuntamiento (se descarga una vez y se guarda en `estado/calles_bcn.json`). Si la calle cruza tu zona y otras, como Balmes, y el anuncio no da el número, se envía igual (si cumple todo lo demás) con «⚠️ zona a chequear». Si da un número que cae fuera de tu zona, se descarta.
   - Si nombra otro municipio (Badalona, Sabadell, Sitges…) o antes otro barrio (Eixample, Sants…), lo descarta.
   - Si no dice en qué barrio está, lo descarta (`zona_obligatoria: true`). Con `false` te avisaría marcado con «⚠️ zona no indicada».
 - **Precio y metros:** de la tarjeta; si faltan, de la ficha.

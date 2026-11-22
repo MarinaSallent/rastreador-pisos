@@ -95,6 +95,16 @@ zonas:
     - volpelleres
     - can trias
 
+# Barrios oficiales de Barcelona (códigos del Ayuntamiento) de cada una de tus zonas. Sirven para saber la zona
+# cuando el anuncio solo dice la calle («c/ Bertran 45»): el bot descarga una vez el callejero municipal.
+barris_por_zona:
+  Sarrià - Sant Gervasi: [22, 23, 24, 25, 26, 27]
+  Vallcarca: [28, 29]
+  Gràcia: [30, 31, 32]
+  Nou Barris: [44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]
+  Sant Andreu: [57, 58, 59, 60, 61, 62, 63]
+  Sant Martí: [64, 65, 66, 67, 68, 69, 70, 71, 72, 73]
+
 # Zonas que son un municipio entero: si el anuncio lo nombra, cuenta como tu zona aunque mencione un barrio
 # con nombre de Barcelona (Sant Cugat también tiene «Eixample» o «Centre»).
 zonas_municipio:
