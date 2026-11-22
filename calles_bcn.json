@@ -1,0 +1,13402 @@
+{
+ "calles": {
+  "25 de novembre": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "abdo terradas": {
+   "Gràcia": [
+    1,
+    32
+   ]
+  },
+  "abella": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "adria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "adria gual": {
+   "Vallcarca": [
+    38,
+    69
+   ]
+  },
+  "adria margarit": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    44
+   ]
+  },
+  "afores": {
+   "Sant Andreu": [
+    2,
+    56
+   ]
+  },
+  "agata badia puig rodon": {
+   "Gràcia": [
+    1,
+    45
+   ]
+  },
+  "agramunt": {
+   "Sarrià - Sant Gervasi": [
+    12,
+    37
+   ],
+   "Vallcarca": [
+    1,
+    11
+   ]
+  },
+  "agullana": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "agusti i mila": {
+   "Sant Andreu": [
+    1,
+    95
+   ]
+  },
+  "agusti pinyol": {
+   "Vallcarca": [
+    1,
+    1
+   ]
+  },
+  "aiguablava": {
+   "Nou Barris": [
+    1,
+    145
+   ]
+  },
+  "alaba": {
+   "Sant Martí": [
+    1,
+    160
+   ]
+  },
+  "alacant": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    34
+   ]
+  },
+  "albacete": {
+   "Gràcia": [
+    1,
+    12
+   ]
+  },
+  "albania": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "albert badia i mur": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "albert einstein": {
+   "Nou Barris": [
+    1,
+    45
+   ]
+  },
+  "albigesos": {
+   "Gràcia": [
+    1,
+    32
+   ]
+  },
+  "alcala de guadaira": {
+   "Sant Martí": [
+    1,
+    28
+   ]
+  },
+  "alcamo": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "alcantara": {
+   "Nou Barris": [
+    1,
+    71
+   ]
+  },
+  "alcoi": {
+   "Sarrià - Sant Gervasi": [
+    9,
+    42
+   ]
+  },
+  "alcudia": {
+   "Nou Barris": [
+    1,
+    114
+   ]
+  },
+  "alella": {
+   "Nou Barris": [
+    1,
+    61
+   ]
+  },
+  "alexandre gali": {
+   "Sant Andreu": [
+    1,
+    70
+   ]
+  },
+  "alfarras": {
+   "Sant Andreu": [
+    1,
+    45
+   ]
+  },
+  "alfons el magnanim": {
+   "Sant Martí": [
+    1,
+    131
+   ]
+  },
+  "alfons xii": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    119
+   ]
+  },
+  "alfonso comin": {
+   "Sarrià - Sant Gervasi": [
+    9,
+    15
+   ],
+   "Vallcarca": [
+    1,
+    16
+   ]
+  },
+  "alfonso lafuente": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "algarves": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "alhucemas": {
+   "Nou Barris": [
+    34,
+    50
+   ]
+  },
+  "ali bei": {
+   "Sant Martí": [
+    1,
+    11
+   ],
+   "fuera": [
+    1,
+    141
+   ]
+  },
+  "alio": {
+   "Gràcia": [
+    1,
+    48
+   ]
+  },
+  "alloza": {
+   "Nou Barris": [
+    1,
+    53
+   ]
+  },
+  "almacelles": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "almagro": {
+   "Nou Barris": [
+    1,
+    59
+   ]
+  },
+  "almansa": {
+   "Nou Barris": [
+    1,
+    96
+   ]
+  },
+  "almassora": {
+   "Sant Andreu": [
+    1,
+    20
+   ]
+  },
+  "almenara alta": {
+   "Sant Martí": [
+    1,
+    18
+   ]
+  },
+  "almogavers": {
+   "Sant Martí": [
+    4,
+    239
+   ],
+   "fuera": [
+    1,
+    77
+   ]
+  },
+  "aloi": {
+   "Sant Andreu": [
+    1,
+    30
+   ]
+  },
+  "alonso cano": {
+   "Nou Barris": [
+    1,
+    16
+   ]
+  },
+  "alsacia": {
+   "Nou Barris": [
+    1,
+    20
+   ]
+  },
+  "alt": {
+   "Sant Andreu": [
+    1,
+    19
+   ]
+  },
+  "alt de gironella": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    71
+   ]
+  },
+  "alta de les roquetes": {
+   "Nou Barris": [
+    77,
+    339
+   ],
+   "fuera": [
+    34,
+    84
+   ]
+  },
+  "alvarado": {
+   "Nou Barris": [
+    1,
+    30
+   ]
+  },
+  "alvaro cunqueiro": {
+   "Nou Barris": [
+    1,
+    11
+   ]
+  },
+  "amalia garcia": {
+   "Vallcarca": [
+    1,
+    11
+   ]
+  },
+  "amer": {
+   "Nou Barris": [
+    2,
+    8
+   ]
+  },
+  "amich": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "amics": {
+   "Nou Barris": [
+    1,
+    15
+   ]
+  },
+  "amigo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    91
+   ]
+  },
+  "amilcar": {
+   "Nou Barris": [
+    1,
+    107
+   ],
+   "fuera": [
+    74,
+    233
+   ]
+  },
+  "amsterdam": {
+   "Sant Martí": [
+    1,
+    51
+   ]
+  },
+  "amunt": {
+   "Gràcia": [
+    1,
+    53
+   ]
+  },
+  "ana maria matute ausejo": {
+   "Gràcia": [
+    1,
+    41
+   ],
+   "fuera": [
+    2,
+    58
+   ]
+  },
+  "anais nin": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "andorra": {
+   "Sant Andreu": [
+    1,
+    104
+   ]
+  },
+  "andrade": {
+   "Sant Martí": [
+    1,
+    287
+   ]
+  },
+  "andratx": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "andreu febrer": {
+   "Sant Martí": [
+    5,
+    80
+   ]
+  },
+  "andreu nin": {
+   "Nou Barris": [
+    1,
+    76
+   ]
+  },
+  "andrevi": {
+   "Sant Martí": [
+    1,
+    19
+   ]
+  },
+  "andromeda": {
+   "Nou Barris": [
+    1,
+    14
+   ]
+  },
+  "aneto": {
+   "Nou Barris": [
+    2,
+    49
+   ]
+  },
+  "angel guimera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    47
+   ]
+  },
+  "angel pestana": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "angel rodriguez": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "angeleta ferrer": {
+   "Sant Martí": [
+    1,
+    2
+   ]
+  },
+  "angels": {
+   "Vallcarca": [
+    2,
+    14
+   ],
+   "fuera": [
+    1,
+    24
+   ]
+  },
+  "angels garriga": {
+   "Sant Martí": [
+    1,
+    8
+   ]
+  },
+  "angli": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    126
+   ]
+  },
+  "anna piferrer": {
+   "Vallcarca": [
+    1,
+    21
+   ]
+  },
+  "anna rubies": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "anselm turmeda": {
+   "Nou Barris": [
+    1,
+    16
+   ]
+  },
+  "antequera": {
+   "Gràcia": [
+    1,
+    43
+   ]
+  },
+  "antic de bofarull": {
+   "Sant Martí": [
+    1,
+    25
+   ]
+  },
+  "antic de valencia": {
+   "Sant Martí": [
+    1,
+    116
+   ],
+   "fuera": [
+    1,
+    26
+   ]
+  },
+  "antiga d'horta a cerdanyola": {
+   "Nou Barris": [
+    1,
+    36
+   ]
+  },
+  "antiga de mataro": {
+   "Sant Martí": [
+    1,
+    22
+   ]
+  },
+  "antoni costa": {
+   "Nou Barris": [
+    1,
+    36
+   ]
+  },
+  "antoni gassol": {
+   "Sant Martí": [
+    1,
+    22
+   ]
+  },
+  "antoni gilabert i bonet": {
+   "Nou Barris": [
+    37,
+    64
+   ]
+  },
+  "antoni gutierrez diaz": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "antoni santiburcio": {
+   "Sant Andreu": [
+    1,
+    13
+   ]
+  },
+  "antonio cuadrillero": {
+   "Nou Barris": [
+    2,
+    16
+   ]
+  },
+  "antonio machado": {
+   "Nou Barris": [
+    1,
+    43
+   ]
+  },
+  "antonio ricardos": {
+   "Sant Andreu": [
+    1,
+    20
+   ]
+  },
+  "anvers": {
+   "Sant Martí": [
+    1,
+    32
+   ]
+  },
+  "apelles fenosa": {
+   "Gràcia": [
+    1,
+    11
+   ]
+  },
+  "apelles mestres": {
+   "Vallcarca": [
+    9,
+    25
+   ]
+  },
+  "arago": {
+   "Sant Martí": [
+    527,
+    659
+   ],
+   "fuera": [
+    1,
+    536
+   ]
+  },
+  "arbeca": {
+   "Sant Andreu": [
+    1,
+    63
+   ]
+  },
+  "arbucies": {
+   "Sant Andreu": [
+    1,
+    45
+   ]
+  },
+  "arcadia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    3
+   ]
+  },
+  "ardevol": {
+   "Sant Andreu": [
+    1,
+    28
+   ]
+  },
+  "argensola": {
+   "Nou Barris": [
+    1,
+    19
+   ]
+  },
+  "argentona": {
+   "Gràcia": [
+    1,
+    33
+   ]
+  },
+  "argullos": {
+   "Nou Barris": [
+    1,
+    147
+   ]
+  },
+  "aribau": {
+   "Sarrià - Sant Gervasi": [
+    183,
+    330
+   ],
+   "fuera": [
+    1,
+    210
+   ]
+  },
+  "arimon": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    70
+   ]
+  },
+  "ariosto": {
+   "Vallcarca": [
+    1,
+    21
+   ]
+  },
+  "aristotil": {
+   "Nou Barris": [
+    1,
+    8
+   ]
+  },
+  "aritjols": {
+   "Nou Barris": [
+    1,
+    107
+   ]
+  },
+  "arnau": {
+   "Nou Barris": [
+    1,
+    22
+   ]
+  },
+  "arnau bargues": {
+   "Sant Martí": [
+    5,
+    74
+   ]
+  },
+  "arnau d'oms": {
+   "Nou Barris": [
+    1,
+    74
+   ],
+   "Sant Andreu": [
+    2,
+    2
+   ]
+  },
+  "arnold schonberg": {
+   "Gràcia": [
+    6,
+    8
+   ],
+   "Vallcarca": [
+    1,
+    7
+   ]
+  },
+  "arquimedes": {
+   "Sant Andreu": [
+    1,
+    68
+   ]
+  },
+  "arriassa": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "arta": {
+   "Nou Barris": [
+    1,
+    13
+   ]
+  },
+  "artemis": {
+   "Sant Andreu": [
+    1,
+    30
+   ]
+  },
+  "artes": {
+   "Nou Barris": [
+    1,
+    17
+   ]
+  },
+  "artesa de segre": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "artos": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "artur martorell": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "asturies": {
+   "Gràcia": [
+    1,
+    99
+   ]
+  },
+  "atenes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    42
+   ]
+  },
+  "auger": {
+   "Sant Martí": [
+    1,
+    26
+   ]
+  },
+  "august font": {
+   "Sarrià - Sant Gervasi": [
+    31,
+    45
+   ],
+   "Vallcarca": [
+    1,
+    46
+   ]
+  },
+  "augusta": {
+   "Gràcia": [
+    2,
+    80
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    425
+   ]
+  },
+  "augusto cesar sandino": {
+   "Sant Andreu": [
+    1,
+    11
+   ]
+  },
+  "aulestia i pijoan": {
+   "Gràcia": [
+    1,
+    34
+   ]
+  },
+  "aurora diaz plaja": {
+   "Nou Barris": [
+    1,
+    8
+   ]
+  },
+  "ausona": {
+   "Sant Andreu": [
+    1,
+    112
+   ]
+  },
+  "avila": {
+   "Sant Martí": [
+    1,
+    173
+   ]
+  },
+  "avinyonet": {
+   "Nou Barris": [
+    1,
+    59
+   ]
+  },
+  "ayma": {
+   "Sant Martí": [
+    1,
+    26
+   ]
+  },
+  "bac de roda": {
+   "Sant Martí": [
+    1,
+    211
+   ]
+  },
+  "badajoz": {
+   "Sant Martí": [
+    1,
+    187
+   ]
+  },
+  "badia": {
+   "Gràcia": [
+    1,
+    35
+   ]
+  },
+  "badosa": {
+   "Nou Barris": [
+    1,
+    47
+   ]
+  },
+  "bailen": {
+   "Gràcia": [
+    177,
+    244
+   ],
+   "fuera": [
+    1,
+    186
+   ]
+  },
+  "baladre": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    54
+   ]
+  },
+  "balcells": {
+   "Gràcia": [
+    1,
+    50
+   ]
+  },
+  "balenya": {
+   "Nou Barris": [
+    1,
+    51
+   ]
+  },
+  "baliarda": {
+   "Sant Andreu": [
+    1,
+    114
+   ]
+  },
+  "balira": {
+   "Sant Andreu": [
+    1,
+    20
+   ]
+  },
+  "ballester": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    71
+   ],
+   "Vallcarca": [
+    58,
+    87
+   ]
+  },
+  "ballot": {
+   "Nou Barris": [
+    1,
+    5
+   ]
+  },
+  "balmes": {
+   "Sarrià - Sant Gervasi": [
+    169,
+    470
+   ],
+   "fuera": [
+    1,
+    170
+   ]
+  },
+  "balsareny": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "baltasar gracian": {
+   "Nou Barris": [
+    1,
+    39
+   ]
+  },
+  "baltasar samper": {
+   "Nou Barris": [
+    1,
+    4
+   ]
+  },
+  "banyoles": {
+   "Gràcia": [
+    1,
+    38
+   ]
+  },
+  "barcino": {
+   "Sant Andreu": [
+    1,
+    133
+   ]
+  },
+  "barnola": {
+   "Sant Andreu": [
+    1,
+    40
+   ]
+  },
+  "baro d'esponella": {
+   "Nou Barris": [
+    1,
+    49
+   ]
+  },
+  "baro de la barre": {
+   "Vallcarca": [
+    1,
+    76
+   ]
+  },
+  "baro de viver": {
+   "Sant Andreu": [
+    1,
+    28
+   ]
+  },
+  "baron de viver": {
+   "Sant Andreu": [
+    648,
+    770
+   ]
+  },
+  "barri vermell": {
+   "Sant Andreu": [
+    1,
+    33
+   ]
+  },
+  "bartrina": {
+   "Sant Andreu": [
+    1,
+    64
+   ]
+  },
+  "basconia": {
+   "Sant Andreu": [
+    1,
+    81
+   ]
+  },
+  "bassols": {
+   "Sant Martí": [
+    1,
+    32
+   ]
+  },
+  "batista": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "batllori": {
+   "Nou Barris": [
+    1,
+    51
+   ]
+  },
+  "beat almato": {
+   "Vallcarca": [
+    1,
+    109
+   ]
+  },
+  "beat domenec savio": {
+   "Sant Andreu": [
+    1,
+    26
+   ]
+  },
+  "bedoll": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    3
+   ]
+  },
+  "beethoven": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    18
+   ]
+  },
+  "belianes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "bellavista": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "bellcaire": {
+   "Nou Barris": [
+    1,
+    83
+   ]
+  },
+  "bellesguard": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    75
+   ]
+  },
+  "bellmunt": {
+   "Sant Andreu": [
+    1,
+    28
+   ]
+  },
+  "bellprat": {
+   "Nou Barris": [
+    1,
+    39
+   ]
+  },
+  "bellver": {
+   "Gràcia": [
+    1,
+    24
+   ]
+  },
+  "benedetti": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    82
+   ]
+  },
+  "benet mateu": {
+   "Sarrià - Sant Gervasi": [
+    23,
+    64
+   ]
+  },
+  "benet mercade": {
+   "Gràcia": [
+    1,
+    39
+   ]
+  },
+  "benet xv": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    4
+   ]
+  },
+  "benevent": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "berenguer de palou": {
+   "Sant Andreu": [
+    1,
+    149
+   ]
+  },
+  "beret": {
+   "Nou Barris": [
+    1,
+    81
+   ]
+  },
+  "berga": {
+   "Gràcia": [
+    1,
+    42
+   ]
+  },
+  "berlines": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    52
+   ]
+  },
+  "bermejo": {
+   "Sant Martí": [
+    1,
+    40
+   ]
+  },
+  "berna": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    40
+   ]
+  },
+  "bernat desclot": {
+   "Sant Martí": [
+    8,
+    35
+   ]
+  },
+  "bernat martorell": {
+   "Sant Martí": [
+    1,
+    85
+   ]
+  },
+  "bernat metge": {
+   "Sant Martí": [
+    1,
+    36
+   ]
+  },
+  "bertran": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    160
+   ]
+  },
+  "bertrand i serra": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    27
+   ]
+  },
+  "besalu": {
+   "Sant Martí": [
+    1,
+    113
+   ]
+  },
+  "besiberri": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "besiers": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "betania": {
+   "Vallcarca": [
+    1,
+    14
+   ]
+  },
+  "betlem": {
+   "Gràcia": [
+    1,
+    61
+   ]
+  },
+  "biada": {
+   "Gràcia": [
+    1,
+    15
+   ]
+  },
+  "bigai": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    21
+   ]
+  },
+  "bilbao": {
+   "Sant Martí": [
+    1,
+    243
+   ]
+  },
+  "binefar": {
+   "Sant Martí": [
+    1,
+    42
+   ]
+  },
+  "biosca": {
+   "Sant Andreu": [
+    1,
+    41
+   ]
+  },
+  "bisbe catala": {
+   "Sarrià - Sant Gervasi": [
+    15,
+    54
+   ],
+   "fuera": [
+    1,
+    26
+   ]
+  },
+  "bisbe josep climent": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "bisbe sivilla": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    52
+   ]
+  },
+  "biscaia": {
+   "Sant Andreu": [
+    313,
+    462
+   ],
+   "Sant Martí": [
+    305,
+    330
+   ]
+  },
+  "biure": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "blanca sarria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "blanes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    7
+   ]
+  },
+  "boada": {
+   "Nou Barris": [
+    1,
+    55
+   ]
+  },
+  "bofarull": {
+   "Sant Andreu": [
+    1,
+    69
+   ]
+  },
+  "bogatell": {
+   "Sant Martí": [
+    1,
+    100
+   ]
+  },
+  "bohemis": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    66
+   ]
+  },
+  "boix": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "bolivar": {
+   "Vallcarca": [
+    1,
+    54
+   ]
+  },
+  "bolivia": {
+   "Sant Martí": [
+    1,
+    390
+   ]
+  },
+  "bon pastor": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    13
+   ]
+  },
+  "bonaplata": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    67
+   ]
+  },
+  "bonaventura gispert": {
+   "Sant Andreu": [
+    29,
+    47
+   ],
+   "Sant Martí": [
+    1,
+    28
+   ]
+  },
+  "bonaventura roig": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    22
+   ]
+  },
+  "bonavista": {
+   "Gràcia": [
+    1,
+    39
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    22
+   ]
+  },
+  "bordils": {
+   "Nou Barris": [
+    1,
+    11
+   ]
+  },
+  "borgonya": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "bori": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "bori i fontesta": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    53
+   ]
+  },
+  "borras": {
+   "Nou Barris": [
+    1,
+    49
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "borrell": {
+   "Sant Martí": [
+    1,
+    25
+   ]
+  },
+  "borriana": {
+   "Sant Andreu": [
+    1,
+    144
+   ]
+  },
+  "bosc": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    47
+   ]
+  },
+  "bosc de roquetes": {
+   "Nou Barris": [
+    1,
+    18
+   ]
+  },
+  "bosca": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "bosch": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "bosch i alsina": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ],
+   "fuera": [
+    1,
+    1
+   ]
+  },
+  "bosch i gimpera": {
+   "Sarrià - Sant Gervasi": [
+    6,
+    38
+   ],
+   "fuera": [
+    1,
+    35
+   ]
+  },
+  "bosch i labrus": {
+   "Sant Martí": [
+    1,
+    22
+   ]
+  },
+  "boston": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "breton de los herreros": {
+   "Gràcia": [
+    1,
+    35
+   ]
+  },
+  "briquets": {
+   "Nou Barris": [
+    1,
+    65
+   ]
+  },
+  "briz": {
+   "Vallcarca": [
+    1,
+    31
+   ]
+  },
+  "brossa": {
+   "Nou Barris": [
+    1,
+    62
+   ]
+  },
+  "bruc": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ],
+   "fuera": [
+    1,
+    176
+   ]
+  },
+  "bruguera": {
+   "Nou Barris": [
+    1,
+    14
+   ]
+  },
+  "brull": {
+   "Nou Barris": [
+    1,
+    22
+   ]
+  },
+  "bruniquer": {
+   "Gràcia": [
+    1,
+    75
+   ]
+  },
+  "brusi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    106
+   ]
+  },
+  "buenaventura munoz": {
+   "Sant Martí": [
+    5,
+    68
+   ],
+   "fuera": [
+    1,
+    8
+   ]
+  },
+  "buigas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    37
+   ]
+  },
+  "bunyola": {
+   "Nou Barris": [
+    1,
+    23
+   ]
+  },
+  "burrull": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "buscarons": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "ca dels seguers": {
+   "Sant Martí": [
+    1,
+    17
+   ]
+  },
+  "ca l'alegre": {
+   "Vallcarca": [
+    1,
+    16
+   ]
+  },
+  "ca l'alegre de dalt": {
+   "Gràcia": [
+    1,
+    118
+   ]
+  },
+  "ca l'isidret": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "ca n'ensenya": {
+   "Nou Barris": [
+    1,
+    4
+   ]
+  },
+  "ca n'oliva": {
+   "Sant Martí": [
+    1,
+    111
+   ]
+  },
+  "cabanelles": {
+   "Nou Barris": [
+    1,
+    16
+   ]
+  },
+  "cabanyal": {
+   "Sant Martí": [
+    1,
+    4
+   ]
+  },
+  "cabrera": {
+   "Sant Andreu": [
+    1,
+    64
+   ]
+  },
+  "cacador": {
+   "Nou Barris": [
+    1,
+    128
+   ],
+   "fuera": [
+    1,
+    8
+   ]
+  },
+  "cadi": {
+   "Nou Barris": [
+    1,
+    66
+   ]
+  },
+  "cadis": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ]
+  },
+  "caire": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "cal totxo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    24
+   ]
+  },
+  "calaf": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    54
+   ]
+  },
+  "calatrava": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    98
+   ]
+  },
+  "calendau": {
+   "Vallcarca": [
+    1,
+    13
+   ]
+  },
+  "caller": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "calvell": {
+   "Sant Martí": [
+    1,
+    65
+   ]
+  },
+  "calvet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    90
+   ]
+  },
+  "calvo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "cama sec": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "cambrils": {
+   "Vallcarca": [
+    1,
+    28
+   ]
+  },
+  "cami del mas sauro": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "camil fabra": {
+   "Sant Andreu": [
+    1,
+    32
+   ]
+  },
+  "camil oliveras": {
+   "Gràcia": [
+    1,
+    15
+   ],
+   "fuera": [
+    1,
+    70
+   ]
+  },
+  "caminal": {
+   "Sant Martí": [
+    1,
+    26
+   ]
+  },
+  "camos": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "camp": {
+   "Sant Martí": [
+    1,
+    13
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    92
+   ]
+  },
+  "camp arriassa": {
+   "Sant Martí": [
+    42,
+    137
+   ]
+  },
+  "camp d'en vidal": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "camp de la ferro": {
+   "Sant Andreu": [
+    1,
+    25
+   ]
+  },
+  "campeny": {
+   "Sant Andreu": [
+    1,
+    37
+   ]
+  },
+  "campins": {
+   "Sant Andreu": [
+    1,
+    32
+   ]
+  },
+  "campions": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "campo florido": {
+   "Sant Andreu": [
+    1,
+    68
+   ]
+  },
+  "camprecios": {
+   "Nou Barris": [
+    1,
+    41
+   ]
+  },
+  "camprodon": {
+   "Gràcia": [
+    1,
+    36
+   ]
+  },
+  "camps i fabres": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    15
+   ]
+  },
+  "can balasch": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    113
+   ]
+  },
+  "can basseda": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    51
+   ]
+  },
+  "can baste": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "can berdura": {
+   "Sant Andreu": [
+    1,
+    9
+   ]
+  },
+  "can borni": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ],
+   "fuera": [
+    22,
+    76
+   ]
+  },
+  "can caralleu": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    62
+   ]
+  },
+  "can castellvi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    79
+   ]
+  },
+  "can fabra": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "can galta cremat": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "can llavallol": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    62
+   ]
+  },
+  "can mora": {
+   "Gràcia": [
+    1,
+    1
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ],
+   "fuera": [
+    1,
+    17
+   ]
+  },
+  "can portabella": {
+   "Sant Andreu": [
+    1,
+    15
+   ]
+  },
+  "can rabia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    18
+   ]
+  },
+  "can ros": {
+   "Sant Andreu": [
+    1,
+    41
+   ]
+  },
+  "can toda": {
+   "Gràcia": [
+    1,
+    42
+   ]
+  },
+  "canaan": {
+   "Vallcarca": [
+    1,
+    5
+   ],
+   "fuera": [
+    2,
+    6
+   ]
+  },
+  "canet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    50
+   ]
+  },
+  "canfranc": {
+   "Nou Barris": [
+    1,
+    18
+   ]
+  },
+  "cano": {
+   "Gràcia": [
+    1,
+    10
+   ]
+  },
+  "canodrom": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "canonge rodo": {
+   "Sant Martí": [
+    1,
+    8
+   ]
+  },
+  "cantabria": {
+   "Sant Martí": [
+    1,
+    82
+   ]
+  },
+  "canti": {
+   "Sant Martí": [
+    1,
+    15
+   ]
+  },
+  "canyameres": {
+   "Nou Barris": [
+    1,
+    38
+   ]
+  },
+  "canyelles": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ]
+  },
+  "capcanes": {
+   "Nou Barris": [
+    1,
+    76
+   ]
+  },
+  "capella": {
+   "Sant Andreu": [
+    2,
+    29
+   ]
+  },
+  "capellades": {
+   "Vallcarca": [
+    1,
+    13
+   ]
+  },
+  "capita arenas": {
+   "Sarrià - Sant Gervasi": [
+    31,
+    70
+   ],
+   "fuera": [
+    1,
+    36
+   ]
+  },
+  "caponata": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    43
+   ]
+  },
+  "capsec": {
+   "Nou Barris": [
+    1,
+    15
+   ]
+  },
+  "caracas": {
+   "Sant Andreu": [
+    1,
+    63
+   ]
+  },
+  "carcassona": {
+   "Sant Martí": [
+    1,
+    13
+   ]
+  },
+  "cardedeu": {
+   "Vallcarca": [
+    1,
+    69
+   ]
+  },
+  "cardenal cicognani": {
+   "Sant Andreu": [
+    1,
+    9
+   ]
+  },
+  "cardenal cisneros": {
+   "Sant Andreu": [
+    1,
+    44
+   ]
+  },
+  "cardenal sentmenat": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    43
+   ]
+  },
+  "cardenal tedeschini": {
+   "Sant Andreu": [
+    1,
+    90
+   ]
+  },
+  "cardenal vives i tuto": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    67
+   ]
+  },
+  "cardener": {
+   "Gràcia": [
+    1,
+    82
+   ]
+  },
+  "cardona": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ],
+   "fuera": [
+    1,
+    11
+   ]
+  },
+  "caresmar": {
+   "Sant Andreu": [
+    1,
+    22
+   ]
+  },
+  "carles pirozzini": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ],
+   "Vallcarca": [
+    7,
+    14
+   ]
+  },
+  "carles riba": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    37
+   ]
+  },
+  "carles soldevila": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "carlet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    13
+   ]
+  },
+  "carlota de mena": {
+   "Sant Martí": [
+    1,
+    21
+   ]
+  },
+  "carme garcia": {
+   "Sant Martí": [
+    1,
+    7
+   ]
+  },
+  "carme i enriqueta soriano i tresserra": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "carme karr": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    24
+   ]
+  },
+  "carme montoriol": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "carmel": {
+   "Gràcia": [
+    1,
+    23
+   ],
+   "fuera": [
+    1,
+    125
+   ]
+  },
+  "carmen amaya": {
+   "Sant Martí": [
+    2,
+    69
+   ]
+  },
+  "carmen balcells segala": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "carmen de burgos": {
+   "Sant Martí": [
+    1,
+    4
+   ]
+  },
+  "carmen laforet": {
+   "Nou Barris": [
+    1,
+    11
+   ]
+  },
+  "carmen tortola valencia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "carrasco i formiguera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ]
+  },
+  "carrenca": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    40
+   ]
+  },
+  "carreras": {
+   "Nou Barris": [
+    1,
+    48
+   ],
+   "fuera": [
+    1,
+    14
+   ]
+  },
+  "carril": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "carroc": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    65
+   ]
+  },
+  "cartago": {
+   "Vallcarca": [
+    1,
+    4
+   ]
+  },
+  "cartella": {
+   "Nou Barris": [
+    1,
+    190
+   ],
+   "fuera": [
+    163,
+    195
+   ]
+  },
+  "casa llarga": {
+   "Sant Martí": [
+    1,
+    5
+   ]
+  },
+  "casafranca": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    64
+   ]
+  },
+  "casals": {
+   "Nou Barris": [
+    1,
+    45
+   ]
+  },
+  "casals i cubero": {
+   "Nou Barris": [
+    164,
+    299
+   ]
+  },
+  "casamitjana": {
+   "Sant Martí": [
+    1,
+    29
+   ]
+  },
+  "casanova": {
+   "Sarrià - Sant Gervasi": [
+    207,
+    270
+   ],
+   "fuera": [
+    1,
+    248
+   ]
+  },
+  "casas i amigo": {
+   "Nou Barris": [
+    7,
+    87
+   ]
+  },
+  "castanyer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    33
+   ]
+  },
+  "castanys": {
+   "Sant Martí": [
+    1,
+    35
+   ]
+  },
+  "castell d'argencola": {
+   "Nou Barris": [
+    1,
+    98
+   ]
+  },
+  "castella": {
+   "Sant Martí": [
+    1,
+    64
+   ],
+   "fuera": [
+    1,
+    9
+   ]
+  },
+  "castelladral": {
+   "Nou Barris": [
+    6,
+    10
+   ]
+  },
+  "castellbell": {
+   "Sant Andreu": [
+    1,
+    40
+   ]
+  },
+  "castelldefels": {
+   "Nou Barris": [
+    1,
+    98
+   ]
+  },
+  "castellfollit": {
+   "Nou Barris": [
+    1,
+    48
+   ]
+  },
+  "castellnou": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    71
+   ]
+  },
+  "castello": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "castelltercol": {
+   "Vallcarca": [
+    1,
+    47
+   ]
+  },
+  "castellvi": {
+   "Nou Barris": [
+    1,
+    70
+   ]
+  },
+  "castor": {
+   "Nou Barris": [
+    1,
+    98
+   ]
+  },
+  "catalunya": {
+   "Sant Martí": [
+    1,
+    38
+   ],
+   "fuera": [
+    1,
+    137
+   ]
+  },
+  "catania": {
+   "Sant Martí": [
+    1,
+    11
+   ]
+  },
+  "catasus": {
+   "Nou Barris": [
+    1,
+    23
+   ]
+  },
+  "cel del tibidabo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "celesti boada salvador": {
+   "Sant Andreu": [
+    1,
+    13
+   ]
+  },
+  "celra": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "cementiri de sant gervasi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "cementiri de sarria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "centre de la vida comunitaria": {
+   "Nou Barris": [
+    1,
+    9
+   ]
+  },
+  "cep": {
+   "Sant Andreu": [
+    1,
+    18
+   ]
+  },
+  "cerda": {
+   "Sant Andreu": [
+    1,
+    15
+   ]
+  },
+  "cerignola": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "cervera": {
+   "Sant Andreu": [
+    1,
+    6
+   ]
+  },
+  "cesare cantu": {
+   "Vallcarca": [
+    1,
+    8
+   ]
+  },
+  "ceuta": {
+   "Vallcarca": [
+    37,
+    37
+   ],
+   "fuera": [
+    1,
+    86
+   ]
+  },
+  "charlie rivel": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "cienfuegos": {
+   "Sant Andreu": [
+    1,
+    31
+   ]
+  },
+  "cigne": {
+   "Gràcia": [
+    1,
+    23
+   ]
+  },
+  "cimal": {
+   "Nou Barris": [
+    1,
+    39
+   ]
+  },
+  "cinca": {
+   "Sant Andreu": [
+    1,
+    126
+   ]
+  },
+  "circumvallacio": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    51
+   ],
+   "fuera": [
+    1,
+    32
+   ]
+  },
+  "cistellet": {
+   "Nou Barris": [
+    1,
+    27
+   ]
+  },
+  "cister": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    60
+   ]
+  },
+  "ciudad real": {
+   "Gràcia": [
+    1,
+    43
+   ]
+  },
+  "ciureny": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    13
+   ]
+  },
+  "ciutadans": {
+   "Sant Martí": [
+    1,
+    19
+   ]
+  },
+  "clara": {
+   "Sant Andreu": [
+    1,
+    17
+   ]
+  },
+  "clara zetkin": {
+   "Sant Andreu": [
+    2,
+    12
+   ]
+  },
+  "claramunt": {
+   "Sant Andreu": [
+    1,
+    78
+   ]
+  },
+  "claravall": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "clariana": {
+   "Sant Andreu": [
+    1,
+    46
+   ]
+  },
+  "claudi guell": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    24
+   ]
+  },
+  "claudi sabadell": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "clavell": {
+   "Gràcia": [
+    1,
+    6
+   ]
+  },
+  "clementina arderiu": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "clos de sant francesc": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    68
+   ]
+  },
+  "clot": {
+   "Sant Andreu": [
+    183,
+    264
+   ],
+   "Sant Martí": [
+    1,
+    226
+   ]
+  },
+  "clotes": {
+   "Vallcarca": [
+    1,
+    5
+   ]
+  },
+  "codonyer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "coello": {
+   "Sant Andreu": [
+    1,
+    621
+   ]
+  },
+  "coll": {
+   "Sant Andreu": [
+    1,
+    61
+   ],
+   "Sant Martí": [
+    1,
+    30
+   ]
+  },
+  "coll del portell": {
+   "Gràcia": [
+    1,
+    132
+   ],
+   "Vallcarca": [
+    95,
+    131
+   ],
+   "fuera": [
+    1,
+    8
+   ]
+  },
+  "coll i vehi": {
+   "Sant Martí": [
+    1,
+    145
+   ]
+  },
+  "collegats": {
+   "Sant Andreu": [
+    1,
+    17
+   ]
+  },
+  "collserola": {
+   "Sarrià - Sant Gervasi": [
+    21,
+    81
+   ],
+   "Vallcarca": [
+    2,
+    56
+   ]
+  },
+  "colombia": {
+   "Sant Andreu": [
+    1,
+    15
+   ]
+  },
+  "colomer": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "colonia": {
+   "Sant Andreu": [
+    1,
+    43
+   ]
+  },
+  "colors": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "comandant llanca": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ]
+  },
+  "comerc": {
+   "Sant Andreu": [
+    1,
+    6
+   ],
+   "fuera": [
+    1,
+    68
+   ]
+  },
+  "comte de norona": {
+   "Vallcarca": [
+    1,
+    25
+   ]
+  },
+  "comte de salvatierra": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    15
+   ]
+  },
+  "comte de sert": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ]
+  },
+  "comte tallaferro": {
+   "Sant Andreu": [
+    1,
+    12
+   ]
+  },
+  "conca": {
+   "Sant Martí": [
+    1,
+    48
+   ]
+  },
+  "concepcion arenal": {
+   "Nou Barris": [
+    187,
+    193
+   ],
+   "Sant Andreu": [
+    1,
+    325
+   ]
+  },
+  "concili de trento": {
+   "Sant Martí": [
+    1,
+    344
+   ]
+  },
+  "conflent": {
+   "Nou Barris": [
+    1,
+    14
+   ]
+  },
+  "congost": {
+   "Gràcia": [
+    1,
+    55
+   ]
+  },
+  "congres eucaristic": {
+   "Sant Andreu": [
+    1,
+    14
+   ]
+  },
+  "conradi": {
+   "Gràcia": [
+    1,
+    37
+   ]
+  },
+  "consell de cent": {
+   "Sant Martí": [
+    586,
+    631
+   ],
+   "fuera": [
+    1,
+    591
+   ]
+  },
+  "consell de la vila": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ]
+  },
+  "constantinoble": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "conveni": {
+   "Nou Barris": [
+    1,
+    72
+   ]
+  },
+  "conxita badia": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "copernic": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    98
+   ]
+  },
+  "corca": {
+   "Vallcarca": [
+    1,
+    9
+   ]
+  },
+  "cordelles": {
+   "Sant Andreu": [
+    1,
+    24
+   ]
+  },
+  "cordova": {
+   "Sant Andreu": [
+    1,
+    6
+   ]
+  },
+  "corint": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    5
+   ]
+  },
+  "cornet i mas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    73
+   ]
+  },
+  "cornudella": {
+   "Nou Barris": [
+    1,
+    46
+   ]
+  },
+  "coroleu": {
+   "Sant Andreu": [
+    1,
+    92
+   ]
+  },
+  "coronel sanfeliu": {
+   "Sant Martí": [
+    1,
+    21
+   ]
+  },
+  "corsega": {
+   "Gràcia": [
+    321,
+    529
+   ],
+   "Sant Martí": [
+    1,
+    713
+   ],
+   "fuera": [
+    45,
+    651
+   ]
+  },
+  "cortit": {
+   "Sant Andreu": [
+    1,
+    30
+   ]
+  },
+  "costa i cuxart": {
+   "Nou Barris": [
+    1,
+    37
+   ]
+  },
+  "costa rica": {
+   "Sant Andreu": [
+    11,
+    37
+   ]
+  },
+  "costabona": {
+   "Nou Barris": [
+    1,
+    43
+   ]
+  },
+  "craywinckel": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    31
+   ]
+  },
+  "cresques": {
+   "Sant Andreu": [
+    1,
+    73
+   ]
+  },
+  "cretes": {
+   "Sant Andreu": [
+    1,
+    14
+   ]
+  },
+  "cristobal de moura": {
+   "Sant Martí": [
+    21,
+    259
+   ]
+  },
+  "croia": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "cuba": {
+   "Sant Andreu": [
+    1,
+    35
+   ]
+  },
+  "cubelles": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "cusco": {
+   "Sant Andreu": [
+    1,
+    61
+   ]
+  },
+  "dalmacia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    15
+   ]
+  },
+  "dalmases": {
+   "Sarrià - Sant Gervasi": [
+    16,
+    82
+   ]
+  },
+  "dalt": {
+   "Gràcia": [
+    1,
+    138
+   ]
+  },
+  "damia forment": {
+   "Vallcarca": [
+    1,
+    10
+   ]
+  },
+  "darnius": {
+   "Nou Barris": [
+    1,
+    33
+   ]
+  },
+  "das": {
+   "Nou Barris": [
+    1,
+    8
+   ]
+  },
+  "dega bahi": {
+   "Sant Martí": [
+    1,
+    93
+   ]
+  },
+  "degollada": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "deia": {
+   "Nou Barris": [
+    1,
+    55
+   ]
+  },
+  "demestre": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    17
+   ]
+  },
+  "denia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    36
+   ]
+  },
+  "descartes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ]
+  },
+  "desert": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "desfar": {
+   "Nou Barris": [
+    1,
+    61
+   ]
+  },
+  "diagonal": {
+   "Gràcia": [
+    446,
+    480
+   ],
+   "Sant Martí": [
+    1,
+    280
+   ],
+   "Sarrià - Sant Gervasi": [
+    482,
+    630
+   ],
+   "fuera": [
+    213,
+    716
+   ]
+  },
+  "diagonal mar": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "diamant": {
+   "Gràcia": [
+    1,
+    10
+   ]
+  },
+  "diana": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "diluvi": {
+   "Gràcia": [
+    1,
+    16
+   ]
+  },
+  "doctor aiguader": {
+   "Sant Martí": [
+    89,
+    93
+   ],
+   "fuera": [
+    1,
+    88
+   ]
+  },
+  "doctor andreu": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    5
+   ]
+  },
+  "doctor balari i jovany": {
+   "Sant Andreu": [
+    1,
+    47
+   ]
+  },
+  "doctor cararach mauri": {
+   "Sant Andreu": [
+    1,
+    8
+   ]
+  },
+  "doctor carulla": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    78
+   ]
+  },
+  "doctor farreras i valenti": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    38
+   ]
+  },
+  "doctor fleming": {
+   "Sarrià - Sant Gervasi": [
+    4,
+    30
+   ],
+   "fuera": [
+    1,
+    3
+   ]
+  },
+  "doctor francesc darder": {
+   "Sarrià - Sant Gervasi": [
+    12,
+    27
+   ],
+   "fuera": [
+    1,
+    13
+   ]
+  },
+  "doctor modrego": {
+   "Sant Andreu": [
+    1,
+    5
+   ]
+  },
+  "doctor pi i molist": {
+   "Nou Barris": [
+    1,
+    180
+   ]
+  },
+  "doctor ribas i perdigo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "doctor rizal": {
+   "Gràcia": [
+    1,
+    23
+   ]
+  },
+  "doctor roux": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    147
+   ]
+  },
+  "doctor santponc": {
+   "Sant Andreu": [
+    1,
+    143
+   ]
+  },
+  "doctor serrat": {
+   "Sant Martí": [
+    1,
+    4
+   ]
+  },
+  "doctor torent": {
+   "Sant Andreu": [
+    1,
+    18
+   ]
+  },
+  "doctor torres": {
+   "Sant Andreu": [
+    1,
+    21
+   ]
+  },
+  "doctor trueta": {
+   "Sant Martí": [
+    1,
+    236
+   ]
+  },
+  "doctor zamenhof": {
+   "Sant Martí": [
+    1,
+    28
+   ]
+  },
+  "dolca de provenca": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "dolors lleonart": {
+   "Vallcarca": [
+    1,
+    3
+   ]
+  },
+  "dolors monserda": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    58
+   ]
+  },
+  "dolors piera": {
+   "Sant Martí": [
+    1,
+    7
+   ]
+  },
+  "dolors vives": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "domenech": {
+   "Gràcia": [
+    1,
+    10
+   ]
+  },
+  "dominguez i miralles": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    40
+   ]
+  },
+  "dominics": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    35
+   ]
+  },
+  "dos de maig": {
+   "Sant Martí": [
+    1,
+    330
+   ],
+   "fuera": [
+    189,
+    335
+   ]
+  },
+  "drago": {
+   "Sant Andreu": [
+    2,
+    34
+   ]
+  },
+  "dublin": {
+   "Sant Andreu": [
+    1,
+    29
+   ]
+  },
+  "duero": {
+   "Nou Barris": [
+    1,
+    30
+   ],
+   "fuera": [
+    25,
+    72
+   ]
+  },
+  "duoda": {
+   "Sant Martí": [
+    1,
+    42
+   ]
+  },
+  "duran i borrell": {
+   "Vallcarca": [
+    1,
+    29
+   ]
+  },
+  "edison": {
+   "Sant Martí": [
+    1,
+    30
+   ]
+  },
+  "eduard fontsere": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    21
+   ]
+  },
+  "eduard maristany": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "eduard torroja": {
+   "Sant Martí": [
+    1,
+    23
+   ]
+  },
+  "eduard tubau": {
+   "Nou Barris": [
+    1,
+    47
+   ]
+  },
+  "eduardo conde": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    52
+   ]
+  },
+  "eguilaz": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "eiximenis": {
+   "Sant Andreu": [
+    2,
+    95
+   ]
+  },
+  "elisa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    33
+   ]
+  },
+  "elisa moragas i badia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    60
+   ]
+  },
+  "elisenda de pinos": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "emili mira": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "emili roca": {
+   "Nou Barris": [
+    1,
+    83
+   ]
+  },
+  "emilia coranty": {
+   "Sant Martí": [
+    1,
+    39
+   ]
+  },
+  "emilia pardo bazan": {
+   "Sant Andreu": [
+    1,
+    30
+   ]
+  },
+  "empuries": {
+   "Nou Barris": [
+    1,
+    16
+   ]
+  },
+  "en grassot": {
+   "Gràcia": [
+    1,
+    110
+   ]
+  },
+  "en joanic": {
+   "Gràcia": [
+    1,
+    7
+   ]
+  },
+  "en manelic": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    13
+   ]
+  },
+  "en paixalet": {
+   "Sant Andreu": [
+    1,
+    8
+   ]
+  },
+  "en panxampla": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    15
+   ]
+  },
+  "en tisso": {
+   "Nou Barris": [
+    1,
+    74
+   ]
+  },
+  "en xandri": {
+   "Sant Andreu": [
+    1,
+    25
+   ]
+  },
+  "enamorats": {
+   "Sant Martí": [
+    86,
+    156
+   ],
+   "fuera": [
+    1,
+    93
+   ]
+  },
+  "enric casanovas": {
+   "Nou Barris": [
+    1,
+    98
+   ]
+  },
+  "enric claraso": {
+   "Vallcarca": [
+    1,
+    27
+   ]
+  },
+  "enric gimenez": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    37
+   ]
+  },
+  "enric sanchis": {
+   "Sant Andreu": [
+    1,
+    54
+   ]
+  },
+  "ernest lluch i martin": {
+   "Sant Martí": [
+    1,
+    9
+   ]
+  },
+  "erta": {
+   "Nou Barris": [
+    1,
+    8
+   ]
+  },
+  "escipio": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    67
+   ]
+  },
+  "escocia": {
+   "Nou Barris": [
+    1,
+    139
+   ]
+  },
+  "escolapi cancer": {
+   "Nou Barris": [
+    1,
+    198
+   ]
+  },
+  "escullera del poblenou": {
+   "Sant Martí": [
+    1,
+    24
+   ]
+  },
+  "escultors claperos": {
+   "Sant Martí": [
+    1,
+    87
+   ]
+  },
+  "esparreguera": {
+   "Gràcia": [
+    1,
+    15
+   ]
+  },
+  "espasa": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    12
+   ],
+   "fuera": [
+    1,
+    9
+   ]
+  },
+  "espiell": {
+   "Nou Barris": [
+    1,
+    38
+   ],
+   "fuera": [
+    1,
+    23
+   ]
+  },
+  "espinauga": {
+   "Nou Barris": [
+    25,
+    84
+   ]
+  },
+  "espinoi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    18
+   ]
+  },
+  "espiria": {
+   "Vallcarca": [
+    1,
+    20
+   ]
+  },
+  "esports": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "espronceda": {
+   "Sant Andreu": [
+    294,
+    417
+   ],
+   "Sant Martí": [
+    1,
+    321
+   ]
+  },
+  "estadella": {
+   "Sant Andreu": [
+    1,
+    101
+   ]
+  },
+  "estefania de requesens": {
+   "Sant Andreu": [
+    1,
+    16
+   ]
+  },
+  "esteve terradas": {
+   "Vallcarca": [
+    1,
+    79
+   ]
+  },
+  "estocolm": {
+   "Sant Martí": [
+    1,
+    17
+   ]
+  },
+  "estudis": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ]
+  },
+  "eucaliptus": {
+   "Nou Barris": [
+    1,
+    5
+   ]
+  },
+  "euclides": {
+   "Nou Barris": [
+    1,
+    11
+   ]
+  },
+  "euterpe": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "extremadura": {
+   "Sant Martí": [
+    1,
+    19
+   ]
+  },
+  "fabra i puig": {
+   "Nou Barris": [
+    93,
+    484
+   ],
+   "Sant Andreu": [
+    1,
+    116
+   ],
+   "fuera": [
+    341,
+    419
+   ]
+  },
+  "faig": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    7
+   ]
+  },
+  "favencia": {
+   "Nou Barris": [
+    1,
+    462
+   ],
+   "Sant Andreu": [
+    385,
+    568
+   ]
+  },
+  "federico garcia lorca": {
+   "Nou Barris": [
+    1,
+    49
+   ]
+  },
+  "felanitx": {
+   "Nou Barris": [
+    1,
+    16
+   ]
+  },
+  "felip bertran i guell": {
+   "Sant Andreu": [
+    1,
+    19
+   ]
+  },
+  "felip de malla": {
+   "Sant Martí": [
+    1,
+    29
+   ]
+  },
+  "felip gil": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ]
+  },
+  "felip ii": {
+   "Nou Barris": [
+    236,
+    305
+   ],
+   "Sant Andreu": [
+    1,
+    235
+   ]
+  },
+  "feliu i codina": {
+   "Nou Barris": [
+    84,
+    114
+   ],
+   "fuera": [
+    1,
+    82
+   ]
+  },
+  "felix amat": {
+   "Sant Andreu": [
+    3,
+    10
+   ]
+  },
+  "felix marti alpera": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "fenals": {
+   "Nou Barris": [
+    1,
+    28
+   ]
+  },
+  "fernando de los rios": {
+   "Sant Martí": [
+    1,
+    8
+   ]
+  },
+  "fernando pessoa": {
+   "Sant Andreu": [
+    1,
+    72
+   ]
+  },
+  "fernando poo": {
+   "Sant Martí": [
+    1,
+    74
+   ]
+  },
+  "ferran agullo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    24
+   ]
+  },
+  "ferran casablancas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "ferran junoy": {
+   "Sant Andreu": [
+    1,
+    131
+   ]
+  },
+  "ferran puig": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    97
+   ]
+  },
+  "ferran reyes": {
+   "Sant Andreu": [
+    1,
+    9
+   ]
+  },
+  "ferran turne": {
+   "Sant Andreu": [
+    1,
+    20
+   ]
+  },
+  "ferran valenti": {
+   "Sant Martí": [
+    1,
+    26
+   ]
+  },
+  "ferran valls i taberner": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "ferrer bassa": {
+   "Sant Martí": [
+    1,
+    56
+   ]
+  },
+  "ferrer de blanes": {
+   "Gràcia": [
+    1,
+    16
+   ]
+  },
+  "ferrer i vidal": {
+   "Sant Martí": [
+    1,
+    17
+   ]
+  },
+  "ferrers": {
+   "Sant Martí": [
+    2,
+    59
+   ]
+  },
+  "ferrocarril": {
+   "Sant Martí": [
+    1,
+    31
+   ]
+  },
+  "figueres": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "figuerola": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    5
+   ]
+  },
+  "finestrat": {
+   "Sant Martí": [
+    1,
+    27
+   ]
+  },
+  "finestrelles": {
+   "Sant Andreu": [
+    1,
+    80
+   ],
+   "fuera": [
+    2,
+    44
+   ]
+  },
+  "firmament": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    5
+   ]
+  },
+  "fitor": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "flaca": {
+   "Nou Barris": [
+    1,
+    14
+   ]
+  },
+  "flandes": {
+   "Sant Martí": [
+    1,
+    16
+   ],
+   "Vallcarca": [
+    1,
+    3
+   ]
+  },
+  "flix": {
+   "Sant Andreu": [
+    1,
+    44
+   ]
+  },
+  "fluvia": {
+   "Sant Martí": [
+    19,
+    303
+   ]
+  },
+  "foc follet": {
+   "Sant Andreu": [
+    1,
+    113
+   ]
+  },
+  "foix": {
+   "Sant Martí": [
+    2,
+    12
+   ]
+  },
+  "folgueroles": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    54
+   ]
+  },
+  "fondal de sant marti": {
+   "Sant Martí": [
+    1,
+    34
+   ]
+  },
+  "font i sague": {
+   "Sant Martí": [
+    1,
+    5
+   ]
+  },
+  "fontanelles": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "fontcoberta": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    35
+   ]
+  },
+  "fonteta": {
+   "Nou Barris": [
+    1,
+    58
+   ]
+  },
+  "fontova": {
+   "Sant Martí": [
+    1,
+    26
+   ]
+  },
+  "foraste": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    33
+   ]
+  },
+  "foret": {
+   "Sant Martí": [
+    1,
+    40
+   ]
+  },
+  "formentera": {
+   "Nou Barris": [
+    1,
+    69
+   ]
+  },
+  "formentor": {
+   "Nou Barris": [
+    1,
+    13
+   ]
+  },
+  "forum": {
+   "Sant Martí": [
+    1,
+    3
+   ]
+  },
+  "fra eloi de bianya": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "fra juniper serra": {
+   "Sant Andreu": [
+    44,
+    97
+   ]
+  },
+  "fraga": {
+   "Sant Andreu": [
+    1,
+    27
+   ]
+  },
+  "francesc bolos": {
+   "Nou Barris": [
+    1,
+    46
+   ]
+  },
+  "francesc carbonell": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    58
+   ]
+  },
+  "francesc de borja moll": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "francesc layret": {
+   "Nou Barris": [
+    1,
+    9
+   ]
+  },
+  "francesc macia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ],
+   "fuera": [
+    7,
+    11
+   ]
+  },
+  "francesc perez cabrero": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    21
+   ]
+  },
+  "francesc tarafa": {
+   "Vallcarca": [
+    1,
+    10
+   ]
+  },
+  "francesc tarrega": {
+   "Sant Andreu": [
+    1,
+    51
+   ]
+  },
+  "francesca bonnemaison": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "francesca verges escofet": {
+   "Sant Andreu": [
+    1,
+    9
+   ]
+  },
+  "francisco giner": {
+   "Gràcia": [
+    1,
+    60
+   ]
+  },
+  "francoli": {
+   "Sarrià - Sant Gervasi": [
+    11,
+    76
+   ]
+  },
+  "frederic mompou": {
+   "Sant Martí": [
+    1,
+    17
+   ]
+  },
+  "frederic soler": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ]
+  },
+  "fredolic": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "freixa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    56
+   ]
+  },
+  "freser": {
+   "Sant Martí": [
+    1,
+    240
+   ]
+  },
+  "frigola": {
+   "Gràcia": [
+    1,
+    27
+   ]
+  },
+  "funoses llussa": {
+   "Vallcarca": [
+    1,
+    12
+   ]
+  },
+  "gabriel alomar": {
+   "Nou Barris": [
+    1,
+    4
+   ]
+  },
+  "gabriel ferrater": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    31
+   ]
+  },
+  "gabriel y galan": {
+   "Sant Martí": [
+    1,
+    28
+   ]
+  },
+  "gabriela mistral": {
+   "Sant Martí": [
+    1,
+    18
+   ]
+  },
+  "galba": {
+   "Sant Martí": [
+    1,
+    28
+   ]
+  },
+  "galceran marquet": {
+   "Sant Martí": [
+    1,
+    26
+   ]
+  },
+  "galicia": {
+   "Sant Andreu": [
+    1,
+    28
+   ]
+  },
+  "galla placidia": {
+   "Gràcia": [
+    2,
+    34
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ]
+  },
+  "ganduxer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    144
+   ]
+  },
+  "garbi": {
+   "Nou Barris": [
+    1,
+    7
+   ]
+  },
+  "garcia faria": {
+   "Sant Martí": [
+    1,
+    103
+   ]
+  },
+  "garcia i robles": {
+   "Gràcia": [
+    1,
+    19
+   ]
+  },
+  "garcia marino": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "garcilaso": {
+   "Sant Andreu": [
+    1,
+    245
+   ]
+  },
+  "garigliano": {
+   "Nou Barris": [
+    1,
+    58
+   ]
+  },
+  "garric": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "garrigo": {
+   "Nou Barris": [
+    1,
+    25
+   ]
+  },
+  "garriguella": {
+   "Vallcarca": [
+    1,
+    32
+   ],
+   "fuera": [
+    27,
+    27
+   ]
+  },
+  "garrofers": {
+   "Nou Barris": [
+    22,
+    73
+   ],
+   "fuera": [
+    1,
+    36
+   ]
+  },
+  "gaspar cassado": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "gatell": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "gaziel": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    65
+   ]
+  },
+  "gegants de sant andreu de palomar": {
+   "Sant Andreu": [
+    1,
+    8
+   ]
+  },
+  "gelida": {
+   "Sant Martí": [
+    1,
+    20
+   ]
+  },
+  "general bassols": {
+   "Sant Martí": [
+    1,
+    36
+   ]
+  },
+  "general mendoza": {
+   "Vallcarca": [
+    2,
+    56
+   ],
+   "fuera": [
+    1,
+    55
+   ]
+  },
+  "general mitre": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    267
+   ]
+  },
+  "general moragues": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "general vives": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    40
+   ]
+  },
+  "geranis": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    18
+   ]
+  },
+  "germans rubio i bellver": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "germans serra": {
+   "Sant Martí": [
+    1,
+    30
+   ]
+  },
+  "ginecos": {
+   "Sant Martí": [
+    1,
+    54
+   ]
+  },
+  "gironella": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    21
+   ]
+  },
+  "goldoni": {
+   "Vallcarca": [
+    1,
+    10
+   ]
+  },
+  "golgota": {
+   "Vallcarca": [
+    1,
+    10
+   ]
+  },
+  "gomis": {
+   "Vallcarca": [
+    1,
+    112
+   ]
+  },
+  "gongora": {
+   "Nou Barris": [
+    1,
+    134
+   ]
+  },
+  "gordi": {
+   "Sant Andreu": [
+    1,
+    11
+   ]
+  },
+  "gosol": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    41
+   ]
+  },
+  "goya": {
+   "Gràcia": [
+    1,
+    20
+   ],
+   "fuera": [
+    1,
+    1
+   ]
+  },
+  "gracia": {
+   "Gràcia": [
+    1,
+    347
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    103
+   ],
+   "fuera": [
+    1,
+    451
+   ]
+  },
+  "gran de gracia": {
+   "Gràcia": [
+    1,
+    266
+   ]
+  },
+  "gran de la sagrera": {
+   "Sant Andreu": [
+    2,
+    200
+   ]
+  },
+  "gran de sant andreu": {
+   "Sant Andreu": [
+    1,
+    517
+   ]
+  },
+  "gran via de les corts catalanes": {
+   "Sant Martí": [
+    823,
+    1198
+   ],
+   "fuera": [
+    111,
+    846
+   ]
+  },
+  "granados": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "gratallops": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    46
+   ]
+  },
+  "grau": {
+   "Nou Barris": [
+    1,
+    20
+   ],
+   "Sant Andreu": [
+    1,
+    120
+   ]
+  },
+  "grau miro": {
+   "Vallcarca": [
+    1,
+    1
+   ]
+  },
+  "graus": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "graziella pareto": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "greco": {
+   "Nou Barris": [
+    1,
+    28
+   ]
+  },
+  "greenwich": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "gregal": {
+   "Sant Martí": [
+    1,
+    33
+   ]
+  },
+  "gresolet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    18
+   ]
+  },
+  "gretel ammann martinez": {
+   "Sant Martí": [
+    1,
+    22
+   ]
+  },
+  "grevol": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "guadalajara": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    7
+   ]
+  },
+  "gualbes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ]
+  },
+  "guarda anton": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "guardiola i feliu": {
+   "Sant Andreu": [
+    1,
+    25
+   ]
+  },
+  "guatemala": {
+   "Sant Martí": [
+    1,
+    24
+   ]
+  },
+  "guayaquil": {
+   "Sant Andreu": [
+    1,
+    59
+   ]
+  },
+  "guell": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    18
+   ]
+  },
+  "guerau de liost": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    22
+   ]
+  },
+  "guillem abiell": {
+   "Vallcarca": [
+    1,
+    9
+   ]
+  },
+  "guillem de lluria": {
+   "Sant Martí": [
+    1,
+    21
+   ]
+  },
+  "guillem sagrera": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "guillem tell": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    53
+   ]
+  },
+  "guinardo": {
+   "Gràcia": [
+    1,
+    14
+   ],
+   "Sant Andreu": [
+    1,
+    21
+   ],
+   "Sant Martí": [
+    6,
+    40
+   ],
+   "fuera": [
+    1,
+    255
+   ]
+  },
+  "guipuscoa": {
+   "Sant Martí": [
+    1,
+    189
+   ]
+  },
+  "gustavo becquer": {
+   "Vallcarca": [
+    1,
+    77
+   ]
+  },
+  "gutenberg": {
+   "Vallcarca": [
+    1,
+    32
+   ],
+   "fuera": [
+    1,
+    7
+   ]
+  },
+  "haiti": {
+   "Vallcarca": [
+    1,
+    4
+   ]
+  },
+  "helsinki": {
+   "Sant Martí": [
+    1,
+    39
+   ]
+  },
+  "hercegovina": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    33
+   ]
+  },
+  "hernan cortes": {
+   "Sant Martí": [
+    1,
+    23
+   ]
+  },
+  "hipolit lazaro": {
+   "Gràcia": [
+    1,
+    36
+   ]
+  },
+  "homer": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    63
+   ]
+  },
+  "hondures": {
+   "Sant Andreu": [
+    15,
+    78
+   ]
+  },
+  "horaci": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    44
+   ]
+  },
+  "horitzontal": {
+   "Nou Barris": [
+    1,
+    60
+   ]
+  },
+  "hostalric": {
+   "Nou Barris": [
+    1,
+    32
+   ]
+  },
+  "huelva": {
+   "Sant Martí": [
+    1,
+    140
+   ]
+  },
+  "humberto rivas": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "hurtado": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    38
+   ]
+  },
+  "icaria": {
+   "Sant Martí": [
+    90,
+    219
+   ]
+  },
+  "ifni": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "iglesias": {
+   "Sant Martí": [
+    1,
+    23
+   ]
+  },
+  "ignasi agusti": {
+   "Nou Barris": [
+    1,
+    5
+   ]
+  },
+  "ignasi iglesias": {
+   "Sant Andreu": [
+    1,
+    156
+   ]
+  },
+  "ignasi juliol": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "igualada": {
+   "Gràcia": [
+    1,
+    37
+   ]
+  },
+  "illas i vidal": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "inca": {
+   "Nou Barris": [
+    1,
+    11
+   ]
+  },
+  "indians": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "iradier": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    72
+   ]
+  },
+  "irena sendler": {
+   "Sant Martí": [
+    1,
+    28
+   ]
+  },
+  "irlanda": {
+   "Sant Andreu": [
+    1,
+    42
+   ]
+  },
+  "isaac albeniz": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    31
+   ]
+  },
+  "isaac newton": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    52
+   ]
+  },
+  "isabel": {
+   "Vallcarca": [
+    1,
+    14
+   ]
+  },
+  "isabel de villena": {
+   "Nou Barris": [
+    1,
+    8
+   ]
+  },
+  "isabel ribo": {
+   "Sant Andreu": [
+    1,
+    11
+   ]
+  },
+  "isabel vila": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "ivorra": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "j. v. foix": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    122
+   ]
+  },
+  "jacint guardiola": {
+   "Sant Andreu": [
+    1,
+    14
+   ]
+  },
+  "jacinto benavente": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    21
+   ]
+  },
+  "jaen": {
+   "Gràcia": [
+    1,
+    28
+   ]
+  },
+  "jambrina": {
+   "Sant Andreu": [
+    1,
+    18
+   ]
+  },
+  "japo": {
+   "Nou Barris": [
+    1,
+    44
+   ]
+  },
+  "jardins d'alfabia": {
+   "Nou Barris": [
+    1,
+    24
+   ]
+  },
+  "jardins d'elx": {
+   "Sant Andreu": [
+    1,
+    24
+   ]
+  },
+  "jaume brossa": {
+   "Sant Andreu": [
+    2,
+    40
+   ],
+   "Sant Martí": [
+    1,
+    101
+   ]
+  },
+  "jaume cabrera": {
+   "Vallcarca": [
+    1,
+    6
+   ]
+  },
+  "jaume cancer": {
+   "Sarrià - Sant Gervasi": [
+    15,
+    46
+   ]
+  },
+  "jaume cascalls": {
+   "Vallcarca": [
+    1,
+    22
+   ]
+  },
+  "jaume fabre": {
+   "Sant Martí": [
+    1,
+    48
+   ]
+  },
+  "jaume huguet": {
+   "Sant Martí": [
+    1,
+    81
+   ]
+  },
+  "jaume ii": {
+   "Sarrià - Sant Gervasi": [
+    6,
+    8
+   ]
+  },
+  "jaume marti": {
+   "Nou Barris": [
+    1,
+    38
+   ]
+  },
+  "jaume pinent": {
+   "Nou Barris": [
+    1,
+    65
+   ]
+  },
+  "jaume piquet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    44
+   ]
+  },
+  "jaume vicens i vives": {
+   "Sant Martí": [
+    1,
+    15
+   ]
+  },
+  "jesus": {
+   "Gràcia": [
+    1,
+    21
+   ]
+  },
+  "jesus carrasco": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "jesus i maria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    37
+   ]
+  },
+  "joan alcover": {
+   "Nou Barris": [
+    1,
+    17
+   ]
+  },
+  "joan blanques": {
+   "Gràcia": [
+    1,
+    74
+   ]
+  },
+  "joan casanelles": {
+   "Sant Martí": [
+    1,
+    2
+   ]
+  },
+  "joan comorera": {
+   "Sant Andreu": [
+    1,
+    18
+   ]
+  },
+  "joan d'austria": {
+   "Sant Martí": [
+    39,
+    130
+   ]
+  },
+  "joan de palomar": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "joan de peguera": {
+   "Sant Martí": [
+    1,
+    133
+   ]
+  },
+  "joan ferrandiz": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "joan goula": {
+   "Sant Martí": [
+    1,
+    5
+   ]
+  },
+  "joan i": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "joan llongueras": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ]
+  },
+  "joan miro": {
+   "Sant Martí": [
+    1,
+    48
+   ]
+  },
+  "joan oliver": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "joan orpi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "joan riera": {
+   "Nou Barris": [
+    1,
+    55
+   ]
+  },
+  "joan torras": {
+   "Sant Andreu": [
+    1,
+    54
+   ]
+  },
+  "joaquim folguera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "joaquim pena": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "joaquim puig i pidemunt": {
+   "Nou Barris": [
+    1,
+    20
+   ]
+  },
+  "joaquim pujol": {
+   "Sant Martí": [
+    1,
+    65
+   ]
+  },
+  "joaquim rita": {
+   "Sant Andreu": [
+    1,
+    27
+   ]
+  },
+  "joaquim ruyra": {
+   "Gràcia": [
+    1,
+    17
+   ]
+  },
+  "joaquim serra": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "joaquim sunyer": {
+   "Vallcarca": [
+    2,
+    8
+   ]
+  },
+  "joaquim valls": {
+   "Nou Barris": [
+    1,
+    141
+   ]
+  },
+  "johann sebastian bach": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    30
+   ]
+  },
+  "john f. kennedy": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "john lennon": {
+   "Gràcia": [
+    1,
+    2
+   ]
+  },
+  "joncar": {
+   "Sant Martí": [
+    1,
+    67
+   ]
+  },
+  "jorba": {
+   "Sant Andreu": [
+    1,
+    70
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "jorda": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ],
+   "fuera": [
+    1,
+    31
+   ]
+  },
+  "jordi de sant jordi": {
+   "Sant Andreu": [
+    1,
+    57
+   ]
+  },
+  "jordi rubio i balaguer": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "jordi sabater pi": {
+   "Sant Andreu": [
+    1,
+    45
+   ]
+  },
+  "jose de agullo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "jose garrido gamez": {
+   "Sant Martí": [
+    1,
+    30
+   ]
+  },
+  "josefa rosich": {
+   "Vallcarca": [
+    1,
+    10
+   ]
+  },
+  "josefina torrens illas": {
+   "Gràcia": [
+    1,
+    4
+   ]
+  },
+  "josep andreu i abello": {
+   "Sant Andreu": [
+    1,
+    7
+   ]
+  },
+  "josep antoni coderch": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "josep balari": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    18
+   ]
+  },
+  "josep bertrand": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "josep canaleta": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    21
+   ]
+  },
+  "josep estalella": {
+   "Sant Martí": [
+    1,
+    4
+   ]
+  },
+  "josep estivill": {
+   "Sant Andreu": [
+    1,
+    79
+   ]
+  },
+  "josep ferrater i mora": {
+   "Sant Martí": [
+    1,
+    13
+   ]
+  },
+  "josep finestres": {
+   "Sant Andreu": [
+    1,
+    27
+   ]
+  },
+  "josep gari": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "josep jover": {
+   "Vallcarca": [
+    1,
+    20
+   ]
+  },
+  "josep llovera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    15
+   ]
+  },
+  "josep m. florensa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "josep m. jujol": {
+   "Vallcarca": [
+    1,
+    17
+   ]
+  },
+  "josep m. llado": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ]
+  },
+  "josep m. sert": {
+   "Vallcarca": [
+    23,
+    117
+   ]
+  },
+  "josep maria huertas claveria": {
+   "Sant Martí": [
+    1,
+    3
+   ]
+  },
+  "josep miret": {
+   "Sant Martí": [
+    1,
+    39
+   ]
+  },
+  "josep mula": {
+   "Sant Martí": [
+    2,
+    2
+   ]
+  },
+  "josep narcis roca": {
+   "Sant Martí": [
+    9,
+    11
+   ]
+  },
+  "josep obiols": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "josep pla": {
+   "Sant Martí": [
+    2,
+    188
+   ]
+  },
+  "josep puig i esteve": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "josep roura": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    50
+   ]
+  },
+  "josep rovira": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "josep soldevila": {
+   "Sant Andreu": [
+    1,
+    78
+   ]
+  },
+  "josep sole i barbera": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "josep torres": {
+   "Gràcia": [
+    1,
+    28
+   ]
+  },
+  "josepa massanes": {
+   "Sant Martí": [
+    1,
+    39
+   ]
+  },
+  "juan de garay": {
+   "Sant Andreu": [
+    1,
+    118
+   ]
+  },
+  "juan ramon jimenez": {
+   "Nou Barris": [
+    1,
+    14
+   ]
+  },
+  "jubany": {
+   "Sant Martí": [
+    1,
+    21
+   ]
+  },
+  "jules verne": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "julia": {
+   "Nou Barris": [
+    1,
+    209
+   ],
+   "fuera": [
+    1,
+    35
+   ]
+  },
+  "julian besteiro": {
+   "Sant Martí": [
+    1,
+    18
+   ]
+  },
+  "julian romea": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ]
+  },
+  "juliana morell": {
+   "Sant Martí": [
+    1,
+    7
+   ]
+  },
+  "julio gonzalez": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "jupiter": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    46
+   ]
+  },
+  "karl marx": {
+   "Nou Barris": [
+    4,
+    5
+   ],
+   "fuera": [
+    1,
+    3
+   ]
+  },
+  "klein": {
+   "Sant Martí": [
+    1,
+    32
+   ]
+  },
+  "kobe": {
+   "Sant Andreu": [
+    1,
+    16
+   ]
+  },
+  "l'abat odo": {
+   "Sant Andreu": [
+    1,
+    89
+   ]
+  },
+  "l'abat oliba": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "l'abat samso": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "l'actor morano": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    13
+   ]
+  },
+  "l'actriu tubau": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "l'agricultura": {
+   "Sant Martí": [
+    39,
+    347
+   ]
+  },
+  "l'aigua": {
+   "Nou Barris": [
+    1,
+    9
+   ]
+  },
+  "l'aire": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "l'ajuntament": {
+   "Sant Andreu": [
+    1,
+    24
+   ]
+  },
+  "l'alba": {
+   "Gràcia": [
+    1,
+    17
+   ]
+  },
+  "l'albercoquer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "l'alcalde miralles": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    36
+   ]
+  },
+  "l'aldea": {
+   "Vallcarca": [
+    1,
+    20
+   ]
+  },
+  "l'almirall okendo": {
+   "Sant Andreu": [
+    1,
+    25
+   ]
+  },
+  "l'almirall proixida": {
+   "Sant Andreu": [
+    1,
+    26
+   ]
+  },
+  "l'alzina": {
+   "Gràcia": [
+    1,
+    58
+   ]
+  },
+  "l'alzinar": {
+   "Nou Barris": [
+    1,
+    44
+   ]
+  },
+  "l'amarant": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "l'amargor": {
+   "Sant Martí": [
+    1,
+    20
+   ]
+  },
+  "l'amistat": {
+   "Sant Martí": [
+    1,
+    44
+   ]
+  },
+  "l'andana de l'estacio": {
+   "Sant Andreu": [
+    1,
+    64
+   ]
+  },
+  "l'anemone": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    3
+   ]
+  },
+  "l'angel": {
+   "Gràcia": [
+    1,
+    24
+   ],
+   "fuera": [
+    1,
+    12
+   ]
+  },
+  "l'arc de sant sever": {
+   "Sant Martí": [
+    1,
+    17
+   ]
+  },
+  "l'arc del mercat": {
+   "Sant Andreu": [
+    9,
+    13
+   ]
+  },
+  "l'argentera": {
+   "Vallcarca": [
+    1,
+    24
+   ]
+  },
+  "l'argentinita": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "l'arquitecte mas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "l'arquitecte millas": {
+   "Nou Barris": [
+    1,
+    18
+   ]
+  },
+  "l'arquitecte sert": {
+   "Sant Martí": [
+    1,
+    32
+   ]
+  },
+  "l'artesania": {
+   "Nou Barris": [
+    1,
+    216
+   ]
+  },
+  "l'assemblea de catalunya": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "l'atom": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "l'avancada": {
+   "Sant Andreu": [
+    1,
+    35
+   ]
+  },
+  "l'avenir": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    76
+   ]
+  },
+  "l'avet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ]
+  },
+  "l'avio plus ultra": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    43
+   ]
+  },
+  "l'azalea": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    36
+   ]
+  },
+  "l'ebre": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "l'emancipacio": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    41
+   ]
+  },
+  "l'emporda": {
+   "Sant Martí": [
+    1,
+    26
+   ]
+  },
+  "l'encarnacio": {
+   "Gràcia": [
+    1,
+    150
+   ],
+   "fuera": [
+    1,
+    212
+   ]
+  },
+  "l'enginyeria": {
+   "Sarrià - Sant Gervasi": [
+    8,
+    20
+   ]
+  },
+  "l'epir": {
+   "Sant Martí": [
+    1,
+    8
+   ]
+  },
+  "l'escala": {
+   "Nou Barris": [
+    6,
+    23
+   ]
+  },
+  "l'escorial": {
+   "Gràcia": [
+    1,
+    214
+   ]
+  },
+  "l'escull": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    6
+   ]
+  },
+  "l'escultor llimona": {
+   "Nou Barris": [
+    1,
+    54
+   ]
+  },
+  "l'escultor ordonez": {
+   "Nou Barris": [
+    1,
+    213
+   ]
+  },
+  "l'esglesia": {
+   "Gràcia": [
+    1,
+    10
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    108
+   ],
+   "fuera": [
+    1,
+    5
+   ]
+  },
+  "l'esperanca": {
+   "Nou Barris": [
+    1,
+    15
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    40
+   ]
+  },
+  "l'espiga": {
+   "Sant Andreu": [
+    1,
+    16
+   ]
+  },
+  "l'espinagosa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ]
+  },
+  "l'esquirol volador": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "l'estacio": {
+   "Sant Andreu": [
+    1,
+    28
+   ]
+  },
+  "l'estartit": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "l'estudiant": {
+   "Nou Barris": [
+    1,
+    58
+   ]
+  },
+  "l'eterna memoria": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "l'havana": {
+   "Sant Andreu": [
+    1,
+    22
+   ]
+  },
+  "l'historiador maians": {
+   "Sant Martí": [
+    1,
+    32
+   ]
+  },
+  "l'hort de la vila": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    58
+   ]
+  },
+  "l'institut quimic de sarria": {
+   "Sarrià - Sant Gervasi": [
+    13,
+    52
+   ]
+  },
+  "l'isard": {
+   "Nou Barris": [
+    1,
+    43
+   ]
+  },
+  "l'observatori fabra": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    30
+   ]
+  },
+  "l'onze de setembre": {
+   "Sant Andreu": [
+    1,
+    78
+   ]
+  },
+  "l'or": {
+   "Gràcia": [
+    1,
+    50
+   ]
+  },
+  "l'ordi": {
+   "Sant Andreu": [
+    1,
+    31
+   ]
+  },
+  "l'orduna": {
+   "Nou Barris": [
+    1,
+    24
+   ]
+  },
+  "l'oreneta": {
+   "Gràcia": [
+    1,
+    4
+   ]
+  },
+  "l'orient": {
+   "Sarrià - Sant Gervasi": [
+    3,
+    9
+   ]
+  },
+  "l'ossa major": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    5
+   ]
+  },
+  "l'ossa menor": {
+   "Sant Martí": [
+    1,
+    4
+   ]
+  },
+  "l'ullastre": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    13
+   ]
+  },
+  "l'uruguai": {
+   "Vallcarca": [
+    1,
+    4
+   ]
+  },
+  "la barcelonesa": {
+   "Sant Andreu": [
+    1,
+    9
+   ]
+  },
+  "la bassa de torre baro": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "la belladona": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ]
+  },
+  "la blada": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "la bonanova": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    121
+   ]
+  },
+  "la campana de la maquinista": {
+   "Sant Andreu": [
+    1,
+    26
+   ]
+  },
+  "la cantera": {
+   "Nou Barris": [
+    1,
+    109
+   ]
+  },
+  "la capella de can caralleu": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "la casablanca": {
+   "Vallcarca": [
+    1,
+    1
+   ]
+  },
+  "la central": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ]
+  },
+  "la ciutat d'asuncion": {
+   "Sant Andreu": [
+    1,
+    95
+   ]
+  },
+  "la ciutat d'elx": {
+   "Sant Andreu": [
+    1,
+    31
+   ]
+  },
+  "la ciutat de balaguer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    80
+   ]
+  },
+  "la ciutat de granada": {
+   "Sant Martí": [
+    1,
+    179
+   ]
+  },
+  "la ciutat de mallorca": {
+   "Nou Barris": [
+    1,
+    53
+   ]
+  },
+  "la colonia del tibidabo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "la companyia": {
+   "Sant Andreu": [
+    1,
+    32
+   ]
+  },
+  "la constancia": {
+   "Sant Andreu": [
+    1,
+    29
+   ]
+  },
+  "la cooperativa dels carters": {
+   "Nou Barris": [
+    1,
+    28
+   ]
+  },
+  "la corunya": {
+   "Sant Martí": [
+    1,
+    33
+   ]
+  },
+  "la costa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    88
+   ],
+   "fuera": [
+    1,
+    1
+   ]
+  },
+  "la costa brava": {
+   "Sant Andreu": [
+    1,
+    35
+   ]
+  },
+  "la costa daurada": {
+   "Sant Andreu": [
+    1,
+    16
+   ]
+  },
+  "la costa del putxet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "la creu roja": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "la cultura": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "la democracia": {
+   "Sant Martí": [
+    1,
+    36
+   ]
+  },
+  "la duquessa d'orleans": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    60
+   ]
+  },
+  "la fabrica": {
+   "Sant Andreu": [
+    1,
+    11
+   ]
+  },
+  "la farigola": {
+   "Vallcarca": [
+    1,
+    72
+   ]
+  },
+  "la ferradura": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "la flor de neu": {
+   "Nou Barris": [
+    1,
+    115
+   ]
+  },
+  "la florida": {
+   "Nou Barris": [
+    1,
+    68
+   ]
+  },
+  "la fonolleda": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "la font d'en magues": {
+   "Nou Barris": [
+    1,
+    100
+   ]
+  },
+  "la font de canyelles": {
+   "Nou Barris": [
+    1,
+    141
+   ]
+  },
+  "la font del coll": {
+   "Vallcarca": [
+    1,
+    38
+   ]
+  },
+  "la font del mont": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    75
+   ]
+  },
+  "la font del remei": {
+   "Vallcarca": [
+    1,
+    42
+   ]
+  },
+  "la font dels pins": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    74
+   ]
+  },
+  "la foradada": {
+   "Sant Andreu": [
+    1,
+    108
+   ]
+  },
+  "la formiga": {
+   "Sant Andreu": [
+    1,
+    27
+   ]
+  },
+  "la fosca": {
+   "Nou Barris": [
+    1,
+    34
+   ]
+  },
+  "la fraternitat": {
+   "Gràcia": [
+    1,
+    46
+   ]
+  },
+  "la gardenia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    30
+   ]
+  },
+  "la garona": {
+   "Sant Andreu": [
+    1,
+    21
+   ]
+  },
+  "la gasela": {
+   "Nou Barris": [
+    1,
+    122
+   ]
+  },
+  "la gatosa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    35
+   ]
+  },
+  "la gespa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    39
+   ]
+  },
+  "la ginestera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "la girgola": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    30
+   ]
+  },
+  "la gitanilla": {
+   "Sant Andreu": [
+    1,
+    6
+   ]
+  },
+  "la gleva": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    44
+   ]
+  },
+  "la gloria": {
+   "Gràcia": [
+    10,
+    47
+   ],
+   "Vallcarca": [
+    1,
+    45
+   ]
+  },
+  "la granada del penedes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    36
+   ]
+  },
+  "la granadella": {
+   "Sant Andreu": [
+    36,
+    75
+   ]
+  },
+  "la granja": {
+   "Gràcia": [
+    1,
+    35
+   ]
+  },
+  "la guarderia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "la guineueta": {
+   "Nou Barris": [
+    1,
+    38
+   ]
+  },
+  "la guineueta vella": {
+   "Nou Barris": [
+    2,
+    89
+   ],
+   "fuera": [
+    1,
+    5
+   ]
+  },
+  "la hispano suissa": {
+   "Sant Andreu": [
+    1,
+    4
+   ]
+  },
+  "la immaculada": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    70
+   ]
+  },
+  "la independencia": {
+   "Sant Martí": [
+    1,
+    399
+   ]
+  },
+  "la industria": {
+   "Gràcia": [
+    1,
+    87
+   ],
+   "Sant Andreu": [
+    329,
+    388
+   ],
+   "Sant Martí": [
+    197,
+    342
+   ],
+   "fuera": [
+    82,
+    196
+   ]
+  },
+  "la industria lletra c": {
+   "Sant Martí": [
+    1,
+    11
+   ]
+  },
+  "la infancia": {
+   "Sant Martí": [
+    1,
+    17
+   ]
+  },
+  "la infanta isabel": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    17
+   ]
+  },
+  "la jonquera": {
+   "Sant Martí": [
+    2,
+    26
+   ]
+  },
+  "la jota": {
+   "Nou Barris": [
+    6,
+    150
+   ]
+  },
+  "la laguna de lanao": {
+   "Vallcarca": [
+    1,
+    1
+   ]
+  },
+  "la laminacio": {
+   "Sant Martí": [
+    1,
+    2
+   ]
+  },
+  "la legalitat": {
+   "Gràcia": [
+    1,
+    95
+   ]
+  },
+  "la llacuna": {
+   "Sant Martí": [
+    1,
+    176
+   ]
+  },
+  "la llenega": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "la llibertat": {
+   "Gràcia": [
+    1,
+    60
+   ]
+  },
+  "la llica": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    46
+   ]
+  },
+  "la llicorella": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "la llosa": {
+   "Nou Barris": [
+    1,
+    5
+   ]
+  },
+  "la lluita per les llibertats": {
+   "Sant Andreu": [
+    1,
+    12
+   ]
+  },
+  "la madriguera": {
+   "Sant Andreu": [
+    1,
+    47
+   ]
+  },
+  "la mainada": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "la maladeta": {
+   "Nou Barris": [
+    1,
+    114
+   ]
+  },
+  "la malva": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    34
+   ]
+  },
+  "la manigua": {
+   "Sant Andreu": [
+    1,
+    66
+   ]
+  },
+  "la mar bella": {
+   "Sant Martí": [
+    1,
+    104
+   ]
+  },
+  "la mare de deu de gracia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "la mare de deu de la pau": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    18
+   ]
+  },
+  "la mare de deu de la salut": {
+   "Gràcia": [
+    1,
+    97
+   ]
+  },
+  "la mare de deu de les neus": {
+   "Nou Barris": [
+    1,
+    72
+   ]
+  },
+  "la mare de deu de lorda": {
+   "Sant Andreu": [
+    1,
+    102
+   ],
+   "Sarrià - Sant Gervasi": [
+    2,
+    16
+   ],
+   "fuera": [
+    1,
+    50
+   ]
+  },
+  "la mare de deu de montserrat": {
+   "Gràcia": [
+    1,
+    18
+   ],
+   "Sant Andreu": [
+    53,
+    90
+   ],
+   "fuera": [
+    19,
+    288
+   ]
+  },
+  "la mare de deu de nuria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    48
+   ]
+  },
+  "la mare de deu del carmel": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    27
+   ]
+  },
+  "la mare de deu del coll": {
+   "Gràcia": [
+    2,
+    64
+   ],
+   "Vallcarca": [
+    1,
+    154
+   ],
+   "fuera": [
+    91,
+    260
+   ]
+  },
+  "la mare de deu dels angels": {
+   "Vallcarca": [
+    2,
+    40
+   ],
+   "fuera": [
+    1,
+    106
+   ]
+  },
+  "la mare de deu dels desemparats": {
+   "Gràcia": [
+    1,
+    25
+   ]
+  },
+  "la mare de deu dels reis": {
+   "Vallcarca": [
+    1,
+    12
+   ]
+  },
+  "la mare eterna": {
+   "Sant Andreu": [
+    1,
+    74
+   ]
+  },
+  "la mare nazaria march": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "la marina": {
+   "Sant Martí": [
+    2,
+    116
+   ],
+   "fuera": [
+    1,
+    380
+   ]
+  },
+  "la marinada": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "la marquesa de vilallonga": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    62
+   ]
+  },
+  "la menta": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    55
+   ]
+  },
+  "la mina de la ciutat": {
+   "Nou Barris": [
+    1,
+    110
+   ]
+  },
+  "la modernitat": {
+   "Sant Andreu": [
+    1,
+    8
+   ]
+  },
+  "la muntanya": {
+   "Sant Martí": [
+    1,
+    125
+   ],
+   "fuera": [
+    1,
+    106
+   ]
+  },
+  "la murgola": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "la nacio": {
+   "Sant Martí": [
+    1,
+    94
+   ]
+  },
+  "la nena casas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    87
+   ]
+  },
+  "la nova icaria": {
+   "Sant Martí": [
+    1,
+    102
+   ]
+  },
+  "la nova mar bella": {
+   "Sant Martí": [
+    1,
+    106
+   ]
+  },
+  "la palma de sant genis": {
+   "Vallcarca": [
+    1,
+    34
+   ]
+  },
+  "la palmera de sant marti": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "la pau": {
+   "Sant Martí": [
+    1,
+    4
+   ],
+   "fuera": [
+    1,
+    14
+   ]
+  },
+  "la pedrosa": {
+   "Nou Barris": [
+    1,
+    27
+   ]
+  },
+  "la peira": {
+   "Nou Barris": [
+    1,
+    72
+   ]
+  },
+  "la perera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "la perla": {
+   "Gràcia": [
+    1,
+    39
+   ]
+  },
+  "la pineda": {
+   "Nou Barris": [
+    1,
+    333
+   ]
+  },
+  "la primavera": {
+   "Sant Andreu": [
+    1,
+    15
+   ]
+  },
+  "la providencia": {
+   "Gràcia": [
+    1,
+    184
+   ],
+   "fuera": [
+    145,
+    147
+   ]
+  },
+  "la reina elisenda de montcada": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "la reina victoria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ]
+  },
+  "la reineta": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    115
+   ]
+  },
+  "la republica": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "la republica argentina": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    283
+   ],
+   "Vallcarca": [
+    1,
+    280
+   ]
+  },
+  "la republica dominicana": {
+   "Sant Andreu": [
+    1,
+    80
+   ]
+  },
+  "la residencia": {
+   "Sant Andreu": [
+    1,
+    31
+   ]
+  },
+  "la revolucio de setembre de 1868": {
+   "Gràcia": [
+    1,
+    18
+   ]
+  },
+  "la ribagorca": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "la riera d'horta": {
+   "Nou Barris": [
+    2,
+    58
+   ],
+   "Sant Andreu": [
+    1,
+    65
+   ]
+  },
+  "la riera de cassoles": {
+   "Gràcia": [
+    2,
+    68
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    69
+   ]
+  },
+  "la riera de sant miquel": {
+   "Gràcia": [
+    1,
+    79
+   ]
+  },
+  "la riera de vallcarca": {
+   "Vallcarca": [
+    1,
+    23
+   ]
+  },
+  "la robinia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    47
+   ]
+  },
+  "la rosella": {
+   "Vallcarca": [
+    9,
+    38
+   ]
+  },
+  "la sagrada familia": {
+   "Gràcia": [
+    1,
+    6
+   ],
+   "Sarrià - Sant Gervasi": [
+    2,
+    21
+   ],
+   "fuera": [
+    1,
+    26
+   ]
+  },
+  "la sagrera": {
+   "Sant Andreu": [
+    2,
+    16
+   ]
+  },
+  "la santa creu": {
+   "Gràcia": [
+    1,
+    5
+   ]
+  },
+  "la santissima trinitat del mont": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    90
+   ]
+  },
+  "la savina": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    44
+   ]
+  },
+  "la segarra": {
+   "Sant Andreu": [
+    1,
+    18
+   ]
+  },
+  "la selva de mar": {
+   "Sant Martí": [
+    1,
+    275
+   ]
+  },
+  "la selva del camp": {
+   "Sant Martí": [
+    1,
+    20
+   ]
+  },
+  "la sequia comtal": {
+   "Sant Martí": [
+    1,
+    21
+   ]
+  },
+  "la sequia madriguera": {
+   "Sant Andreu": [
+    1,
+    30
+   ]
+  },
+  "la talaia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "la tallada": {
+   "Sant Andreu": [
+    2,
+    46
+   ]
+  },
+  "la televisio": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "la terra": {
+   "Nou Barris": [
+    1,
+    9
+   ]
+  },
+  "la tolerancia": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "la torre": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "la torre de sansalvador": {
+   "Sarrià - Sant Gervasi": [
+    9,
+    9
+   ]
+  },
+  "la torre llobeta": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "la torre vella": {
+   "Nou Barris": [
+    1,
+    64
+   ]
+  },
+  "la tradicio": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "la tramuntana": {
+   "Sant Andreu": [
+    1,
+    53
+   ]
+  },
+  "la travessera": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "la travessia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "la traviata": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "la trinitat": {
+   "Sant Andreu": [
+    1,
+    14
+   ],
+   "Sant Martí": [
+    1,
+    6
+   ],
+   "fuera": [
+    1,
+    5
+   ]
+  },
+  "la tulipa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "la unio": {
+   "Sant Martí": [
+    1,
+    25
+   ],
+   "fuera": [
+    1,
+    34
+   ]
+  },
+  "la vall d'aran": {
+   "Sant Andreu": [
+    1,
+    24
+   ]
+  },
+  "la vall d'aro": {
+   "Nou Barris": [
+    1,
+    11
+   ]
+  },
+  "la vall d'hebron": {
+   "Vallcarca": [
+    1,
+    86
+   ],
+   "fuera": [
+    1,
+    320
+   ]
+  },
+  "la vall d'ordesa": {
+   "Nou Barris": [
+    1,
+    60
+   ]
+  },
+  "la verneda": {
+   "Sant Andreu": [
+    50,
+    266
+   ],
+   "Sant Martí": [
+    1,
+    127
+   ]
+  },
+  "la via lactia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "la vila de gracia": {
+   "Gràcia": [
+    1,
+    20
+   ]
+  },
+  "la vila de roses": {
+   "Vallcarca": [
+    1,
+    21
+   ]
+  },
+  "la vimetera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    64
+   ]
+  },
+  "la vinya llarga": {
+   "Sant Andreu": [
+    1,
+    20
+   ]
+  },
+  "la vinyassa": {
+   "Sant Martí": [
+    1,
+    25
+   ]
+  },
+  "la virreina": {
+   "Gràcia": [
+    1,
+    8
+   ],
+   "fuera": [
+    1,
+    10
+   ]
+  },
+  "la virtut": {
+   "Gràcia": [
+    1,
+    24
+   ]
+  },
+  "la vitraria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ]
+  },
+  "laberint": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "laforja": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    146
+   ]
+  },
+  "lanzarote": {
+   "Sant Andreu": [
+    1,
+    47
+   ]
+  },
+  "larrard": {
+   "Gràcia": [
+    1,
+    70
+   ]
+  },
+  "las chafarinas": {
+   "Nou Barris": [
+    1,
+    31
+   ]
+  },
+  "las navas de tolosa": {
+   "Sant Andreu": [
+    246,
+    401
+   ],
+   "Sant Martí": [
+    220,
+    353
+   ]
+  },
+  "lazaro cardenas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ]
+  },
+  "legazpi": {
+   "Nou Barris": [
+    1,
+    24
+   ]
+  },
+  "leonardo da vinci": {
+   "Sant Martí": [
+    1,
+    5
+   ]
+  },
+  "leopoldo alas": {
+   "Gràcia": [
+    1,
+    14
+   ]
+  },
+  "les acacies": {
+   "Sant Andreu": [
+    1,
+    73
+   ]
+  },
+  "les acores": {
+   "Sant Andreu": [
+    1,
+    10
+   ]
+  },
+  "les agudes": {
+   "Nou Barris": [
+    1,
+    146
+   ]
+  },
+  "les aigues": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    350
+   ],
+   "Vallcarca": [
+    352,
+    406
+   ],
+   "fuera": [
+    1,
+    357
+   ]
+  },
+  "les alberes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    69
+   ]
+  },
+  "les antilles": {
+   "Sant Andreu": [
+    1,
+    13
+   ]
+  },
+  "les avies i els avis": {
+   "Nou Barris": [
+    1,
+    2
+   ]
+  },
+  "les balears": {
+   "Vallcarca": [
+    1,
+    38
+   ]
+  },
+  "les basses de la peira": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "les borges blanques": {
+   "Nou Barris": [
+    1,
+    26
+   ]
+  },
+  "les calandries": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    24
+   ]
+  },
+  "les camelies": {
+   "Gràcia": [
+    1,
+    45
+   ],
+   "fuera": [
+    1,
+    115
+   ]
+  },
+  "les canaries": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ]
+  },
+  "les carolines": {
+   "Gràcia": [
+    1,
+    30
+   ]
+  },
+  "les cases boada": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "les casetes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "les dones de nou barris": {
+   "Nou Barris": [
+    1,
+    4
+   ]
+  },
+  "les dones del 36": {
+   "Gràcia": [
+    1,
+    14
+   ]
+  },
+  "les escales de can caralleu": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ]
+  },
+  "les escoles": {
+   "Sant Martí": [
+    1,
+    23
+   ],
+   "fuera": [
+    1,
+    11
+   ]
+  },
+  "les escoles pies": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    140
+   ]
+  },
+  "les fages": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "les filatures": {
+   "Sant Andreu": [
+    1,
+    24
+   ]
+  },
+  "les filipines": {
+   "Sant Andreu": [
+    1,
+    19
+   ]
+  },
+  "les fonts": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "les glories catalanes": {
+   "Sant Martí": [
+    19,
+    38
+   ],
+   "fuera": [
+    1,
+    7
+   ]
+  },
+  "les guilleries": {
+   "Gràcia": [
+    1,
+    35
+   ]
+  },
+  "les medes": {
+   "Vallcarca": [
+    1,
+    21
+   ]
+  },
+  "les mimoses": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "les monges": {
+   "Sant Andreu": [
+    1,
+    81
+   ]
+  },
+  "les naus de la maquinista": {
+   "Sant Andreu": [
+    1,
+    16
+   ]
+  },
+  "les nebuloses": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    45
+   ]
+  },
+  "les palmeres": {
+   "Nou Barris": [
+    1,
+    33
+   ],
+   "Sant Andreu": [
+    1,
+    26
+   ]
+  },
+  "les perdius": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "les poncelles": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "les quatre estacions": {
+   "Nou Barris": [
+    2,
+    47
+   ]
+  },
+  "les roquetes": {
+   "Nou Barris": [
+    1,
+    1
+   ],
+   "Sant Andreu": [
+    1,
+    20
+   ]
+  },
+  "les santjoanistes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    37
+   ]
+  },
+  "les torres": {
+   "Nou Barris": [
+    1,
+    107
+   ]
+  },
+  "les torretes": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    9
+   ]
+  },
+  "les treballadores i treballadors de macosa": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "les tres creus": {
+   "Sant Andreu": [
+    1,
+    23
+   ]
+  },
+  "les tres senyores": {
+   "Gràcia": [
+    1,
+    50
+   ]
+  },
+  "les tres torres": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    62
+   ]
+  },
+  "lesseps": {
+   "Gràcia": [
+    1,
+    18
+   ],
+   "Sarrià - Sant Gervasi": [
+    26,
+    33
+   ],
+   "Vallcarca": [
+    19,
+    25
+   ]
+  },
+  "lila": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    54
+   ]
+  },
+  "lima": {
+   "Sant Andreu": [
+    1,
+    34
+   ]
+  },
+  "lincoln": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    58
+   ]
+  },
+  "litoral": {
+   "Sant Martí": [
+    24,
+    136
+   ],
+   "fuera": [
+    2,
+    22
+   ]
+  },
+  "liuva": {
+   "Sant Andreu": [
+    1,
+    82
+   ]
+  },
+  "llafranc": {
+   "Nou Barris": [
+    1,
+    22
+   ]
+  },
+  "llagostera": {
+   "Sant Martí": [
+    1,
+    44
+   ]
+  },
+  "llatzeret": {
+   "Sant Martí": [
+    1,
+    36
+   ]
+  },
+  "llavallol": {
+   "Gràcia": [
+    1,
+    25
+   ]
+  },
+  "llebrencs": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "llenguadoc": {
+   "Sant Andreu": [
+    1,
+    118
+   ]
+  },
+  "lleo xiii": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    45
+   ]
+  },
+  "llerona": {
+   "Nou Barris": [
+    1,
+    173
+   ]
+  },
+  "llevant": {
+   "Sant Martí": [
+    1,
+    1
+   ],
+   "fuera": [
+    1,
+    8
+   ]
+  },
+  "llibertat rodenas": {
+   "Sant Martí": [
+    1,
+    5
+   ]
+  },
+  "llica": {
+   "Nou Barris": [
+    1,
+    52
+   ]
+  },
+  "lligabosc": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    41
+   ]
+  },
+  "llinars del valles": {
+   "Sant Andreu": [
+    1,
+    17
+   ]
+  },
+  "lliri": {
+   "Gràcia": [
+    1,
+    9
+   ]
+  },
+  "llobera": {
+   "Nou Barris": [
+    1,
+    142
+   ]
+  },
+  "llopis": {
+   "Nou Barris": [
+    1,
+    26
+   ]
+  },
+  "llorac": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "llorer": {
+   "Gràcia": [
+    1,
+    18
+   ]
+  },
+  "lluc": {
+   "Nou Barris": [
+    1,
+    16
+   ]
+  },
+  "llucanes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    56
+   ]
+  },
+  "llucieta canya": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    12
+   ]
+  },
+  "lluis bonifac": {
+   "Vallcarca": [
+    1,
+    15
+   ]
+  },
+  "lluis borrassa": {
+   "Sant Martí": [
+    1,
+    25
+   ]
+  },
+  "lluis casassas": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "lluis dalmau": {
+   "Sant Martí": [
+    1,
+    80
+   ]
+  },
+  "lluis muntadas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "lluis vives": {
+   "Gràcia": [
+    1,
+    17
+   ]
+  },
+  "lluisa casagemas coll": {
+   "Sant Andreu": [
+    1,
+    22
+   ]
+  },
+  "lluisa vidal": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "llull": {
+   "Sant Martí": [
+    1,
+    465
+   ]
+  },
+  "lohengrin": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "lola anglada": {
+   "Nou Barris": [
+    1,
+    3
+   ]
+  },
+  "lola iturbe arizcuren": {
+   "Sant Martí": [
+    1,
+    13
+   ]
+  },
+  "lolita torrento i prim": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "lope de vega": {
+   "Sant Martí": [
+    1,
+    316
+   ]
+  },
+  "lorda": {
+   "Vallcarca": [
+    1,
+    1
+   ],
+   "fuera": [
+    1,
+    36
+   ]
+  },
+  "lorena": {
+   "Nou Barris": [
+    1,
+    109
+   ]
+  },
+  "lorenzale": {
+   "Sant Martí": [
+    1,
+    28
+   ]
+  },
+  "los angeles": {
+   "Sant Martí": [
+    1,
+    36
+   ]
+  },
+  "luca": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    22
+   ]
+  },
+  "luis antunez": {
+   "Gràcia": [
+    1,
+    26
+   ]
+  },
+  "luis bunuel": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "luisa alba": {
+   "Nou Barris": [
+    1,
+    4
+   ]
+  },
+  "luz casanova": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "ma. angels rivas": {
+   "Nou Barris": [
+    1,
+    8
+   ]
+  },
+  "madame butterfly": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    59
+   ]
+  },
+  "madrazo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    163
+   ]
+  },
+  "maduixer": {
+   "Vallcarca": [
+    1,
+    47
+   ]
+  },
+  "maestrat": {
+   "Nou Barris": [
+    1,
+    4
+   ]
+  },
+  "magdalena e. blanc": {
+   "Gràcia": [
+    1,
+    17
+   ]
+  },
+  "magdalena giralt": {
+   "Sant Andreu": [
+    1,
+    6
+   ]
+  },
+  "magraner": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    2
+   ]
+  },
+  "maignon": {
+   "Gràcia": [
+    1,
+    54
+   ],
+   "Vallcarca": [
+    1,
+    2
+   ]
+  },
+  "major de can caralleu": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    31
+   ]
+  },
+  "major de nou barris": {
+   "Nou Barris": [
+    1,
+    2
+   ]
+  },
+  "major de sarria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    242
+   ]
+  },
+  "major del rectoret": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    188
+   ]
+  },
+  "malats": {
+   "Sant Andreu": [
+    1,
+    120
+   ]
+  },
+  "malet": {
+   "Sant Martí": [
+    1,
+    22
+   ]
+  },
+  "malgrat": {
+   "Nou Barris": [
+    25,
+    130
+   ]
+  },
+  "mallofre": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "mallorca": {
+   "Sant Andreu": [
+    645,
+    677
+   ],
+   "Sant Martí": [
+    505,
+    678
+   ],
+   "fuera": [
+    1,
+    516
+   ]
+  },
+  "maluquer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "manacor": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    52
+   ]
+  },
+  "mandri": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    73
+   ]
+  },
+  "mane i flaquer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    34
+   ]
+  },
+  "manlleu": {
+   "Vallcarca": [
+    1,
+    18
+   ]
+  },
+  "manrique de lara": {
+   "Gràcia": [
+    1,
+    13
+   ]
+  },
+  "manuel ainaud": {
+   "Sant Martí": [
+    1,
+    11
+   ]
+  },
+  "manuel angelon": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "manuel arnus": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    101
+   ]
+  },
+  "manuel corachan": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ]
+  },
+  "manuel de falla": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    42
+   ]
+  },
+  "manuel girona": {
+   "Sarrià - Sant Gervasi": [
+    7,
+    77
+   ],
+   "fuera": [
+    1,
+    88
+   ]
+  },
+  "manuel munoz": {
+   "Sant Andreu": [
+    1,
+    10
+   ]
+  },
+  "manuel sanchis i guarner": {
+   "Nou Barris": [
+    1,
+    16
+   ]
+  },
+  "manuel sancho": {
+   "Nou Barris": [
+    1,
+    17
+   ]
+  },
+  "manuel torrente": {
+   "Gràcia": [
+    1,
+    1
+   ]
+  },
+  "manuela gil llopart": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "mao": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "maracaibo": {
+   "Sant Andreu": [
+    1,
+    38
+   ]
+  },
+  "maragall": {
+   "Nou Barris": [
+    182,
+    376
+   ],
+   "Sant Andreu": [
+    12,
+    180
+   ],
+   "Sant Martí": [
+    1,
+    54
+   ],
+   "fuera": [
+    1,
+    427
+   ]
+  },
+  "marc aureli": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    44
+   ]
+  },
+  "marca": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "marco polo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    35
+   ]
+  },
+  "marconi": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "mare de deu de l'estrella": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "maresme": {
+   "Sant Martí": [
+    1,
+    324
+   ]
+  },
+  "margallo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    30
+   ]
+  },
+  "margarita brender rubira": {
+   "Sant Martí": [
+    1,
+    3
+   ]
+  },
+  "margenat": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    103
+   ]
+  },
+  "maria": {
+   "Gràcia": [
+    1,
+    14
+   ]
+  },
+  "maria aguilo": {
+   "Sant Martí": [
+    1,
+    146
+   ]
+  },
+  "maria antonia salva": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "maria auxiliadora": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    29
+   ]
+  },
+  "maria brossa": {
+   "Sant Andreu": [
+    1,
+    22
+   ]
+  },
+  "maria cubi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    209
+   ]
+  },
+  "maria espinalt i font": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "maria llimona": {
+   "Sant Martí": [
+    1,
+    46
+   ]
+  },
+  "maria luisa granero": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "maria mullerat": {
+   "Vallcarca": [
+    1,
+    1
+   ]
+  },
+  "maria reina": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "maria zambrano": {
+   "Nou Barris": [
+    2,
+    2
+   ]
+  },
+  "mariana pineda": {
+   "Gràcia": [
+    1,
+    10
+   ]
+  },
+  "marianao": {
+   "Gràcia": [
+    1,
+    26
+   ]
+  },
+  "marie curie": {
+   "Nou Barris": [
+    1,
+    23
+   ]
+  },
+  "marimon": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    27
+   ]
+  },
+  "marin": {
+   "Nou Barris": [
+    1,
+    30
+   ]
+  },
+  "marina": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "mariner": {
+   "Gràcia": [
+    1,
+    26
+   ]
+  },
+  "maritim de la mar bella": {
+   "Sant Martí": [
+    104,
+    143
+   ]
+  },
+  "maritim de nova icaria": {
+   "Sant Martí": [
+    60,
+    83
+   ]
+  },
+  "maritim del bogatell": {
+   "Sant Martí": [
+    80,
+    103
+   ]
+  },
+  "maritim del port olimpic": {
+   "Sant Martí": [
+    46,
+    67
+   ]
+  },
+  "marmella": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    31
+   ]
+  },
+  "marne": {
+   "Nou Barris": [
+    1,
+    27
+   ]
+  },
+  "marques de lamadrid": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "marques de mulhacen": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    20
+   ],
+   "fuera": [
+    1,
+    57
+   ]
+  },
+  "marques de santa ana": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "marques de santillana": {
+   "Sant Andreu": [
+    1,
+    20
+   ]
+  },
+  "marroc": {
+   "Sant Martí": [
+    1,
+    241
+   ]
+  },
+  "marsala": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "mart": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ]
+  },
+  "marta mata": {
+   "Sant Andreu": [
+    1,
+    13
+   ]
+  },
+  "marti": {
+   "Gràcia": [
+    1,
+    146
+   ]
+  },
+  "marti garralaga": {
+   "Sant Andreu": [
+    1,
+    15
+   ]
+  },
+  "marti llaurado": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    3
+   ]
+  },
+  "marti molins": {
+   "Sant Andreu": [
+    1,
+    78
+   ]
+  },
+  "martin luther king": {
+   "Sant Andreu": [
+    8,
+    65
+   ]
+  },
+  "martinez de la rosa": {
+   "Gràcia": [
+    1,
+    73
+   ]
+  },
+  "martinez hueso": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "martorell i pena": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ]
+  },
+  "martorelles": {
+   "Nou Barris": [
+    1,
+    65
+   ]
+  },
+  "mas de roda": {
+   "Sant Martí": [
+    1,
+    41
+   ]
+  },
+  "mas duran": {
+   "Nou Barris": [
+    1,
+    82
+   ]
+  },
+  "mas guimbau": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    68
+   ]
+  },
+  "mas sauro": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    83
+   ]
+  },
+  "mas yebra": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    15
+   ]
+  },
+  "masadas": {
+   "Sant Andreu": [
+    1,
+    7
+   ]
+  },
+  "masoliver": {
+   "Sant Martí": [
+    1,
+    44
+   ]
+  },
+  "maspons": {
+   "Gràcia": [
+    1,
+    28
+   ]
+  },
+  "masquefa": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "massaguer": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "massens": {
+   "Gràcia": [
+    1,
+    84
+   ]
+  },
+  "matagalls": {
+   "Nou Barris": [
+    1,
+    8
+   ],
+   "Sant Andreu": [
+    1,
+    16
+   ]
+  },
+  "matamala": {
+   "Nou Barris": [
+    5,
+    26
+   ]
+  },
+  "matanzas": {
+   "Sant Andreu": [
+    1,
+    64
+   ]
+  },
+  "mataro": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "mateu": {
+   "Gràcia": [
+    1,
+    24
+   ]
+  },
+  "mateu ferran": {
+   "Sant Andreu": [
+    1,
+    8
+   ]
+  },
+  "matilde": {
+   "Gràcia": [
+    1,
+    11
+   ]
+  },
+  "matilde diez": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "maurici serrahima": {
+   "Gràcia": [
+    1,
+    35
+   ]
+  },
+  "mediona": {
+   "Vallcarca": [
+    1,
+    49
+   ]
+  },
+  "melbourne": {
+   "Sant Martí": [
+    1,
+    35
+   ]
+  },
+  "melilla": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "mendel": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "menor de sarria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "menorca": {
+   "Sant Martí": [
+    1,
+    228
+   ]
+  },
+  "mercadal": {
+   "Sant Andreu": [
+    1,
+    41
+   ]
+  },
+  "mercat": {
+   "Sant Andreu": [
+    1,
+    21
+   ],
+   "Sant Martí": [
+    1,
+    26
+   ],
+   "fuera": [
+    1,
+    16
+   ]
+  },
+  "merce capsir": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "merce rodoreda": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    14
+   ]
+  },
+  "merce sala": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "mercedes": {
+   "Gràcia": [
+    1,
+    26
+   ]
+  },
+  "merida": {
+   "Sant Andreu": [
+    1,
+    23
+   ]
+  },
+  "meridiana": {
+   "Nou Barris": [
+    355,
+    635
+   ],
+   "Sant Andreu": [
+    207,
+    756
+   ],
+   "Sant Martí": [
+    1,
+    210
+   ],
+   "fuera": [
+    31,
+    75
+   ]
+  },
+  "meridional": {
+   "Sant Martí": [
+    1,
+    34
+   ]
+  },
+  "messina": {
+   "Sant Martí": [
+    1,
+    24
+   ]
+  },
+  "mestral": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "mestre alfonso": {
+   "Sant Martí": [
+    7,
+    72
+   ]
+  },
+  "mestre aloi": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "mestre nicolau": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    27
+   ]
+  },
+  "mig de can balasch": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    37
+   ]
+  },
+  "miguel de unamuno": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "miguel hernandez": {
+   "Nou Barris": [
+    1,
+    49
+   ]
+  },
+  "mila i fontanals": {
+   "Gràcia": [
+    1,
+    90
+   ]
+  },
+  "milanesat": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    50
+   ]
+  },
+  "milton": {
+   "Gràcia": [
+    1,
+    4
+   ]
+  },
+  "mina grott": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "minerva": {
+   "Gràcia": [
+    1,
+    23
+   ]
+  },
+  "ministral": {
+   "Vallcarca": [
+    1,
+    6
+   ]
+  },
+  "mino": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ]
+  },
+  "miquel casablancas i joanico": {
+   "Sant Andreu": [
+    1,
+    3
+   ]
+  },
+  "miquel ferra": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "miquel i badia": {
+   "Gràcia": [
+    1,
+    21
+   ]
+  },
+  "mir": {
+   "Sant Andreu": [
+    1,
+    45
+   ]
+  },
+  "mirador de llobera": {
+   "Nou Barris": [
+    1,
+    16
+   ]
+  },
+  "mireia": {
+   "Sant Andreu": [
+    1,
+    82
+   ]
+  },
+  "modest urgell": {
+   "Sant Andreu": [
+    1,
+    42
+   ]
+  },
+  "modolell": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    80
+   ]
+  },
+  "mogent": {
+   "Sant Martí": [
+    1,
+    38
+   ]
+  },
+  "moia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "moli": {
+   "Nou Barris": [
+    1,
+    114
+   ]
+  },
+  "moli de vallvidrera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "molina": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "moline": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "molins de rei": {
+   "Sarrià - Sant Gervasi": [
+    8,
+    66
+   ]
+  },
+  "molist": {
+   "Gràcia": [
+    1,
+    30
+   ]
+  },
+  "mollerussa": {
+   "Sant Andreu": [
+    1,
+    85
+   ]
+  },
+  "monegal": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "monestir": {
+   "Sarrià - Sant Gervasi": [
+    5,
+    30
+   ],
+   "fuera": [
+    1,
+    15
+   ]
+  },
+  "monistrol": {
+   "Gràcia": [
+    1,
+    39
+   ]
+  },
+  "monlau": {
+   "Sant Andreu": [
+    1,
+    94
+   ]
+  },
+  "mons": {
+   "Vallcarca": [
+    1,
+    7
+   ]
+  },
+  "mont d'orsa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    68
+   ]
+  },
+  "mont roig": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "montagut": {
+   "Nou Barris": [
+    1,
+    20
+   ]
+  },
+  "montclar": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "montecassino": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "monterols": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "monterrey": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "montevideo": {
+   "Sarrià - Sant Gervasi": [
+    13,
+    53
+   ],
+   "fuera": [
+    1,
+    26
+   ]
+  },
+  "montmajor": {
+   "Nou Barris": [
+    1,
+    33
+   ]
+  },
+  "montmany": {
+   "Gràcia": [
+    1,
+    70
+   ]
+  },
+  "montornes": {
+   "Vallcarca": [
+    1,
+    47
+   ]
+  },
+  "montpeller": {
+   "Sant Andreu": [
+    1,
+    64
+   ]
+  },
+  "montsant": {
+   "Nou Barris": [
+    1,
+    53
+   ]
+  },
+  "montsec": {
+   "Sant Andreu": [
+    1,
+    66
+   ]
+  },
+  "montseny": {
+   "Gràcia": [
+    1,
+    51
+   ]
+  },
+  "montserrat": {
+   "Vallcarca": [
+    1,
+    3
+   ],
+   "fuera": [
+    1,
+    19
+   ]
+  },
+  "montserrat aviles vila": {
+   "Sant Andreu": [
+    1,
+    11
+   ]
+  },
+  "montserrat casals": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "montserrat garriga": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "monturiol": {
+   "Sant Martí": [
+    1,
+    48
+   ]
+  },
+  "monyarc": {
+   "Sant Martí": [
+    7,
+    9
+   ]
+  },
+  "mora d'ebre": {
+   "Vallcarca": [
+    1,
+    106
+   ]
+  },
+  "mora la nova": {
+   "Vallcarca": [
+    1,
+    29
+   ]
+  },
+  "moragas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    38
+   ]
+  },
+  "morato": {
+   "Vallcarca": [
+    1,
+    46
+   ]
+  },
+  "morell": {
+   "Vallcarca": [
+    1,
+    6
+   ]
+  },
+  "morenes": {
+   "Sant Martí": [
+    1,
+    15
+   ]
+  },
+  "moscou": {
+   "Sant Martí": [
+    1,
+    44
+   ]
+  },
+  "mossen batlle": {
+   "Gràcia": [
+    1,
+    10
+   ]
+  },
+  "mossen clapes": {
+   "Sant Andreu": [
+    1,
+    24
+   ]
+  },
+  "mossen epifani lorda": {
+   "Sant Andreu": [
+    1,
+    22
+   ]
+  },
+  "mossen joan cortinas": {
+   "Sant Andreu": [
+    1,
+    3
+   ]
+  },
+  "mossen juliana": {
+   "Sant Andreu": [
+    1,
+    50
+   ]
+  },
+  "mossen masdexexart": {
+   "Gràcia": [
+    1,
+    18
+   ]
+  },
+  "mossen miquel vall i mundo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "mossen quinti mallofre": {
+   "Sant Andreu": [
+    1,
+    40
+   ]
+  },
+  "mossen vives": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    35
+   ]
+  },
+  "mossen xiro": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "mozart": {
+   "Gràcia": [
+    1,
+    33
+   ]
+  },
+  "mulet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "munic": {
+   "Sant Martí": [
+    1,
+    35
+   ]
+  },
+  "municipi": {
+   "Sant Martí": [
+    1,
+    20
+   ]
+  },
+  "munner": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "muntaner": {
+   "Sarrià - Sant Gervasi": [
+    224,
+    577
+   ],
+   "fuera": [
+    1,
+    225
+   ]
+  },
+  "murcia": {
+   "Sant Andreu": [
+    3,
+    64
+   ],
+   "Sant Martí": [
+    1,
+    8
+   ]
+  },
+  "muret": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "musitu": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    61
+   ]
+  },
+  "nadal": {
+   "Sant Andreu": [
+    1,
+    52
+   ]
+  },
+  "napoleo": {
+   "Gràcia": [
+    1,
+    15
+   ]
+  },
+  "napols": {
+   "Gràcia": [
+    271,
+    363
+   ],
+   "Sant Martí": [
+    1,
+    40
+   ],
+   "fuera": [
+    41,
+    274
+   ]
+  },
+  "naranjo de bulnes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    12
+   ]
+  },
+  "narbona": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "narcis oller": {
+   "Gràcia": [
+    1,
+    10
+   ]
+  },
+  "narcisa freixas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "navarro i reverter": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    37
+   ]
+  },
+  "navata": {
+   "Vallcarca": [
+    1,
+    35
+   ]
+  },
+  "negociant": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    40
+   ]
+  },
+  "negrevernis": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ]
+  },
+  "nelson mandela": {
+   "Sant Andreu": [
+    1,
+    12
+   ]
+  },
+  "neopatria": {
+   "Sant Andreu": [
+    8,
+    165
+   ]
+  },
+  "neptu": {
+   "Gràcia": [
+    1,
+    47
+   ],
+   "fuera": [
+    1,
+    1
+   ]
+  },
+  "neus bouza gil": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "nil": {
+   "Nou Barris": [
+    1,
+    44
+   ]
+  },
+  "nil fabra": {
+   "Gràcia": [
+    1,
+    38
+   ]
+  },
+  "nobel": {
+   "Sant Andreu": [
+    1,
+    18
+   ]
+  },
+  "nogues": {
+   "Gràcia": [
+    1,
+    75
+   ]
+  },
+  "nord": {
+   "Gràcia": [
+    1,
+    14
+   ],
+   "fuera": [
+    1,
+    19
+   ]
+  },
+  "nou barris": {
+   "Nou Barris": [
+    1,
+    27
+   ]
+  },
+  "nou de porta": {
+   "Nou Barris": [
+    1,
+    35
+   ]
+  },
+  "nou de santa eulalia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "nou pins": {
+   "Nou Barris": [
+    1,
+    130
+   ]
+  },
+  "novelles": {
+   "Sant Andreu": [
+    1,
+    38
+   ]
+  },
+  "nulles": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "nus de la trinitat": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "ogassa": {
+   "Nou Barris": [
+    1,
+    16
+   ]
+  },
+  "ojeda": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "olerdola": {
+   "Vallcarca": [
+    1,
+    10
+   ]
+  },
+  "olesa": {
+   "Sant Andreu": [
+    1,
+    102
+   ]
+  },
+  "oliana": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ]
+  },
+  "olive": {
+   "Sant Martí": [
+    1,
+    31
+   ]
+  },
+  "olive i maristany": {
+   "Sant Martí": [
+    1,
+    18
+   ]
+  },
+  "olof palme": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "olot": {
+   "Gràcia": [
+    1,
+    24
+   ]
+  },
+  "orellana": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    64
+   ]
+  },
+  "orfila": {
+   "Sant Andreu": [
+    1,
+    13
+   ]
+  },
+  "oriol": {
+   "Nou Barris": [
+    1,
+    27
+   ]
+  },
+  "oriol mestres": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    24
+   ]
+  },
+  "oris": {
+   "Nou Barris": [
+    1,
+    15
+   ]
+  },
+  "orista": {
+   "Nou Barris": [
+    1,
+    167
+   ]
+  },
+  "oristany": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "orpi": {
+   "Nou Barris": [
+    1,
+    28
+   ]
+  },
+  "orrius": {
+   "Sant Andreu": [
+    1,
+    10
+   ]
+  },
+  "osi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    67
+   ]
+  },
+  "osona": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    15
+   ]
+  },
+  "otero pedrayo": {
+   "Nou Barris": [
+    1,
+    7
+   ]
+  },
+  "otger": {
+   "Sant Andreu": [
+    1,
+    42
+   ]
+  },
+  "otilia castellvi": {
+   "Vallcarca": [
+    1,
+    15
+   ]
+  },
+  "otranto": {
+   "Sant Martí": [
+    1,
+    9
+   ]
+  },
+  "pablo iglesias": {
+   "Nou Barris": [
+    1,
+    122
+   ]
+  },
+  "pacific": {
+   "Sant Andreu": [
+    1,
+    76
+   ]
+  },
+  "padua": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    143
+   ]
+  },
+  "palafolls": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    61
+   ]
+  },
+  "palafrugell": {
+   "Sant Andreu": [
+    1,
+    4
+   ]
+  },
+  "palamos": {
+   "Nou Barris": [
+    1,
+    102
+   ]
+  },
+  "palau solita": {
+   "Nou Barris": [
+    1,
+    84
+   ]
+  },
+  "palencia": {
+   "Sant Andreu": [
+    1,
+    60
+   ]
+  },
+  "palerm": {
+   "Sant Martí": [
+    1,
+    23
+   ]
+  },
+  "paletes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    13
+   ]
+  },
+  "pallars": {
+   "Sant Martí": [
+    63,
+    511
+   ]
+  },
+  "palomar": {
+   "Sant Andreu": [
+    1,
+    72
+   ]
+  },
+  "palou": {
+   "Vallcarca": [
+    1,
+    35
+   ]
+  },
+  "pals": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "pamplona": {
+   "Sant Martí": [
+    18,
+    133
+   ]
+  },
+  "panta": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    64
+   ]
+  },
+  "paraguai": {
+   "Sant Martí": [
+    1,
+    52
+   ]
+  },
+  "parc de la budellera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    27
+   ]
+  },
+  "pardo": {
+   "Nou Barris": [
+    17,
+    75
+   ],
+   "Sant Andreu": [
+    1,
+    24
+   ]
+  },
+  "pare fidel fita": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "pare jacint alegre": {
+   "Gràcia": [
+    1,
+    28
+   ]
+  },
+  "pare lainez": {
+   "Gràcia": [
+    1,
+    57
+   ]
+  },
+  "pare manjon": {
+   "Sant Andreu": [
+    1,
+    45
+   ]
+  },
+  "pare manyanet": {
+   "Sant Andreu": [
+    1,
+    48
+   ]
+  },
+  "pare miquel de sarria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    18
+   ]
+  },
+  "pare perez del pulgar": {
+   "Sant Andreu": [
+    1,
+    138
+   ]
+  },
+  "pare rodes": {
+   "Nou Barris": [
+    1,
+    72
+   ]
+  },
+  "pare secchi": {
+   "Sant Andreu": [
+    2,
+    54
+   ]
+  },
+  "parellada": {
+   "Sant Andreu": [
+    1,
+    49
+   ]
+  },
+  "parsifal": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "pau": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "pau alcover": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    94
+   ]
+  },
+  "pau alsina": {
+   "Gràcia": [
+    1,
+    150
+   ]
+  },
+  "pau casals": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    24
+   ]
+  },
+  "pau ferran": {
+   "Gràcia": [
+    44,
+    44
+   ],
+   "Vallcarca": [
+    1,
+    44
+   ],
+   "fuera": [
+    43,
+    49
+   ]
+  },
+  "pau feu": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    30
+   ]
+  },
+  "pau sabater": {
+   "Nou Barris": [
+    6,
+    6
+   ]
+  },
+  "paul claudel": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "pebras": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    31
+   ]
+  },
+  "pedraforca": {
+   "Nou Barris": [
+    1,
+    108
+   ]
+  },
+  "pedregar": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "pedret": {
+   "Nou Barris": [
+    1,
+    16
+   ]
+  },
+  "pedro de la creu": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    59
+   ]
+  },
+  "pegas": {
+   "Sant Andreu": [
+    1,
+    20
+   ]
+  },
+  "pelfort": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    39
+   ]
+  },
+  "pellaires": {
+   "Sant Martí": [
+    1,
+    47
+   ]
+  },
+  "penalara": {
+   "Nou Barris": [
+    19,
+    70
+   ]
+  },
+  "penedes": {
+   "Gràcia": [
+    1,
+    15
+   ]
+  },
+  "peniscola": {
+   "Sant Andreu": [
+    1,
+    51
+   ]
+  },
+  "penitents": {
+   "Vallcarca": [
+    7,
+    10
+   ]
+  },
+  "pep ventura": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "perafita": {
+   "Nou Barris": [
+    1,
+    89
+   ]
+  },
+  "pere blai": {
+   "Sant Martí": [
+    6,
+    73
+   ]
+  },
+  "pere d'artes": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "pere falques": {
+   "Sant Andreu": [
+    1,
+    3
+   ]
+  },
+  "pere figuera i serra": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "pere ii de montcada": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "pere iv": {
+   "Sant Martí": [
+    2,
+    560
+   ]
+  },
+  "pere joan": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "pere llobet": {
+   "Vallcarca": [
+    1,
+    29
+   ]
+  },
+  "pere moragues": {
+   "Sant Martí": [
+    1,
+    50
+   ]
+  },
+  "pere oller": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "pere ripoll": {
+   "Sant Martí": [
+    1,
+    18
+   ]
+  },
+  "pere serafi": {
+   "Gràcia": [
+    1,
+    44
+   ]
+  },
+  "pere tarres": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "pere terre i domenech": {
+   "Sant Andreu": [
+    1,
+    17
+   ]
+  },
+  "pere verges": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "perello": {
+   "Sant Martí": [
+    1,
+    82
+   ]
+  },
+  "perez galdos": {
+   "Gràcia": [
+    1,
+    49
+   ]
+  },
+  "perill": {
+   "Gràcia": [
+    1,
+    61
+   ]
+  },
+  "peronella": {
+   "Sant Andreu": [
+    1,
+    47
+   ]
+  },
+  "perpinya": {
+   "Sant Martí": [
+    4,
+    49
+   ]
+  },
+  "peru": {
+   "Sant Martí": [
+    2,
+    297
+   ]
+  },
+  "petrarca": {
+   "Nou Barris": [
+    1,
+    65
+   ],
+   "fuera": [
+    20,
+    60
+   ]
+  },
+  "pi forcat": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "pi i margall": {
+   "Gràcia": [
+    1,
+    92
+   ],
+   "fuera": [
+    85,
+    122
+   ]
+  },
+  "pierola": {
+   "Nou Barris": [
+    1,
+    24
+   ]
+  },
+  "pierre vilar": {
+   "Sant Martí": [
+    3,
+    12
+   ]
+  },
+  "piferrer": {
+   "Nou Barris": [
+    94,
+    166
+   ]
+  },
+  "pilar miro": {
+   "Sant Andreu": [
+    1,
+    4
+   ]
+  },
+  "pilar santiago": {
+   "Sant Andreu": [
+    1,
+    8
+   ]
+  },
+  "pinar del rio": {
+   "Sant Andreu": [
+    1,
+    76
+   ]
+  },
+  "pineda": {
+   "Vallcarca": [
+    1,
+    12
+   ]
+  },
+  "pins": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "pins de can caralleu": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    51
+   ]
+  },
+  "pintor alsamora": {
+   "Nou Barris": [
+    1,
+    85
+   ]
+  },
+  "pintor casas": {
+   "Nou Barris": [
+    1,
+    28
+   ]
+  },
+  "pintor gimeno": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "pintor mir": {
+   "Nou Barris": [
+    1,
+    23
+   ]
+  },
+  "pinyol": {
+   "Sant Martí": [
+    1,
+    26
+   ]
+  },
+  "piquer": {
+   "Sant Martí": [
+    1,
+    37
+   ],
+   "fuera": [
+    1,
+    61
+   ]
+  },
+  "pisto": {
+   "Sant Martí": [
+    1,
+    44
+   ]
+  },
+  "pitagores": {
+   "Nou Barris": [
+    1,
+    45
+   ]
+  },
+  "pla de fornells": {
+   "Nou Barris": [
+    1,
+    98
+   ]
+  },
+  "pla dels cirerers": {
+   "Nou Barris": [
+    1,
+    42
+   ]
+  },
+  "pla llorens": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    26
+   ]
+  },
+  "planella": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    43
+   ]
+  },
+  "planeta": {
+   "Gràcia": [
+    1,
+    43
+   ]
+  },
+  "plantada": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    48
+   ]
+  },
+  "platja d'aro": {
+   "Nou Barris": [
+    2,
+    26
+   ]
+  },
+  "plato": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    30
+   ]
+  },
+  "poble gitano": {
+   "Gràcia": [
+    1,
+    1
+   ]
+  },
+  "poblenou": {
+   "Sant Martí": [
+    1,
+    193
+   ]
+  },
+  "poeta": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "poeta masifern": {
+   "Nou Barris": [
+    1,
+    14
+   ]
+  },
+  "poligon guineueta grup": {
+   "Nou Barris": [
+    2,
+    125
+   ]
+  },
+  "poliol": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    3
+   ]
+  },
+  "pollancre": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "pollenca": {
+   "Nou Barris": [
+    1,
+    8
+   ]
+  },
+  "pomaret": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    128
+   ]
+  },
+  "pompeu fabra": {
+   "Gràcia": [
+    1,
+    37
+   ]
+  },
+  "ponce de leon": {
+   "Nou Barris": [
+    1,
+    17
+   ]
+  },
+  "pons": {
+   "Nou Barris": [
+    1,
+    23
+   ]
+  },
+  "pons i gallarza": {
+   "Sant Andreu": [
+    1,
+    117
+   ]
+  },
+  "pons i serra": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "pons i subira": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "pont": {
+   "Sant Andreu": [
+    1,
+    12
+   ]
+  },
+  "pont de sant marti": {
+   "Sant Andreu": [
+    1,
+    8
+   ]
+  },
+  "pont del treball digne": {
+   "Sant Andreu": [
+    19,
+    30
+   ],
+   "Sant Martí": [
+    1,
+    20
+   ]
+  },
+  "pontons": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "ponts de la maquinista": {
+   "Sant Andreu": [
+    1,
+    12
+   ]
+  },
+  "port de la selva": {
+   "Nou Barris": [
+    1,
+    7
+   ]
+  },
+  "port olimpic": {
+   "Sant Martí": [
+    100,
+    100
+   ]
+  },
+  "porta": {
+   "Nou Barris": [
+    1,
+    40
+   ]
+  },
+  "portell": {
+   "Vallcarca": [
+    2,
+    48
+   ],
+   "fuera": [
+    1,
+    31
+   ]
+  },
+  "portlligat": {
+   "Nou Barris": [
+    1,
+    39
+   ]
+  },
+  "portocristo": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "portola": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "portugal": {
+   "Sant Andreu": [
+    1,
+    62
+   ]
+  },
+  "porxos": {
+   "Sant Martí": [
+    1,
+    8
+   ]
+  },
+  "posoltega": {
+   "Sant Andreu": [
+    1,
+    23
+   ]
+  },
+  "potosi": {
+   "Sant Andreu": [
+    1,
+    42
+   ]
+  },
+  "pou": {
+   "Nou Barris": [
+    1,
+    78
+   ]
+  },
+  "pou de la riera": {
+   "Gràcia": [
+    1,
+    10
+   ]
+  },
+  "prada": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "prat": {
+   "Gràcia": [
+    1,
+    29
+   ],
+   "fuera": [
+    1,
+    82
+   ]
+  },
+  "prat d'en roquer": {
+   "Nou Barris": [
+    1,
+    15
+   ],
+   "Sant Andreu": [
+    2,
+    47
+   ]
+  },
+  "prat de la riba": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "prats de mollo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    22
+   ]
+  },
+  "prats de rei": {
+   "Nou Barris": [
+    1,
+    15
+   ]
+  },
+  "presseguer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    13
+   ]
+  },
+  "prim": {
+   "Sant Martí": [
+    1,
+    302
+   ]
+  },
+  "primer de maig": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "profeta": {
+   "Gràcia": [
+    1,
+    11
+   ]
+  },
+  "progres": {
+   "Gràcia": [
+    1,
+    48
+   ]
+  },
+  "prosperitat": {
+   "Nou Barris": [
+    1,
+    4
+   ]
+  },
+  "provenca": {
+   "Sant Martí": [
+    541,
+    598
+   ],
+   "fuera": [
+    1,
+    548
+   ]
+  },
+  "provencals": {
+   "Sant Martí": [
+    1,
+    292
+   ]
+  },
+  "pruit": {
+   "Nou Barris": [
+    1,
+    14
+   ]
+  },
+  "puerto principe": {
+   "Sant Andreu": [
+    1,
+    91
+   ]
+  },
+  "puig de jorba": {
+   "Nou Barris": [
+    1,
+    73
+   ]
+  },
+  "puig reig": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    15
+   ]
+  },
+  "puigcerda": {
+   "Sant Martí": [
+    1,
+    303
+   ]
+  },
+  "puiggener": {
+   "Sant Martí": [
+    1,
+    7
+   ]
+  },
+  "puigmadrona": {
+   "Sant Martí": [
+    1,
+    38
+   ]
+  },
+  "puigmarti": {
+   "Gràcia": [
+    1,
+    56
+   ]
+  },
+  "pujades": {
+   "Sant Martí": [
+    1,
+    464
+   ],
+   "fuera": [
+    1,
+    22
+   ]
+  },
+  "pujalt": {
+   "Nou Barris": [
+    1,
+    8
+   ]
+  },
+  "pujol": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    33
+   ]
+  },
+  "putxet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    86
+   ]
+  },
+  "quatre camins": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    103
+   ]
+  },
+  "quer": {
+   "Nou Barris": [
+    1,
+    6
+   ]
+  },
+  "queralt": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "quesada": {
+   "Nou Barris": [
+    1,
+    8
+   ]
+  },
+  "quevedo": {
+   "Gràcia": [
+    1,
+    40
+   ]
+  },
+  "quintana": {
+   "Nou Barris": [
+    1,
+    20
+   ]
+  },
+  "quinze": {
+   "Nou Barris": [
+    1,
+    74
+   ]
+  },
+  "quito": {
+   "Sant Andreu": [
+    1,
+    37
+   ]
+  },
+  "rabassa": {
+   "Gràcia": [
+    1,
+    75
+   ]
+  },
+  "rafael batlle": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    30
+   ]
+  },
+  "rafael benet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    2
+   ]
+  },
+  "rafael campalans": {
+   "Sant Martí": [
+    1,
+    4
+   ]
+  },
+  "rafael capdevila": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "rafaela serrano": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "rafols": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    30
+   ]
+  },
+  "raim": {
+   "Nou Barris": [
+    1,
+    5
+   ]
+  },
+  "ram de l'aigua": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "ramis": {
+   "Gràcia": [
+    1,
+    20
+   ]
+  },
+  "ramon albo": {
+   "Nou Barris": [
+    23,
+    77
+   ],
+   "Sant Andreu": [
+    1,
+    78
+   ]
+  },
+  "ramon batlle": {
+   "Sant Andreu": [
+    1,
+    86
+   ]
+  },
+  "ramon calsina": {
+   "Sant Martí": [
+    1,
+    13
+   ]
+  },
+  "ramon miquel i planas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    76
+   ]
+  },
+  "ramon riera": {
+   "Sant Andreu": [
+    1,
+    3
+   ]
+  },
+  "ramon trias fargas": {
+   "Sant Martí": [
+    13,
+    46
+   ],
+   "fuera": [
+    1,
+    12
+   ]
+  },
+  "ramon turro": {
+   "Sant Martí": [
+    1,
+    448
+   ]
+  },
+  "ramon y cajal": {
+   "Gràcia": [
+    1,
+    158
+   ]
+  },
+  "raset": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    55
+   ]
+  },
+  "rasos de peguera": {
+   "Nou Barris": [
+    1,
+    242
+   ]
+  },
+  "raspall": {
+   "Gràcia": [
+    1,
+    2
+   ]
+  },
+  "rates": {
+   "Sant Martí": [
+    1,
+    23
+   ]
+  },
+  "ravella": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    30
+   ]
+  },
+  "recesvint": {
+   "Sant Andreu": [
+    1,
+    40
+   ]
+  },
+  "rector de vallfogona": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "rector ubach": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    66
+   ]
+  },
+  "rector volta": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    5
+   ]
+  },
+  "rectoret": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    27
+   ]
+  },
+  "regas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    35
+   ]
+  },
+  "reig i bonet": {
+   "Gràcia": [
+    1,
+    27
+   ]
+  },
+  "reixac": {
+   "Sant Martí": [
+    1,
+    28
+   ]
+  },
+  "renart": {
+   "Sant Andreu": [
+    1,
+    68
+   ]
+  },
+  "repartidor": {
+   "Gràcia": [
+    1,
+    24
+   ],
+   "Vallcarca": [
+    21,
+    61
+   ]
+  },
+  "rere el cementiri vell": {
+   "Sant Martí": [
+    16,
+    22
+   ]
+  },
+  "reus": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    31
+   ]
+  },
+  "rialb": {
+   "Nou Barris": [
+    4,
+    16
+   ]
+  },
+  "ribelles": {
+   "Nou Barris": [
+    1,
+    49
+   ]
+  },
+  "ribes": {
+   "Nou Barris": [
+    130,
+    158
+   ],
+   "Sant Andreu": [
+    1,
+    615
+   ],
+   "fuera": [
+    1,
+    105
+   ]
+  },
+  "ricard zamora": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "ricardo calvo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ]
+  },
+  "ricardo villa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "riells": {
+   "Nou Barris": [
+    1,
+    57
+   ]
+  },
+  "rio de janeiro": {
+   "Nou Barris": [
+    1,
+    135
+   ]
+  },
+  "rios rosas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    67
+   ]
+  },
+  "ripolles": {
+   "Sant Martí": [
+    1,
+    101
+   ]
+  },
+  "ripollet": {
+   "Nou Barris": [
+    1,
+    26
+   ]
+  },
+  "riu de l'or": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    39
+   ]
+  },
+  "riu de la plata": {
+   "Vallcarca": [
+    1,
+    33
+   ]
+  },
+  "riudecanyes": {
+   "Nou Barris": [
+    1,
+    62
+   ]
+  },
+  "robert gerhard": {
+   "Sant Andreu": [
+    1,
+    5
+   ],
+   "fuera": [
+    1,
+    5
+   ]
+  },
+  "robert robert": {
+   "Nou Barris": [
+    1,
+    12
+   ]
+  },
+  "robi": {
+   "Gràcia": [
+    1,
+    36
+   ]
+  },
+  "roc boronat": {
+   "Sant Martí": [
+    1,
+    155
+   ]
+  },
+  "roca i batlle": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    37
+   ]
+  },
+  "rocaberti": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    13
+   ]
+  },
+  "rocabruna": {
+   "Nou Barris": [
+    1,
+    20
+   ]
+  },
+  "rodes": {
+   "Sant Martí": [
+    1,
+    9
+   ]
+  },
+  "rodrigo caro": {
+   "Nou Barris": [
+    1,
+    74
+   ]
+  },
+  "rogent": {
+   "Sant Martí": [
+    1,
+    140
+   ]
+  },
+  "roger de flor": {
+   "Gràcia": [
+    221,
+    338
+   ],
+   "Sant Martí": [
+    2,
+    36
+   ],
+   "fuera": [
+    1,
+    246
+   ]
+  },
+  "roine": {
+   "Sant Andreu": [
+    1,
+    32
+   ]
+  },
+  "rois de corella": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "roja de la ciutat meridiana": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "rom cremat": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "roma": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ],
+   "fuera": [
+    1,
+    159
+   ]
+  },
+  "roman macaya": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    27
+   ]
+  },
+  "romani": {
+   "Nou Barris": [
+    1,
+    20
+   ]
+  },
+  "romaninar": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    21
+   ]
+  },
+  "romans": {
+   "Gràcia": [
+    1,
+    50
+   ]
+  },
+  "romeus de sant medir": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "romul bosch": {
+   "Gràcia": [
+    1,
+    11
+   ]
+  },
+  "ros de olano": {
+   "Gràcia": [
+    1,
+    52
+   ]
+  },
+  "rosa peraulet": {
+   "Sant Martí": [
+    1,
+    3
+   ]
+  },
+  "rosa puig rodon pla": {
+   "Gràcia": [
+    1,
+    25
+   ]
+  },
+  "rosa sabater": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "rosa sensat": {
+   "Sant Martí": [
+    1,
+    40
+   ]
+  },
+  "rosales": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    37
+   ]
+  },
+  "rosalind franklin": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "rosari": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    57
+   ]
+  },
+  "rosario pi": {
+   "Nou Barris": [
+    1,
+    19
+   ]
+  },
+  "roser": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ],
+   "fuera": [
+    1,
+    109
+   ]
+  },
+  "roser perez simo": {
+   "Sant Andreu": [
+    1,
+    5
+   ]
+  },
+  "roserar": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "rossello": {
+   "Gràcia": [
+    339,
+    415
+   ],
+   "Sant Martí": [
+    498,
+    569
+   ],
+   "fuera": [
+    1,
+    515
+   ]
+  },
+  "rossello i porcel": {
+   "Nou Barris": [
+    1,
+    21
+   ]
+  },
+  "rossend nobas": {
+   "Sant Martí": [
+    1,
+    41
+   ]
+  },
+  "rossinyols": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "roura": {
+   "Sant Martí": [
+    1,
+    32
+   ]
+  },
+  "rovello": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    22
+   ]
+  },
+  "rovira": {
+   "Sant Martí": [
+    1,
+    27
+   ]
+  },
+  "rovira i trias": {
+   "Gràcia": [
+    1,
+    11
+   ]
+  },
+  "rovira i virgili": {
+   "Sant Andreu": [
+    1,
+    17
+   ]
+  },
+  "ruben dario": {
+   "Sant Andreu": [
+    1,
+    135
+   ]
+  },
+  "rubens": {
+   "Vallcarca": [
+    1,
+    60
+   ]
+  },
+  "rubinstein": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ]
+  },
+  "ruiz de padron": {
+   "Sant Martí": [
+    1,
+    108
+   ]
+  },
+  "rustullet": {
+   "Sant Andreu": [
+    1,
+    25
+   ]
+  },
+  "s'agaro": {
+   "Nou Barris": [
+    1,
+    63
+   ]
+  },
+  "sa tuna": {
+   "Nou Barris": [
+    1,
+    21
+   ]
+  },
+  "sabastida": {
+   "Nou Barris": [
+    1,
+    25
+   ]
+  },
+  "sagrat cor": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ]
+  },
+  "sagues": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    54
+   ]
+  },
+  "saint louis": {
+   "Sant Martí": [
+    2,
+    20
+   ]
+  },
+  "saladrigas": {
+   "Sant Martí": [
+    1,
+    19
+   ]
+  },
+  "salern": {
+   "Sant Martí": [
+    1,
+    7
+   ]
+  },
+  "salinas": {
+   "Gràcia": [
+    1,
+    19
+   ]
+  },
+  "salomo": {
+   "Sant Andreu": [
+    1,
+    15
+   ]
+  },
+  "salvador alarma": {
+   "Vallcarca": [
+    2,
+    28
+   ]
+  },
+  "salvador espriu": {
+   "Sant Martí": [
+    1,
+    97
+   ]
+  },
+  "salvador mundi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    24
+   ]
+  },
+  "salvador puig i antich": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "salvador riera": {
+   "Sant Andreu": [
+    1,
+    26
+   ],
+   "fuera": [
+    1,
+    7
+   ]
+  },
+  "salze": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    105
+   ],
+   "fuera": [
+    2,
+    8
+   ]
+  },
+  "samso": {
+   "Gràcia": [
+    1,
+    38
+   ]
+  },
+  "sancho de avila": {
+   "Sant Martí": [
+    1,
+    186
+   ]
+  },
+  "sanet": {
+   "Sant Andreu": [
+    2,
+    12
+   ]
+  },
+  "sanllehy": {
+   "Gràcia": [
+    1,
+    2
+   ],
+   "fuera": [
+    3,
+    10
+   ]
+  },
+  "sant adria": {
+   "Sant Andreu": [
+    1,
+    196
+   ]
+  },
+  "sant agusti": {
+   "Gràcia": [
+    1,
+    16
+   ],
+   "fuera": [
+    1,
+    4
+   ]
+  },
+  "sant andreu": {
+   "Sant Andreu": [
+    1,
+    111
+   ]
+  },
+  "sant antoni": {
+   "Gràcia": [
+    1,
+    35
+   ],
+   "fuera": [
+    1,
+    106
+   ]
+  },
+  "sant antoni maria claret": {
+   "Gràcia": [
+    1,
+    100
+   ],
+   "Sant Andreu": [
+    243,
+    522
+   ],
+   "Sant Martí": [
+    248,
+    410
+   ],
+   "fuera": [
+    65,
+    246
+   ]
+  },
+  "sant bernat calbo": {
+   "Sant Martí": [
+    1,
+    8
+   ]
+  },
+  "sant camil": {
+   "Vallcarca": [
+    1,
+    36
+   ]
+  },
+  "sant casimir": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    6
+   ]
+  },
+  "sant cristofol": {
+   "Gràcia": [
+    1,
+    21
+   ],
+   "fuera": [
+    1,
+    22
+   ]
+  },
+  "sant cugat": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    104
+   ],
+   "Vallcarca": [
+    1,
+    123
+   ],
+   "fuera": [
+    46,
+    626
+   ]
+  },
+  "sant cugat del valles": {
+   "Gràcia": [
+    1,
+    64
+   ]
+  },
+  "sant delfi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ]
+  },
+  "sant domenec": {
+   "Gràcia": [
+    1,
+    23
+   ]
+  },
+  "sant elies": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    44
+   ]
+  },
+  "sant eudald": {
+   "Vallcarca": [
+    1,
+    65
+   ]
+  },
+  "sant eusebi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    72
+   ]
+  },
+  "sant felip": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    17
+   ]
+  },
+  "sant feliu de codines": {
+   "Nou Barris": [
+    1,
+    221
+   ]
+  },
+  "sant ferran": {
+   "Nou Barris": [
+    1,
+    25
+   ]
+  },
+  "sant francesc": {
+   "Sant Martí": [
+    1,
+    32
+   ],
+   "fuera": [
+    1,
+    23
+   ]
+  },
+  "sant francesc xavier": {
+   "Nou Barris": [
+    1,
+    93
+   ]
+  },
+  "sant gabriel": {
+   "Gràcia": [
+    1,
+    24
+   ]
+  },
+  "sant gaieta": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "sant gervasi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    91
+   ]
+  },
+  "sant gervasi de cassoles": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    121
+   ]
+  },
+  "sant gregori taumaturg": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "sant guillem": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ]
+  },
+  "sant hermenegild": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ]
+  },
+  "sant hipolit": {
+   "Sant Andreu": [
+    1,
+    67
+   ]
+  },
+  "sant ildefons": {
+   "Sant Andreu": [
+    1,
+    58
+   ]
+  },
+  "sant iscle": {
+   "Nou Barris": [
+    1,
+    88
+   ]
+  },
+  "sant jaume apostol": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "sant joan": {
+   "Gràcia": [
+    132,
+    210
+   ],
+   "fuera": [
+    1,
+    147
+   ]
+  },
+  "sant joan bosco": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    74
+   ]
+  },
+  "sant joan de la salle": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    54
+   ]
+  },
+  "sant joan de malta": {
+   "Sant Martí": [
+    1,
+    221
+   ]
+  },
+  "sant joaquim": {
+   "Gràcia": [
+    1,
+    48
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "sant josep cottolengo": {
+   "Gràcia": [
+    1,
+    16
+   ]
+  },
+  "sant josep de calassanc": {
+   "Sant Martí": [
+    1,
+    3
+   ]
+  },
+  "sant josep de la muntanya": {
+   "Gràcia": [
+    1,
+    19
+   ]
+  },
+  "sant liguori": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    3
+   ]
+  },
+  "sant llatzer": {
+   "Nou Barris": [
+    2,
+    52
+   ],
+   "fuera": [
+    1,
+    49
+   ]
+  },
+  "sant lluc": {
+   "Vallcarca": [
+    1,
+    4
+   ]
+  },
+  "sant lluis": {
+   "Gràcia": [
+    1,
+    107
+   ]
+  },
+  "sant magi": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    32
+   ]
+  },
+  "sant manuel": {
+   "Nou Barris": [
+    1,
+    19
+   ]
+  },
+  "sant marc": {
+   "Gràcia": [
+    1,
+    42
+   ]
+  },
+  "sant maria": {
+   "Sant Andreu": [
+    1,
+    34
+   ],
+   "Vallcarca": [
+    1,
+    18
+   ]
+  },
+  "sant marius": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    59
+   ]
+  },
+  "sant marti": {
+   "Sant Andreu": [
+    1,
+    65
+   ],
+   "Sant Martí": [
+    2,
+    108
+   ],
+   "fuera": [
+    3,
+    16
+   ]
+  },
+  "sant mateu": {
+   "Sant Andreu": [
+    1,
+    60
+   ]
+  },
+  "sant narcis": {
+   "Sant Andreu": [
+    1,
+    63
+   ]
+  },
+  "sant onofre": {
+   "Vallcarca": [
+    1,
+    20
+   ]
+  },
+  "sant pasqual bailon": {
+   "Sant Andreu": [
+    1,
+    16
+   ]
+  },
+  "sant pere claver": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    43
+   ]
+  },
+  "sant pere martir": {
+   "Gràcia": [
+    1,
+    58
+   ]
+  },
+  "sant pol de mar": {
+   "Sant Andreu": [
+    1,
+    9
+   ]
+  },
+  "sant quinti": {
+   "Sant Martí": [
+    1,
+    53
+   ],
+   "fuera": [
+    52,
+    140
+   ]
+  },
+  "sant quirze safaja": {
+   "Nou Barris": [
+    1,
+    44
+   ]
+  },
+  "sant ramon de penyafort": {
+   "Sant Martí": [
+    1,
+    19
+   ]
+  },
+  "sant salvador": {
+   "Gràcia": [
+    1,
+    159
+   ]
+  },
+  "sant sebastia": {
+   "Sant Andreu": [
+    1,
+    79
+   ],
+   "fuera": [
+    1,
+    1
+   ]
+  },
+  "sant tarsici": {
+   "Sant Andreu": [
+    1,
+    4
+   ]
+  },
+  "sant vicenc de sarria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ]
+  },
+  "santa amelia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    57
+   ]
+  },
+  "santa clotilde": {
+   "Gràcia": [
+    1,
+    15
+   ]
+  },
+  "santa coloma": {
+   "Sant Andreu": [
+    1,
+    125
+   ]
+  },
+  "santa creu d'olorda": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "santa creu d'olorda a sarria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    530
+   ]
+  },
+  "santa creu d'olorda a vallvidrera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    114
+   ]
+  },
+  "santa elionor": {
+   "Gràcia": [
+    1,
+    16
+   ]
+  },
+  "santa engracia": {
+   "Nou Barris": [
+    1,
+    129
+   ]
+  },
+  "santa eugenia": {
+   "Gràcia": [
+    1,
+    29
+   ]
+  },
+  "santa eulalia": {
+   "Gràcia": [
+    1,
+    36
+   ],
+   "Nou Barris": [
+    1,
+    22
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    25
+   ],
+   "fuera": [
+    1,
+    4
+   ]
+  },
+  "santa fe": {
+   "Nou Barris": [
+    1,
+    9
+   ]
+  },
+  "santa fe de nou mexic": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    18
+   ]
+  },
+  "santa filomena": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "santa magdalena sofia": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "santa marta": {
+   "Sant Andreu": [
+    1,
+    35
+   ]
+  },
+  "santa matilde": {
+   "Nou Barris": [
+    1,
+    45
+   ]
+  },
+  "santa pau": {
+   "Nou Barris": [
+    1,
+    110
+   ]
+  },
+  "santa peronella": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    17
+   ]
+  },
+  "santa perpetua": {
+   "Gràcia": [
+    1,
+    32
+   ]
+  },
+  "santa tecla": {
+   "Gràcia": [
+    1,
+    14
+   ]
+  },
+  "santa teresa": {
+   "Gràcia": [
+    1,
+    16
+   ],
+   "fuera": [
+    1,
+    26
+   ]
+  },
+  "santa ursula": {
+   "Nou Barris": [
+    1,
+    15
+   ]
+  },
+  "santalo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    165
+   ]
+  },
+  "santander": {
+   "Sant Andreu": [
+    60,
+    136
+   ],
+   "Sant Martí": [
+    1,
+    63
+   ]
+  },
+  "santanyi": {
+   "Nou Barris": [
+    1,
+    34
+   ]
+  },
+  "santiago pey": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "santiago rusinol": {
+   "Nou Barris": [
+    1,
+    27
+   ]
+  },
+  "santpedor": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    34
+   ]
+  },
+  "santuari": {
+   "Vallcarca": [
+    2,
+    38
+   ],
+   "fuera": [
+    1,
+    155
+   ]
+  },
+  "santuari de sant josep de la muntanya": {
+   "Gràcia": [
+    1,
+    57
+   ]
+  },
+  "sao paulo": {
+   "Sant Andreu": [
+    1,
+    37
+   ]
+  },
+  "saragossa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    169
+   ]
+  },
+  "sardenya": {
+   "Gràcia": [
+    329,
+    563
+   ],
+   "Sant Martí": [
+    29,
+    116
+   ],
+   "fuera": [
+    91,
+    552
+   ]
+  },
+  "sargelet": {
+   "Gràcia": [
+    1,
+    15
+   ]
+  },
+  "sarria": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    152
+   ],
+   "fuera": [
+    1,
+    163
+   ]
+  },
+  "sarria a vallvidrera": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    265
+   ]
+  },
+  "sas": {
+   "Sant Andreu": [
+    1,
+    41
+   ]
+  },
+  "sasser": {
+   "Sant Martí": [
+    1,
+    7
+   ]
+  },
+  "satellits": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "saturn": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "sauc": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    49
+   ]
+  },
+  "saumell": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    20
+   ]
+  },
+  "segadors": {
+   "Sant Andreu": [
+    1,
+    10
+   ]
+  },
+  "segre": {
+   "Sant Andreu": [
+    1,
+    131
+   ]
+  },
+  "selva": {
+   "Nou Barris": [
+    1,
+    66
+   ]
+  },
+  "seneca": {
+   "Gràcia": [
+    1,
+    37
+   ]
+  },
+  "senillosa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "sense nom (701911)": {
+   "Sant Martí": [
+    1,
+    5
+   ]
+  },
+  "sense nom (701952)": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ]
+  },
+  "sense nom (andana estacio coronel monasterio)": {
+   "Sant Andreu": [
+    1,
+    2
+   ]
+  },
+  "sense nom (antic pallars)": {
+   "Sant Martí": [
+    2,
+    30
+   ]
+  },
+  "sense nom (avila almogavers)": {
+   "Sant Martí": [
+    1,
+    7
+   ]
+  },
+  "sense nom (llerona balenya)": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "sense nom (palamos s'agaro)": {
+   "Nou Barris": [
+    2,
+    8
+   ]
+  },
+  "sense nom (pg santa coloma nus trinitat)": {
+   "Sant Andreu": [
+    1,
+    7
+   ]
+  },
+  "sense nom (pujades llatzaret)": {
+   "Sant Martí": [
+    1,
+    11
+   ]
+  },
+  "sense nom (rbla poblenou malta)": {
+   "Sant Martí": [
+    2,
+    6
+   ]
+  },
+  "sense nom (sancho tanger)": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "sense nom (tucuman junoy)": {
+   "Sant Andreu": [
+    4,
+    8
+   ]
+  },
+  "sense nom (turne zetkin)": {
+   "Sant Andreu": [
+    1,
+    7
+   ]
+  },
+  "sense nom (venecuela pallars)": {
+   "Sant Martí": [
+    1,
+    7
+   ]
+  },
+  "sense nom (zamora pallars)": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "sense nom (zona banys forum)": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "sentis": {
+   "Sant Andreu": [
+    1,
+    46
+   ]
+  },
+  "septimania": {
+   "Sarrià - Sant Gervasi": [
+    21,
+    61
+   ]
+  },
+  "serrano": {
+   "Nou Barris": [
+    1,
+    65
+   ]
+  },
+  "servet": {
+   "Sant Andreu": [
+    1,
+    137
+   ]
+  },
+  "setanti": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "seul": {
+   "Sant Martí": [
+    1,
+    31
+   ]
+  },
+  "sibelius": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "sibiuda": {
+   "Sant Martí": [
+    1,
+    16
+   ]
+  },
+  "sicilia": {
+   "Gràcia": [
+    263,
+    414
+   ],
+   "fuera": [
+    89,
+    340
+   ]
+  },
+  "simancas": {
+   "Nou Barris": [
+    1,
+    122
+   ]
+  },
+  "siracusa": {
+   "Gràcia": [
+    1,
+    59
+   ]
+  },
+  "siurana": {
+   "Vallcarca": [
+    1,
+    8
+   ]
+  },
+  "sivatte": {
+   "Nou Barris": [
+    2,
+    30
+   ]
+  },
+  "socrates": {
+   "Sant Andreu": [
+    1,
+    106
+   ]
+  },
+  "sol": {
+   "Gràcia": [
+    1,
+    24
+   ]
+  },
+  "sol i padris": {
+   "Sarrià - Sant Gervasi": [
+    2,
+    10
+   ]
+  },
+  "solanell": {
+   "Vallcarca": [
+    1,
+    19
+   ]
+  },
+  "solanes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    4
+   ]
+  },
+  "sole i pla": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    35
+   ]
+  },
+  "soledad gustavo": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "soler i rovirosa": {
+   "Sant Martí": [
+    1,
+    18
+   ]
+  },
+  "soller": {
+   "Nou Barris": [
+    1,
+    1
+   ]
+  },
+  "solsones": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "solsticis": {
+   "Sant Martí": [
+    1,
+    8
+   ]
+  },
+  "sors": {
+   "Gràcia": [
+    1,
+    75
+   ]
+  },
+  "sospir": {
+   "Sant Martí": [
+    22,
+    48
+   ]
+  },
+  "sostres": {
+   "Gràcia": [
+    1,
+    34
+   ],
+   "Vallcarca": [
+    19,
+    39
+   ]
+  },
+  "sot dels paletes": {
+   "Sant Andreu": [
+    3,
+    4
+   ]
+  },
+  "subirats": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "suissa": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    15
+   ]
+  },
+  "sunol i gras": {
+   "Sant Andreu": [
+    1,
+    5
+   ]
+  },
+  "tagamanent": {
+   "Gràcia": [
+    1,
+    10
+   ]
+  },
+  "tallers del ferrocarril del nord": {
+   "Nou Barris": [
+    1,
+    11
+   ]
+  },
+  "tamariu": {
+   "Nou Barris": [
+    2,
+    20
+   ]
+  },
+  "tanger": {
+   "Sant Martí": [
+    1,
+    172
+   ]
+  },
+  "tapioles": {
+   "Nou Barris": [
+    1,
+    27
+   ],
+   "fuera": [
+    1,
+    79
+   ]
+  },
+  "taradell": {
+   "Vallcarca": [
+    1,
+    32
+   ]
+  },
+  "tarba": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "tarent": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "tarrega": {
+   "Sant Andreu": [
+    1,
+    82
+   ]
+  },
+  "taulat": {
+   "Sant Martí": [
+    1,
+    293
+   ]
+  },
+  "tavern": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    82
+   ]
+  },
+  "taxdirt": {
+   "Gràcia": [
+    1,
+    21
+   ],
+   "fuera": [
+    20,
+    65
+   ]
+  },
+  "taxi": {
+   "Sant Andreu": [
+    1,
+    1
+   ]
+  },
+  "teide": {
+   "Nou Barris": [
+    1,
+    32
+   ]
+  },
+  "tell": {
+   "Sant Andreu": [
+    1,
+    11
+   ]
+  },
+  "tenor vinas": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "teodor roviralta": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    65
+   ]
+  },
+  "teodora lamadrid": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    60
+   ]
+  },
+  "ter": {
+   "Sant Martí": [
+    1,
+    39
+   ]
+  },
+  "teresa boronat i fabra": {
+   "Sant Andreu": [
+    1,
+    12
+   ]
+  },
+  "teresa de cofrents": {
+   "Nou Barris": [
+    1,
+    23
+   ]
+  },
+  "terol": {
+   "Gràcia": [
+    1,
+    55
+   ]
+  },
+  "terrassa": {
+   "Gràcia": [
+    1,
+    14
+   ]
+  },
+  "terre": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    22
+   ]
+  },
+  "tessalia": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "teulada": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "textil": {
+   "Sant Martí": [
+    1,
+    38
+   ]
+  },
+  "theolongo bacchio": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  },
+  "tiana": {
+   "Sant Andreu": [
+    1,
+    22
+   ]
+  },
+  "tibidabo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    81
+   ]
+  },
+  "ticia": {
+   "Vallcarca": [
+    1,
+    75
+   ]
+  },
+  "tirant lo blanc": {
+   "Sant Martí": [
+    1,
+    9
+   ]
+  },
+  "tirso": {
+   "Vallcarca": [
+    1,
+    53
+   ]
+  },
+  "tisner": {
+   "Sant Martí": [
+    1,
+    8
+   ]
+  },
+  "titellaires": {
+   "Nou Barris": [
+    1,
+    3
+   ]
+  },
+  "tolosa": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "tomas padro": {
+   "Sant Martí": [
+    1,
+    31
+   ]
+  },
+  "tona": {
+   "Vallcarca": [
+    1,
+    18
+   ]
+  },
+  "topazi": {
+   "Gràcia": [
+    1,
+    40
+   ]
+  },
+  "topete": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "tora": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "tordera": {
+   "Gràcia": [
+    1,
+    70
+   ]
+  },
+  "torne": {
+   "Sant Andreu": [
+    1,
+    42
+   ]
+  },
+  "torras i bages": {
+   "Sant Andreu": [
+    1,
+    172
+   ],
+   "Sarrià - Sant Gervasi": [
+    1,
+    15
+   ]
+  },
+  "torras i pujalt": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    69
+   ]
+  },
+  "torrelles": {
+   "Nou Barris": [
+    1,
+    90
+   ]
+  },
+  "torrent d'en vidalet": {
+   "Gràcia": [
+    1,
+    92
+   ]
+  },
+  "torrent d'estadella": {
+   "Sant Andreu": [
+    1,
+    28
+   ]
+  },
+  "torrent de can piquer": {
+   "Nou Barris": [
+    1,
+    27
+   ]
+  },
+  "torrent de l'olla": {
+   "Gràcia": [
+    1,
+    226
+   ]
+  },
+  "torrent de la guineu": {
+   "Sant Andreu": [
+    104,
+    118
+   ]
+  },
+  "torrent de les flors": {
+   "Gràcia": [
+    1,
+    178
+   ]
+  },
+  "torrent de mariner": {
+   "Gràcia": [
+    1,
+    24
+   ]
+  },
+  "torrent de perera": {
+   "Sant Andreu": [
+    1,
+    174
+   ]
+  },
+  "torrent del remei": {
+   "Vallcarca": [
+    1,
+    63
+   ]
+  },
+  "torrijos": {
+   "Gràcia": [
+    1,
+    72
+   ]
+  },
+  "torroella de montgri": {
+   "Sant Andreu": [
+    1,
+    25
+   ]
+  },
+  "tortella": {
+   "Sant Martí": [
+    1,
+    25
+   ]
+  },
+  "tossal": {
+   "Sant Andreu": [
+    1,
+    56
+   ]
+  },
+  "tots sants": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    59
+   ]
+  },
+  "trajana": {
+   "Sant Martí": [
+    8,
+    76
+   ]
+  },
+  "trapani": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "travau": {
+   "Nou Barris": [
+    1,
+    73
+   ]
+  },
+  "treball": {
+   "Sant Martí": [
+    1,
+    297
+   ]
+  },
+  "tremol": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    28
+   ]
+  },
+  "tremp": {
+   "Sant Andreu": [
+    1,
+    15
+   ]
+  },
+  "tren": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    10
+   ]
+  },
+  "trens de la maquinista": {
+   "Sant Andreu": [
+    1,
+    17
+   ]
+  },
+  "tres reis": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    16
+   ]
+  },
+  "trilla": {
+   "Gràcia": [
+    1,
+    26
+   ]
+  },
+  "trinquet": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    45
+   ]
+  },
+  "trinxant": {
+   "Sant Andreu": [
+    113,
+    146
+   ],
+   "Sant Martí": [
+    1,
+    122
+   ]
+  },
+  "trullas": {
+   "Sant Martí": [
+    1,
+    10
+   ]
+  },
+  "trullols": {
+   "Vallcarca": [
+    1,
+    40
+   ]
+  },
+  "tucuman": {
+   "Sant Andreu": [
+    1,
+    30
+   ]
+  },
+  "turo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "turo blau": {
+   "Nou Barris": [
+    1,
+    30
+   ]
+  },
+  "turo de l'alzina": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    48
+   ]
+  },
+  "turo de la trinitat": {
+   "Sant Andreu": [
+    1,
+    111
+   ]
+  },
+  "turo de monterols": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    17
+   ]
+  },
+  "turo del puig": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    3
+   ]
+  },
+  "turull": {
+   "Vallcarca": [
+    1,
+    68
+   ]
+  },
+  "tuset": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    38
+   ]
+  },
+  "urrutia": {
+   "Nou Barris": [
+    1,
+    145
+   ],
+   "fuera": [
+    2,
+    12
+   ]
+  },
+  "vacarisses": {
+   "Nou Barris": [
+    1,
+    19
+   ]
+  },
+  "valencia": {
+   "Sant Martí": [
+    545,
+    716
+   ],
+   "fuera": [
+    1,
+    548
+   ]
+  },
+  "valenti almirall": {
+   "Sant Martí": [
+    1,
+    5
+   ]
+  },
+  "valenti iglesias": {
+   "Sant Andreu": [
+    1,
+    46
+   ]
+  },
+  "valero": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    18
+   ]
+  },
+  "valeta d'arquer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    49
+   ]
+  },
+  "vallbona": {
+   "Nou Barris": [
+    1,
+    129
+   ]
+  },
+  "vallcarca": {
+   "Vallcarca": [
+    1,
+    266
+   ]
+  },
+  "vallcivera": {
+   "Nou Barris": [
+    1,
+    41
+   ]
+  },
+  "valldaura": {
+   "Nou Barris": [
+    101,
+    300
+   ],
+   "fuera": [
+    1,
+    112
+   ]
+  },
+  "valldemossa": {
+   "Nou Barris": [
+    1,
+    72
+   ]
+  },
+  "valldoreix": {
+   "Gràcia": [
+    1,
+    20
+   ]
+  },
+  "valles": {
+   "Sant Andreu": [
+    1,
+    97
+   ]
+  },
+  "valles i ribot": {
+   "Sant Andreu": [
+    5,
+    56
+   ]
+  },
+  "vallfogona": {
+   "Gràcia": [
+    1,
+    42
+   ]
+  },
+  "vallirana": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    94
+   ]
+  },
+  "vallmajor": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    40
+   ]
+  },
+  "vallmitjana": {
+   "Sant Martí": [
+    1,
+    6
+   ]
+  },
+  "vallpar": {
+   "Vallcarca": [
+    1,
+    66
+   ]
+  },
+  "vallvidrera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    87
+   ]
+  },
+  "vallvidrera a barcelona": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    76
+   ]
+  },
+  "vallvidrera a les planes": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    145
+   ]
+  },
+  "vallvidrera al tibidabo": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    118
+   ],
+   "fuera": [
+    56,
+    86
+   ]
+  },
+  "veciana": {
+   "Vallcarca": [
+    1,
+    46
+   ]
+  },
+  "vehils": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "velazquez": {
+   "Vallcarca": [
+    1,
+    21
+   ]
+  },
+  "velia": {
+   "Nou Barris": [
+    8,
+    95
+   ],
+   "Sant Andreu": [
+    1,
+    7
+   ]
+  },
+  "vell de la pedrera": {
+   "Nou Barris": [
+    1,
+    27
+   ]
+  },
+  "vell de santa creu d'olorda a vallvidrera": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    22
+   ]
+  },
+  "vendrell": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    17
+   ]
+  },
+  "venecuela": {
+   "Sant Martí": [
+    1,
+    173
+   ]
+  },
+  "venero": {
+   "Sant Martí": [
+    1,
+    23
+   ]
+  },
+  "ventallo": {
+   "Gràcia": [
+    1,
+    77
+   ]
+  },
+  "ventura gassol": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "venus": {
+   "Gràcia": [
+    1,
+    15
+   ]
+  },
+  "veracruz": {
+   "Sant Andreu": [
+    1,
+    2
+   ]
+  },
+  "verda de la prosperitat": {
+   "Nou Barris": [
+    1,
+    7
+   ]
+  },
+  "verdet": {
+   "Sant Andreu": [
+    1,
+    14
+   ]
+  },
+  "verdi": {
+   "Gràcia": [
+    1,
+    315
+   ],
+   "Vallcarca": [
+    278,
+    351
+   ]
+  },
+  "verdum": {
+   "Nou Barris": [
+    1,
+    57
+   ]
+  },
+  "vergos": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    67
+   ]
+  },
+  "verns": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    23
+   ]
+  },
+  "verntallat": {
+   "Gràcia": [
+    1,
+    48
+   ]
+  },
+  "vesc": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    19
+   ]
+  },
+  "vesuvi": {
+   "Nou Barris": [
+    1,
+    47
+   ]
+  },
+  "via trajana a": {
+   "Sant Martí": [
+    1,
+    12
+   ]
+  },
+  "via trajana b": {
+   "Sant Martí": [
+    1,
+    17
+   ]
+  },
+  "viaducte de vallcarca": {
+   "Vallcarca": [
+    1,
+    15
+   ]
+  },
+  "vic": {
+   "Gràcia": [
+    1,
+    28
+   ]
+  },
+  "vicenc montal": {
+   "Sant Andreu": [
+    1,
+    14
+   ]
+  },
+  "vico": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    38
+   ]
+  },
+  "victor colomer": {
+   "Sant Andreu": [
+    3,
+    12
+   ]
+  },
+  "victor jara": {
+   "Nou Barris": [
+    1,
+    10
+   ]
+  },
+  "vidal i de valenciano": {
+   "Sant Martí": [
+    1,
+    22
+   ]
+  },
+  "vidal i guasch": {
+   "Nou Barris": [
+    1,
+    97
+   ]
+  },
+  "vidal i quadras": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    56
+   ]
+  },
+  "vidiella": {
+   "Sant Martí": [
+    1,
+    31
+   ]
+  },
+  "vila arrufat": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    9
+   ]
+  },
+  "vila real": {
+   "Nou Barris": [
+    1,
+    43
+   ]
+  },
+  "vila rodona": {
+   "Nou Barris": [
+    1,
+    24
+   ]
+  },
+  "vila seca": {
+   "Nou Barris": [
+    1,
+    98
+   ]
+  },
+  "viladecavalls": {
+   "Nou Barris": [
+    1,
+    101
+   ]
+  },
+  "viladrosa": {
+   "Nou Barris": [
+    50,
+    161
+   ]
+  },
+  "vilafranca": {
+   "Gràcia": [
+    1,
+    46
+   ]
+  },
+  "vilalba dels arcs": {
+   "Nou Barris": [
+    1,
+    140
+   ]
+  },
+  "vilana": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    14
+   ]
+  },
+  "vilapicina": {
+   "Nou Barris": [
+    1,
+    101
+   ]
+  },
+  "vilaros": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    11
+   ]
+  },
+  "vilatorta": {
+   "Nou Barris": [
+    1,
+    4
+   ]
+  },
+  "villena": {
+   "Sant Martí": [
+    1,
+    18
+   ]
+  },
+  "vintro": {
+   "Sant Andreu": [
+    1,
+    30
+   ],
+   "Sant Martí": [
+    1,
+    26
+   ]
+  },
+  "vinyar": {
+   "Nou Barris": [
+    1,
+    81
+   ]
+  },
+  "violer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    17
+   ]
+  },
+  "virgili": {
+   "Sant Andreu": [
+    1,
+    103
+   ]
+  },
+  "virrei amat": {
+   "Nou Barris": [
+    1,
+    14
+   ]
+  },
+  "vista bella": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    37
+   ]
+  },
+  "vivendes la pau": {
+   "Sant Martí": [
+    1,
+    103
+   ]
+  },
+  "volart": {
+   "Sant Martí": [
+    1,
+    3
+   ],
+   "fuera": [
+    2,
+    98
+   ]
+  },
+  "volo": {
+   "Sant Andreu": [
+    1,
+    4
+   ]
+  },
+  "wagner": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    8
+   ]
+  },
+  "washington": {
+   "Sant Martí": [
+    1,
+    4
+   ]
+  },
+  "wellington": {
+   "Sant Martí": [
+    2,
+    104
+   ],
+   "fuera": [
+    1,
+    1
+   ]
+  },
+  "willy brandt": {
+   "Sant Martí": [
+    1,
+    14
+   ]
+  },
+  "xaloc": {
+   "Sant Martí": [
+    1,
+    3
+   ]
+  },
+  "xavier llorens": {
+   "Sant Martí": [
+    1,
+    3
+   ]
+  },
+  "xavier nogues": {
+   "Sant Martí": [
+    1,
+    63
+   ]
+  },
+  "xifre": {
+   "Sant Martí": [
+    1,
+    123
+   ]
+  },
+  "xipre": {
+   "Sant Martí": [
+    1,
+    2
+   ]
+  },
+  "xiprer": {
+   "Sarrià - Sant Gervasi": [
+    1,
+    1
+   ],
+   "fuera": [
+    1,
+    60
+   ]
+  },
+  "xiquets de valls": {
+   "Gràcia": [
+    1,
+    14
+   ]
+  },
+  "zamora": {
+   "Sant Martí": [
+    38,
+    125
+   ]
+  },
+  "zenobia camprubi": {
+   "Sant Martí": [
+    1,
+    1
+   ]
+  }
+ }
+}
