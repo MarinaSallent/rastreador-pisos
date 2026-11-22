@@ -138,6 +138,7 @@ Antes de añadirla, compruébalo: **Actions → Probar una web → Run workflow*
   - Si no dice en qué barrio está, lo descarta (`zona_obligatoria: true`). Con `false` te avisaría marcado con «⚠️ zona no indicada».
 - **Precio y metros:** de la tarjeta; si faltan, de la ficha.
   - Sin precio, se descarta (`precio_obligatorio`). Más de 10.000 € se considera venta.
+  - Entre 1.000 y 1.100 € solo se envía si incluye parking, terraza, patio, jardín o piscina (también comunitaria), marcado con ⚠️ (`precio_maximo_con_extras`). «Parking opcional», «fácil aparcamiento», «terraza comunitaria» «da a patio de luces» o «cerca de la piscina municipal» no cuentan.
   - Si cumple todo pero no dice los metros, te avisa con ⚠️ (`avisar_si_faltan_metros`).
 - **Si la web de una agencia falla 6 veces seguidas**, te llega un aviso para que revises la URL.
 

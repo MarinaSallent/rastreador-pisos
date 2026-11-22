@@ -220,6 +220,45 @@ def negocio_en_ficha(texto: str) -> str | None:
     return m.group(1) if m else None
 
 
+# Extras que justifican pagar algo más (hasta precio_maximo_con_extras): parking y terraza incluidos
+RE_PARKING = re.compile(r"\b(parking|parquing|garaje|garatge|aparcamiento|aparcament|plaza de garaje|"
+                        r"plaza de parking|placa de parquing|placa d.aparcament|plaza de aparcamiento)\b")
+RE_TERRAZA = re.compile(r"\b(terrazas?|terrassas?|terrace|azotea privada|solarium)\b")
+RE_PISCINA = re.compile(r"\b(piscinas?|pool|swimming)\b")
+# La piscina comunitaria sí cuenta; una piscina municipal cercana, no
+RE_PISCINA_NO = re.compile(r"(municipal|publica|cerca|proxim|junto|a \d+ ?(m|min)|zona de|sin piscina|no tiene)")
+RE_PATIO = re.compile(r"\b(patios?|patis?|patio privado|pati privat)\b")
+RE_JARDIN = re.compile(r"\b(jardin(es|cito)?|jardi(ns)?|garden|ajardinad[ao]s?|enjardinad[ao]s?)\b")
+# «Da a patio de luces», «vistas al patio de manzana»: es la orientación del piso, no un espacio suyo
+RE_PATIO_NO = re.compile(r"(de luces|de llums|de manzana|d.illa|interior de|da a|dona a|vistas? al|vista a|"
+                         r"orientad|exterior a|ventilacion|ventilacio)")
+RE_EXTRA_NO = re.compile(r"(opcional|aparte|no incluid|no inclos|no esta incluid|posibilidad de|se puede alquilar|"
+                         r"precio adicional|por \d+ ?€|\+ ?\d+ ?€|sin |facil|zona de|cerca|proximo|junto|"
+                         r"comunitari|vecinos)")
+
+
+def extras_incluidos(texto: str) -> list[str]:
+    """«Parking» y/o «terraza» si el anuncio dice que los incluye (no «parking opcional», «fácil aparcamiento»,
+    «sin terraza»…)."""
+    t = normalizar(texto)
+    encontrados = []
+    for nombre, patron in (("parking", RE_PARKING), ("terraza", RE_TERRAZA), ("patio", RE_PATIO),
+                           ("jardín", RE_JARDIN), ("piscina", RE_PISCINA)):
+        for m in patron.finditer(t):
+            alrededor = t[max(0, m.start() - 25):m.end() + 30]
+            if nombre == "patio" and RE_PATIO_NO.search(alrededor):
+                continue
+            if nombre == "piscina":
+                if not RE_PISCINA_NO.search(alrededor):
+                    encontrados.append(nombre)
+                    break
+                continue
+            if not RE_EXTRA_NO.search(alrededor):
+                encontrados.append(nombre)
+                break
+    return encontrados
+
+
 def no_es_vivienda(texto: str) -> str | None:
     """Devuelve el tipo de inmueble (local, oficina, parking…) si no es una vivienda.
 
@@ -683,8 +722,23 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
         motivo = "no indica el precio"
     elif precio is not None and precio > 10000:
         motivo = f"parece venta ({precio} €)"
+    elif precio is not None and precio > f.get("precio_maximo_con_extras", f["precio_maximo"]):
+        motivo = f"precio {precio} € > {f.get('precio_maximo_con_extras', f['precio_maximo'])}"
     elif precio is not None and precio > f["precio_maximo"]:
-        motivo = f"precio {precio} € > {f['precio_maximo']}"
+        # Entre 1.000 y 1.100 €: vale solo si incluye parking o terraza (se mira la tarjeta y, si hace falta, la ficha)
+        textos = f"{anuncio['titulo']} {texto}"
+        extras = extras_incluidos(textos)
+        if not extras and abrir:
+            try:
+                anuncio.setdefault("_html", descargar(anuncio["url"], timeout, modo))
+                cuerpo_x = texto_principal(BeautifulSoup(anuncio["_html"], "html.parser"))[:4000]
+                extras = extras_incluidos(f"{cabecera_ficha(BeautifulSoup(anuncio['_html'], 'html.parser'))} {cuerpo_x}")
+            except Exception as e:
+                anuncio["error_ficha"] = str(e)[:100]
+        if extras:
+            anuncio["extras"] = extras
+        else:
+            motivo = f"precio {precio} € > {f['precio_maximo']} (sin parking ni terraza)"
     elif metros is not None and metros < f.get("metros_minimos_con_aviso", f["metros_minimos"]):
         motivo = f"{metros} m² < {f.get('metros_minimos_con_aviso', f['metros_minimos'])}"
     elif metros is None and not f.get("avisar_si_faltan_metros", True):
@@ -712,6 +766,8 @@ def evaluar(anuncio: dict, cfg: dict, timeout: int, modo: str, abrir: bool, agen
 def mensaje(agencia: dict, a: dict) -> str:
     e = html.escape
     precio = f"{a['precio']} €/mes" if a["precio"] else "⚠️ precio no indicado"
+    if a.get("extras"):
+        precio += f" ⚠️ (más de {(CFG_ACTUAL.get('filtros') or {}).get('precio_maximo', 1000)}, incluye {' y '.join(a['extras'])})"
     metros = f"{a['metros']} m²" if a["metros"] else "⚠️ m² no indicados"
     minimo = (CFG_ACTUAL.get("filtros") or {}).get("metros_minimos")
     if a["metros"] and minimo and a["metros"] < minimo:

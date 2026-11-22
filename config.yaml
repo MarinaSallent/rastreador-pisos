@@ -4,6 +4,9 @@ filtros:
   # Pisos algo más pequeños: desde estos metros también se envían, marcados con ⚠️ (menos de 60).
   metros_minimos_con_aviso: 55
   precio_maximo: 1000        # €/mes
+  # Pisos algo más caros: hasta este precio también se envían si incluyen parking, terraza, patio, jardín o
+  # piscina (también comunitaria). Marcados con ⚠️.
+  precio_maximo_con_extras: 1100
   # Solo viviendas: si el título o la dirección del anuncio dice local, oficina, nave, parking, trastero,
   # terreno, edificio, habitación, traspaso, temporada o turístico, se descarta.
   solo_viviendas: true
@@ -221,11 +224,9 @@ exclusiones:
   - sant andreu de la barca
   - sant andreu de llavaneres
   - sant cugat sesgarrigues
+  # Locales, parkings, oficinas… los descarta el filtro «solo_viviendas» (y «piso con parking» sí vale).
   - traspaso
   - traspas
-  - local comercial
-  - plaza de parking
-  - plaça d'aparcament
   # Las ventas se descartan solas: cualquier precio por encima de 10.000 € se trata como venta.
 
 # Códigos postales de tus distritos (aprox.). Si el anuncio muestra uno, cuenta como zona válida.
