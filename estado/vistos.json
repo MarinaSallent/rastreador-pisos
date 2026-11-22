@@ -19,8 +19,8 @@
   "desde": 1795282404.4260767,
   "ultimo_nuevo": 1795289082.3823566,
   "urls": [
-   "https://fincassole.com/property/local-comercial-en-plaza-de-sagarra-cerca-rambla",
    "https://fincassole.com/property/local-comercial-en-local-comercial-difano-de-72-m-a-pie-d",
+   "https://fincassole.com/property/local-comercial-en-plaza-de-sagarra-cerca-rambla",
    "https://fincassole.com/property/piso-en-08020",
    "https://fincassole.com/property/piso-en-oportunidad-en-santa-coloma",
    "https://fincassole.com/property/local-comercial-en-calle-doctor-torras-i-bages-08922",
@@ -1953,13 +1953,13 @@
    "https://bcn-advisors.com/propiedades/increible-atico-con-grandes-terrazas-en-alquiler-en-pedralbes",
    "https://bcn-advisors.com/propiedades/extraordinaria-casa-de-lujo-en-alquiler-en-vallvidrera",
    "https://bcn-advisors.com/propiedades/marvilloso-loft-de-diseno-en-alquiler-entre-eixample-y-el-born",
-   "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia",
-   "https://bcn-advisors.com/propiedades/impresionante-casa-de-obra-nueva-con-jardin-y-piscina",
    "https://bcn-advisors.com/propiedades/fantastico-piso-reformado-a-estrenar-en-finca-regia-entre-eixample-y-el-born",
+   "https://bcn-advisors.com/propiedades/esplendido-atico-duplex-con-grandes-terrazas-y-vistas-panoramicas-en-les-corts",
+   "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample",
    "https://bcn-advisors.com/propiedades/increible-piso-modernista-reformado-a-estrenar-en-finca-esquinera-del-eixample",
    "https://bcn-advisors.com/propiedades/casa-con-encanto-historico-y-gran-terraza-junto-a-la-sagrada-familia",
-   "https://bcn-advisors.com/propiedades/esplendido-atico-duplex-con-grandes-terrazas-y-vistas-panoramicas-en-les-corts",
-   "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample"
+   "https://bcn-advisors.com/propiedades/impresionante-casa-de-obra-nueva-con-jardin-y-piscina",
+   "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia"
   ]
  },
  "2763": {
@@ -2216,11 +2216,13 @@
  },
  "368": {
   "desde": 1795273889.0414598,
-  "ultimo_nuevo": 1795309691.8608704,
+  "ultimo_nuevo": 1795334359.6136491,
   "urls": [
    "https://atico.es/property/atico-en-venta-en-ciutat-vella-francesc-cambo",
    "https://atico.es/property/atico-en-venta-en-les-corts",
    "https://atico.es/property/atico-en-venta-en-el-guinardo-seglexx",
+   "https://atico.es/property/atico-en-venta-en-sarria-sant-gervasi-homero",
+   "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-via-augusta",
    "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-ronda-general-mitre",
    "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-5",
    "https://atico.es/property/atico-en-venta-en-sagrada-familia",
@@ -2557,6 +2559,10 @@
   "urls": [
    "https://premiumhouse.es/inmuebles?brk=39911784"
   ]
+ },
+ "4549": {
+  "desde": 1795334369.1471677,
+  "urls": []
  },
  "4554": {
   "desde": 1795273896.0998096,
@@ -3081,6 +3087,23 @@
    "https://guinotprunera.com/es/alquiler/ref-4568"
   ]
  },
+ "4934": {
+  "desde": 1795334370.108533,
+  "urls": [
+   "https://ficasso.com/es/alquiler/ref-1052",
+   "https://ficasso.com/es/alquiler/ref-1057",
+   "https://ficasso.com/es/alquiler/ref-1099",
+   "https://ficasso.com/es/alquiler/ref-1146",
+   "https://ficasso.com/es/alquiler/ref-1151",
+   "https://ficasso.com/es/alquiler/ref-1205",
+   "https://ficasso.com/es/alquiler/ref-1626",
+   "https://ficasso.com/es/alquiler/ref-1663",
+   "https://ficasso.com/es/alquiler/ref-1959",
+   "https://ficasso.com/es/alquiler/ref-2018",
+   "https://ficasso.com/es/alquiler/ref-2079",
+   "https://ficasso.com/es/alquiler/ref-2081"
+  ]
+ },
  "4971": {
   "desde": 1795289146.2751236,
   "urls": [
@@ -3108,6 +3131,10 @@
  },
  "5010": {
   "desde": 1795273897.0747192,
+  "urls": []
+ },
+ "5040": {
+  "desde": 1795334370.847533,
   "urls": []
  },
  "5042": {
@@ -3142,6 +3169,10 @@
   "urls": [
    "https://atbarcelona.es/alquiler.aspx?cv=1"
   ]
+ },
+ "5215": {
+  "desde": 1795334371.389339,
+  "urls": []
  },
  "5243": {
   "desde": 1795273898.6125286,
@@ -3545,6 +3576,10 @@
    "https://realtysantcugat.com/static2/alquilamos_tu_vivienda"
   ]
  },
+ "6051": {
+  "desde": 1795334380.1221006,
+  "urls": []
+ },
  "6074": {
   "desde": 1795273901.7299068,
   "urls": []
@@ -3670,6 +3705,72 @@
  "6293": {
   "desde": 1795289027.0609837,
   "urls": []
+ },
+ "6388": {
+  "desde": 1795334389.2434797,
+  "urls": [
+   "https://aproperties.es/barcelona/eixample-esquerra/piso-de-36-m2-en-alquiler-en-eixample-esquerra-barcelona",
+   "https://aproperties.es/barcelona/sants/piso-de-71-m2-en-alquiler-en-sants-barcelona",
+   "https://aproperties.es/badalona/piso-de-102-m2-con-terraza-aparcamiento-piscina-y-sea-views-en-alquiler-en-badalona",
+   "https://aproperties.es/barcelona/el-gotic/piso-de-60-m2-en-alquiler-en-el-gotic-barcelona",
+   "https://aproperties.es/barcelona/sant-gervasi-la-bonanova/piso-de-153-m2-con-aparcamiento-en-alquiler-en-sant-gervasi-la-bonanova-barcelona",
+   "https://aproperties.es/barcelona/el-poblenou/ab2611028-piso-de-65-m2-en-alquiler-en-el-poblenou-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-87-m2-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-esquerra/piso-de-50-m2-en-alquiler-en-eixample-esquerra-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-84-m2-con-terraza-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/mataro/piso-de-65-m2-con-piscina-y-sea-views-en-alquiler-en-mataro",
+   "https://aproperties.es/barcelona/turo-parc/piso-de-274-m2-con-terraza-y-vistas-en-alquiler-en-turo-park-barcelona",
+   "https://aproperties.es/barcelona/pedralbes/piso-de-210-m2-con-terraza-aparcamiento-piscina-y-vistas-en-alquiler-en-pedralbes-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-199-m2-con-sea-views-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/sant-cugat-del-valles/can-mates/piso-de-77-m2-con-terraza-aparcamiento-y-vistas-en-alquiler-en-can-mates-sant-cugat-del-valles",
+   "https://aproperties.es/sant-cugat-del-valles/leixample/piso-de-50-m2-con-aparcamiento-y-vistas-en-alquiler-en-l-eixample-sant-cugat-del-valles",
+   "https://aproperties.es/barcelona/eixample-esquerra/piso-de-160-m2-con-vistas-en-alquiler-en-eixample-esquerra-barcelona",
+   "https://aproperties.es/barcelona/les-tres-torres/piso-de-124-m2-con-terraza-aparcamiento-y-sea-views-en-alquiler-en-les-tres-torres-barcelona",
+   "https://aproperties.es/badalona/piso-de-90-m2-con-terraza-aparcamiento-piscina-y-sea-views-en-alquiler-en-badalona",
+   "https://aproperties.es/barcelona/eixample-dreta/ab2610008-piso-de-250-m2-con-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/pedralbes/piso-de-94-m2-con-aparcamiento-en-alquiler-en-pedralbes-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-221-m2-con-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/ab2610001-piso-de-111-m2-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-219-m2-con-terraza-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-203-m2-con-terraza-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-166-m2-con-terraza-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/viladecans/piso-de-90-m2-con-terraza-y-vistas-en-alquiler-en-viladecans",
+   "https://aproperties.es/barcelona/eixample-esquerra/piso-de-213-m2-con-aparcamiento-y-vistas-en-alquiler-en-eixample-esquerra-barcelona",
+   "https://aproperties.es/barcelona/diagonal-mar/atico-de-200-m2-con-terraza-aparcamiento-piscina-y-sea-views-en-alquiler-en-diagonal-mar-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-207-m2-con-terraza-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-esquerra/piso-de-196-m2-con-terraza-y-vistas-en-alquiler-en-eixample-esquerra-barcelona",
+   "https://aproperties.es/barcelona/el-born/ab2606089-piso-de-300-m2-en-alquiler-en-el-born-barcelona",
+   "https://aproperties.es/barcelona/horta/piso-de-73-m2-con-terraza-y-piscina-en-alquiler-en-horta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-165-m2-con-terraza-piscina-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-375-m2-con-terraza-piscina-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-200-m2-con-terraza-piscina-y-sea-views-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/sant-gervasi-galvany/piso-de-300-m2-con-terraza-aparcamiento-y-vistas-en-alquiler-en-sant-gervasi-galvany-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-110-m2-con-terraza-piscina-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/sarria/piso-de-232-m2-con-terraza-y-aparcamiento-en-alquiler-en-sarria-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-345-m2-con-terraza-y-sea-views-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-200-m2-con-terraza-aparcamiento-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-178-m2-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/sant-gervasi-galvany/piso-de-375-m2-con-terraza-aparcamiento-y-vistas-en-alquiler-en-sant-gervasi-galvany-barcelona",
+   "https://aproperties.es/barcelona/sant-antoni/piso-de-98-m2-en-alquiler-en-sant-antoni-barcelona",
+   "https://aproperties.es/barcelona/el-gotic/piso-de-156-m2-con-terraza-piscina-y-vistas-en-alquiler-en-el-gotic-barcelona",
+   "https://aproperties.es/barcelona/el-gotic/piso-de-125-m2-con-terraza-piscina-y-vistas-en-alquiler-en-el-gotic-barcelona",
+   "https://aproperties.es/barcelona/el-gotic/piso-de-234-m2-con-terraza-y-vistas-en-alquiler-en-el-gotic-barcelona",
+   "https://aproperties.es/barcelona/el-gotic/piso-de-156-m2-con-terraza-en-alquiler-en-el-gotic-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/ab2611004-piso-de-260-m2-con-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-esquerra/piso-de-625-m2-con-terraza-y-vistas-en-alquiler-en-eixample-esquerra-barcelona",
+   "https://aproperties.es/barcelona/pedralbes/atico-de-550-m2-con-terraza-aparcamiento-y-vistas-en-alquiler-en-pedralbes-barcelona",
+   "https://aproperties.es/barcelona/el-poblenou/piso-de-30-m2-con-terraza-piscina-y-sea-views-en-alquiler-en-el-poblenou-barcelona",
+   "https://aproperties.es/barcelona/vila-de-gracia/piso-de-230-m2-con-terraza-y-vistas-en-alquiler-en-vila-de-gracia-barcelona",
+   "https://aproperties.es/barcelona/vila-de-gracia/piso-de-190-m2-con-terraza-y-vistas-en-alquiler-en-vila-de-gracia-barcelona",
+   "https://aproperties.es/barcelona/sarria/piso-de-395-m2-con-terraza-aparcamiento-piscina-y-sea-views-en-alquiler-en-sarria-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-lujo-de-180-m2-con-terraza-piscina-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/sants/piso-de-51-m2-con-vistas-en-alquiler-en-sants-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-150-m2-con-terraza-aparcamiento-piscina-y-sea-views-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-238-m2-con-terraza-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-128-m2-con-terraza-aparcamiento-piscina-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
+   "https://aproperties.es/barcelona/eixample-esquerra/piso-de-87-m2-en-alquiler-en-eixample-esquerra-barcelona",
+   "https://aproperties.es/barcelona/eixample-dreta/piso-de-208-m2-con-terraza-y-vistas-en-alquiler-en-eixample-dreta-barcelona"
+  ]
  },
  "6410": {
   "desde": 1795273904.2717545,
@@ -3904,6 +4005,10 @@
  },
  "7138": {
   "desde": 1795273905.659873,
+  "urls": []
+ },
+ "7165": {
+  "desde": 1795334383.0341952,
   "urls": []
  },
  "7192": {
@@ -4248,6 +4353,15 @@
    "https://inmosolutions.es/piso-en-madrid-barrio-de-salamanca-con-ascensor-es270141.html"
   ]
  },
+ "7920": {
+  "desde": 1795334388.2904944,
+  "urls": [
+   "https://durancarasso.es/barcelona/sagrada-familia/oficina-de-230-m2-en-alquiler-en-sagrada-familia-barcelona",
+   "https://durancarasso.es/barcelona/22-arroba/edificio-de-4334-m2-en-alquiler-en-22-barcelona",
+   "https://durancarasso.es/barcelona/sagrada-familia/local-comercial-de-42-m2-en-alquiler-en-sagrada-familia-barcelona",
+   "https://durancarasso.es/barcelona/sagrada-familia/local-comercial-de-43-m2-en-alquiler-en-sagrada-familia-barcelona"
+  ]
+ },
  "7925": {
   "urls": [
    "https://servihabitat.com/es/venta/vivienda-piso/barcelona-barcelones-bcnsantmarti/60454431",
@@ -4369,8 +4483,8 @@
    "https://solvia.es/es/propiedades/alquilar/locales-torrent-207396-252534",
    "https://solvia.es/es/propiedades/alquilar/locales-xeraco-201199-245942",
    "https://solvia.es/es/propiedades/alquilar/locales-tarragona-158881-196383",
-   "https://solvia.es/es/propiedades/alquilar/edificio-almaden-30-dormitorios-207005-252106",
    "https://solvia.es/es/propiedades/alquilar/locales-castellon-de-la-plana-castello-de-la-plana-70980-90499",
+   "https://solvia.es/es/propiedades/alquilar/edificio-almaden-30-dormitorios-207005-252106",
    "https://solvia.es/es/propiedades/alquilar/locales-fuenlabrada-217327-263509",
    "https://solvia.es/es/propiedades/comprar/chalet-adosado-molina-de-segura-4-dormitorios-13627-148510",
    "https://solvia.es/es/propiedades/comprar/chalet-adosado-aranjuez-4-dormitorios-168968-207160",
@@ -4440,21 +4554,21 @@
    "https://iadespana.es/anuncios/leon-24/alquiler",
    "https://iadespana.es/anuncios/alicante-03/alquiler",
    "https://iadespana.es/anuncios/tarragona-43/alquiler",
-   "https://iadespana.es/anuncios/murcia-30/alquiler",
    "https://iadespana.es/anuncios/illes-balears-07/alquiler",
+   "https://iadespana.es/anuncios/murcia-30/alquiler",
    "https://iadespana.es/anuncios/valladolid-47/alquiler",
    "https://iadespana.es/anuncios/valencia-46/alquiler",
    "https://iadespana.es/anuncios/malaga-29/alquiler",
    "https://iadespana.es/anuncios/huelva-21/alquiler",
    "https://iadespana.es/anuncios/jaen-23/alquiler",
-   "https://iadespana.es/anuncios/pontevedra-36/alquiler",
-   "https://iadespana.es/anuncios/cadiz-11/alquiler",
    "https://iadespana.es/anuncios/asturias-33/alquiler",
    "https://iadespana.es/anuncios/gipuzkoa-20/alquiler",
    "https://iadespana.es/anuncios/toledo-45/alquiler",
    "https://iadespana.es/anuncios/santa-cruz-de-tenerife-38/alquiler",
    "https://iadespana.es/anuncios/salamanca-37/alquiler",
    "https://iadespana.es/anuncios/castellon-12/alquiler",
+   "https://iadespana.es/anuncios/cadiz-11/alquiler",
+   "https://iadespana.es/anuncios/pontevedra-36/alquiler",
    "https://iadespana.es/anuncios/madrid_28/alquiler",
    "https://iadespana.es/anuncios/barcelona_08/alquiler",
    "https://iadespana.es/anuncios/rivas-vaciamadrid_28/alquiler",
