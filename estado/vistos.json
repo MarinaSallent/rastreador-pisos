@@ -19,8 +19,8 @@
   "desde": 1795282404.4260767,
   "ultimo_nuevo": 1795289082.3823566,
   "urls": [
-   "https://fincassole.com/property/local-comercial-en-local-comercial-difano-de-72-m-a-pie-d",
    "https://fincassole.com/property/local-comercial-en-plaza-de-sagarra-cerca-rambla",
+   "https://fincassole.com/property/local-comercial-en-local-comercial-difano-de-72-m-a-pie-d",
    "https://fincassole.com/property/piso-en-08020",
    "https://fincassole.com/property/piso-en-oportunidad-en-santa-coloma",
    "https://fincassole.com/property/local-comercial-en-calle-doctor-torras-i-bages-08922",
@@ -83,6 +83,10 @@
  },
  "10181": {
   "desde": 1795282404.426125,
+  "urls": []
+ },
+ "1021": {
+  "desde": 1795309691.5939257,
   "urls": []
  },
  "10220": {
@@ -694,6 +698,10 @@
   "desde": 1795273913.4651892,
   "urls": []
  },
+ "1141": {
+  "desde": 1795309693.4510365,
+  "urls": []
+ },
  "11445": {
   "desde": 1795282404.4263914,
   "urls": [
@@ -826,6 +834,50 @@
    "https://finquesmarba.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.finquesmarba.com%2Falquiler%2F",
    "https://finquesmarba.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.finquesmarba.com%2Falquiler%2F&format=xml",
    "https://finquesmarba.com/wp-content/plugins/wp-user-avatar/assets/flatpickr/flatpickr.min.css?ver=4.18.1"
+  ]
+ },
+ "1160": {
+  "desde": 1795309694.7506578,
+  "urls": [
+   "https://immomax.es/es/alquiler/ref-2083",
+   "https://immomax.es/es/alquiler/ref-2403",
+   "https://immomax.es/es/alquiler/ref-5607",
+   "https://immomax.es/es/alquiler/ref-8991",
+   "https://immomax.es/es/alquiler/ref-9071",
+   "https://immomax.es/es/alquiler/ref-9726",
+   "https://immomax.es/es/alquiler/ref-13050",
+   "https://immomax.es/es/alquiler/ref-16118",
+   "https://immomax.es/es/alquiler/ref-16368",
+   "https://immomax.es/es/alquiler/ref-16499",
+   "https://immomax.es/es/alquiler/ref-16784",
+   "https://immomax.es/es/alquiler/ref-16812",
+   "https://immomax.es/es/alquiler/ref-17037",
+   "https://immomax.es/es/alquiler/ref-17042",
+   "https://immomax.es/es/alquiler/ref-17132",
+   "https://immomax.es/es/alquiler/ref-17187",
+   "https://immomax.es/es/alquiler/ref-17214",
+   "https://immomax.es/es/alquiler/ref-17216",
+   "https://immomax.es/es/alquiler/ref-17242",
+   "https://immomax.es/es/alquiler/ref-17726",
+   "https://immomax.es/es/alquiler/ref-17893",
+   "https://immomax.es/es/alquiler/ref-17947",
+   "https://immomax.es/es/alquiler/ref-18027",
+   "https://immomax.es/es/alquiler/ref-18029",
+   "https://immomax.es/es/alquiler/ref-18044",
+   "https://immomax.es/es/alquiler/ref-18056",
+   "https://immomax.es/es/alquiler/ref-18100",
+   "https://immomax.es/es/alquiler/ref-18234",
+   "https://immomax.es/es/alquiler/ref-18241",
+   "https://immomax.es/es/alquiler/ref-18307",
+   "https://immomax.es/es/alquiler/ref-18313",
+   "https://immomax.es/es/alquiler/ref-18342",
+   "https://immomax.es/es/alquiler/ref-18381",
+   "https://immomax.es/es/alquiler/ref-18411",
+   "https://immomax.es/es/alquiler/ref-18415",
+   "https://immomax.es/es/alquiler/ref-18416",
+   "https://immomax.es/es/alquiler/ref-18422",
+   "https://immomax.es/es/alquiler/ref-18424",
+   "https://immomax.es/es/alquiler/ref-18428"
   ]
  },
  "11627": {
@@ -1010,6 +1062,14 @@
    "https://laehomes.com/es/propiedades/local-comercial-donostia-san-sebastian-SS00172"
   ]
  },
+ "1229": {
+  "desde": 1795309694.519348,
+  "urls": [
+   "https://inmo.es/alquiler/es/ficha/piso/barcelona/la-barceloneta/6359/30775353/es",
+   "https://inmo.es/alquiler/es/ficha/despacho/barcelona/vila-de-gracia/6359/22083003/es",
+   "https://inmo.es/alquiler/es/ficha/negocio/barcelona/sant-antoni/6359/28457573/es"
+  ]
+ },
  "12326": {
   "desde": 1795273915.025481,
   "urls": [
@@ -1094,6 +1154,14 @@
    "https://habitaretail.com/ca/inmuebles/cal-tupi-propiedad-singular-en-la-segarra",
    "https://habitaretail.com/ca/inmuebles/restaurante-en-traspaso-en-la-calle-muntaner-eixample-esquerre"
   ]
+ },
+ "1254": {
+  "desde": 1795309694.6450825,
+  "urls": []
+ },
+ "1256": {
+  "desde": 1795309693.9873338,
+  "urls": []
  },
  "12578": {
   "desde": 1795273916.0066125,
@@ -1886,12 +1954,12 @@
    "https://bcn-advisors.com/propiedades/extraordinaria-casa-de-lujo-en-alquiler-en-vallvidrera",
    "https://bcn-advisors.com/propiedades/marvilloso-loft-de-diseno-en-alquiler-entre-eixample-y-el-born",
    "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia",
-   "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample",
-   "https://bcn-advisors.com/propiedades/casa-con-encanto-historico-y-gran-terraza-junto-a-la-sagrada-familia",
-   "https://bcn-advisors.com/propiedades/esplendido-atico-duplex-con-grandes-terrazas-y-vistas-panoramicas-en-les-corts",
    "https://bcn-advisors.com/propiedades/impresionante-casa-de-obra-nueva-con-jardin-y-piscina",
    "https://bcn-advisors.com/propiedades/fantastico-piso-reformado-a-estrenar-en-finca-regia-entre-eixample-y-el-born",
-   "https://bcn-advisors.com/propiedades/increible-piso-modernista-reformado-a-estrenar-en-finca-esquinera-del-eixample"
+   "https://bcn-advisors.com/propiedades/increible-piso-modernista-reformado-a-estrenar-en-finca-esquinera-del-eixample",
+   "https://bcn-advisors.com/propiedades/casa-con-encanto-historico-y-gran-terraza-junto-a-la-sagrada-familia",
+   "https://bcn-advisors.com/propiedades/esplendido-atico-duplex-con-grandes-terrazas-y-vistas-panoramicas-en-les-corts",
+   "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample"
   ]
  },
  "2763": {
@@ -2148,13 +2216,16 @@
  },
  "368": {
   "desde": 1795273889.0414598,
-  "ultimo_nuevo": 1795294589.200471,
+  "ultimo_nuevo": 1795309691.8608704,
   "urls": [
    "https://atico.es/property/atico-en-venta-en-ciutat-vella-francesc-cambo",
+   "https://atico.es/property/atico-en-venta-en-les-corts",
+   "https://atico.es/property/atico-en-venta-en-el-guinardo-seglexx",
+   "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-ronda-general-mitre",
+   "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-5",
    "https://atico.es/property/atico-en-venta-en-sagrada-familia",
    "https://atico.es/property/atico-en-venta-en-sarria-sant-gervas",
    "https://atico.es/property/atico-en-venta-en-esquerra-de-leixample",
-   "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-ronda-general-mitre",
    "https://atico.es/property/atico-en-venta-en-gracia-3",
    "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-6",
    "https://atico.es/property/atico-en-venta-en-gracia-2"
@@ -2280,6 +2351,10 @@
    "https://fincasblanco.es/alquiler/es/index.php?descartadas=1"
   ]
  },
+ "3840": {
+  "desde": 1795309700.8443902,
+  "urls": []
+ },
  "3852": {
   "urls": [
    "https://estradapartners.com/propiedades/plataforma-logistica-en-alquiler-en-el-prat-de-llobregat-de-14-932-m%c2%b2",
@@ -2362,6 +2437,40 @@
    "https://bc91.es/venta_y_alquiler-inmuebles/lang/es?per_page=9",
    "https://bc91.es/venta_y_alquiler-inmuebles/lang/es?per_page=18",
    "https://bc91.es/venta_y_alquiler-inmuebles/lang/es?per_page=45"
+  ]
+ },
+ "4037": {
+  "desde": 1795309702.8293078,
+  "urls": [
+   "https://optim-e.com/es/propiedades/2699",
+   "https://optim-e.com/es/propiedades/2841",
+   "https://optim-e.com/es/propiedades/2683",
+   "https://optim-e.com/es/propiedades/2682",
+   "https://optim-e.com/es/propiedades/2681",
+   "https://optim-e.com/es/propiedades/2677",
+   "https://optim-e.com/es/propiedades/2670",
+   "https://optim-e.com/es/propiedades/2636",
+   "https://optim-e.com/es/propiedades/2599",
+   "https://optim-e.com/es/propiedades/2598",
+   "https://optim-e.com/es/propiedades/2597",
+   "https://optim-e.com/es/propiedades/2459",
+   "https://optim-e.com/es/propiedades/2458",
+   "https://optim-e.com/es/propiedades/2294",
+   "https://optim-e.com/es/propiedades/2071",
+   "https://optim-e.com/es/propiedades/2043",
+   "https://optim-e.com/es/propiedades/1181",
+   "https://optim-e.com/es/propiedades/462",
+   "https://optim-e.com/es/propiedades/plazas/7-3151",
+   "https://optim-e.com/es/propiedades/plazas/6-3150",
+   "https://optim-e.com/es/propiedades/plazas/5-3149",
+   "https://optim-e.com/es/propiedades/plazas/3-3147",
+   "https://optim-e.com/es/propiedades/plazas/2-3101",
+   "https://optim-e.com/es/propiedades/plazas/1-3100",
+   "https://optim-e.com/es/propiedades/2691",
+   "https://optim-e.com/es/propiedades/2678",
+   "https://optim-e.com/es/propiedades/2560",
+   "https://optim-e.com/es/propiedades/2465",
+   "https://optim-e.com/es/propiedades/2464"
   ]
  },
  "4041": {
@@ -2802,8 +2911,9 @@
  },
  "4839": {
   "desde": 1795273897.3002157,
-  "ultimo_nuevo": 1795289012.0393765,
+  "ultimo_nuevo": 1795309708.266936,
   "urls": [
+   "https://mauriassessors.cat/propietat-lloguer/garatge-en-lloguer-en-ca-n'aurell(08224)-69245623193.523835",
    "https://mauriassessors.cat/propietat-lloguer/pis-en-lloguer-en-viladecavalls-69198822076.523835",
    "https://mauriassessors.cat/propietat-lloguer/garatge-en-lloguer-en-can-boada-torrent-d'en-pere-parres(08225)-67560023065.523835",
    "https://mauriassessors.cat/propietat-lloguer/local-en-lloguer-en-centre(08221)-60920654803.523835",
@@ -4259,8 +4369,8 @@
    "https://solvia.es/es/propiedades/alquilar/locales-torrent-207396-252534",
    "https://solvia.es/es/propiedades/alquilar/locales-xeraco-201199-245942",
    "https://solvia.es/es/propiedades/alquilar/locales-tarragona-158881-196383",
-   "https://solvia.es/es/propiedades/alquilar/locales-castellon-de-la-plana-castello-de-la-plana-70980-90499",
    "https://solvia.es/es/propiedades/alquilar/edificio-almaden-30-dormitorios-207005-252106",
+   "https://solvia.es/es/propiedades/alquilar/locales-castellon-de-la-plana-castello-de-la-plana-70980-90499",
    "https://solvia.es/es/propiedades/alquilar/locales-fuenlabrada-217327-263509",
    "https://solvia.es/es/propiedades/comprar/chalet-adosado-molina-de-segura-4-dormitorios-13627-148510",
    "https://solvia.es/es/propiedades/comprar/chalet-adosado-aranjuez-4-dormitorios-168968-207160",
@@ -4361,8 +4471,8 @@
    "https://iadespana.es/anuncios/santa-coloma-de-gramenet_08/alquiler",
    "https://iadespana.es/anuncios/vilanova-i-la-geltru_08/alquiler",
    "https://iadespana.es/anuncios/cunit_43/alquiler",
-   "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/sitges_08/alquiler",
+   "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
    "https://iadespana.es/anuncios/orihuela_03/alquiler",
    "https://iadespana.es/anuncio/inmueble-comercial-alquiler-2-habitaciones-el-portil-68m2/r173422",
