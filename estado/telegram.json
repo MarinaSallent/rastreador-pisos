@@ -15,6 +15,13 @@
    "titulo": "Tu registro se ha completado correctamente. Ahora, desde tu Área privada podrás tener controlados tus inmuebles favorito",
    "url": "https://solvia.es/es/propiedades/alquilar/locales-reus-184382-223382"
   },
+  "0fc2d5ee82": {
+   "agencia": "Area Retail",
+   "estado": "avisado",
+   "fecha": 1795366612,
+   "titulo": "Ver inmueble",
+   "url": "https://arearetail.es/inmuebles/bdd9eb76531b42ab92ba7f90874bd3f9"
+  },
   "19788d7fce": {
    "agencia": "Basmi Finques",
    "estado": "avisado",
@@ -42,6 +49,13 @@
    "fecha": 1795273934,
    "titulo": "Costa Blanca",
    "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=5&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
+  },
+  "459e80e51d": {
+   "agencia": "Finques Ollé",
+   "estado": "avisado",
+   "fecha": 1795366586,
+   "titulo": "Ficha Alquiler - Fincas Ollé",
+   "url": "https://fincasolle.com/propiedad-alquiler/piso-en-poble-nou-con-zona-comunitaria-con-piscina--1851227"
   },
   "48ffc6c053": {
    "agencia": "Don piso (15 oficinas)",
@@ -155,6 +169,13 @@
    "titulo": "Ático en venta en Grácia",
    "url": "https://atico.es/property/atico-en-venta-en-gracia-3"
   },
+  "c1ce7475de": {
+   "agencia": "Inmo Olaya SL",
+   "estado": "avisado",
+   "fecha": 1795366715,
+   "titulo": "",
+   "url": "https://inmoolaya.com/modules/properties/set-view.php?v=list&url=%2Fpropiedades-alquiler%2F"
+  },
   "c3e45676ae": {
    "agencia": "Coldwell Banker Prestige Barcelona (7 oficinas)",
    "estado": "avisado",
@@ -190,12 +211,26 @@
    "titulo": "Costa del Sol",
    "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=12&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
   },
+  "cc973b945a": {
+   "agencia": "Inmo Olaya SL",
+   "estado": "avisado",
+   "fecha": 1795366711,
+   "titulo": "",
+   "url": "https://inmoolaya.com/modules/properties/set-view.php?v=box&url=%2Fpropiedades-alquiler%2F"
+  },
   "cdb27c8196": {
    "agencia": "Solvia",
    "estado": "avisado",
    "fecha": 1795273958,
    "titulo": "Tu registro se ha completado correctamente. Ahora, desde tu Área privada podrás tener controlados tus inmuebles favorito",
    "url": "https://solvia.es/es/propiedades/alquilar/locales-torrent-207396-252534"
+  },
+  "cdbc34c260": {
+   "agencia": "Optimum",
+   "estado": "avisado",
+   "fecha": 1795366599,
+   "titulo": "Alquiler la Vila de Gràcia OPT-1323 Ático en Vila de Gràcia 1.055,33 € / mes 26 m² 1 hab. 1 baño",
+   "url": "https://optim-e.com/es/propiedades/1181"
   },
   "d51883a188": {
    "agencia": "Coldwell Banker Prestige Barcelona (7 oficinas)",
