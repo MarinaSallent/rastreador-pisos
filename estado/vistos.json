@@ -2715,9 +2715,9 @@
   "urls": [
    "https://grupogalisan.com/es/alquiler/ref-1282",
    "https://grupogalisan.com/es/alquiler/ref-1440",
-   "https://grupogalisan.com/es/alquiler/ref-1458",
    "https://grupogalisan.com/es/alquiler/ref-1465",
-   "https://grupogalisan.com/es/alquiler/ref-1466"
+   "https://grupogalisan.com/es/alquiler/ref-1466",
+   "https://grupogalisan.com/es/alquiler/ref-1458"
   ]
  },
  "3168": {
@@ -3367,7 +3367,7 @@
  },
  "4681": {
   "desde": 1795273903.15812,
-  "ultimo_nuevo": 1795431363.5515652,
+  "ultimo_nuevo": 1795435874.6109514,
   "urls": [
    "https://nolkersconsulting.com/inmuebles/tipo-de-inmueble",
    "https://nolkersconsulting.com/inmuebles/arenys-de-mar",
@@ -3440,12 +3440,12 @@
    "https://nolkersconsulting.com/inmuebles/sant-pere-sta-caterina-i-la-ribera",
    "https://nolkersconsulting.com/inmuebles/zona-franca-port",
    "https://nolkersconsulting.com/inmuebles/en-buen-estado",
+   "https://nolkersconsulting.com/inmueble/nave-en-alquiler-en-sabadell/27034993",
    "https://nolkersconsulting.com/inmueble/nave-en-alquiler-en-l-hospitalet-de-llobregat/21537073",
    "https://nolkersconsulting.com/inmueble/oficina-en-alquiler-en-cornella/19604493",
    "https://nolkersconsulting.com/inmueble/oficina-en-aquiler-en-cornella/19604413",
    "https://nolkersconsulting.com/inmueble/oficina-en-alquiler-cornella/19604282",
    "https://nolkersconsulting.com/inmueble/oficina-atico-en-eixample/19568869",
-   "https://nolkersconsulting.com/inmueble/local-en-alquiler-en-barcelona/27015466",
    "https://nolkersconsulting.com/inmuebles/agencia-de-viajes",
    "https://nolkersconsulting.com/inmuebles/bar-de-copas",
    "https://nolkersconsulting.com/inmuebles/bloque-de-apartamentos",
@@ -3481,6 +3481,7 @@
    "https://nolkersconsulting.com/inmuebles/tienda-de-suministros-de-jardineriapiscina",
    "https://nolkersconsulting.com/inmuebles/isla-de-formentera",
    "https://nolkersconsulting.com/inmuebles/cesion-de-cuotas",
+   "https://nolkersconsulting.com/inmueble/local-en-alquiler-en-barcelona/27015466",
    "https://nolkersconsulting.com/inmueble/oficina-en-alquiler-diagonal/19602652",
    "https://nolkersconsulting.com/inmueble/nave-en-alquiler-en-perfecto-estado/23089157",
    "https://nolkersconsulting.com/inmueble/local-en-alquiler-en-el-centro-de-barcelona/26888496",
@@ -3815,7 +3816,9 @@
  },
  "4971": {
   "desde": 1795289146.2751236,
+  "ultimo_nuevo": 1795435874.8458414,
   "urls": [
+   "https://ferreri.es/inmueble/local-comercial-esquinero-de-320-m-con-18-metros-de-fachada-en-consell-de-cent/27034954",
    "https://ferreri.es/inmueble/local-comercial-diafano-en-la-villa-de-gracia/27004121",
    "https://ferreri.es/inmueble/local-comercial-de-160-m-con-techos-de-45-metros-en-el-barrio-de-sant-antoni/26966983",
    "https://ferreri.es/inmueble/les-corts-pedralbes-junto-zona-universitaria/18612086",
