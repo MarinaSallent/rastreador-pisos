@@ -6,6 +6,13 @@
   "nombre": "Torné Finques",
   "url": "https://www.finquestorne.com/alquiler"
  },
+ "3272": {
+  "desde": "23/11 09:40",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='www.cascanticbcn.com', port=443): Read timed out. (read timeout=20)",
+  "fallos": 13,
+  "nombre": "Casc Antic Bcn (4 oficinas)",
+  "url": "https://www.cascanticbcn.com/pisos-alquiler-barcelona/"
+ },
  "6611": {
   "desde": "23/11 09:36",
   "error": "ReadTimeout: HTTPSConnectionPool(host='www.inmoservicebarcelona.com', port=443): Read timed out. (read timeout=20)",
