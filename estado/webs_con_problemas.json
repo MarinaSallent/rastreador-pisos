@@ -13,13 +13,6 @@
   "nombre": "Casc Antic Bcn (4 oficinas)",
   "url": "https://www.cascanticbcn.com/pisos-alquiler-barcelona/"
  },
- "6611": {
-  "desde": "23/11 09:36",
-  "error": "ReadTimeout: HTTPSConnectionPool(host='www.inmoservicebarcelona.com', port=443): Read timed out. (read timeout=20)",
-  "fallos": 6,
-  "nombre": "Inmoservice Barcelona",
-  "url": "https://www.inmoservicebarcelona.com/alquiler/es/"
- },
  "8045": {
   "desde": "23/11 09:36",
   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.fincaseuropa.com/alquiler",
