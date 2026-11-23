@@ -1,1 +1,23 @@
-{}
+{
+ "1335": {
+  "desde": "23/11 09:35",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='www.finquestorne.com', port=443): Read timed out. (read timeout=20)",
+  "fallos": 6,
+  "nombre": "Torné Finques",
+  "url": "https://www.finquestorne.com/alquiler"
+ },
+ "6611": {
+  "desde": "23/11 09:36",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='www.inmoservicebarcelona.com', port=443): Read timed out. (read timeout=20)",
+  "fallos": 6,
+  "nombre": "Inmoservice Barcelona",
+  "url": "https://www.inmoservicebarcelona.com/alquiler/es/"
+ },
+ "8045": {
+  "desde": "23/11 09:36",
+  "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.fincaseuropa.com/alquiler",
+  "fallos": 6,
+  "nombre": "Fincas Europa",
+  "url": "https://www.fincaseuropa.com/alquiler"
+ }
+}
