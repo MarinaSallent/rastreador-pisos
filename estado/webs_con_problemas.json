@@ -1,9 +1,1 @@
-{
- "3272": {
-  "desde": "23/11 09:40",
-  "error": "ReadTimeout: HTTPSConnectionPool(host='www.cascanticbcn.com', port=443): Read timed out. (read timeout=20)",
-  "fallos": 13,
-  "nombre": "Casc Antic Bcn (4 oficinas)",
-  "url": "https://www.cascanticbcn.com/pisos-alquiler-barcelona/"
- }
-}
+{}
