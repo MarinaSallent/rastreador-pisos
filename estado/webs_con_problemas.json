@@ -1,11 +1,4 @@
 {
- "1335": {
-  "desde": "23/11 09:35",
-  "error": "ReadTimeout: HTTPSConnectionPool(host='www.finquestorne.com', port=443): Read timed out. (read timeout=20)",
-  "fallos": 6,
-  "nombre": "Torné Finques",
-  "url": "https://www.finquestorne.com/alquiler"
- },
  "3272": {
   "desde": "23/11 09:40",
   "error": "ReadTimeout: HTTPSConnectionPool(host='www.cascanticbcn.com', port=443): Read timed out. (read timeout=20)",
