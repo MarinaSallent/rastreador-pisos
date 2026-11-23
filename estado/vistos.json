@@ -2887,11 +2887,11 @@
    "https://fincasolle.com/propiedad-alquiler/piso-en-eixample-calle-diputacio--5371574",
    "https://fincasolle.com/propiedad-alquiler/local-comercial--en-alquiler-r-calle-venezuela-barcelona--30539357",
    "https://fincasolle.com/propiedad-alquiler/plazas-de-parking-en-alquiler-r-gosol-38-sarria-(barcelona)-30538339",
-   "https://fincasolle.com/propiedad-alquiler/piso-junto-plaza-alfonso-comin-7577796",
-   "https://fincasolle.com/propiedad-alquiler/piso--en-carrer-camp-10062271",
    "https://fincasolle.com/propiedad-alquiler/local-en-planta-baja-de-venta-o-alquiler-en-gracia-29877892",
    "https://fincasolle.com/propiedad-alquiler/despacho-en-finca-senorial-junto-a-via-augusta-5297693",
-   "https://fincasolle.com/propiedad-alquiler/oficina-en-pedralbes-en-situacion-inmejorable-25974839"
+   "https://fincasolle.com/propiedad-alquiler/oficina-en-pedralbes-en-situacion-inmejorable-25974839",
+   "https://fincasolle.com/propiedad-alquiler/piso-junto-plaza-alfonso-comin-7577796",
+   "https://fincasolle.com/propiedad-alquiler/piso--en-carrer-camp-10062271"
   ]
  },
  "368": {
@@ -2990,7 +2990,6 @@
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/96205/CAT/sants-alcolea.htm",
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/80430/CAT/eixample-esquerre-villarroel-local.htm",
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/102069/CAT/eixample-dret-diputacio-traspaso.htm",
-   "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/96362/CAT/eixample-esquerre-valencia-local.htm",
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/98768/CAT/eixample-dret-diputacio-despacho.htm",
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/92636/CAT/sants-galileu-despatx.htm",
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/1754/CAT/sants-burgos-64-parking.htm",
@@ -3003,6 +3002,7 @@
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/100788/CAT/horta-pedrell-parking.htm",
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/78402/CAT/eixample-esquerre-comte-borrell-parking.htm",
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/93020/CAT/sants-burgos-64-plaza-1.htm",
+   "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/96362/CAT/eixample-esquerre-valencia-local.htm",
    "https://finquesteixidor.com/ca/alquiler-pisos-barcelona.cfm/ID/49659/CAT/poble-sec-mata.htm"
   ]
  },
@@ -4494,6 +4494,7 @@
    "https://aproperties.es/sant-cugat-del-valles/leixample/piso-de-50-m2-con-aparcamiento-y-vistas-en-alquiler-en-l-eixample-sant-cugat-del-valles",
    "https://aproperties.es/barcelona/eixample-esquerra/piso-de-160-m2-con-vistas-en-alquiler-en-eixample-esquerra-barcelona",
    "https://aproperties.es/badalona/piso-de-90-m2-con-terraza-aparcamiento-piscina-y-sea-views-en-alquiler-en-badalona",
+   "https://aproperties.es/barcelona/eixample-dreta/ab2610008-piso-de-250-m2-con-vistas-en-alquiler-en-eixample-dreta-barcelona",
    "https://aproperties.es/barcelona/pedralbes/piso-de-94-m2-con-aparcamiento-en-alquiler-en-pedralbes-barcelona",
    "https://aproperties.es/barcelona/eixample-dreta/piso-de-221-m2-con-vistas-en-alquiler-en-eixample-dreta-barcelona",
    "https://aproperties.es/barcelona/eixample-dreta/ab2610001-piso-de-111-m2-en-alquiler-en-eixample-dreta-barcelona",
@@ -4506,7 +4507,6 @@
    "https://aproperties.es/barcelona/eixample-dreta/piso-de-207-m2-con-terraza-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
    "https://aproperties.es/barcelona/eixample-esquerra/piso-de-196-m2-con-terraza-y-vistas-en-alquiler-en-eixample-esquerra-barcelona",
    "https://aproperties.es/barcelona/sants/piso-de-71-m2-en-alquiler-en-sants-barcelona",
-   "https://aproperties.es/barcelona/eixample-dreta/ab2610008-piso-de-250-m2-con-vistas-en-alquiler-en-eixample-dreta-barcelona",
    "https://aproperties.es/barcelona/el-gotic/piso-de-60-m2-en-alquiler-en-el-gotic-barcelona",
    "https://aproperties.es/barcelona/les-tres-torres/piso-de-124-m2-con-terraza-aparcamiento-y-sea-views-en-alquiler-en-les-tres-torres-barcelona",
    "https://aproperties.es/barcelona/el-born/ab2606089-piso-de-300-m2-en-alquiler-en-el-born-barcelona",
