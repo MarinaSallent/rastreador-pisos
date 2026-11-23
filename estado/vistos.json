@@ -4473,7 +4473,6 @@
   "desde": 1795334389.2434797,
   "urls": [
    "https://aproperties.es/barcelona/eixample-esquerra/piso-de-36-m2-en-alquiler-en-eixample-esquerra-barcelona",
-   "https://aproperties.es/barcelona/sants/piso-de-71-m2-en-alquiler-en-sants-barcelona",
    "https://aproperties.es/badalona/piso-de-102-m2-con-terraza-aparcamiento-piscina-y-sea-views-en-alquiler-en-badalona",
    "https://aproperties.es/barcelona/sant-gervasi-la-bonanova/piso-de-153-m2-con-aparcamiento-en-alquiler-en-sant-gervasi-la-bonanova-barcelona",
    "https://aproperties.es/barcelona/el-poblenou/ab2611028-piso-de-65-m2-en-alquiler-en-el-poblenou-barcelona",
@@ -4499,6 +4498,7 @@
    "https://aproperties.es/barcelona/diagonal-mar/atico-de-200-m2-con-terraza-aparcamiento-piscina-y-sea-views-en-alquiler-en-diagonal-mar-barcelona",
    "https://aproperties.es/barcelona/eixample-dreta/piso-de-207-m2-con-terraza-y-vistas-en-alquiler-en-eixample-dreta-barcelona",
    "https://aproperties.es/barcelona/eixample-esquerra/piso-de-196-m2-con-terraza-y-vistas-en-alquiler-en-eixample-esquerra-barcelona",
+   "https://aproperties.es/barcelona/sants/piso-de-71-m2-en-alquiler-en-sants-barcelona",
    "https://aproperties.es/barcelona/eixample-dreta/ab2610008-piso-de-250-m2-con-vistas-en-alquiler-en-eixample-dreta-barcelona",
    "https://aproperties.es/barcelona/el-gotic/piso-de-60-m2-en-alquiler-en-el-gotic-barcelona",
    "https://aproperties.es/barcelona/les-tres-torres/piso-de-124-m2-con-terraza-aparcamiento-y-sea-views-en-alquiler-en-les-tres-torres-barcelona",
@@ -4927,7 +4927,9 @@
  },
  "7666": {
   "desde": 1795273908.798523,
+  "ultimo_nuevo": 1795438290.7837312,
   "urls": [
+   "https://fincasduenas.com/propiedad-alquiler/local-comercial-ideal-para-cualquier-negocio-30912809",
    "https://fincasduenas.com/propiedad-alquiler/piso-en-sarria-de-64m2-6108028",
    "https://fincasduenas.com/propiedad-alquiler/gran-local-comercial-diafano-y-luminoso-30782715",
    "https://fincasduenas.com/propiedad-alquiler/local-de-286m2-con-pequeno-patio-30135125",
@@ -5359,8 +5361,8 @@
    "https://iadespana.es/anuncios/pobladura-de-pelayo-garcia_24/alquiler",
    "https://iadespana.es/anuncios/santa-coloma-de-gramenet_08/alquiler",
    "https://iadespana.es/anuncios/cunit_43/alquiler",
-   "https://iadespana.es/anuncios/sitges_08/alquiler",
    "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
+   "https://iadespana.es/anuncios/sitges_08/alquiler",
    "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
    "https://iadespana.es/anuncios/orihuela_03/alquiler",
    "https://iadespana.es/anuncios/san-andres-del-rabanedo_24/alquiler",
