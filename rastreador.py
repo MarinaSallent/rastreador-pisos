@@ -41,6 +41,7 @@ TELEGRAM = ESTADO / "telegram.json"
 A_CONTACTAR = ESTADO / "a_contactar.json"
 FALLOS = ESTADO / "fallos.json"
 AVISADOS = ESTADO / "avisados.json"          # anuncios ya enviados a Telegram (para no repetirlos)
+PROBLEMAS = ESTADO / "webs_con_problemas.json"  # webs que fallan, para el resumen diario
 NOCTURNOS = ESTADO / "avisos_nocturnos.json"  # pisos encontrados de noche, se envían a primera hora
 BARRIDO = ESTADO / "ultimo_barrido.json"     # resultado del último barrido completo, para afinar criterios
 CALLES = ESTADO / "calles_bcn.json"          # calles de Barcelona → barrio (datos abiertos del Ayuntamiento)
@@ -963,6 +964,7 @@ def ciclo(cfg: dict, barrido: bool = False, reenviar: bool = False) -> int:
     detalle_barrido: list[dict] = []
     agencias = cargar_agencias()
     vistos, fallos = cargar_json(VISTOS, {}), cargar_json(FALLOS, {})
+    problemas = cargar_json(PROBLEMAS, {})
     a_contactar = cargar_json(A_CONTACTAR, {})
     dias = cfg["rastreo"].get("dias_sin_novedades", 180)
     ahora = time.time()
@@ -987,6 +989,10 @@ def ciclo(cfg: dict, barrido: bool = False, reenviar: bool = False) -> int:
             esperan = {ag["id"] for ag in nuevas[tope:]}
             print(f"{len(esperan)} agencias nuevas esperan a la siguiente pasada")
             activas = [ag for ag in activas if ag["id"] not in esperan]
+    if not barrido:  # webs que fallan seguido: se prueban 1 de cada 6 pasadas (de día, ~cada 30 min) para no insistir
+        import random
+        tope_fallos = cfg["rastreo"].get("avisar_tras_fallos", 6)
+        activas = [ag for ag in activas if fallos.get(ag["id"], 0) < tope_fallos or random.random() < 1 / 6]
     if len(activas) != len(agencias):
         guardar_json(A_CONTACTAR, a_contactar)
     agencias = activas
@@ -1006,11 +1012,13 @@ def ciclo(cfg: dict, barrido: bool = False, reenviar: bool = False) -> int:
                 n = fallos.get(ag["id"], 0) + 1
                 fallos[ag["id"]] = n
                 print(f"✗ {ag['nombre']}: {error} (fallo {n})")
-                if n == cfg["rastreo"].get("avisar_tras_fallos", 6):
-                    enviar_telegram(f"⚠️ La web de <b>{html.escape(ag['nombre'])}</b> falla desde hace "
-                                    f"{n} revisiones: {html.escape(error)}\nRevisa la URL en la hoja.")
+                if n >= cfg["rastreo"].get("avisar_tras_fallos", 6):  # va al resumen diario de las 18:30
+                    problemas.setdefault(ag["id"], {"nombre": ag["nombre"], "url": ag["urls"][0],
+                                                    "desde": datetime.now(_zona(cfg)).strftime("%d/%m %H:%M")})
+                    problemas[ag["id"]].update(error=error[:160], fallos=n)
                 continue
             fallos.pop(ag["id"], None)
+            problemas.pop(ag["id"], None)  # vuelve a funcionar
             if not urls:
                 print(f"? {ag['nombre']}: no se detecta ningún anuncio; prueba --probar o modo js")
             nueva = ag["id"] not in vistos
@@ -1041,6 +1049,7 @@ def ciclo(cfg: dict, barrido: bool = False, reenviar: bool = False) -> int:
             print(f"✓ {ag['nombre']}: {len(urls)} anuncios, {len(avisos)} avisos")
     guardar_json(VISTOS, vistos)
     guardar_json(FALLOS, fallos)
+    guardar_json(PROBLEMAS, problemas)
     guardar_json(AVISADOS, avisados)
     guardar_tg(tg_estado)
     print(f"Avisos enviados: {total}")
@@ -1134,6 +1143,40 @@ def segundos_hasta_apertura(cfg: dict) -> float:
     return (apertura - ahora).total_seconds()
 
 
+def _zona(cfg: dict):
+    from zoneinfo import ZoneInfo
+    return ZoneInfo((cfg.get("horario") or {}).get("zona", "Europe/Madrid"))
+
+
+def enviar_resumen_problemas(cfg: dict) -> None:
+    """Una vez al día (18:30 por defecto) manda la lista de webs que fallan, en vez de un aviso por cada una."""
+    h = cfg.get("horario") or {}
+    from zoneinfo import ZoneInfo
+    ahora = datetime.now(ZoneInfo(h.get("zona", "Europe/Madrid")))
+    hh, mm = (int(x) for x in str(h.get("resumen_problemas", "18:30")).split(":"))
+    tg = cargar_tg()
+    hoy = ahora.strftime("%Y-%m-%d")
+    if (ahora.hour, ahora.minute) < (hh, mm) or tg.get("resumen_problemas") == hoy:
+        return
+    problemas = cargar_json(PROBLEMAS, {})
+    if problemas:
+        lineas = [f"🛠 <b>Webs con problemas hoy ({len(problemas)})</b>"]
+        for p in sorted(problemas.values(), key=lambda x: x["nombre"]):
+            lineas.append(f"• <b>{html.escape(p['nombre'])}</b> (falla desde el {p['desde']})\n"
+                          f"  {html.escape(p['url'])}\n  <i>{html.escape(p['error'][:90])}</i>")
+        lineas.append("Comprueba si las URL abren en el navegador; si alguna ha cambiado, corrígela en mis_agencias.csv.")
+        texto = ""
+        for linea in lineas:  # Telegram corta los mensajes de más de 4096 caracteres
+            if len(texto) + len(linea) > 3800:
+                enviar_telegram(texto)
+                texto = ""
+            texto += linea + "\n"
+        enviar_telegram(texto)
+    tg = cargar_tg()
+    tg["resumen_problemas"] = hoy
+    guardar_tg(tg)
+
+
 def enviar_nocturnos() -> None:
     """Envía a primera hora los pisos que aparecieron durante la noche."""
     nocturnos = cargar_json(NOCTURNOS, [])
@@ -1170,6 +1213,7 @@ def bucle(cfg: dict, minutos: int) -> int:
             MODO_NOCHE = not es_horario_comercial(cfg)
             if not MODO_NOCHE:
                 enviar_nocturnos()
+            enviar_resumen_problemas(cfg)
             ciclo(cfg)
         except Exception as e:  # una pasada fallida no debe parar el bucle
             print(f"Error en la pasada {vueltas}: {e!r}")

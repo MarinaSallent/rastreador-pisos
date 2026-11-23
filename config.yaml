@@ -284,7 +284,8 @@ rastreo:
   max_paginas_barrido: 10
   max_fichas_barrido: 150
   timeout_segundos: 20
-  # Avisar por Telegram si la web de una agencia falla N veces seguidas (para que revises la URL).
+  # Si la web de una agencia falla N veces seguidas, entra en el resumen diario de las 18:30 (sección horario).
+  # A partir de ahí esa web se prueba solo 1 de cada 6 pasadas, para no insistir sobre una web caída o que nos bloquea.
   avisar_tras_fallos: 6
   # Tras cada revisión, el bot se queda atento a los botones «Enviar mis datos» hasta la siguiente.
   escuchar_botones_segundos: 240
@@ -300,3 +301,5 @@ horario:
   fin: 20
   intervalo_minutos: 5
   intervalo_noche_minutos: 30
+  # Hora del resumen diario de webs que fallan (en vez de un aviso suelto por cada una).
+  resumen_problemas: "18:30"
