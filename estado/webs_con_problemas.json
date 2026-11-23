@@ -1,9 +1,1 @@
-{
- "1112": {
-  "desde": "23/11 16:14",
-  "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.cleries.com/ca/Llogar-Pis/Barcelona/listainmuebles\", waiting until \"",
-  "fallos": 6,
-  "nombre": "Cleries Administració Finques",
-  "url": "https://www.cleries.com/ca/Llogar-Pis/Barcelona/listainmuebles"
- }
-}
+{}
