@@ -291,6 +291,8 @@
  "1060": {
   "desde": 1795294600.0463243,
   "urls": [
+   "https://capolra.com/es/alquiler/ref-8430",
+   "https://capolra.com/es/alquiler/ref-8197",
    "https://capolra.com/es/alquiler/ref-6152",
    "https://capolra.com/es/alquiler/ref-8431",
    "https://capolra.com/es/alquiler/ref-8428",
@@ -310,7 +312,6 @@
    "https://capolra.com/es/alquiler/ref-1103",
    "https://capolra.com/es/alquiler/ref-3716",
    "https://capolra.com/es/alquiler/ref-1069",
-   "https://capolra.com/es/alquiler/ref-8430",
    "https://capolra.com/es/alquiler/ref-1025",
    "https://capolra.com/es/alquiler/ref-5048",
    "https://capolra.com/es/alquiler/ref-8429",
@@ -387,7 +388,6 @@
    "https://capolra.com/es/alquiler/ref-8193",
    "https://capolra.com/es/alquiler/ref-8195",
    "https://capolra.com/es/alquiler/ref-8196",
-   "https://capolra.com/es/alquiler/ref-8197",
    "https://capolra.com/es/alquiler/ref-8335",
    "https://capolra.com/es/alquiler/ref-8336",
    "https://capolra.com/es/alquiler/ref-8420",
@@ -3646,7 +3646,9 @@
  },
  "4932": {
   "desde": 1795282325.733667,
+  "ultimo_nuevo": 1795433773.8161483,
   "urls": [
+   "https://guinotprunera.com/es/alquiler/ref-31694",
    "https://guinotprunera.com/es/alquiler/ref-33810",
    "https://guinotprunera.com/es/alquiler/ref-33805",
    "https://guinotprunera.com/es/alquiler/ref-33797",
