@@ -92,8 +92,17 @@
   "web": "https://actiuimmobiliaria.com/"
  },
  "activa": {
+  "candidatas": [
+   "https://en.m.wikipedia.org/wiki/21_(Adele_album)",
+   "https://www.youtube.com/playlist?list=PLqC0BHAcW3Wev1d0r4d_c4mT3kEeL8xb-",
+   "https://genius.com/albums/Adele/21",
+   "https://www.discogs.com/master/303567-Adele-21",
+   "https://m.letras.com/adele/discografia/21-2011/"
+  ],
+  "consulta": "\"Activa Properties\" inmobiliaria Barcelona",
   "estado": "web_ok",
   "marca": "Activa Properties",
+  "puntos": 0.0,
   "web": "https://www.activaimmobiliaria.es",
   "web_dada": "https://www.activaimmobiliaria.es"
  },
