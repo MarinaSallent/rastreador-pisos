@@ -291,6 +291,7 @@
  "1060": {
   "desde": 1795294600.0463243,
   "urls": [
+   "https://capolra.com/es/alquiler/ref-8428",
    "https://capolra.com/es/alquiler/ref-6648",
    "https://capolra.com/es/alquiler/ref-7993",
    "https://capolra.com/es/alquiler/ref-8432",
@@ -310,7 +311,6 @@
    "https://capolra.com/es/alquiler/ref-8431",
    "https://capolra.com/es/alquiler/ref-8430",
    "https://capolra.com/es/alquiler/ref-1025",
-   "https://capolra.com/es/alquiler/ref-8428",
    "https://capolra.com/es/alquiler/ref-5048",
    "https://capolra.com/es/alquiler/ref-8429",
    "https://capolra.com/es/alquiler/ref-5376",
@@ -2890,10 +2890,13 @@
  },
  "368": {
   "desde": 1795273889.0414598,
-  "ultimo_nuevo": 1795432550.6622705,
+  "ultimo_nuevo": 1795432851.2049413,
   "urls": [
    "https://atico.es/property/atico-en-venta-en-ciutat-vella-francesc-cambo",
    "https://atico.es/property/atico-en-venta-en-el-parc-i-la-llacuna-del-poblenou",
+   "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-rambla-catalunya",
+   "https://atico.es/property/atico-en-venta-en-sarria-sant-gervasi-homero",
+   "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-7",
    "https://atico.es/property/atico-en-venta-en-el-guinardo",
    "https://atico.es/property/atico-en-venta-en-ciutat-vella",
    "https://atico.es/property/atico-en-venta-en-sagrada-familia",
@@ -2923,7 +2926,6 @@
    "https://atico.es/property/atico-en-venta-en-les-corts-2",
    "https://atico.es/property/atico-en-venta-en-la-nova-esquerra-de-leixample",
    "https://atico.es/property/atico-en-venta-en-el-guinardo-seglexx",
-   "https://atico.es/property/atico-en-venta-en-sarria-sant-gervasi-homero",
    "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-5",
    "https://atico.es/property/atico-en-venta-en-sarria-sant-gervas",
    "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-6",
