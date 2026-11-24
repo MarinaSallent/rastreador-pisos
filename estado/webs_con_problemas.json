@@ -1,9 +1,1 @@
-{
- "1433": {
-  "desde": "24/11 18:12",
-  "error": "ReadTimeout: HTTPSConnectionPool(host='www.monikarusch.com', port=443): Read timed out. (read timeout=20)",
-  "fallos": 9,
-  "nombre": "Monika Rüsch",
-  "url": "https://www.monikarusch.com/results/?id_tipo_operacion=2&type=24&dt=15%40%7C%40%40%7C%40"
- }
-}
+{}
