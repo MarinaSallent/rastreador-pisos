@@ -1,1 +1,9 @@
-{}
+{
+ "233": {
+  "desde": "24/11 22:46",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='inmobiliariaenbarcelona.finquesbou.es', port=443): Max retries exceeded with url: /propiedades/alquiler/defecto (Cause",
+  "fallos": 6,
+  "nombre": "Finques Bou",
+  "url": "https://inmobiliariaenbarcelona.finquesbou.es/propiedades/alquiler/defecto"
+ }
+}
