@@ -1,9 +1,1 @@
-{
- "11525": {
-  "desde": "24/11 15:42",
-  "error": "ReadTimeout: HTTPSConnectionPool(host='www.locabarcelona.com', port=443): Read timed out. (read timeout=20)",
-  "fallos": 7,
-  "nombre": "Locabarcelona",
-  "url": "https://www.locabarcelona.com/en/property-for-rent/"
- }
-}
+{}
