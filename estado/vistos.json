@@ -3212,6 +3212,7 @@
  },
  "4041": {
   "desde": 1795273896.0997703,
+  "ultimo_nuevo": 1795536116.2660909,
   "urls": [
    "https://finquespalau.com/piso-en-sant-just-desvern-mas-llui-con-piscina-es467621.html",
    "https://finquespalau.com/piso-en-esplugues-de-llobregat-montesa-con-ascensor-es1239054.html",
@@ -3223,8 +3224,9 @@
    "https://finquespalau.com/piso-en-sant-just-desvern-centre-con-ascensor-es1775208.html",
    "https://finquespalau.com/piso-en-barcelona-sarria--sant-gervasi-con-ascensor-es1771818.html",
    "https://finquespalau.com/piso-en-sant-feliu-de-llobregat-la-salut-con-ascensor-es568743.html",
-   "https://finquespalau.com/piso-en-sant-just-desvern-illa-walden-con-ascensor-es765351.html",
    "https://finquespalau.com/piso-en-sant-just-desvern-avd-industria-con-vistas-es1759547.html",
+   "https://finquespalau.com/piso-en-barcelona-les-corts-con-ascensor-es660650.html",
+   "https://finquespalau.com/piso-en-sant-just-desvern-illa-walden-con-ascensor-es765351.html",
    "https://finquespalau.com/pisos-en-alquiler-24-2.html?i=12&c=12",
    "https://finquespalau.com/pisos-en-alquiler-24-2.html?i=24&c=12",
    "https://finquespalau.com/pisos-en-alquiler-24-2.html?i=36&c=12",
@@ -4691,11 +4693,9 @@
    "https://espaibcnflats.net/inmuebles/lhospitalet-de-llobregat",
    "https://espaibcnflats.net/inmuebles/sant-quirze-del-valles",
    "https://espaibcnflats.net/inmuebles/creu-alta-puiggener",
-   "https://espaibcnflats.net/inmuebles/la-nova-esquerra-de-leixample",
    "https://espaibcnflats.net/inmuebles/sant-pere-nord",
    "https://espaibcnflats.net/inmuebles/en-buen-estado",
    "https://espaibcnflats.net/inmueble/planta-baja-en-la-barceloneta-alquiler-temporal/26971077",
-   "https://espaibcnflats.net/inmueble/exclusiva-propiedad-en-alquiler-totalmente-reformada-a-estrenar-/26821276",
    "https://espaibcnflats.net/inmueble/edificio-industrial-singular-917-m-con-montacargas-para-coches/25853292",
    "https://espaibcnflats.net/inmueble/piso-luminoso-con-2-habitaciones-dobles-junto-al-htauli/25950399",
    "https://espaibcnflats.net/inmueble/espectacular-atico-con-doble-orientacion-y-dos-terrazas/25950251",
@@ -4734,7 +4734,9 @@
    "https://espaibcnflats.net/inmuebles/tienda-de-regalos",
    "https://espaibcnflats.net/inmuebles/tienda-de-suministros-de-jardineriapiscina",
    "https://espaibcnflats.net/inmuebles/isla-de-formentera",
-   "https://espaibcnflats.net/inmuebles/cesion-de-cuotas"
+   "https://espaibcnflats.net/inmuebles/cesion-de-cuotas",
+   "https://espaibcnflats.net/inmuebles/la-nova-esquerra-de-leixample",
+   "https://espaibcnflats.net/inmueble/exclusiva-propiedad-en-alquiler-totalmente-reformada-a-estrenar-/26821276"
   ]
  },
  "6716": {
@@ -5422,8 +5424,8 @@
    "https://iadespana.es/anuncios/pobladura-de-pelayo-garcia_24/alquiler",
    "https://iadespana.es/anuncios/santa-coloma-de-gramenet_08/alquiler",
    "https://iadespana.es/anuncios/cunit_43/alquiler",
-   "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/sitges_08/alquiler",
+   "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/san-andres-del-rabanedo_24/alquiler",
    "https://iadespana.es/anuncios/vilanova-i-la-geltru_08/alquiler",
    "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
