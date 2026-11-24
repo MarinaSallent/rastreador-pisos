@@ -2660,11 +2660,11 @@
    "https://bcn-advisors.com/propiedades/marvilloso-loft-de-diseno-en-alquiler-entre-eixample-y-el-born",
    "https://bcn-advisors.com/propiedades/casa-con-encanto-historico-y-gran-terraza-junto-a-la-sagrada-familia",
    "https://bcn-advisors.com/propiedades/esplendido-atico-duplex-con-grandes-terrazas-y-vistas-panoramicas-en-les-corts",
-   "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia",
    "https://bcn-advisors.com/propiedades/impresionante-casa-de-obra-nueva-con-jardin-y-piscina",
-   "https://bcn-advisors.com/propiedades/increible-piso-modernista-reformado-a-estrenar-en-finca-esquinera-del-eixample",
+   "https://bcn-advisors.com/propiedades/fantastico-piso-reformado-a-estrenar-en-finca-regia-entre-eixample-y-el-born",
    "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample",
-   "https://bcn-advisors.com/propiedades/fantastico-piso-reformado-a-estrenar-en-finca-regia-entre-eixample-y-el-born"
+   "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia",
+   "https://bcn-advisors.com/propiedades/increible-piso-modernista-reformado-a-estrenar-en-finca-esquinera-del-eixample"
   ]
  },
  "2763": {
@@ -3399,7 +3399,7 @@
  },
  "4681": {
   "desde": 1795273903.15812,
-  "ultimo_nuevo": 1795468539.8506286,
+  "ultimo_nuevo": 1795529771.8717582,
   "urls": [
    "https://nolkersconsulting.com/inmuebles/tipo-de-inmueble",
    "https://nolkersconsulting.com/inmuebles/arenys-de-mar",
@@ -3472,12 +3472,12 @@
    "https://nolkersconsulting.com/inmuebles/sant-pere-sta-caterina-i-la-ribera",
    "https://nolkersconsulting.com/inmuebles/zona-franca-port",
    "https://nolkersconsulting.com/inmuebles/en-buen-estado",
+   "https://nolkersconsulting.com/inmueble/nave-en-alquiler-con-4-muelles-de-carga-y-descarga/26625147",
    "https://nolkersconsulting.com/inmueble/nave-con-instalaciones-completas/19701124",
    "https://nolkersconsulting.com/inmueble/nave-en-alquiler-en-sabadell/27034993",
    "https://nolkersconsulting.com/inmueble/nave-tipo-c-en-alquiler-en-lh/20875799",
    "https://nolkersconsulting.com/inmueble/nave-en-alquiler-en-l-hospitalet-de-llobregat/21537073",
    "https://nolkersconsulting.com/inmueble/oficina-en-alquiler-en-cornella/19604493",
-   "https://nolkersconsulting.com/inmueble/oficina-en-aquiler-en-cornella/19604413",
    "https://nolkersconsulting.com/inmuebles/agencia-de-viajes",
    "https://nolkersconsulting.com/inmuebles/bar-de-copas",
    "https://nolkersconsulting.com/inmuebles/bloque-de-apartamentos",
@@ -3513,6 +3513,7 @@
    "https://nolkersconsulting.com/inmuebles/tienda-de-suministros-de-jardineriapiscina",
    "https://nolkersconsulting.com/inmuebles/isla-de-formentera",
    "https://nolkersconsulting.com/inmuebles/cesion-de-cuotas",
+   "https://nolkersconsulting.com/inmueble/oficina-en-aquiler-en-cornella/19604413",
    "https://nolkersconsulting.com/inmueble/oficina-en-alquiler-cornella/19604282",
    "https://nolkersconsulting.com/inmueble/oficina-atico-en-eixample/19568869",
    "https://nolkersconsulting.com/inmueble/local-en-alquiler-en-barcelona/27015466",
