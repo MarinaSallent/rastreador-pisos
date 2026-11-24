@@ -16,7 +16,7 @@
  "7896": {
   "desde": "24/11 18:12",
   "error": "ReadTimeout: HTTPSConnectionPool(host='www.bcnhome.net', port=443): Read timed out. (read timeout=20)",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Bcn Home",
   "url": "https://www.bcnhome.net/apartamentos-en-alquiler-1-2.html"
  }
