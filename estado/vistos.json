@@ -295,6 +295,7 @@
  "1060": {
   "desde": 1795294600.0463243,
   "urls": [
+   "https://capolra.com/es/alquiler/ref-1327",
    "https://capolra.com/es/alquiler/ref-1085",
    "https://capolra.com/es/alquiler/ref-5434",
    "https://capolra.com/es/alquiler/ref-5432",
@@ -442,7 +443,6 @@
    "https://capolra.com/es/alquiler/ref-1320",
    "https://capolra.com/es/alquiler/ref-3222",
    "https://capolra.com/es/alquiler/ref-2256",
-   "https://capolra.com/es/alquiler/ref-1327",
    "https://capolra.com/es/alquiler/ref-1490",
    "https://capolra.com/es/alquiler/ref-2136"
   ]
@@ -2918,13 +2918,14 @@
  },
  "368": {
   "desde": 1795273889.0414598,
-  "ultimo_nuevo": 1795432851.2049413,
+  "ultimo_nuevo": 1795510840.5496087,
   "urls": [
    "https://atico.es/property/atico-en-venta-en-sarria-sant-gervas",
    "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-rambla-catalunya",
    "https://atico.es/property/atico-en-venta-en-sarria-sant-gevasi-johan-sebastian-bach",
-   "https://atico.es/property/atico-en-venta-en-les-corts-2",
    "https://atico.es/property/atico-en-venta-en-la-dreta-de-leixample-2",
+   "https://atico.es/property/atico-en-venta-en-la-dreta-de-leixample-3",
+   "https://atico.es/property/atico-en-venta-en-les-corts-2",
    "https://atico.es/property/atico-en-venta-en-ciutat-vella-francesc-cambo",
    "https://atico.es/property/atico-en-venta-en-sarria-sant-gervasi-homero",
    "https://atico.es/property/atico-en-venta-en-el-parc-i-la-llacuna-del-poblenou",
@@ -5298,8 +5299,8 @@
    "https://solvia.es/es/propiedades/alquilar/locales-alcala-de-xivert-17880-20412",
    "https://solvia.es/es/propiedades/alquilar/locales-xeraco-201199-245942",
    "https://solvia.es/es/propiedades/alquilar/locales-tarragona-158881-196383",
-   "https://solvia.es/es/propiedades/alquilar/locales-castellon-de-la-plana-castello-de-la-plana-70980-90499",
    "https://solvia.es/es/propiedades/alquilar/edificio-almaden-30-dormitorios-207005-252106",
+   "https://solvia.es/es/propiedades/alquilar/locales-castellon-de-la-plana-castello-de-la-plana-70980-90499",
    "https://solvia.es/es/propiedades/alquilar/locales-fuenlabrada-217327-263509",
    "https://solvia.es/es/propiedades/alquilar/locales-almazora-almassora-201689-246550",
    "https://solvia.es/es/propiedades/alquilar/nave-industrial-calig-216053-262011",
@@ -5400,8 +5401,8 @@
    "https://iadespana.es/anuncios/pobladura-de-pelayo-garcia_24/alquiler",
    "https://iadespana.es/anuncios/santa-coloma-de-gramenet_08/alquiler",
    "https://iadespana.es/anuncios/cunit_43/alquiler",
-   "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/sitges_08/alquiler",
+   "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/san-andres-del-rabanedo_24/alquiler",
    "https://iadespana.es/anuncios/vilanova-i-la-geltru_08/alquiler",
    "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
