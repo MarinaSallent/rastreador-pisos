@@ -2,7 +2,7 @@
  "1111": {
   "desde": "24/11 18:12",
   "error": "ReadTimeout: HTTPSConnectionPool(host='www.finquesagusti.com', port=443): Read timed out. (read timeout=20)",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Agustí Finques",
   "url": "https://www.finquesagusti.com/estudios-en-alquiler-4-2.html"
  },
