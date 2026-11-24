@@ -5,12 +5,5 @@
   "fallos": 6,
   "nombre": "DP Real Estate",
   "url": "https://dprealestate.es/en/rent-en/"
- },
- "233": {
-  "desde": "23/11 17:06",
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='inmobiliariaenbarcelona.finquesbou.es', port=443): Max retries exceeded with url: /propiedades/alquiler/defecto (Cause",
-  "fallos": 6,
-  "nombre": "Finques Bou",
-  "url": "https://inmobiliariaenbarcelona.finquesbou.es/propiedades/alquiler/defecto"
  }
 }
