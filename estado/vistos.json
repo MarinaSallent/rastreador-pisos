@@ -19,13 +19,13 @@
   "desde": 1795362707.5219314,
   "urls": [
    "https://parellada.cat/ca/llogar-propietat/30808844",
-   "https://parellada.cat/ca/llogar-propietat/30720637",
    "https://parellada.cat/ca/llogar-propietat/30660424",
    "https://parellada.cat/ca/llogar-propietat/30503075",
    "https://parellada.cat/ca/llogar-propietat/30279251",
    "https://parellada.cat/ca/llogar-propietat/29715986",
    "https://parellada.cat/ca/llogar-propietat/29622521",
-   "https://parellada.cat/ca/llogar-propietat/27591175"
+   "https://parellada.cat/ca/llogar-propietat/27591175",
+   "https://parellada.cat/ca/llogar-propietat/30720637"
   ]
  },
  "10036": {
@@ -294,7 +294,9 @@
  },
  "1060": {
   "desde": 1795294600.0463243,
+  "ultimo_nuevo": 1795535835.4369967,
   "urls": [
+   "https://capolra.com/es/alquiler/ref-8433",
    "https://capolra.com/es/alquiler/ref-1107",
    "https://capolra.com/es/alquiler/ref-7997",
    "https://capolra.com/es/alquiler/ref-1327",
@@ -5420,8 +5422,8 @@
    "https://iadespana.es/anuncios/pobladura-de-pelayo-garcia_24/alquiler",
    "https://iadespana.es/anuncios/santa-coloma-de-gramenet_08/alquiler",
    "https://iadespana.es/anuncios/cunit_43/alquiler",
-   "https://iadespana.es/anuncios/sitges_08/alquiler",
    "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
+   "https://iadespana.es/anuncios/sitges_08/alquiler",
    "https://iadespana.es/anuncios/san-andres-del-rabanedo_24/alquiler",
    "https://iadespana.es/anuncios/vilanova-i-la-geltru_08/alquiler",
    "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
