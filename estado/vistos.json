@@ -36,8 +36,8 @@
    "https://fincassole.com/property/local-comercial-en-plaza-de-sagarra-cerca-rambla",
    "https://fincassole.com/property/piso-en-08020",
    "https://fincassole.com/property/piso-en-oportunidad-en-santa-coloma",
-   "https://fincassole.com/property/local-comercial-en-calle-doctor-torras-i-bages-08922",
    "https://fincassole.com/property/piso-en-piso-de-4-habitaciones-08922",
+   "https://fincassole.com/property/local-comercial-en-calle-doctor-torras-i-bages-08922",
    "https://fincassole.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffincassole.com%2Falquiler%2F",
    "https://fincassole.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffincassole.com%2Falquiler%2F&format=xml"
   ]
@@ -5339,8 +5339,9 @@
  },
  "8564": {
   "desde": 1795273910.0491633,
-  "ultimo_nuevo": 1795512074.3506954,
+  "ultimo_nuevo": 1795518386.5130794,
   "urls": [
+   "https://iadespana.es/anuncio/piso-alquiler-4-habitaciones-madrid-287m2/r175463",
    "https://iadespana.es/anuncio/piso-alquiler-2-habitaciones-madrid-75m2/r175455",
    "https://iadespana.es/anuncio/piso-alquiler-3-habitaciones-madrid-120m2/r175407",
    "https://iadespana.es/anuncio/inmueble-comercial-alquiler-leon-450m2/r173663",
@@ -5370,7 +5371,6 @@
    "https://iadespana.es/anuncio/parking-alquiler-l-hospitalet-de-llobregat-10m2/r174237",
    "https://iadespana.es/anuncio/piso-alquiler-2-habitaciones-benicasim-66m2/r171931",
    "https://iadespana.es/anuncio/piso-alquiler-3-habitaciones-leon-130m2/r173971",
-   "https://iadespana.es/anuncio/piso-alquiler-3-habitaciones-barcelona-156m2/r173231",
    "https://iadespana.es/anuncios/barcelona-08/alquiler",
    "https://iadespana.es/anuncios/madrid-28/alquiler",
    "https://iadespana.es/anuncios/leon-24/alquiler",
@@ -5405,12 +5405,13 @@
    "https://iadespana.es/anuncios/pobladura-de-pelayo-garcia_24/alquiler",
    "https://iadespana.es/anuncios/santa-coloma-de-gramenet_08/alquiler",
    "https://iadespana.es/anuncios/cunit_43/alquiler",
-   "https://iadespana.es/anuncios/sitges_08/alquiler",
    "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
+   "https://iadespana.es/anuncios/sitges_08/alquiler",
    "https://iadespana.es/anuncios/san-andres-del-rabanedo_24/alquiler",
    "https://iadespana.es/anuncios/vilanova-i-la-geltru_08/alquiler",
    "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
    "https://iadespana.es/anuncios/denia_03/alquiler",
+   "https://iadespana.es/anuncio/piso-alquiler-3-habitaciones-barcelona-156m2/r173231",
    "https://iadespana.es/anuncio/piso-alquiler-1-habitacion-barcelona-43m2/r171245",
    "https://iadespana.es/anuncio/piso-alquiler-2-habitaciones-leon-70m2/r173849",
    "https://iadespana.es/anuncios/orihuela_03/alquiler",
