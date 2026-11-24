@@ -1,1 +1,23 @@
-{}
+{
+ "1111": {
+  "desde": "24/11 18:12",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='www.finquesagusti.com', port=443): Read timed out. (read timeout=20)",
+  "fallos": 6,
+  "nombre": "Agustí Finques",
+  "url": "https://www.finquesagusti.com/estudios-en-alquiler-4-2.html"
+ },
+ "1433": {
+  "desde": "24/11 18:12",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='www.monikarusch.com', port=443): Read timed out. (read timeout=20)",
+  "fallos": 6,
+  "nombre": "Monika Rüsch",
+  "url": "https://www.monikarusch.com/results/?id_tipo_operacion=2&type=24&dt=15%40%7C%40%40%7C%40"
+ },
+ "7896": {
+  "desde": "24/11 18:12",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='www.bcnhome.net', port=443): Read timed out. (read timeout=20)",
+  "fallos": 6,
+  "nombre": "Bcn Home",
+  "url": "https://www.bcnhome.net/apartamentos-en-alquiler-1-2.html"
+ }
+}
