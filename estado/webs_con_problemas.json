@@ -12,12 +12,5 @@
   "fallos": 9,
   "nombre": "Inmuebles & Interiorismo",
   "url": "https://www.inmo.es/alquiler/es/"
- },
- "3367": {
-  "desde": "25/11 11:09",
-  "error": "ReadTimeout: HTTPSConnectionPool(host='www.tecnocasa.es', port=443): Read timed out. (read timeout=20)",
-  "fallos": 7,
-  "nombre": "Tecnocasa (166 oficinas)",
-  "url": "https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona/barcelona.html"
  }
 }
