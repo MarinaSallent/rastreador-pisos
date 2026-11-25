@@ -2,14 +2,14 @@
  "10412": {
   "desde": "25/11 08:55",
   "error": "ConnectTimeout: HTTPSConnectionPool(host='finquestebe.com', port=443): Max retries exceeded with url: /alquiler/ (Caused by ConnectTimeoutError(<HTTPSConnection",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Finques Tebé SL",
   "url": "https://finquestebe.com/alquiler/"
  },
  "11445": {
   "desde": "25/11 08:55",
   "error": "ConnectTimeout: HTTPSConnectionPool(host='nitia.es', port=443): Max retries exceeded with url: /alquiler/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='",
-  "fallos": 7,
+  "fallos": 8,
   "nombre": "NITIA",
   "url": "https://nitia.es/alquiler/"
  },
