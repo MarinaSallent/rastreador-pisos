@@ -27,13 +27,6 @@
   "nombre": "Inmuebles & Interiorismo",
   "url": "https://www.inmo.es/alquiler/es/"
  },
- "13305": {
-  "desde": "25/11 10:10",
-  "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.finquescampanya.com/immobles\", waiting until \"networkidle\"\n",
-  "fallos": 6,
-  "nombre": "Finques Campanya SL",
-  "url": "https://www.finquescampanya.com/immobles"
- },
  "3367": {
   "desde": "25/11 11:09",
   "error": "ReadTimeout: HTTPSConnectionPool(host='www.tecnocasa.es', port=443): Read timed out. (read timeout=20)",
