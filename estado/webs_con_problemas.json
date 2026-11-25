@@ -20,13 +20,6 @@
   "nombre": "Carolina Martí Algara",
   "url": "https://www.carolinamarti.es/search/?o=rental&z=&a=1&l=1"
  },
- "11304": {
-  "desde": "25/11 10:20",
-  "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.gesercat.net/inmuebles/alquiler\", waiting until \"networkidle\"\n",
-  "fallos": 7,
-  "nombre": "Gesercat Assessors",
-  "url": "https://www.gesercat.net/inmuebles/alquiler"
- },
  "11445": {
   "desde": "25/11 10:30",
   "error": "ConnectionError: HTTPSConnectionPool(host='nitia.es', port=443): Max retries exceeded with url: /alquiler/ (Caused by NameResolutionError(\"HTTPSConnection(host=",
