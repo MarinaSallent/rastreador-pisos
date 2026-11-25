@@ -6,13 +6,6 @@
   "nombre": "Almendros Gestió D'immobles",
   "url": "https://www.fincasalmendros.com/alquiler-inmuebles-barcelona/"
  },
- "10412": {
-  "desde": "25/11 10:10",
-  "error": "ConnectionError: HTTPSConnectionPool(host='finquestebe.com', port=443): Max retries exceeded with url: /alquiler/ (Caused by NameResolutionError(\"HTTPSConnectio",
-  "fallos": 6,
-  "nombre": "Finques Tebé SL",
-  "url": "https://finquestebe.com/alquiler/"
- },
  "1063": {
   "desde": "25/11 10:09",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.carolinamarti.es', port=443): Max retries exceeded with url: /search/?o=rental&z=&a=1&l=1 (Caused by NameResoluti",
@@ -68,13 +61,6 @@
   "fallos": 7,
   "nombre": "Finques Part Alta",
   "url": "https://partealta.es/productos/C/disponibles-690c8b3338aef/"
- },
- "7104": {
-  "desde": "25/11 10:14",
-  "error": "ConnectionError: HTTPSConnectionPool(host='serviguest.com', port=443): Max retries exceeded with url: /alquiler-temporal-barcelona-2/ (Caused by NameResolutionE",
-  "fallos": 6,
-  "nombre": "Serviguest",
-  "url": "https://serviguest.com/alquiler-temporal-barcelona-2/"
  },
  "9475": {
   "desde": "25/11 10:30",
