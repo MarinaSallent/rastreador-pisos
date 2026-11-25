@@ -23,9 +23,23 @@
  "11304": {
   "desde": "25/11 10:20",
   "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.gesercat.net/inmuebles/alquiler\", waiting until \"networkidle\"\n",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Gesercat Assessors",
   "url": "https://www.gesercat.net/inmuebles/alquiler"
+ },
+ "11445": {
+  "desde": "25/11 10:30",
+  "error": "ConnectionError: HTTPSConnectionPool(host='nitia.es', port=443): Max retries exceeded with url: /alquiler/ (Caused by NameResolutionError(\"HTTPSConnection(host=",
+  "fallos": 6,
+  "nombre": "NITIA",
+  "url": "https://nitia.es/alquiler/"
+ },
+ "11852": {
+  "desde": "25/11 10:30",
+  "error": "ConnectionError: HTTPSConnectionPool(host='onepro.es', port=443): Max retries exceeded with url: /alquila-tu-vivienda/ (Caused by NameResolutionError(\"HTTPSConn",
+  "fallos": 6,
+  "nombre": "Un Partiqular",
+  "url": "https://onepro.es/alquila-tu-vivienda/"
  },
  "1229": {
   "desde": "25/11 10:09",
@@ -44,21 +58,21 @@
  "1431": {
   "desde": "25/11 10:09",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.finquesbellavista.com', port=443): Max retries exceeded with url: /alquiler/es/ (Caused by NameResolutionError(\"H",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Finques Bellavista (2 oficinas)",
   "url": "https://www.finquesbellavista.com/alquiler/es/"
  },
  "192": {
   "desde": "25/11 10:14",
   "error": "ConnectionError: HTTPSConnectionPool(host='feliufranquesa.com', port=443): Max retries exceeded with url: /ca/content/lloguers (Caused by NameResolutionError(\"H",
-  "fallos": 7,
+  "fallos": 8,
   "nombre": "Feliu Franquesa Serveis Immobiliaris",
   "url": "https://feliufranquesa.com/ca/content/lloguers"
  },
  "2101": {
   "desde": "25/11 10:09",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.catrealestate.com', port=443): Max retries exceeded with url: /es/viviendas-lujo-barcelona/alquiler (Caused by Na",
-  "fallos": 7,
+  "fallos": 8,
   "nombre": "Cat Real Estate SL",
   "url": "https://www.catrealestate.com/es/viviendas-lujo-barcelona/alquiler"
  },
@@ -79,7 +93,7 @@
  "6874": {
   "desde": "25/11 10:15",
   "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://partealta.es/productos/C/disponibles-690c8b3338aef/\", waiting until \"net",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Finques Part Alta",
   "url": "https://partealta.es/productos/C/disponibles-690c8b3338aef/"
  },
@@ -96,5 +110,12 @@
   "fallos": 10,
   "nombre": "Martbel",
   "url": "https://martbel.com/lloguer/"
+ },
+ "9475": {
+  "desde": "25/11 10:30",
+  "error": "ConnectionError: HTTPSConnectionPool(host='fincascalvo.com', port=443): Max retries exceeded with url: /alquileres/ (Caused by NameResolutionError(\"HTTPSConnect",
+  "fallos": 6,
+  "nombre": "Fincas Calvo",
+  "url": "https://fincascalvo.com/alquileres/"
  }
 }
