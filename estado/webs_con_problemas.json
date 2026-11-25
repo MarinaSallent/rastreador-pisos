@@ -5,5 +5,12 @@
   "fallos": 9,
   "nombre": "Cleries Administració Finques",
   "url": "https://www.cleries.com/ca/Llogar-Pis/Barcelona/listainmuebles"
+ },
+ "237": {
+  "desde": "25/11 22:02",
+  "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.businfreu.com/alquiler/",
+  "fallos": 6,
+  "nombre": "Businfreu Fincas - Numància Habitat",
+  "url": "https://www.businfreu.com/alquiler/"
  }
 }
