@@ -62,13 +62,6 @@
   "nombre": "Finques Bellavista (2 oficinas)",
   "url": "https://www.finquesbellavista.com/alquiler/es/"
  },
- "192": {
-  "desde": "25/11 10:14",
-  "error": "ConnectionError: HTTPSConnectionPool(host='feliufranquesa.com', port=443): Max retries exceeded with url: /ca/content/lloguers (Caused by NameResolutionError(\"H",
-  "fallos": 8,
-  "nombre": "Feliu Franquesa Serveis Immobiliaris",
-  "url": "https://feliufranquesa.com/ca/content/lloguers"
- },
  "2101": {
   "desde": "25/11 10:09",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.catrealestate.com', port=443): Max retries exceeded with url: /es/viviendas-lujo-barcelona/alquiler (Caused by Na",
@@ -103,13 +96,6 @@
   "fallos": 6,
   "nombre": "Serviguest",
   "url": "https://serviguest.com/alquiler-temporal-barcelona-2/"
- },
- "7698": {
-  "desde": "25/11 08:55",
-  "error": "ConnectionError: HTTPSConnectionPool(host='martbel.com', port=443): Max retries exceeded with url: /lloguer/ (Caused by NameResolutionError(\"HTTPSConnection(hos",
-  "fallos": 10,
-  "nombre": "Martbel",
-  "url": "https://martbel.com/lloguer/"
  },
  "9475": {
   "desde": "25/11 10:30",
