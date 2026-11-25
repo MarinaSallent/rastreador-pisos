@@ -6,13 +6,6 @@
   "nombre": "Almendros Gestió D'immobles",
   "url": "https://www.fincasalmendros.com/alquiler-inmuebles-barcelona/"
  },
- "1063": {
-  "desde": "25/11 10:09",
-  "error": "ConnectionError: HTTPSConnectionPool(host='www.carolinamarti.es', port=443): Max retries exceeded with url: /search/?o=rental&z=&a=1&l=1 (Caused by NameResoluti",
-  "fallos": 7,
-  "nombre": "Carolina Martí Algara",
-  "url": "https://www.carolinamarti.es/search/?o=rental&z=&a=1&l=1"
- },
  "11445": {
   "desde": "25/11 10:30",
   "error": "ConnectionError: HTTPSConnectionPool(host='nitia.es', port=443): Max retries exceeded with url: /alquiler/ (Caused by NameResolutionError(\"HTTPSConnection(host=",
@@ -41,13 +34,6 @@
   "nombre": "Finques Campanya SL",
   "url": "https://www.finquescampanya.com/immobles"
  },
- "1431": {
-  "desde": "25/11 10:09",
-  "error": "ConnectionError: HTTPSConnectionPool(host='www.finquesbellavista.com', port=443): Max retries exceeded with url: /alquiler/es/ (Caused by NameResolutionError(\"H",
-  "fallos": 7,
-  "nombre": "Finques Bellavista (2 oficinas)",
-  "url": "https://www.finquesbellavista.com/alquiler/es/"
- },
  "3300": {
   "desde": "25/11 10:24",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.flashinmuebles.com', port=443): Max retries exceeded with url: /alquiler (Caused by NameResolutionError(\"HTTPSCon",
@@ -55,11 +41,11 @@
   "nombre": "Flash Inmuebles (2 oficinas)",
   "url": "https://www.flashinmuebles.com/alquiler"
  },
- "9475": {
-  "desde": "25/11 10:30",
-  "error": "ConnectionError: HTTPSConnectionPool(host='fincascalvo.com', port=443): Max retries exceeded with url: /alquileres/ (Caused by NameResolutionError(\"HTTPSConnect",
+ "3367": {
+  "desde": "25/11 11:09",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='www.tecnocasa.es', port=443): Read timed out. (read timeout=20)",
   "fallos": 6,
-  "nombre": "Fincas Calvo",
-  "url": "https://fincascalvo.com/alquileres/"
+  "nombre": "Tecnocasa (166 oficinas)",
+  "url": "https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona/barcelona.html"
  }
 }
