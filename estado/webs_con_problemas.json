@@ -2,7 +2,7 @@
  "1012": {
   "desde": "25/11 10:14",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.fincasalmendros.com', port=443): Max retries exceeded with url: /alquiler-inmuebles-barcelona/ (Caused by NameRes",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Almendros Gestió D'immobles",
   "url": "https://www.fincasalmendros.com/alquiler-inmuebles-barcelona/"
  },
@@ -30,7 +30,7 @@
  "1229": {
   "desde": "25/11 10:09",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.inmo.es', port=443): Max retries exceeded with url: /alquiler/es/ (Caused by NameResolutionError(\"HTTPSConnection",
-  "fallos": 8,
+  "fallos": 9,
   "nombre": "Inmuebles & Interiorismo",
   "url": "https://www.inmo.es/alquiler/es/"
  },
@@ -51,7 +51,7 @@
  "192": {
   "desde": "25/11 10:14",
   "error": "ConnectionError: HTTPSConnectionPool(host='feliufranquesa.com', port=443): Max retries exceeded with url: /ca/content/lloguers (Caused by NameResolutionError(\"H",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Feliu Franquesa Serveis Immobiliaris",
   "url": "https://feliufranquesa.com/ca/content/lloguers"
  },
@@ -61,6 +61,13 @@
   "fallos": 7,
   "nombre": "Cat Real Estate SL",
   "url": "https://www.catrealestate.com/es/viviendas-lujo-barcelona/alquiler"
+ },
+ "3300": {
+  "desde": "25/11 10:24",
+  "error": "ConnectionError: HTTPSConnectionPool(host='www.flashinmuebles.com', port=443): Max retries exceeded with url: /alquiler (Caused by NameResolutionError(\"HTTPSCon",
+  "fallos": 6,
+  "nombre": "Flash Inmuebles (2 oficinas)",
+  "url": "https://www.flashinmuebles.com/alquiler"
  },
  "4774": {
   "desde": "25/11 08:54",
@@ -86,7 +93,7 @@
  "7698": {
   "desde": "25/11 08:55",
   "error": "ConnectionError: HTTPSConnectionPool(host='martbel.com', port=443): Max retries exceeded with url: /lloguer/ (Caused by NameResolutionError(\"HTTPSConnection(hos",
-  "fallos": 9,
+  "fallos": 10,
   "nombre": "Martbel",
   "url": "https://martbel.com/lloguer/"
  }
