@@ -34,13 +34,6 @@
   "nombre": "Finques Campanya SL",
   "url": "https://www.finquescampanya.com/immobles"
  },
- "3300": {
-  "desde": "25/11 10:24",
-  "error": "ConnectionError: HTTPSConnectionPool(host='www.flashinmuebles.com', port=443): Max retries exceeded with url: /alquiler (Caused by NameResolutionError(\"HTTPSCon",
-  "fallos": 6,
-  "nombre": "Flash Inmuebles (2 oficinas)",
-  "url": "https://www.flashinmuebles.com/alquiler"
- },
  "3367": {
   "desde": "25/11 11:09",
   "error": "ReadTimeout: HTTPSConnectionPool(host='www.tecnocasa.es', port=443): Read timed out. (read timeout=20)",
