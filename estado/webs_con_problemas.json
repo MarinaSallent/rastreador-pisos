@@ -27,13 +27,6 @@
   "nombre": "Ari Inversions",
   "url": "https://www.ariinversions.com/llogar/"
  },
- "7104": {
-  "desde": "25/11 08:54",
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='serviguest.com', port=443): Max retries exceeded with url: /alquiler-temporal-barcelona-2/ (Caused by ConnectTimeoutEr",
-  "fallos": 7,
-  "nombre": "Serviguest",
-  "url": "https://serviguest.com/alquiler-temporal-barcelona-2/"
- },
  "7698": {
   "desde": "25/11 08:55",
   "error": "ConnectTimeout: HTTPSConnectionPool(host='martbel.com', port=443): Max retries exceeded with url: /lloguer/ (Caused by ConnectTimeoutError(<HTTPSConnection(host",
