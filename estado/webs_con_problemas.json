@@ -1,4 +1,11 @@
 {
+ "1012": {
+  "desde": "25/11 10:14",
+  "error": "ConnectionError: HTTPSConnectionPool(host='www.fincasalmendros.com', port=443): Max retries exceeded with url: /alquiler-inmuebles-barcelona/ (Caused by NameRes",
+  "fallos": 6,
+  "nombre": "Almendros Gestió D'immobles",
+  "url": "https://www.fincasalmendros.com/alquiler-inmuebles-barcelona/"
+ },
  "10412": {
   "desde": "25/11 10:10",
   "error": "ConnectionError: HTTPSConnectionPool(host='finquestebe.com', port=443): Max retries exceeded with url: /alquiler/ (Caused by NameResolutionError(\"HTTPSConnectio",
@@ -16,7 +23,7 @@
  "1229": {
   "desde": "25/11 10:09",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.inmo.es', port=443): Max retries exceeded with url: /alquiler/es/ (Caused by NameResolutionError(\"HTTPSConnection",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Inmuebles & Interiorismo",
   "url": "https://www.inmo.es/alquiler/es/"
  },
@@ -34,10 +41,17 @@
   "nombre": "Finques Bellavista (2 oficinas)",
   "url": "https://www.finquesbellavista.com/alquiler/es/"
  },
+ "192": {
+  "desde": "25/11 10:14",
+  "error": "ConnectionError: HTTPSConnectionPool(host='feliufranquesa.com', port=443): Max retries exceeded with url: /ca/content/lloguers (Caused by NameResolutionError(\"H",
+  "fallos": 6,
+  "nombre": "Feliu Franquesa Serveis Immobiliaris",
+  "url": "https://feliufranquesa.com/ca/content/lloguers"
+ },
  "2101": {
   "desde": "25/11 10:09",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.catrealestate.com', port=443): Max retries exceeded with url: /es/viviendas-lujo-barcelona/alquiler (Caused by Na",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Cat Real Estate SL",
   "url": "https://www.catrealestate.com/es/viviendas-lujo-barcelona/alquiler"
  },
@@ -47,6 +61,20 @@
   "fallos": 7,
   "nombre": "Ari Inversions",
   "url": "https://www.ariinversions.com/llogar/"
+ },
+ "6874": {
+  "desde": "25/11 10:15",
+  "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://partealta.es/productos/C/disponibles-690c8b3338aef/\", waiting until \"net",
+  "fallos": 6,
+  "nombre": "Finques Part Alta",
+  "url": "https://partealta.es/productos/C/disponibles-690c8b3338aef/"
+ },
+ "7104": {
+  "desde": "25/11 10:14",
+  "error": "ConnectionError: HTTPSConnectionPool(host='serviguest.com', port=443): Max retries exceeded with url: /alquiler-temporal-barcelona-2/ (Caused by NameResolutionE",
+  "fallos": 6,
+  "nombre": "Serviguest",
+  "url": "https://serviguest.com/alquiler-temporal-barcelona-2/"
  },
  "7698": {
   "desde": "25/11 08:55",
