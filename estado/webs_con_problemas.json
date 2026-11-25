@@ -2,15 +2,8 @@
  "1112": {
   "desde": "25/11 19:17",
   "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.cleries.com/ca/Llogar-Pis/Barcelona/listainmuebles\", waiting until \"",
-  "fallos": 10,
+  "fallos": 11,
   "nombre": "Cleries Administració Finques",
   "url": "https://www.cleries.com/ca/Llogar-Pis/Barcelona/listainmuebles"
- },
- "237": {
-  "desde": "25/11 22:02",
-  "error": "HTTPError: 504 Server Error: Gateway Time-out for url: https://www.businfreu.com/alquiler/",
-  "fallos": 7,
-  "nombre": "Businfreu Fincas - Numància Habitat",
-  "url": "https://www.businfreu.com/alquiler/"
  }
 }
