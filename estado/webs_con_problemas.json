@@ -9,7 +9,7 @@
  "11445": {
   "desde": "25/11 08:55",
   "error": "ConnectTimeout: HTTPSConnectionPool(host='nitia.es', port=443): Max retries exceeded with url: /alquiler/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "NITIA",
   "url": "https://nitia.es/alquiler/"
  },
@@ -37,7 +37,7 @@
  "7104": {
   "desde": "25/11 08:54",
   "error": "ConnectTimeout: HTTPSConnectionPool(host='serviguest.com', port=443): Max retries exceeded with url: /alquiler-temporal-barcelona-2/ (Caused by ConnectTimeoutEr",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Serviguest",
   "url": "https://serviguest.com/alquiler-temporal-barcelona-2/"
  },
