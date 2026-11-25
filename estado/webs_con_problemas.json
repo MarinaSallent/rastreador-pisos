@@ -55,13 +55,6 @@
   "nombre": "Flash Inmuebles (2 oficinas)",
   "url": "https://www.flashinmuebles.com/alquiler"
  },
- "6874": {
-  "desde": "25/11 10:15",
-  "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://partealta.es/productos/C/disponibles-690c8b3338aef/\", waiting until \"net",
-  "fallos": 7,
-  "nombre": "Finques Part Alta",
-  "url": "https://partealta.es/productos/C/disponibles-690c8b3338aef/"
- },
  "9475": {
   "desde": "25/11 10:30",
   "error": "ConnectionError: HTTPSConnectionPool(host='fincascalvo.com', port=443): Max retries exceeded with url: /alquileres/ (Caused by NameResolutionError(\"HTTPSConnect",
