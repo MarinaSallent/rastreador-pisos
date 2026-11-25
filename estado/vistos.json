@@ -3891,9 +3891,9 @@
    "https://ferreri.es/inmuebles/viviendas/alquiler/6-habitaciones",
    "https://ferreri.es/inmuebles/piso?type=152",
    "https://ferreri.es/inmuebles/localcomercial?type=8",
+   "https://ferreri.es/inmuebles/casa?type=19",
    "https://ferreri.es/inmuebles/bloquedeapartamentos?type=213",
    "https://ferreri.es/inmuebles/plazadeparking?type=27",
-   "https://ferreri.es/inmuebles/casa?type=19",
    "https://ferreri.es/inmuebles/sueloindustrial?type=35",
    "https://ferreri.es/inmuebles/atico?type=164",
    "https://ferreri.es/inmuebles/casaconparcela?type=189",
@@ -3964,7 +3964,7 @@
  },
  "5243": {
   "desde": 1795273898.6125286,
-  "ultimo_nuevo": 1795429858.030533,
+  "ultimo_nuevo": 1795607227.1460989,
   "urls": [
    "https://maxricart.com/propiedades/alquiler/espectacular-casa-de-diseno-en-la-bonanova/1895",
    "https://maxricart.com/propiedades/alquiler/inmejorable-vivienda-reformada-con-vistas-al-turo-park/2744",
@@ -3990,6 +3990,7 @@
    "https://maxricart.com/propiedades/alquiler/exclusiva-vivienda-de-diseno-en-plaza-de-sant-just-293m/3578",
    "https://maxricart.com/propiedades/alquiler/amplia-y-luminosa-vivienda-en-pedralbes-232m/3620",
    "https://maxricart.com/propiedades/alquiler/totalmente-amueblado-al-lado-de-turo-park/960",
+   "https://maxricart.com/propiedades/alquiler/amplio-piso-de-5-dormitorios-con-terraza-piscina-y-parking-en-sant-gervasi-galvany/4683",
    "https://maxricart.com/propiedades/alquiler/espectacular-de-diseno-a-estrenar-en-el-eixample-100m/2853",
    "https://maxricart.com/propiedades/alquiler/las-mejores-vistas-de-barcelona/4604",
    "https://maxricart.com/luxury-properties-for-rent-in-barcelona/1",
