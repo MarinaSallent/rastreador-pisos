@@ -1,9 +1,1 @@
-{
- "1229": {
-  "desde": "25/11 10:09",
-  "error": "ConnectionError: HTTPSConnectionPool(host='www.inmo.es', port=443): Max retries exceeded with url: /alquiler/es/ (Caused by NameResolutionError(\"HTTPSConnection",
-  "fallos": 9,
-  "nombre": "Inmuebles & Interiorismo",
-  "url": "https://www.inmo.es/alquiler/es/"
- }
-}
+{}
