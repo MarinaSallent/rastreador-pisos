@@ -1,1 +1,51 @@
-{}
+{
+ "10412": {
+  "desde": "25/11 08:55",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='finquestebe.com', port=443): Max retries exceeded with url: /alquiler/ (Caused by ConnectTimeoutError(<HTTPSConnection",
+  "fallos": 6,
+  "nombre": "Finques Tebé SL",
+  "url": "https://finquestebe.com/alquiler/"
+ },
+ "11445": {
+  "desde": "25/11 08:55",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='nitia.es', port=443): Max retries exceeded with url: /alquiler/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='",
+  "fallos": 6,
+  "nombre": "NITIA",
+  "url": "https://nitia.es/alquiler/"
+ },
+ "116": {
+  "desde": "25/11 08:54",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='www.finquesmarba.com', port=443): Max retries exceeded with url: /alquiler/ (Caused by ConnectTimeoutError(<HTTPSConne",
+  "fallos": 6,
+  "nombre": "Finques Marba (2 oficinas)",
+  "url": "https://www.finquesmarba.com/alquiler/"
+ },
+ "11852": {
+  "desde": "25/11 08:55",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='onepro.es', port=443): Max retries exceeded with url: /alquila-tu-vivienda/ (Caused by ConnectTimeoutError(<HTTPSConne",
+  "fallos": 6,
+  "nombre": "Un Partiqular",
+  "url": "https://onepro.es/alquila-tu-vivienda/"
+ },
+ "4774": {
+  "desde": "25/11 08:54",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='www.ariinversions.com', port=443): Max retries exceeded with url: /llogar/ (Caused by ConnectTimeoutError(<HTTPSConnec",
+  "fallos": 6,
+  "nombre": "Ari Inversions",
+  "url": "https://www.ariinversions.com/llogar/"
+ },
+ "7104": {
+  "desde": "25/11 08:54",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='serviguest.com', port=443): Max retries exceeded with url: /alquiler-temporal-barcelona-2/ (Caused by ConnectTimeoutEr",
+  "fallos": 6,
+  "nombre": "Serviguest",
+  "url": "https://serviguest.com/alquiler-temporal-barcelona-2/"
+ },
+ "7698": {
+  "desde": "25/11 08:55",
+  "error": "ConnectTimeout: HTTPSConnectionPool(host='martbel.com', port=443): Max retries exceeded with url: /lloguer/ (Caused by ConnectTimeoutError(<HTTPSConnection(host",
+  "fallos": 6,
+  "nombre": "Martbel",
+  "url": "https://martbel.com/lloguer/"
+ }
+}
