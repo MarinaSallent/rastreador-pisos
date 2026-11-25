@@ -32,12 +32,12 @@
   "desde": 1795282404.4260767,
   "ultimo_nuevo": 1795289082.3823566,
   "urls": [
-   "https://fincassole.com/property/local-comercial-en-local-comercial-difano-de-72-m-a-pie-d",
    "https://fincassole.com/property/local-comercial-en-plaza-de-sagarra-cerca-rambla",
+   "https://fincassole.com/property/local-comercial-en-local-comercial-difano-de-72-m-a-pie-d",
    "https://fincassole.com/property/piso-en-08020",
    "https://fincassole.com/property/piso-en-oportunidad-en-santa-coloma",
-   "https://fincassole.com/property/local-comercial-en-calle-doctor-torras-i-bages-08922",
    "https://fincassole.com/property/piso-en-piso-de-4-habitaciones-08922",
+   "https://fincassole.com/property/local-comercial-en-calle-doctor-torras-i-bages-08922",
    "https://fincassole.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffincassole.com%2Falquiler%2F",
    "https://fincassole.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffincassole.com%2Falquiler%2F&format=xml"
   ]
@@ -2674,13 +2674,13 @@
    "https://bcn-advisors.com/propiedades/increible-atico-con-grandes-terrazas-en-alquiler-en-pedralbes",
    "https://bcn-advisors.com/propiedades/extraordinaria-casa-de-lujo-en-alquiler-en-vallvidrera",
    "https://bcn-advisors.com/propiedades/marvilloso-loft-de-diseno-en-alquiler-entre-eixample-y-el-born",
-   "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample",
-   "https://bcn-advisors.com/propiedades/fantastico-piso-reformado-a-estrenar-en-finca-regia-entre-eixample-y-el-born",
-   "https://bcn-advisors.com/propiedades/impresionante-casa-de-obra-nueva-con-jardin-y-piscina",
-   "https://bcn-advisors.com/propiedades/casa-con-encanto-historico-y-gran-terraza-junto-a-la-sagrada-familia",
-   "https://bcn-advisors.com/propiedades/increible-piso-modernista-reformado-a-estrenar-en-finca-esquinera-del-eixample",
+   "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia",
    "https://bcn-advisors.com/propiedades/esplendido-atico-duplex-con-grandes-terrazas-y-vistas-panoramicas-en-les-corts",
-   "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia"
+   "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample",
+   "https://bcn-advisors.com/propiedades/casa-con-encanto-historico-y-gran-terraza-junto-a-la-sagrada-familia",
+   "https://bcn-advisors.com/propiedades/impresionante-casa-de-obra-nueva-con-jardin-y-piscina",
+   "https://bcn-advisors.com/propiedades/fantastico-piso-reformado-a-estrenar-en-finca-regia-entre-eixample-y-el-born",
+   "https://bcn-advisors.com/propiedades/increible-piso-modernista-reformado-a-estrenar-en-finca-esquinera-del-eixample"
   ]
  },
  "2763": {
@@ -2937,9 +2937,13 @@
  },
  "368": {
   "desde": 1795273889.0414598,
-  "ultimo_nuevo": 1795611419.4105117,
+  "ultimo_nuevo": 1795648653.1067886,
   "urls": [
+   "https://atico.es/property/atico-en-venta-en-sant-gervasi-la-bonanova-2",
+   "https://atico.es/property/atico-en-venta-en-gracia-2",
    "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-rambla-catalunya",
+   "https://atico.es/property/atico-en-venta-sant-joan-despi",
+   "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-via-augusta",
    "https://atico.es/property/atico-en-venta-en-el-guinardo-seglexx",
    "https://atico.es/property/atico-en-venta-en-sarria-sant-gervasi-homero",
    "https://atico.es/property/atico-en-venta-en-la-dreta-de-leixample-3",
@@ -2972,14 +2976,11 @@
    "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-johan-sebastian-bach",
    "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-8",
    "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-ronda-general-mitre",
-   "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-via-augusta",
    "https://atico.es/property/atico-en-venta-en-les-corts",
-   "https://atico.es/property/atico-en-venta-sant-joan-despi",
    "https://atico.es/property/atico-en-venta-en-sarria-2",
    "https://atico.es/property/atico-en-venta-en-diagonal-mar-passeig-taulat",
    "https://atico.es/property/atico-en-venta-en-esquerra-de-leixample",
-   "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-6",
-   "https://atico.es/property/atico-en-venta-en-gracia-2"
+   "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-6"
   ]
  },
  "371": {
@@ -4555,7 +4556,7 @@
  },
  "6388": {
   "desde": 1795334389.2434797,
-  "ultimo_nuevo": 1795562192.5145507,
+  "ultimo_nuevo": 1795648670.0531986,
   "urls": [
    "https://aproperties.es/barcelona/sant-gervasi-galvany/piso-de-39-m2-con-vistas-en-alquiler-en-sant-gervasi-galvany-barcelona",
    "https://aproperties.es/barcelona/horta/piso-de-60-m2-con-terraza-y-vistas-en-alquiler-en-horta-barcelona",
@@ -4565,6 +4566,7 @@
    "https://aproperties.es/badalona/piso-de-102-m2-con-terraza-aparcamiento-piscina-y-sea-views-en-alquiler-en-badalona",
    "https://aproperties.es/barcelona/sant-gervasi-la-bonanova/piso-de-153-m2-con-aparcamiento-en-alquiler-en-sant-gervasi-la-bonanova-barcelona",
    "https://aproperties.es/barcelona/el-poblenou/ab2611028-piso-de-65-m2-en-alquiler-en-el-poblenou-barcelona",
+   "https://aproperties.es/barcelona/sant-marti-de-provencals/piso-de-54-m2-con-terraza-aparcamiento-piscina-y-vistas-en-alquiler-en-sant-marti-de-provencals-barcelona",
    "https://aproperties.es/barcelona/eixample-esquerra/piso-de-50-m2-en-alquiler-en-eixample-esquerra-barcelona",
    "https://aproperties.es/barcelona/eixample-dreta/piso-de-84-m2-con-terraza-en-alquiler-en-eixample-dreta-barcelona",
    "https://aproperties.es/mataro/piso-de-65-m2-con-piscina-y-sea-views-en-alquiler-en-mataro",
