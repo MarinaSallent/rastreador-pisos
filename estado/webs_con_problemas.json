@@ -16,14 +16,21 @@
  "1063": {
   "desde": "25/11 10:09",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.carolinamarti.es', port=443): Max retries exceeded with url: /search/?o=rental&z=&a=1&l=1 (Caused by NameResoluti",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Carolina Martí Algara",
   "url": "https://www.carolinamarti.es/search/?o=rental&z=&a=1&l=1"
+ },
+ "11304": {
+  "desde": "25/11 10:20",
+  "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.gesercat.net/inmuebles/alquiler\", waiting until \"networkidle\"\n",
+  "fallos": 6,
+  "nombre": "Gesercat Assessors",
+  "url": "https://www.gesercat.net/inmuebles/alquiler"
  },
  "1229": {
   "desde": "25/11 10:09",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.inmo.es', port=443): Max retries exceeded with url: /alquiler/es/ (Caused by NameResolutionError(\"HTTPSConnection",
-  "fallos": 7,
+  "fallos": 8,
   "nombre": "Inmuebles & Interiorismo",
   "url": "https://www.inmo.es/alquiler/es/"
  },
@@ -58,7 +65,7 @@
  "4774": {
   "desde": "25/11 08:54",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.ariinversions.com', port=443): Max retries exceeded with url: /llogar/ (Caused by NameResolutionError(\"HTTPSConne",
-  "fallos": 7,
+  "fallos": 8,
   "nombre": "Ari Inversions",
   "url": "https://www.ariinversions.com/llogar/"
  },
