@@ -6,17 +6,10 @@
   "nombre": "Metre Quadrat Immobles",
   "url": "https://metrequadrat.es/inmuebles?operacion=Alquilar"
  },
- "13934": {
-  "desde": "26/11 13:45",
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='dprealestate.es', port=443): Max retries exceeded with url: /en/rent-en/ (Caused by ConnectTimeoutError(<HTTPSConnecti",
-  "fallos": 13,
-  "nombre": "DP Real Estate",
-  "url": "https://dprealestate.es/en/rent-en/"
- },
  "9498": {
   "desde": "26/11 14:29",
   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.inmoredes.es/inmuebles/alquiler",
-  "fallos": 15,
+  "fallos": 16,
   "nombre": "Inmoredes (2 oficinas)",
   "url": "https://www.inmoredes.es/inmuebles/alquiler"
  }
