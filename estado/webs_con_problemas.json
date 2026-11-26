@@ -2,7 +2,7 @@
  "13934": {
   "desde": "26/11 13:45",
   "error": "ConnectTimeout: HTTPSConnectionPool(host='dprealestate.es', port=443): Max retries exceeded with url: /en/rent-en/ (Caused by ConnectTimeoutError(<HTTPSConnecti",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "DP Real Estate",
   "url": "https://dprealestate.es/en/rent-en/"
  }
