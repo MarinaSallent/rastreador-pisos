@@ -1,11 +1,4 @@
 {
- "11584": {
-  "desde": "26/11 16:55",
-  "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://metrequadrat.es/inmuebles?operacion=Alquilar",
-  "fallos": 15,
-  "nombre": "Metre Quadrat Immobles",
-  "url": "https://metrequadrat.es/inmuebles?operacion=Alquilar"
- },
  "9498": {
   "desde": "26/11 14:29",
   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.inmoredes.es/inmuebles/alquiler",
