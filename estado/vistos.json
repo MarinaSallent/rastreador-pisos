@@ -530,9 +530,6 @@
    "https://lucasfox.es/alquilar-vivienda/espana/barcelona/barcelona-ciudad/eixample/sant-antoni/piso/bcnr5312.html",
    "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/tetuan/valdeacederas/piso/madr74366.html",
    "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/malasana/piso/madr74271.html",
-   "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/chamberi/trafalgar/piso/madr73723.html",
-   "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/tetuan/valdeacederas/piso/madr74365.html",
-   "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/embajadores/piso/madr70229.html",
    "https://lucasfox.es/alquilar-vivienda/espana/valencia/valencia-ciudad/la-seu/piso/valr59357.html",
    "https://lucasfox.es/alquilar-vivienda/espana/valencia/valencia-ciudad/ruzafa/atico/valr74592.html",
    "https://lucasfox.es/alquilar-vivienda/espana/valencia/valencia-ciudad/ruzafa/piso/valr54924.html",
@@ -552,6 +549,9 @@
    "https://lucasfox.es/alquilar-vivienda/espana/valencia/valencia-ciudad/ruzafa/piso/valr31682.html",
    "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/salamanca/recoletos/piso/madr72320.html",
    "https://lucasfox.es/alquilar-vivienda/espana/barcelona/barcelona-ciudad/sant-marti/poblenou/loft/bcnr74716.html",
+   "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/chamberi/trafalgar/piso/madr73723.html",
+   "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/tetuan/valdeacederas/piso/madr74365.html",
+   "https://lucasfox.es/alquilar-vivienda/espana/madrid/madrid-ciudad/embajadores/piso/madr70229.html",
    "https://lucasfox.es/alquilar-vivienda/espana/barcelona/esplugues/piso/sjdr55801.html",
    "https://lucasfox.es/alquilar-vivienda/espana/barcelona/esplugues/piso/sjdr56677.html",
    "https://lucasfox.es/alquilar-vivienda/espana/islas-baleares/mallorca/palma-surroundings/palma-de-mallorca/piso/malr74773.html",
@@ -2674,13 +2674,13 @@
    "https://bcn-advisors.com/propiedades/increible-atico-con-grandes-terrazas-en-alquiler-en-pedralbes",
    "https://bcn-advisors.com/propiedades/extraordinaria-casa-de-lujo-en-alquiler-en-vallvidrera",
    "https://bcn-advisors.com/propiedades/marvilloso-loft-de-diseno-en-alquiler-entre-eixample-y-el-born",
-   "https://bcn-advisors.com/propiedades/fantastico-piso-reformado-a-estrenar-en-finca-regia-entre-eixample-y-el-born",
-   "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample",
-   "https://bcn-advisors.com/propiedades/impresionante-casa-de-obra-nueva-con-jardin-y-piscina",
    "https://bcn-advisors.com/propiedades/esplendido-atico-duplex-con-grandes-terrazas-y-vistas-panoramicas-en-les-corts",
+   "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample",
+   "https://bcn-advisors.com/propiedades/fantastico-piso-reformado-a-estrenar-en-finca-regia-entre-eixample-y-el-born",
+   "https://bcn-advisors.com/propiedades/increible-piso-modernista-reformado-a-estrenar-en-finca-esquinera-del-eixample",
    "https://bcn-advisors.com/propiedades/casa-con-encanto-historico-y-gran-terraza-junto-a-la-sagrada-familia",
-   "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia",
-   "https://bcn-advisors.com/propiedades/increible-piso-modernista-reformado-a-estrenar-en-finca-esquinera-del-eixample"
+   "https://bcn-advisors.com/propiedades/impresionante-casa-de-obra-nueva-con-jardin-y-piscina",
+   "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia"
   ]
  },
  "2763": {
@@ -2939,6 +2939,7 @@
   "desde": 1795273889.0414598,
   "ultimo_nuevo": 1795648653.1067886,
   "urls": [
+   "https://atico.es/property/atico-en-venta-en-sagrada-familia",
    "https://atico.es/property/atico-en-venta-en-el-parc-i-la-llacuna-del-poblenou",
    "https://atico.es/property/atico-en-venta-en-sant-gervasi-la-bonanova-2",
    "https://atico.es/property/atico-en-venta-en-gracia-2",
@@ -2955,7 +2956,6 @@
    "https://atico.es/property/atico-en-venta-en-ciutat-vella-francesc-cambo",
    "https://atico.es/property/atico-en-venta-en-gracia-3",
    "https://atico.es/property/atico-en-venta-en-sarria-cardenal-sentmenat",
-   "https://atico.es/property/atico-en-venta-en-sagrada-familia",
    "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-7",
    "https://atico.es/property/atico-en-venta-en-sarria-sant-gervas",
    "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-5",
@@ -5864,6 +5864,10 @@
  },
  "9539": {
   "desde": 1795282404.4259846,
+  "urls": []
+ },
+ "9574": {
+  "desde": 1795655881.2092445,
   "urls": []
  },
  "9644": {
