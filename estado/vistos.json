@@ -2941,6 +2941,7 @@
   "urls": [
    "https://atico.es/property/atico-en-venta-en-sagrada-familia",
    "https://atico.es/property/atico-en-venta-en-el-parc-i-la-llacuna-del-poblenou",
+   "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-7",
    "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-rambla-catalunya",
    "https://atico.es/property/atico-en-venta-en-dreta-de-leixample-6",
    "https://atico.es/property/atico-en-venta-sant-joan-despi",
@@ -2971,7 +2972,6 @@
    "https://atico.es/property/atico-en-venta-en-la-nova-esquerra-de-leixample",
    "https://atico.es/property/atico-en-venta-en-sarria-sant-gevasi-johan-sebastian-bach",
    "https://atico.es/property/atico-en-venta-en-sarria-sant-gervasi",
-   "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-7",
    "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-muntaner",
    "https://atico.es/property/atico-en-venta-en-eixample-esquerra",
    "https://atico.es/property/atico-en-venta-en-sant-gervasi-galvany-johan-sebastian-bach",
@@ -5393,8 +5393,9 @@
  },
  "8564": {
   "desde": 1795273910.0491633,
-  "ultimo_nuevo": 1795640568.2635643,
+  "ultimo_nuevo": 1795683958.5739033,
   "urls": [
+   "https://iadespana.es/anuncio/piso-alquiler-1-habitacion-ibiza-72m2/r175556",
    "https://iadespana.es/anuncio/inmueble-comercial-alquiler-salamanca-59m2/r175553",
    "https://iadespana.es/anuncio/inmueble-comercial-alquiler-1-habitacion-leon-250m2/r175485",
    "https://iadespana.es/anuncio/parking-alquiler-vilanova-i-la-geltru-12m2/r175469",
@@ -5424,7 +5425,6 @@
    "https://iadespana.es/anuncio/inmueble-comercial-alquiler-leon-142m2/r172849",
    "https://iadespana.es/anuncio/inmueble-comercial-alquiler-mostoles-708m2/r173947",
    "https://iadespana.es/anuncio/piso-alquiler-3-habitaciones-sitges-90m2/r173948",
-   "https://iadespana.es/anuncio/casa-alquiler-3-habitaciones-urbanizacion-soto-de-llanera-240m2/r174197",
    "https://iadespana.es/anuncios/barcelona-08/alquiler",
    "https://iadespana.es/anuncios/madrid-28/alquiler",
    "https://iadespana.es/anuncios/leon-24/alquiler",
@@ -5465,6 +5465,7 @@
    "https://iadespana.es/anuncios/orihuela_03/alquiler",
    "https://iadespana.es/anuncios/denia_03/alquiler",
    "https://iadespana.es/anuncios/vilanova-i-la-geltru_08/alquiler",
+   "https://iadespana.es/anuncio/casa-alquiler-3-habitaciones-urbanizacion-soto-de-llanera-240m2/r174197",
    "https://iadespana.es/anuncio/piso-alquiler-2-habitaciones-madrid-78m2/r173804",
    "https://iadespana.es/anuncios/san-andres-del-rabanedo_24/alquiler",
    "https://iadespana.es/anuncio/parking-alquiler-l-hospitalet-de-llobregat-10m2/r174237",
