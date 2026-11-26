@@ -2,7 +2,7 @@
  "11584": {
   "desde": "26/11 16:55",
   "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://metrequadrat.es/inmuebles?operacion=Alquilar",
-  "fallos": 12,
+  "fallos": 13,
   "nombre": "Metre Quadrat Immobles",
   "url": "https://metrequadrat.es/inmuebles?operacion=Alquilar"
  },
