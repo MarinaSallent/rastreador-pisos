@@ -145,7 +145,7 @@ def extraer_precio(texto: str) -> int | None:
             # espacio. Si delante hay una etiqueta (baños, hab., m², ref.) o sale un alquiler imposible, el
             # precio es solo el último grupo.
             antes = texto[max(0, m.start() - 22):m.start()].lower()
-            ultimo = int(re.split(r"\s", bruto)[-1])
+            ultimo = int(re.sub(r"[.,]", "", re.split(r"\s", bruto)[-1]) or 0)
             if ultimo >= 300 and (RE_ETIQUETA_NUM.search(antes) or (mensual and valor >= 20000)):
                 valor = ultimo
         if valor < 200:          # cantidades sueltas (gastos, fianzas pequeñas...) no son el alquiler
@@ -1013,7 +1013,10 @@ def ciclo(cfg: dict, barrido: bool = False, reenviar: bool = False) -> int:
         futuros = {ex.submit(revisar_agencia, ag, cfg, vistos, avisados, barrido, reenviar): ag for ag in agencias}
         for fut in as_completed(futuros):
             ag = futuros[fut]
-            avisos, urls, error, evaluaciones = fut.result()
+            try:
+                avisos, urls, error, evaluaciones = fut.result()
+            except Exception as e:  # un fallo inesperado en una web no debe parar toda la revisión
+                avisos, urls, error, evaluaciones = [], [], f"{type(e).__name__}: {e}", []
             for ev in evaluaciones:
                 motivo = re.sub(r"\d[\d.]*", "N", ev["motivo_descarte"] or "ENVIADO")
                 resumen[motivo] = resumen.get(motivo, 0) + 1
