@@ -1,4 +1,11 @@
 {
+ "12488": {
+  "desde": "27/11 11:31",
+  "error": "HTTPError: 503 Server Error: Backend fetch failed for url: https://gumperapi.com/es/alquilar/",
+  "fallos": 6,
+  "nombre": "Gumper Asesores Inmobiliarios",
+  "url": "https://gumperapi.com/es/alquilar/"
+ },
  "13613": {
   "desde": "27/11 10:41",
   "error": "ConnectTimeout: HTTPSConnectionPool(host='casablau.net', port=443): Max retries exceeded with url: /alquiler/pisos-en-alquiler (Caused by ConnectTimeoutError(<H",
