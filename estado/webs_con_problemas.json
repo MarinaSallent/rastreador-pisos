@@ -1,4 +1,11 @@
 {
+ "12488": {
+  "desde": "27/11 16:59",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='gumperapi.com', port=443): Read timed out. (read timeout=20)",
+  "fallos": 6,
+  "nombre": "Gumper Asesores Inmobiliarios",
+  "url": "https://gumperapi.com/es/alquilar/"
+ },
  "12889": {
   "desde": "27/11 13:24",
   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.inmoredes.es/inmuebles/alquiler",
