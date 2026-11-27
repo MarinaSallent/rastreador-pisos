@@ -1,4 +1,11 @@
 {
+ "1203": {
+  "desde": "27/11 19:55",
+  "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bergua.es/alquiler/es/",
+  "fallos": 6,
+  "nombre": "Bergua Gestió D'immobles",
+  "url": "https://www.bergua.es/alquiler/es/"
+ },
  "12889": {
   "desde": "27/11 13:24",
   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.inmoredes.es/inmuebles/alquiler",
@@ -12,6 +19,20 @@
   "fallos": 6,
   "nombre": "Finques Bou",
   "url": "https://inmobiliariaenbarcelona.finquesbou.es/propiedades/alquiler/defecto"
+ },
+ "237": {
+  "desde": "27/11 19:54",
+  "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.businfreu.net/alquiler/es/",
+  "fallos": 6,
+  "nombre": "Businfreu Fincas - Numància Habitat",
+  "url": "https://www.businfreu.net/alquiler/es/"
+ },
+ "3367": {
+  "desde": "27/11 19:55",
+  "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html\", waiting un",
+  "fallos": 6,
+  "nombre": "Tecnocasa (166 oficinas)",
+  "url": "https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html"
  },
  "9498": {
   "desde": "26/11 14:29",
