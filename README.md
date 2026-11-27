@@ -3,7 +3,7 @@
 Revisa cada 5 minutos la página de alquileres de las agencias que tú elijas y te manda un Telegram en cuanto aparece un piso nuevo con:
 
 - **60 m² o más**
-- **1.000 €/mes o menos**
+- **1.030 €/mes o menos**
 - en **Sant Andreu, Sant Martí, Sarrià-Sant Gervasi, Gràcia o Vallcarca**
 
 Los filtros están en `config.yaml` y se pueden cambiar en cualquier momento.
@@ -139,7 +139,7 @@ Antes de añadirla, compruébalo: **Actions → Probar una web → Run workflow*
   - Si no dice en qué barrio está, lo descarta (`zona_obligatoria: true`). Con `false` te avisaría marcado con «⚠️ zona no indicada».
 - **Precio y metros:** de la tarjeta; si faltan, de la ficha.
   - Sin precio, se descarta (`precio_obligatorio`). Más de 10.000 € se considera venta.
-  - Entre 1.000 y 1.100 € solo se envía si incluye parking, terraza, patio, jardín o piscina (también comunitaria), marcado con ⚠️ (`precio_maximo_con_extras`). «Parking opcional», «fácil aparcamiento», «terraza comunitaria» «da a patio de luces» o «cerca de la piscina municipal» no cuentan.
+  - Entre 1.030 y 1.100 € solo se envía si incluye parking, terraza, patio, jardín o piscina (también comunitaria), marcado con ⚠️ (`precio_maximo_con_extras`). «Parking opcional», «fácil aparcamiento», «terraza comunitaria» «da a patio de luces» o «cerca de la piscina municipal» no cuentan.
   - Si cumple todo pero no dice los metros, te avisa con ⚠️ (`avisar_si_faltan_metros`).
 - **Si la web de una agencia falla 6 veces seguidas**, te llega un aviso para que revises la URL.
 
@@ -148,7 +148,7 @@ Antes de añadirla, compruébalo: **Actions → Probar una web → Run workflow*
 Algunas agencias no tienen listado propio: el botón «nuestros pisos» de su web lleva a su escaparate en Idealista, Fotocasa o Habitaclia. Esos portales bloquean a los bots, así que el rastreador no los lee.
 
 - El descubridor las detecta y en `agencias.csv` les pone la nota «Publica sus pisos en Idealista: enlace». No se vigilan.
-- Para no perderos sus pisos, cread en Idealista una **búsqueda guardada con alertas instantáneas** (alquiler, vuestras zonas dibujadas en el mapa, hasta 1.000 €, desde 60 m²). Cubre a todas las agencias que publican allí.
+- Para no perderos sus pisos, cread en Idealista una **búsqueda guardada con alertas instantáneas** (alquiler, vuestras zonas dibujadas en el mapa, hasta 1.030 €, desde 60 m²). Cubre a todas las agencias que publican allí.
 
 ## Agencias que no publican: contactar en persona
 

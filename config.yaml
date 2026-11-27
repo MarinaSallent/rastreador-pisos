@@ -3,7 +3,7 @@ filtros:
   metros_minimos: 60
   # Pisos algo más pequeños: desde estos metros también se envían, marcados con ⚠️ (menos de 60).
   metros_minimos_con_aviso: 55
-  precio_maximo: 1000        # €/mes
+  precio_maximo: 1030        # €/mes
   # Pisos algo más caros: hasta este precio también se envían si incluyen parking, terraza, patio, jardín o
   # piscina (también comunitaria). Marcados con ⚠️.
   precio_maximo_con_extras: 1100
@@ -68,6 +68,7 @@ zonas:
     - vallcarca
     - penitents
     - el coll
+    - lesseps
   Nou Barris:
     - nou barris
     - vilapicina
