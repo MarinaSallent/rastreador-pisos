@@ -2784,16 +2784,16 @@
    "https://bcn-advisors.com/propiedades/extraordinaria-propiedad-senorial-en-alquiler-en-finca-regia-del-eixample",
    "https://bcn-advisors.com/propiedades/atico-de-lujo-en-alquiler-con-2-terrazas-y-parking-en-les-tres-torres",
    "https://bcn-advisors.com/propiedades/impresionante-loft-en-edificio-de-alto-standing",
-   "https://bcn-advisors.com/propiedades/extraordinaria-casa-de-lujo-en-alquiler-en-vallvidrera",
    "https://bcn-advisors.com/propiedades/increible-atico-con-grandes-terrazas-en-alquiler-en-pedralbes",
+   "https://bcn-advisors.com/propiedades/extraordinaria-casa-de-lujo-en-alquiler-en-vallvidrera",
    "https://bcn-advisors.com/propiedades/marvilloso-loft-de-diseno-en-alquiler-entre-eixample-y-el-born",
-   "https://bcn-advisors.com/propiedades/impresionante-casa-de-obra-nueva-con-jardin-y-piscina",
-   "https://bcn-advisors.com/propiedades/casa-con-encanto-historico-y-gran-terraza-junto-a-la-sagrada-familia",
-   "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia",
-   "https://bcn-advisors.com/propiedades/esplendido-atico-duplex-con-grandes-terrazas-y-vistas-panoramicas-en-les-corts",
-   "https://bcn-advisors.com/propiedades/fantastico-piso-reformado-a-estrenar-en-finca-regia-entre-eixample-y-el-born",
    "https://bcn-advisors.com/propiedades/increible-piso-modernista-reformado-a-estrenar-en-finca-esquinera-del-eixample",
-   "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample"
+   "https://bcn-advisors.com/propiedades/increible-piso-reformado-con-elementos-originales-y-gran-terraza-en-gracia",
+   "https://bcn-advisors.com/propiedades/formidable-y-luminoso-piso-alto-con-terraza-en-eixample",
+   "https://bcn-advisors.com/propiedades/casa-con-encanto-historico-y-gran-terraza-junto-a-la-sagrada-familia",
+   "https://bcn-advisors.com/propiedades/fantastico-piso-reformado-a-estrenar-en-finca-regia-entre-eixample-y-el-born",
+   "https://bcn-advisors.com/propiedades/esplendido-atico-duplex-con-grandes-terrazas-y-vistas-panoramicas-en-les-corts",
+   "https://bcn-advisors.com/propiedades/impresionante-casa-de-obra-nueva-con-jardin-y-piscina"
   ]
  },
  "2763": {
@@ -4748,8 +4748,10 @@
  },
  "6388": {
   "desde": 1795334389.2434797,
-  "ultimo_nuevo": 1795648670.0531986,
+  "ultimo_nuevo": 1795820739.2470813,
   "urls": [
+   "https://aproperties.es/barcelona/sarria/piso-de-65-m2-con-aparcamiento-en-alquiler-en-sarria-barcelona",
+   "https://aproperties.es/barcelona/baix-guinardo/piso-de-70-m2-con-aparcamiento-y-vistas-en-alquiler-en-baix-guinardo-barcelona",
    "https://aproperties.es/barcelona/sant-gervasi-galvany/piso-de-39-m2-con-vistas-en-alquiler-en-sant-gervasi-galvany-barcelona",
    "https://aproperties.es/barcelona/el-raval/piso-de-45-m2-en-alquiler-en-el-raval-barcelona",
    "https://aproperties.es/barcelona/sant-gervasi-la-bonanova/piso-de-64-m2-en-alquiler-en-sant-gervasi-la-bonanova-barcelona",
@@ -5458,8 +5460,8 @@
   "urls": [
    "https://durancarasso.es/barcelona/sagrada-familia/oficina-de-230-m2-en-alquiler-en-sagrada-familia-barcelona",
    "https://durancarasso.es/barcelona/22-arroba/edificio-de-4334-m2-en-alquiler-en-22-barcelona",
-   "https://durancarasso.es/barcelona/sagrada-familia/local-comercial-de-42-m2-en-alquiler-en-sagrada-familia-barcelona",
-   "https://durancarasso.es/barcelona/sagrada-familia/local-comercial-de-43-m2-en-alquiler-en-sagrada-familia-barcelona"
+   "https://durancarasso.es/barcelona/sagrada-familia/local-comercial-de-43-m2-en-alquiler-en-sagrada-familia-barcelona",
+   "https://durancarasso.es/barcelona/sagrada-familia/local-comercial-de-42-m2-en-alquiler-en-sagrada-familia-barcelona"
   ]
  },
  "7922": {
@@ -5716,9 +5718,9 @@
    "https://iadespana.es/anuncios/santa-coloma-de-gramenet_08/alquiler",
    "https://iadespana.es/anuncios/l-hospitalet-de-llobregat_08/alquiler",
    "https://iadespana.es/anuncios/vilanova-i-la-geltru_08/alquiler",
+   "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/orihuela_03/alquiler",
    "https://iadespana.es/anuncios/sitges_08/alquiler",
-   "https://iadespana.es/anuncios/el-vendrell_43/alquiler",
    "https://iadespana.es/anuncios/cunit_43/alquiler",
    "https://iadespana.es/anuncio/inmueble-comercial-alquiler-mostoles-708m2/r173947",
    "https://iadespana.es/anuncio/piso-alquiler-3-habitaciones-sitges-90m2/r173948",
@@ -6247,13 +6249,13 @@
  "https://www.akropolys.net/listadoads.aspx": {
   "desde": 1795804556.9860363,
   "urls": [
-   "https://akropolys.net/ad/113057836",
    "https://akropolys.net/ad/113059615",
-   "https://akropolys.net/ad/110583633",
+   "https://akropolys.net/ad/113057836",
+   "https://akropolys.net/ad/113079224",
    "https://akropolys.net/ad/111981871",
+   "https://akropolys.net/ad/110583633",
    "https://akropolys.net/ad/111241851",
-   "https://akropolys.net/ad/112855582",
-   "https://akropolys.net/ad/113079224"
+   "https://akropolys.net/ad/112855582"
   ]
  },
  "https://www.immoatic.com/buscador/en_alquiler/barcelona/?Referencia=": {
