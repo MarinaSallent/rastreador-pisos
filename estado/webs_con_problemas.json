@@ -13,13 +13,6 @@
   "nombre": "Inmoredes",
   "url": "https://www.inmoredes.es/inmuebles/alquiler"
  },
- "13613": {
-  "desde": "27/11 15:34",
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='casablau.net', port=443): Max retries exceeded with url: /alquiler/pisos-en-alquiler (Caused by ConnectTimeoutError(<H",
-  "fallos": 9,
-  "nombre": "Casablau",
-  "url": "https://casablau.net/alquiler/pisos-en-alquiler"
- },
  "9498": {
   "desde": "26/11 14:29",
   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.inmoredes.es/inmuebles/alquiler",
@@ -30,7 +23,7 @@
  "https://inicio.livrerealestate.com/es/alquiler": {
   "desde": "27/11 13:24",
   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-  "fallos": 14,
+  "fallos": 15,
   "nombre": "Livre Real Estate",
   "url": "https://inicio.livrerealestate.com/es/alquiler"
  }
