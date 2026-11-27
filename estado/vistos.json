@@ -3969,7 +3969,7 @@
  },
  "4992": {
   "desde": 1795368186.0564861,
-  "ultimo_nuevo": 1795774254.931293,
+  "ultimo_nuevo": 1795782520.0065868,
   "urls": [
    "https://vivalco.com/property/ref-4470-piso-en-alquiler-en-la-zona-de-el-gotic-barcelona-86m2",
    "https://vivalco.com/property/ref-2426-apartamento-en-alquiler-en-la-zona-de-eixample-barcelona-66-m2",
@@ -3981,6 +3981,7 @@
    "https://vivalco.com/property/ref-3720-apartamento-en-alquiler-en-la-zona-de-placa-catalunya-barcelona-82m2",
    "https://vivalco.com/property/ref-3702-apartamento-en-alquiler-en-la-zona-de-placa-catalunya-barcelona-71m2",
    "https://vivalco.com/property/ref-3719-exclusivo-apartamento-en-alquiler-en-la-zona-de-placa-catalunya-barcelona-109-m2",
+   "https://vivalco.com/property/ref-3515-estudio-en-alquiler-en-la-zona-de-barceloneta-barcelona-35-m2",
    "https://vivalco.com/property/ref-4506l-local-en-alquiler-en-la-zona-de-sarria-sant-gervasi-barcelona-38m2"
   ]
  },
@@ -4706,7 +4707,26 @@
  },
  "6476": {
   "desde": 1795780896.7438095,
-  "urls": []
+  "ultimo_nuevo": 1795782529.61034,
+  "urls": [
+   "https://solfinc.com/es/inmueble/plazas-de-moto-en-alquiler-en-calle-sicilia-sagrada-familia",
+   "https://solfinc.com/es/inmueble/increible-local-en-alquiler-en-c-industria-en-el-barrio-de-sagrada-familia",
+   "https://solfinc.com/es/inmueble/10-plazas-de-parking-en-alquiler-en-sicilia-325",
+   "https://solfinc.com/es/inmueble/estudio-en-un-atico-con-terraza-situado-en-el-barrio-el-guinardo",
+   "https://solfinc.com/es/inmueble/increible-estudio-en-alquiler-en-la-calle-montseny-sant-boi-de-llobregat",
+   "https://solfinc.com/es/inmueble/plaza-de-parking-en-alquiler-en-la-calle-del-rossello-sagrada-familia",
+   "https://solfinc.com/es/inmueble/maravilloso-piso-en-alquiler-en-xucla-ciudad-vella",
+   "https://solfinc.com/es/inmueble/parking-en-alquiler-en-riera-sant-miquel-barcelona",
+   "https://solfinc.com/es/inmueble/plazas-de-parking-en-alquiler-en-la-calle-de-la-mare-de-deu-de-gracia-el-putxet-i-el-farro",
+   "https://solfinc.com/es/inmueble/amplio-local-en-alquiler-en-calle-pujades-sant-marti-poble-nou",
+   "https://solfinc.com/es/inmueble/garaje-en-alquiler-en-calle-santa-joaquina-de-vedruna-2",
+   "https://solfinc.com/es/inmueble/garaje-en-alquiler-en-calle-del-rossello-507-la-sagrada-familia-eixample-barcelona",
+   "https://solfinc.com/es/inmueble/oportunidad-de-local-comercial-en-alquiler-en-la-calle-industria-camp-de-larpa",
+   "https://solfinc.com/es/inmueble/local-en-alquiler-en-calle-de-puigmarti-42-barcelona",
+   "https://solfinc.com/es/inmueble/local-en-alquiler-en-calle-de-pujades-77-barcelona",
+   "https://solfinc.com/es/inmueble/garaje-en-alquiler-en-calle-de-la-mare-de-deu-de-gracia-1-barcelona",
+   "https://solfinc.com/es/inmueble/garaje-en-alquiler-en-calle-de-valencia-497-barcelona"
+  ]
  },
  "6490": {
   "urls": [
@@ -4743,12 +4763,13 @@
  },
  "6611": {
   "desde": 1795273904.5354373,
-  "ultimo_nuevo": 1795519581.9871578,
+  "ultimo_nuevo": 1795782526.1792233,
   "urls": [
    "https://inmoservicebarcelona.com/alquiler/es/ficha/piso/barcelona/dreta-de-l-eixample/2015/27241242/es",
    "https://inmoservicebarcelona.com/alquiler/es/ficha/piso/barcelona/el-camp-de-l-arpa-del-clot/2015/30812245/es",
    "https://inmoservicebarcelona.com/alquiler/es/ficha/piso/barcelona/la-sagrera/2015/20407832/es",
    "https://inmoservicebarcelona.com/alquiler/es/ficha/piso/llinars-del-valles/cataluna/2015/30827343/es",
+   "https://inmoservicebarcelona.com/alquiler/es/ficha/piso/barcelona/sagrada-familia/2015/30978804/es",
    "https://inmoservicebarcelona.com/alquiler/es/ficha/piso/palamos/centre/2015/19523704/es",
    "https://inmoservicebarcelona.com/alquiler/es/ficha/loft/barcelona/el-carmel/2015/22794144/es",
    "https://inmoservicebarcelona.com/alquiler/es/ficha/garaje/barcelona/la-nova-esquerra-de-l-eixample/2015/26830078/es",
