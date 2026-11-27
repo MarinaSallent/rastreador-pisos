@@ -2,14 +2,14 @@
  "1112": {
   "desde": "27/11 00:05",
   "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.cleries.com/ca/Llogar-Pis/Barcelona/listainmuebles\", waiting until \"",
-  "fallos": 7,
+  "fallos": 8,
   "nombre": "Cleries Administració Finques",
   "url": "https://www.cleries.com/ca/Llogar-Pis/Barcelona/listainmuebles"
  },
  "9498": {
   "desde": "26/11 14:29",
   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.inmoredes.es/inmuebles/alquiler",
-  "fallos": 19,
+  "fallos": 20,
   "nombre": "Inmoredes (2 oficinas)",
   "url": "https://www.inmoredes.es/inmuebles/alquiler"
  }
