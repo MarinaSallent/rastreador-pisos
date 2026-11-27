@@ -27,3 +27,6 @@ aicat,nombre,web,url_alquiler,vigilar,modo,contactado,fecha_contacto,notas
 4483,Procadema SL (La Llave Del Hogar),https://lallavedelhogarinmobiliaria.es/,https://lallavedelhogarinmobiliaria.es/en-alquiler,sí,,,,"Enlace de Marina; hoy sin pisos en alquiler, se vigila igual"
 1112,Cleries Administració Finques,https://www.cleries.com,https://www.cleries.com/ca/Llogar-Pis/Barcelona/listainmuebles,sí,js,,,"Enlace de Marina; hoy sin pisos en alquiler, se vigila igual"
 1063,Carolina Martí Algara,https://www.carolinamarti.es/,https://www.carolinamarti.es/search/?o=rental&z=&a=1&l=1,sí,,,,"Corregida: la anterior era un anuncio suelto, no el listado"
+6476,"Soler Morato, Ramon (Grup Solfinc)",https://www.solfinc.com/,https://www.solfinc.com/es/inmuebles-encontrados/?provincia=&poblacion=&ubicacion=&alquiler=1&habitaciones=0&banos=0&price-min=40&price-max=1531000,sí,,,,Enlace de Marina
+,Livre Real Estate,https://inicio.livrerealestate.com/,https://inicio.livrerealestate.com/es/alquiler,sí,,,,"Enlace de Marina; sin número AICAT conocido"
+9498,Inmoredes Consulting Service SL (Inmoredes),https://www.inmoredes.es/,,no,,,,"Web rediseñada en nov. 2026: ya solo tiene pisos en venta, sin sección de alquiler"

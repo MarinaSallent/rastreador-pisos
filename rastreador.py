@@ -124,9 +124,11 @@ def guardar_json(ruta: Path, datos) -> None:
 # ---------------------------------------------------------------- extracción de datos
 RE_PRECIO = re.compile(
     r"(?:(?:€|eur)\s*(?P<a>\d{1,3}(?:[.,\s]\d{3})+(?!\d)|\d+)(?:[.,]\d{1,2}(?!\d))?)"
-    r"|(?:(?P<b>\d{1,3}(?:[.,\s]\d{3})+(?!\d)|\d+)(?:[.,]\d{1,2}(?!\d))?\s*(?:€|eur\b|euros?\b))",
+    r"|(?:(?<![\d.,])(?P<b>\d{1,3}(?:[.,\s]\d{3})+(?!\d)|\d+)(?:[.,]\d{1,2}(?!\d))?\s*(?:€|eur\b|euros?\b))",
     re.I,
 )
+RE_ETIQUETA_NUM = re.compile(r"(ba[nñ]os?|banys?|bany|habs?\.?|habitacions?|habitaciones|dormitorios?|dorms?\.?|"
+                             r"m2|m²|mts|metros|metres|ref\.?|referencia|planta|plantes?|altura)\s*[:.]?\s*$")
 RE_MES = re.compile(r"^\s*(?:€)?\s*(?:/|al|per|por|a)?\s*(?:mes|mensual|month|mo\b)", re.I)
 RE_M2 = re.compile(r"(\d{2,4})(?:[.,]\d+)?\s*(?:m²|m2|m\^2|m\s2\b|mts\b|metros|metres|sqm)", re.I)
 RE_CP = re.compile(r"\b(08\d{3})\b")
@@ -137,9 +139,17 @@ def extraer_precio(texto: str) -> int | None:
     for m in RE_PRECIO.finditer(texto):
         bruto = m.group("a") or m.group("b")
         valor = int(re.sub(r"[.,\s]", "", bruto))
+        mensual = bool(RE_MES.match(texto[m.end():m.end() + 15]))
+        if re.search(r"\s", bruto):
+            # «Ref. 002256 967 €/mes», «Banys 2 967 €/mes», «m2 75 967 €»: otro número pegado al precio con un
+            # espacio. Si delante hay una etiqueta (baños, hab., m², ref.) o sale un alquiler imposible, el
+            # precio es solo el último grupo.
+            antes = texto[max(0, m.start() - 22):m.start()].lower()
+            ultimo = int(re.split(r"\s", bruto)[-1])
+            if ultimo >= 300 and (RE_ETIQUETA_NUM.search(antes) or (mensual and valor >= 20000)):
+                valor = ultimo
         if valor < 200:          # cantidades sueltas (gastos, fianzas pequeñas...) no son el alquiler
             continue
-        mensual = bool(RE_MES.match(texto[m.end():m.end() + 15]))
         candidatos.append((not mensual, m.start(), valor))
     if not candidatos:
         return None
