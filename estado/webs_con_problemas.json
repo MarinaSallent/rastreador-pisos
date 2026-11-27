@@ -9,7 +9,7 @@
  "9498": {
   "desde": "26/11 14:29",
   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.inmoredes.es/inmuebles/alquiler",
-  "fallos": 20,
+  "fallos": 21,
   "nombre": "Inmoredes (2 oficinas)",
   "url": "https://www.inmoredes.es/inmuebles/alquiler"
  }
