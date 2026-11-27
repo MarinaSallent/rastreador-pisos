@@ -134,6 +134,13 @@
    "titulo": "España Galicia Tu búsqueda Filtrar Lo más nuevo Precio más alto Precio más bajo Más grandes Más pequeños En este momento",
    "url": "https://coldwellbanker.es/search?o=rental&t=1%2C14%2C9%2C10&z=6&pt=1000&sf=60&ob=published%2Cdesc%2Cdesc"
   },
+  "8b689e230f": {
+   "agencia": "Gesercat Assessors",
+   "estado": "avisado",
+   "fecha": 1795782453,
+   "titulo": "Lista de Inmuebles",
+   "url": "https://gesercat.net/inmuebles/concordia-can-rull"
+  },
   "92cc155690": {
    "agencia": "Solvia",
    "estado": "avisado",
@@ -259,6 +266,13 @@
    "fecha": 1795273958,
    "titulo": "1 / 7",
    "url": "https://solvia.es/es/propiedades/alquilar/locales-xeraco-201199-245942"
+  },
+  "ead7037c00": {
+   "agencia": "Almi Habitatges",
+   "estado": "avisado",
+   "fecha": 1795782292,
+   "titulo": "Pagina no encontrada. Puede que la dirección no esté escrita correctamente o la página ya no esté disponible.",
+   "url": "https://almihabitatges.com/detall/a_lloguer/pis/barcelona/barcelona_capital/sant_andreu/sant_andreu_barrio/49230978916.500843"
   }
  },
  "resumen_problemas": "2026-11-26"
