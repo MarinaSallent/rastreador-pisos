@@ -44,7 +44,7 @@
  "https://inicio.livrerealestate.com/es/alquiler": {
   "desde": "27/11 13:24",
   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-  "fallos": 22,
+  "fallos": 23,
   "nombre": "Livre Real Estate",
   "url": "https://inicio.livrerealestate.com/es/alquiler"
  }
