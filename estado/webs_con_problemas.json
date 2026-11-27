@@ -2,7 +2,7 @@
  "1203": {
   "desde": "27/11 19:55",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bergua.es/alquiler/es/",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Bergua Gestió D'immobles",
   "url": "https://www.bergua.es/alquiler/es/"
  },
@@ -13,17 +13,10 @@
   "nombre": "Inmoredes",
   "url": "https://www.inmoredes.es/inmuebles/alquiler"
  },
- "233": {
-  "desde": "27/11 19:24",
-  "error": "ConnectTimeout: HTTPSConnectionPool(host='inmobiliariaenbarcelona.finquesbou.es', port=443): Max retries exceeded with url: /propiedades/alquiler/defecto (Cause",
-  "fallos": 6,
-  "nombre": "Finques Bou",
-  "url": "https://inmobiliariaenbarcelona.finquesbou.es/propiedades/alquiler/defecto"
- },
  "237": {
   "desde": "27/11 19:54",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.businfreu.net/alquiler/es/",
-  "fallos": 7,
+  "fallos": 8,
   "nombre": "Businfreu Fincas - Numància Habitat",
   "url": "https://www.businfreu.net/alquiler/es/"
  },
