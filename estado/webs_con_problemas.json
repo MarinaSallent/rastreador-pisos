@@ -2,21 +2,21 @@
  "1203": {
   "desde": "27/11 19:55",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bergua.es/alquiler/es/",
-  "fallos": 10,
+  "fallos": 11,
   "nombre": "Bergua Gestió D'immobles",
   "url": "https://www.bergua.es/alquiler/es/"
  },
  "12889": {
   "desde": "27/11 13:24",
   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.inmoredes.es/inmuebles/alquiler",
-  "fallos": 21,
+  "fallos": 22,
   "nombre": "Inmoredes",
   "url": "https://www.inmoredes.es/inmuebles/alquiler"
  },
  "237": {
   "desde": "27/11 19:54",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.businfreu.net/alquiler/es/",
-  "fallos": 13,
+  "fallos": 14,
   "nombre": "Businfreu Fincas - Numància Habitat",
   "url": "https://www.businfreu.net/alquiler/es/"
  },
