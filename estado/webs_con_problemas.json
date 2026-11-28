@@ -9,7 +9,7 @@
  "12889": {
   "desde": "27/11 13:24",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.inmoredes.es', port=443): Max retries exceeded with url: /inmuebles/alquiler (Caused by NewConnectionError(\"HTTPS",
-  "fallos": 28,
+  "fallos": 29,
   "nombre": "Inmoredes",
   "url": "https://www.inmoredes.es/inmuebles/alquiler"
  },
