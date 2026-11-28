@@ -16,7 +16,7 @@
  "237": {
   "desde": "27/11 19:54",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.businfreu.net/alquiler/es/",
-  "fallos": 22,
+  "fallos": 23,
   "nombre": "Businfreu Fincas - Numància Habitat",
   "url": "https://www.businfreu.net/alquiler/es/"
  },
