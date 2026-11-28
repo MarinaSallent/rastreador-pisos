@@ -2,7 +2,7 @@
  "1203": {
   "desde": "27/11 19:55",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bergua.es/alquiler/es/",
-  "fallos": 8,
+  "fallos": 9,
   "nombre": "Bergua Gestió D'immobles",
   "url": "https://www.bergua.es/alquiler/es/"
  },
@@ -23,7 +23,7 @@
  "3367": {
   "desde": "27/11 19:55",
   "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html\", waiting un",
-  "fallos": 10,
+  "fallos": 11,
   "nombre": "Tecnocasa (166 oficinas)",
   "url": "https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html"
  },
