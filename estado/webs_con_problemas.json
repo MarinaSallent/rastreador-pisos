@@ -23,7 +23,7 @@
  "3367": {
   "desde": "27/11 19:55",
   "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html\", waiting un",
-  "fallos": 21,
+  "fallos": 22,
   "nombre": "Tecnocasa (166 oficinas)",
   "url": "https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html"
  },
