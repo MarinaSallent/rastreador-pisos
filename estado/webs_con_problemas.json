@@ -16,7 +16,7 @@
  "237": {
   "desde": "27/11 19:54",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.businfreu.net/alquiler/es/",
-  "fallos": 18,
+  "fallos": 19,
   "nombre": "Businfreu Fincas - Numància Habitat",
   "url": "https://www.businfreu.net/alquiler/es/"
  },
@@ -37,7 +37,7 @@
  "https://inicio.livrerealestate.com/es/alquiler": {
   "desde": "27/11 13:24",
   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-  "fallos": 30,
+  "fallos": 31,
   "nombre": "Livre Real Estate",
   "url": "https://inicio.livrerealestate.com/es/alquiler"
  }
