@@ -8,22 +8,22 @@
  },
  "12889": {
   "desde": "27/11 13:24",
-  "error": "HTTPError: 404 Client Error: Not Found for url: https://www.inmoredes.es/inmuebles/alquiler",
-  "fallos": 31,
+  "error": "ConnectionError: HTTPSConnectionPool(host='www.inmoredes.es', port=443): Max retries exceeded with url: /inmuebles/alquiler (Caused by NewConnectionError(\"HTTPS",
+  "fallos": 32,
   "nombre": "Inmoredes",
   "url": "https://www.inmoredes.es/inmuebles/alquiler"
  },
  "237": {
   "desde": "27/11 19:54",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.businfreu.net/alquiler/es/",
-  "fallos": 28,
+  "fallos": 29,
   "nombre": "Businfreu Fincas - Numància Habitat",
   "url": "https://www.businfreu.net/alquiler/es/"
  },
  "3367": {
   "desde": "27/11 19:55",
   "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html\", waiting un",
-  "fallos": 25,
+  "fallos": 26,
   "nombre": "Tecnocasa (166 oficinas)",
   "url": "https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html"
  },
@@ -37,7 +37,7 @@
  "https://inicio.livrerealestate.com/es/alquiler": {
   "desde": "27/11 13:24",
   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-  "fallos": 39,
+  "fallos": 40,
   "nombre": "Livre Real Estate",
   "url": "https://inicio.livrerealestate.com/es/alquiler"
  }
