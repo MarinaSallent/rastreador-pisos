@@ -16,14 +16,14 @@
  "237": {
   "desde": "27/11 19:54",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.businfreu.net/alquiler/es/",
-  "fallos": 8,
+  "fallos": 9,
   "nombre": "Businfreu Fincas - Numància Habitat",
   "url": "https://www.businfreu.net/alquiler/es/"
  },
  "3367": {
   "desde": "27/11 19:55",
   "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html\", waiting un",
-  "fallos": 8,
+  "fallos": 9,
   "nombre": "Tecnocasa (166 oficinas)",
   "url": "https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html"
  },
