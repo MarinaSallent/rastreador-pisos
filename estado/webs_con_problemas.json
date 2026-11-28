@@ -2,7 +2,7 @@
  "1203": {
   "desde": "27/11 19:55",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bergua.es/alquiler/es/",
-  "fallos": 13,
+  "fallos": 14,
   "nombre": "Bergua Gestió D'immobles",
   "url": "https://www.bergua.es/alquiler/es/"
  },
