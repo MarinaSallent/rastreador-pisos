@@ -2,14 +2,14 @@
  "1112": {
   "desde": "28/11 14:38",
   "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.cleries.com/ca/Llogar-Pis/Barcelona/listainmuebles\", waiting until \"",
-  "fallos": 6,
+  "fallos": 7,
   "nombre": "Cleries Administració Finques",
   "url": "https://www.cleries.com/ca/Llogar-Pis/Barcelona/listainmuebles"
  },
  "1203": {
   "desde": "27/11 19:55",
   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bergua.es/alquiler/es/",
-  "fallos": 21,
+  "fallos": 22,
   "nombre": "Bergua Gestió D'immobles",
   "url": "https://www.bergua.es/alquiler/es/"
  },
