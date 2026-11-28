@@ -9,7 +9,7 @@
  "12889": {
   "desde": "27/11 13:24",
   "error": "ConnectionError: HTTPSConnectionPool(host='www.inmoredes.es', port=443): Max retries exceeded with url: /inmuebles/alquiler (Caused by NewConnectionError(\"HTTPS",
-  "fallos": 32,
+  "fallos": 33,
   "nombre": "Inmoredes",
   "url": "https://www.inmoredes.es/inmuebles/alquiler"
  },
@@ -23,7 +23,7 @@
  "3367": {
   "desde": "27/11 19:55",
   "error": "TimeoutError: Page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html\", waiting un",
-  "fallos": 26,
+  "fallos": 27,
   "nombre": "Tecnocasa (166 oficinas)",
   "url": "https://www.tecnocasa.es/alquiler/inmuebles/cataluna/barcelona.html"
  },
